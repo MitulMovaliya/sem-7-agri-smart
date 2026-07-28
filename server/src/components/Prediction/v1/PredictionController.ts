@@ -69,8 +69,13 @@ export const getYieldPrediction = async (req: Request, res: Response) => {
     return res.status(400).json({ error: "Missing yield estimation parameters." });
   }
 
+  const numArea = Number(Area);
+  if (isNaN(numArea) || numArea <= 0) {
+    return res.status(400).json({ error: "Farm area must be a positive number greater than 0 hectares." });
+  }
+
   try {
-    const payload = { State, District, Season, Crop, Area: Number(Area), Temperature: Number(Temperature), Rainfall: Number(Rainfall) };
+    const payload = { State, District, Season, Crop, Area: numArea, Temperature: Number(Temperature), Rainfall: Number(Rainfall) };
     const result = await Helper.fetchPredictionAndLog('yield', '/predict/yield', payload, user.id, farmId);
     return res.json(result);
   } catch (error) {

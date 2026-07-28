@@ -222,7 +222,7 @@ export default function Mandi() {
       const token = localStorage.getItem('token');
       if (!token) throw new Error("Authentication token not found.");
 
-      let imageUrl = 'https://www.gstatic.com/labs-code/stitch/stitch-placeholder-300x300.svg';
+      let imageUrl = 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&auto=format&fit=crop&q=80';
 
       // 1. Optional Image upload to local server
       if (imageFile) {
@@ -481,7 +481,7 @@ export default function Mandi() {
                 <div key={p.id} className="card" style={{ padding: '16px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
                   <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
                     <img
-                      src={p.images?.[0] || 'https://www.gstatic.com/labs-code/stitch/stitch-placeholder-300x300.svg'}
+                      src={p.images?.[0] || 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&auto=format&fit=crop&q=80'}
                       alt={p.crop_name}
                       style={{ width: '70px', height: '70px', objectFit: 'cover', borderRadius: 'var(--radius)' }}
                     />
@@ -643,7 +643,7 @@ export default function Mandi() {
               {filteredProducts.map((p) => (
                 <div key={p.id} className="card" style={{ padding: '16px', display: 'flex', flexDirection: 'row', gap: '16px', alignItems: 'center' }}>
                   <img
-                    src={p.images?.[0] || 'https://www.gstatic.com/labs-code/stitch/stitch-placeholder-300x300.svg'}
+                    src={p.images?.[0] || 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&auto=format&fit=crop&q=80'}
                     alt={p.crop_name}
                     style={{ width: '70px', height: '70px', objectFit: 'cover', borderRadius: 'var(--radius)' }}
                   />

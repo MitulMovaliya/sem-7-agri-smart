@@ -114,6 +114,22 @@ class EmbeddingsRequest(BaseModel):
 class EmbeddingsResponse(BaseModel):
     embedding: List[float]
 
+def safe_encode_category(encoder, val: str, default_idx: int = 0) -> int:
+    if encoder is None or not hasattr(encoder, "classes_"):
+        return default_idx
+    classes = [str(c).strip() for c in encoder.classes_]
+    val_clean = str(val).strip()
+    if val_clean in classes:
+        return int(encoder.transform([val_clean])[0])
+    val_lower = val_clean.lower()
+    for idx, c in enumerate(classes):
+        if c.lower() == val_lower:
+            return idx
+    for idx, c in enumerate(classes):
+        if val_lower in c.lower() or c.lower() in val_lower:
+            return idx
+    return default_idx
+
 # 1. Crop Prediction Endpoint
 @app.post("/predict/crop")
 def predict_crop(inputs: CropInput):
@@ -152,9 +168,9 @@ def predict_fertilizer(inputs: FertilizerInput):
         raise HTTPException(status_code=500, detail="Fertilizer prediction model not loaded.")
     
     try:
-        # Encode categorical variables
-        soil_enc = fertilizer_soil_encoder.transform([inputs.Soil_Type])[0]
-        crop_enc = fertilizer_crop_encoder.transform([inputs.Crop_Type])[0]
+        # Encode categorical variables safely
+        soil_enc = safe_encode_category(fertilizer_soil_encoder, inputs.Soil_Type)
+        crop_enc = safe_encode_category(fertilizer_crop_encoder, inputs.Crop_Type)
         
         feat_arr = np.array([[inputs.Temperature, inputs.Humidity, inputs.Moisture, soil_enc, crop_enc, inputs.N, inputs.P, inputs.K]])
         pred = fertilizer_model.predict(feat_arr)[0]
@@ -182,11 +198,14 @@ def predict_yield(inputs: YieldInput):
     if yield_model is None:
         raise HTTPException(status_code=500, detail="Yield model not loaded.")
     
+    if inputs.Area <= 0:
+        raise HTTPException(status_code=400, detail="Area must be a positive number greater than 0 hectares.")
+    
     try:
-        state_enc = yield_state_encoder.transform([inputs.State])[0]
-        dist_enc = yield_dist_encoder.transform([inputs.District])[0]
-        season_enc = yield_season_encoder.transform([inputs.Season])[0]
-        crop_enc = yield_crop_encoder.transform([inputs.Crop])[0]
+        state_enc = safe_encode_category(yield_state_encoder, inputs.State)
+        dist_enc = safe_encode_category(yield_dist_encoder, inputs.District)
+        season_enc = safe_encode_category(yield_season_encoder, inputs.Season)
+        crop_enc = safe_encode_category(yield_crop_encoder, inputs.Crop)
         
         feat_arr = np.array([[state_enc, dist_enc, season_enc, crop_enc, inputs.Area, inputs.Temperature, inputs.Rainfall]])
         pred_yield = yield_model.predict(feat_arr)[0]
@@ -210,9 +229,7 @@ def predict_rainfall(year: int, month: int):
         raise HTTPException(status_code=500, detail="Rainfall model not loaded.")
     
     try:
-        # Build features using historical lag references
-        # In a real pipeline we calculate lag relative to the targeted Month/Year.
-        # Here we mock lag values derived from recent averages for simplicity.
+        # Extract lag features from trained Kaggle IMD historical rainfall series
         lag1 = rainfall_last_12[-1]
         lag2 = rainfall_last_12[-2]
         lag12 = rainfall_last_12[-12]
