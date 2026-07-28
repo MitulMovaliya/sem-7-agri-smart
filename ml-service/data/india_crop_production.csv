@@ -1,0 +1,3001 @@
+State,District,Season,Crop,Area,Temperature,Rainfall,Yield
+Maharashtra,Pune,Whole Year,Wheat,220.93,34.42,328.12,2.56
+Maharashtra,Nagpur,Kharif,Chana,374.31,26.32,140.62,1.1
+Maharashtra,Nagpur,Whole Year,Maize,191.77,24.53,154.41,1.15
+Madhya Pradesh,Bhopal,Rabi,Soybean,389.66,23.62,279.39,0.89
+Punjab,Amritsar,Kharif,Rice,397.16,29.49,192.22,2.64
+Haryana,Karnal,Whole Year,Chana,490.39,31.23,222.0,1.25
+Maharashtra,Pune,Rabi,Maize,398.81,25.08,338.02,1.39
+Maharashtra,Nashik,Rabi,Mustard,350.7,24.61,133.76,1.03
+Rajasthan,Alwar,Kharif,Rice,484.19,16.27,227.51,2.52
+Punjab,Patiala,Whole Year,Rice,195.81,16.64,222.73,2.55
+Rajasthan,Jaipur,Rabi,Soybean,364.09,18.31,98.78,1.16
+Rajasthan,Jaipur,Rabi,Maize,229.9,25.2,231.37,0.89
+Punjab,Ludhiana,Rabi,Cotton,233.09,23.43,88.01,1.35
+Haryana,Hisar,Rabi,Wheat,152.66,34.79,109.56,1.93
+Maharashtra,Nagpur,Rabi,Soybean,163.9,24.53,183.9,1.11
+Haryana,Hisar,Whole Year,Maize,53.08,23.06,98.57,1.39
+Maharashtra,Nagpur,Kharif,Rice,81.19,25.89,326.47,2.48
+Haryana,Hisar,Rabi,Rice,393.3,34.72,290.08,2.53
+Haryana,Panipat,Rabi,Soybean,193.24,25.57,96.19,1.37
+Rajasthan,Jodhpur,Kharif,Soybean,86.55,23.55,329.07,1.11
+Haryana,Panipat,Rabi,Wheat,487.2,35.66,145.22,1.97
+Haryana,Karnal,Whole Year,Chana,221.6,21.31,89.58,1.22
+Maharashtra,Nashik,Whole Year,Cotton,175.58,22.08,113.02,1.09
+Rajasthan,Jodhpur,Kharif,Maize,64.03,23.55,226.96,0.99
+Maharashtra,Nashik,Rabi,Soybean,387.89,25.47,239.02,1.5
+Rajasthan,Kota,Whole Year,Maize,349.34,24.1,87.83,1.05
+Haryana,Karnal,Rabi,Soybean,154.52,21.42,190.46,1.23
+Rajasthan,Jodhpur,Rabi,Soybean,3.01,19.54,198.86,1.37
+Madhya Pradesh,Jabalpur,Rabi,Maize,82.69,36.39,148.6,1.25
+Maharashtra,Pune,Whole Year,Maize,438.54,23.53,172.2,1.24
+Punjab,Amritsar,Rabi,Rice,124.58,19.25,119.11,1.33
+Maharashtra,Pune,Whole Year,Mustard,194.29,29.38,137.26,1.05
+Maharashtra,Nagpur,Kharif,Chana,63.86,34.22,247.36,1.17
+Punjab,Amritsar,Rabi,Mustard,241.08,22.23,91.34,1.07
+Rajasthan,Jaipur,Rabi,Chana,472.13,16.35,271.97,1.37
+Haryana,Karnal,Kharif,Mustard,409.2,15.32,319.41,1.03
+Haryana,Karnal,Rabi,Mustard,209.04,23.3,104.94,1.37
+Maharashtra,Pune,Kharif,Soybean,408.9,21.36,326.72,1.26
+Maharashtra,Nashik,Kharif,Cotton,357.93,26.13,241.23,0.69
+Punjab,Ludhiana,Kharif,Soybean,499.76,28.34,77.62,1.45
+Haryana,Rohtak,Kharif,Mustard,54.45,32.54,304.75,0.97
+Rajasthan,Alwar,Rabi,Rice,275.52,29.97,293.96,2.56
+Haryana,Hisar,Rabi,Soybean,461.64,35.32,264.75,1.44
+Maharashtra,Nashik,Kharif,Rice,257.99,37.93,291.3,2.39
+Maharashtra,Nagpur,Rabi,Wheat,156.66,34.69,220.32,1.99
+Haryana,Rohtak,Rabi,Soybean,196.3,15.31,126.48,1.47
+Maharashtra,Pune,Whole Year,Maize,368.87,22.48,260.38,0.99
+Rajasthan,Alwar,Whole Year,Mustard,366.04,23.77,154.14,1.3
+Rajasthan,Alwar,Kharif,Rice,323.56,32.52,119.33,1.52
+Rajasthan,Jaipur,Rabi,Soybean,218.05,30.01,111.47,1.27
+Maharashtra,Aurangabad,Whole Year,Maize,317.74,16.87,84.41,1.48
+Rajasthan,Jaipur,Rabi,Wheat,165.18,24.76,323.34,3.06
+Punjab,Amritsar,Kharif,Maize,195.63,25.04,251.0,1.18
+Punjab,Amritsar,Kharif,Cotton,296.28,23.22,277.62,0.91
+Haryana,Karnal,Whole Year,Maize,86.63,18.65,302.19,1.15
+Madhya Pradesh,Jabalpur,Whole Year,Cotton,190.95,25.37,229.95,1.09
+Madhya Pradesh,Indore,Kharif,Maize,479.86,19.26,97.4,1.12
+Rajasthan,Jaipur,Kharif,Mustard,155.7,36.4,134.76,1.24
+Punjab,Ludhiana,Rabi,Mustard,73.75,23.37,254.27,1.35
+Maharashtra,Pune,Whole Year,Mustard,487.37,15.33,338.2,1.32
+Rajasthan,Kota,Rabi,Maize,99.4,28.95,272.38,1.26
+Punjab,Amritsar,Whole Year,Cotton,97.52,20.56,68.83,0.93
+Madhya Pradesh,Gwalior,Kharif,Cotton,102.51,21.58,294.5,0.96
+Punjab,Patiala,Kharif,Soybean,339.04,37.25,54.35,1.36
+Maharashtra,Pune,Rabi,Maize,451.44,28.25,184.0,1.39
+Haryana,Hisar,Kharif,Wheat,108.05,24.88,347.31,3.3
+Punjab,Ludhiana,Kharif,Maize,410.53,36.71,247.65,0.8
+Madhya Pradesh,Indore,Rabi,Mustard,162.91,30.98,226.31,1.15
+Maharashtra,Aurangabad,Rabi,Chana,214.44,28.02,260.78,0.89
+Maharashtra,Aurangabad,Whole Year,Cotton,88.52,31.01,343.09,1.99
+Rajasthan,Jaipur,Rabi,Mustard,445.31,34.82,158.72,1.51
+Rajasthan,Jodhpur,Whole Year,Mustard,69.03,27.94,94.7,1.03
+Rajasthan,Jodhpur,Rabi,Soybean,11.95,32.68,339.67,1.45
+Punjab,Ludhiana,Whole Year,Soybean,343.79,37.4,304.67,0.93
+Haryana,Panipat,Rabi,Cotton,406.24,28.3,68.45,1.58
+Madhya Pradesh,Gwalior,Kharif,Maize,470.53,31.41,288.89,1.18
+Rajasthan,Jodhpur,Rabi,Mustard,145.79,35.0,274.27,1.54
+Haryana,Karnal,Kharif,Wheat,476.22,22.48,176.51,3.08
+Maharashtra,Nagpur,Rabi,Soybean,371.32,20.85,332.29,1.07
+Madhya Pradesh,Bhopal,Rabi,Soybean,97.68,29.3,157.06,1.49
+Madhya Pradesh,Jabalpur,Whole Year,Mustard,293.86,19.48,264.44,1.44
+Maharashtra,Nagpur,Kharif,Cotton,78.08,19.38,80.9,1.1
+Haryana,Panipat,Rabi,Wheat,293.96,36.65,233.24,2.29
+Haryana,Karnal,Whole Year,Soybean,212.59,29.6,194.24,1.34
+Maharashtra,Nagpur,Kharif,Soybean,446.07,36.63,184.15,0.97
+Rajasthan,Jaipur,Whole Year,Maize,371.79,26.53,294.22,1.52
+Madhya Pradesh,Gwalior,Rabi,Soybean,315.49,25.04,186.99,1.24
+Punjab,Patiala,Kharif,Soybean,461.98,34.52,195.85,1.46
+Haryana,Panipat,Whole Year,Soybean,118.49,37.64,212.69,0.95
+Punjab,Patiala,Rabi,Soybean,349.67,25.9,205.31,1.38
+Rajasthan,Jodhpur,Kharif,Maize,46.09,32.87,218.97,0.96
+Rajasthan,Alwar,Rabi,Soybean,249.0,37.91,196.94,1.44
+Rajasthan,Jaipur,Kharif,Maize,55.82,37.29,117.01,1.16
+Maharashtra,Aurangabad,Kharif,Mustard,291.12,37.45,298.34,0.9
+Maharashtra,Nashik,Rabi,Chana,129.65,27.74,280.33,1.33
+Haryana,Hisar,Kharif,Maize,230.43,21.88,238.8,1.56
+Haryana,Hisar,Kharif,Rice,120.98,17.19,70.79,1.95
+Punjab,Jalandhar,Kharif,Rice,31.46,34.72,294.97,2.51
+Maharashtra,Aurangabad,Whole Year,Chana,178.74,24.18,273.79,1.12
+Punjab,Jalandhar,Kharif,Wheat,276.45,19.86,57.99,3.04
+Rajasthan,Jaipur,Kharif,Soybean,486.73,20.1,249.17,1.07
+Madhya Pradesh,Bhopal,Whole Year,Cotton,427.49,31.84,73.79,1.78
+Madhya Pradesh,Indore,Whole Year,Soybean,100.32,20.14,124.13,1.07
+Punjab,Jalandhar,Rabi,Maize,76.43,36.04,281.03,1.24
+Rajasthan,Alwar,Whole Year,Rice,142.01,27.97,171.3,2.06
+Punjab,Amritsar,Whole Year,Rice,389.49,35.1,96.6,1.47
+Punjab,Ludhiana,Whole Year,Rice,173.38,25.0,257.51,2.62
+Punjab,Amritsar,Kharif,Wheat,393.92,35.17,274.35,2.2
+Madhya Pradesh,Jabalpur,Whole Year,Mustard,159.82,18.25,163.64,0.97
+Rajasthan,Jodhpur,Rabi,Maize,183.91,19.51,124.55,1.48
+Rajasthan,Alwar,Whole Year,Cotton,28.33,16.84,123.54,0.92
+Haryana,Rohtak,Whole Year,Soybean,289.5,27.5,151.6,1.15
+Madhya Pradesh,Jabalpur,Rabi,Maize,173.79,16.97,138.9,1.18
+Rajasthan,Jaipur,Rabi,Mustard,45.53,28.3,244.98,0.98
+Punjab,Patiala,Rabi,Soybean,336.09,17.28,249.22,1.09
+Punjab,Patiala,Kharif,Rice,123.33,24.16,148.73,1.97
+Rajasthan,Jaipur,Kharif,Mustard,399.05,37.7,259.14,1.27
+Madhya Pradesh,Indore,Kharif,Maize,341.44,30.55,202.08,1.24
+Madhya Pradesh,Gwalior,Kharif,Chana,226.17,24.21,325.32,1.39
+Punjab,Patiala,Kharif,Chana,466.03,25.56,123.25,1.12
+Madhya Pradesh,Bhopal,Rabi,Cotton,66.38,21.78,128.55,1.09
+Maharashtra,Pune,Kharif,Cotton,392.28,31.74,174.22,1.83
+Haryana,Rohtak,Whole Year,Mustard,452.79,25.39,52.72,1.07
+Rajasthan,Jodhpur,Rabi,Rice,429.13,28.22,235.62,2.68
+Maharashtra,Aurangabad,Kharif,Wheat,153.29,33.32,184.71,1.51
+Punjab,Jalandhar,Kharif,Soybean,72.59,26.68,322.04,0.82
+Haryana,Rohtak,Kharif,Soybean,297.34,32.22,95.18,1.23
+Maharashtra,Nagpur,Rabi,Rice,369.97,32.96,169.23,2.61
+Punjab,Amritsar,Rabi,Soybean,368.08,15.99,107.18,1.06
+Rajasthan,Jodhpur,Kharif,Maize,49.27,33.43,211.95,1.26
+Rajasthan,Jodhpur,Rabi,Maize,207.26,27.84,264.17,0.88
+Rajasthan,Alwar,Kharif,Soybean,117.97,18.36,238.71,1.45
+Madhya Pradesh,Bhopal,Kharif,Wheat,158.5,15.85,245.46,3.48
+Punjab,Ludhiana,Rabi,Soybean,311.32,29.58,116.5,0.97
+Madhya Pradesh,Indore,Rabi,Mustard,6.7,22.21,195.82,1.33
+Rajasthan,Jodhpur,Whole Year,Soybean,498.42,32.92,233.75,1.23
+Rajasthan,Kota,Rabi,Maize,354.57,32.84,87.37,0.94
+Madhya Pradesh,Bhopal,Whole Year,Wheat,148.2,15.21,240.01,3.4
+Rajasthan,Kota,Whole Year,Maize,462.88,37.29,120.78,1.09
+Haryana,Hisar,Kharif,Chana,37.89,24.36,151.2,1.42
+Haryana,Rohtak,Whole Year,Cotton,342.61,28.86,342.69,1.78
+Madhya Pradesh,Jabalpur,Kharif,Mustard,307.86,16.91,84.64,1.34
+Haryana,Panipat,Whole Year,Soybean,248.61,30.25,199.21,1.1
+Punjab,Ludhiana,Whole Year,Mustard,309.34,35.27,89.43,1.24
+Punjab,Jalandhar,Rabi,Chana,199.28,20.66,117.85,1.11
+Rajasthan,Alwar,Rabi,Soybean,480.7,20.63,124.23,1.37
+Haryana,Hisar,Rabi,Wheat,142.82,16.43,141.19,3.24
+Rajasthan,Kota,Rabi,Maize,407.45,29.34,107.29,1.19
+Madhya Pradesh,Indore,Kharif,Chana,293.06,21.19,327.75,1.05
+Maharashtra,Pune,Rabi,Mustard,119.97,27.59,302.0,0.89
+Punjab,Patiala,Rabi,Mustard,477.28,16.66,172.53,1.07
+Maharashtra,Nashik,Kharif,Wheat,2.8,17.52,155.26,3.24
+Punjab,Ludhiana,Rabi,Soybean,382.24,17.61,113.66,0.95
+Haryana,Rohtak,Whole Year,Chana,210.7,35.28,248.22,1.57
+Haryana,Rohtak,Kharif,Soybean,260.58,20.18,136.86,1.62
+Punjab,Amritsar,Whole Year,Wheat,103.71,32.8,52.49,2.24
+Rajasthan,Alwar,Whole Year,Soybean,98.15,23.4,122.83,1.29
+Maharashtra,Pune,Rabi,Chana,354.52,32.75,271.7,1.17
+Maharashtra,Pune,Kharif,Soybean,394.07,28.21,76.91,1.33
+Maharashtra,Nagpur,Whole Year,Chana,162.34,26.01,203.68,1.01
+Rajasthan,Alwar,Kharif,Cotton,372.2,20.55,225.67,0.84
+Madhya Pradesh,Jabalpur,Whole Year,Mustard,444.9,25.52,240.95,1.28
+Rajasthan,Jaipur,Kharif,Maize,315.58,16.58,93.54,1.06
+Rajasthan,Jaipur,Whole Year,Maize,177.48,18.05,97.21,1.21
+Rajasthan,Jaipur,Rabi,Cotton,320.89,36.36,302.74,1.71
+Haryana,Hisar,Whole Year,Rice,109.97,29.89,326.91,2.13
+Haryana,Panipat,Rabi,Rice,321.02,16.07,287.05,2.35
+Rajasthan,Kota,Rabi,Wheat,227.78,25.58,250.94,1.83
+Maharashtra,Aurangabad,Whole Year,Mustard,122.87,17.21,310.56,1.55
+Maharashtra,Pune,Rabi,Wheat,345.32,29.77,254.46,1.95
+Haryana,Karnal,Rabi,Chana,355.62,29.81,281.0,0.98
+Maharashtra,Nashik,Whole Year,Wheat,46.78,22.39,238.46,3.1
+Haryana,Hisar,Whole Year,Mustard,326.92,31.31,328.64,0.96
+Haryana,Karnal,Kharif,Chana,468.62,19.72,261.59,1.04
+Haryana,Rohtak,Whole Year,Maize,287.6,20.1,171.01,1.21
+Haryana,Karnal,Rabi,Cotton,396.52,23.28,147.01,1.06
+Haryana,Panipat,Whole Year,Chana,383.88,26.11,333.34,1.51
+Punjab,Patiala,Rabi,Soybean,172.93,27.05,91.54,1.04
+Rajasthan,Alwar,Kharif,Mustard,78.45,24.2,115.03,1.32
+Punjab,Jalandhar,Rabi,Chana,299.17,24.56,98.59,1.25
+Punjab,Amritsar,Whole Year,Mustard,424.47,15.48,69.87,1.54
+Rajasthan,Jodhpur,Rabi,Soybean,109.76,36.29,119.69,1.14
+Madhya Pradesh,Indore,Rabi,Rice,58.14,16.22,159.6,2.55
+Punjab,Amritsar,Whole Year,Mustard,73.78,20.93,225.83,0.97
+Maharashtra,Aurangabad,Rabi,Mustard,320.64,26.2,51.38,1.01
+Haryana,Rohtak,Rabi,Chana,110.96,20.15,330.61,1.57
+Madhya Pradesh,Jabalpur,Kharif,Chana,88.14,29.77,228.22,1.04
+Haryana,Karnal,Rabi,Chana,360.92,24.97,287.96,1.4
+Haryana,Rohtak,Kharif,Rice,252.49,37.25,248.48,2.68
+Punjab,Ludhiana,Rabi,Cotton,49.44,35.76,183.56,1.79
+Punjab,Amritsar,Rabi,Soybean,126.72,15.51,90.74,1.18
+Madhya Pradesh,Gwalior,Whole Year,Wheat,59.91,20.52,108.92,3.0
+Punjab,Patiala,Rabi,Wheat,256.03,16.34,219.02,3.13
+Haryana,Hisar,Whole Year,Rice,71.36,29.07,117.11,1.56
+Haryana,Karnal,Whole Year,Mustard,116.32,18.93,218.22,1.55
+Maharashtra,Nagpur,Rabi,Mustard,56.76,33.17,73.86,1.39
+Rajasthan,Alwar,Whole Year,Wheat,320.2,15.07,125.97,3.1
+Rajasthan,Alwar,Whole Year,Wheat,397.41,25.45,312.72,1.95
+Haryana,Karnal,Rabi,Wheat,323.88,16.28,265.1,3.42
+Madhya Pradesh,Jabalpur,Kharif,Chana,245.47,27.5,133.98,1.46
+Haryana,Karnal,Rabi,Rice,409.03,30.18,239.3,2.14
+Madhya Pradesh,Bhopal,Kharif,Soybean,255.6,37.29,336.71,0.91
+Madhya Pradesh,Indore,Rabi,Maize,256.37,16.26,222.19,1.23
+Rajasthan,Jaipur,Whole Year,Rice,179.87,20.36,144.77,1.55
+Haryana,Rohtak,Rabi,Wheat,78.15,21.18,69.37,3.19
+Punjab,Jalandhar,Whole Year,Cotton,74.15,30.09,217.43,1.53
+Punjab,Ludhiana,Whole Year,Chana,424.14,28.29,129.87,1.06
+Madhya Pradesh,Bhopal,Rabi,Cotton,421.16,17.8,195.04,0.7
+Rajasthan,Kota,Rabi,Rice,443.85,37.75,56.08,1.74
+Punjab,Jalandhar,Rabi,Maize,323.74,17.56,302.88,1.12
+Punjab,Jalandhar,Kharif,Maize,474.25,37.28,330.54,1.47
+Haryana,Karnal,Whole Year,Wheat,374.1,35.61,308.78,1.92
+Maharashtra,Nashik,Kharif,Soybean,449.47,15.04,271.61,1.34
+Punjab,Patiala,Rabi,Maize,486.4,32.11,70.22,1.24
+Madhya Pradesh,Gwalior,Whole Year,Wheat,427.15,37.05,196.97,1.6
+Maharashtra,Aurangabad,Whole Year,Cotton,395.52,33.51,317.71,2.1
+Maharashtra,Aurangabad,Whole Year,Maize,54.6,19.62,320.06,1.52
+Madhya Pradesh,Bhopal,Whole Year,Wheat,337.45,18.07,147.75,3.2
+Maharashtra,Nagpur,Kharif,Chana,413.7,37.42,303.68,1.25
+Maharashtra,Nashik,Kharif,Maize,230.0,21.12,180.19,1.42
+Madhya Pradesh,Jabalpur,Kharif,Maize,326.5,35.52,165.51,1.04
+Haryana,Panipat,Whole Year,Rice,134.51,18.05,209.94,2.58
+Maharashtra,Pune,Kharif,Chana,36.07,35.0,186.87,1.33
+Punjab,Ludhiana,Kharif,Cotton,487.15,20.56,204.21,0.99
+Rajasthan,Alwar,Rabi,Mustard,152.65,33.35,341.3,1.31
+Haryana,Hisar,Kharif,Chana,366.21,25.1,73.92,1.26
+Maharashtra,Nagpur,Rabi,Chana,191.82,24.05,349.68,1.38
+Maharashtra,Nashik,Whole Year,Mustard,268.81,29.46,293.0,1.09
+Maharashtra,Nashik,Rabi,Maize,346.9,27.91,160.09,1.17
+Maharashtra,Nagpur,Kharif,Chana,379.23,24.22,149.45,1.11
+Madhya Pradesh,Gwalior,Kharif,Soybean,237.11,34.72,328.18,1.7
+Haryana,Rohtak,Rabi,Maize,320.86,15.05,340.42,1.06
+Maharashtra,Nashik,Rabi,Wheat,55.4,20.48,120.46,3.38
+Maharashtra,Nagpur,Whole Year,Wheat,217.54,28.19,340.26,2.07
+Haryana,Hisar,Kharif,Cotton,423.83,21.95,161.54,0.91
+Madhya Pradesh,Gwalior,Kharif,Rice,101.59,21.84,83.02,1.4
+Haryana,Karnal,Whole Year,Wheat,403.83,33.42,289.02,1.63
+Rajasthan,Jaipur,Kharif,Soybean,469.05,21.54,187.66,1.34
+Rajasthan,Kota,Whole Year,Wheat,127.41,21.45,315.55,3.24
+Madhya Pradesh,Indore,Kharif,Soybean,185.46,20.92,220.41,1.05
+Maharashtra,Nagpur,Kharif,Mustard,169.35,27.22,259.22,1.1
+Haryana,Rohtak,Whole Year,Rice,48.69,19.77,154.42,2.46
+Madhya Pradesh,Indore,Whole Year,Cotton,40.93,32.59,185.99,2.11
+Haryana,Karnal,Kharif,Mustard,107.79,19.25,60.21,1.02
+Punjab,Ludhiana,Whole Year,Soybean,116.08,35.5,111.42,1.17
+Haryana,Hisar,Kharif,Wheat,274.97,28.52,240.65,2.2
+Rajasthan,Jodhpur,Kharif,Soybean,76.16,25.61,213.45,1.17
+Rajasthan,Jodhpur,Rabi,Soybean,121.99,19.41,92.51,1.3
+Punjab,Ludhiana,Whole Year,Rice,223.08,37.73,251.03,2.41
+Madhya Pradesh,Gwalior,Kharif,Maize,447.15,19.17,187.62,1.26
+Rajasthan,Jaipur,Kharif,Rice,116.5,23.68,287.63,2.01
+Rajasthan,Jaipur,Kharif,Rice,353.8,17.79,223.76,2.64
+Punjab,Jalandhar,Rabi,Wheat,209.57,36.97,130.57,2.27
+Haryana,Karnal,Rabi,Chana,144.08,25.97,311.86,1.06
+Haryana,Rohtak,Kharif,Soybean,92.76,32.29,278.28,1.21
+Punjab,Amritsar,Rabi,Soybean,186.59,19.59,213.46,1.56
+Punjab,Ludhiana,Rabi,Mustard,246.38,32.87,271.24,1.17
+Haryana,Rohtak,Whole Year,Soybean,470.56,21.46,328.05,1.24
+Maharashtra,Pune,Kharif,Rice,487.28,16.97,115.57,1.53
+Rajasthan,Jodhpur,Rabi,Mustard,214.79,18.46,108.76,1.2
+Punjab,Jalandhar,Rabi,Soybean,91.19,20.92,316.43,1.34
+Haryana,Panipat,Kharif,Chana,182.07,24.39,318.71,0.83
+Haryana,Panipat,Rabi,Cotton,275.32,23.65,88.28,1.03
+Rajasthan,Alwar,Kharif,Mustard,328.83,33.93,162.37,1.27
+Punjab,Jalandhar,Kharif,Cotton,465.57,28.5,302.15,1.65
+Punjab,Ludhiana,Whole Year,Cotton,22.74,22.11,67.98,1.0
+Haryana,Hisar,Rabi,Mustard,497.19,20.42,121.76,1.36
+Madhya Pradesh,Bhopal,Kharif,Cotton,111.82,32.06,68.56,1.88
+Punjab,Ludhiana,Rabi,Cotton,350.8,22.99,186.76,1.37
+Haryana,Karnal,Rabi,Maize,361.2,20.38,342.49,1.31
+Rajasthan,Jaipur,Kharif,Mustard,79.61,27.26,99.43,0.82
+Punjab,Amritsar,Kharif,Cotton,479.56,37.07,280.88,1.5
+Rajasthan,Jodhpur,Kharif,Rice,40.67,24.8,210.24,2.54
+Punjab,Ludhiana,Rabi,Wheat,35.39,27.07,229.11,1.95
+Madhya Pradesh,Bhopal,Whole Year,Chana,95.4,36.77,152.85,1.41
+Maharashtra,Nagpur,Kharif,Mustard,441.98,32.64,60.26,0.97
+Punjab,Amritsar,Rabi,Wheat,334.98,32.48,343.83,1.86
+Madhya Pradesh,Gwalior,Whole Year,Soybean,147.83,28.5,142.89,1.18
+Rajasthan,Jaipur,Whole Year,Rice,203.14,31.31,341.54,2.62
+Punjab,Ludhiana,Kharif,Cotton,165.53,28.63,91.68,1.64
+Madhya Pradesh,Indore,Rabi,Maize,473.83,33.96,341.66,1.1
+Rajasthan,Jaipur,Kharif,Rice,89.85,33.2,139.76,1.38
+Maharashtra,Aurangabad,Kharif,Mustard,132.36,23.54,305.56,1.14
+Rajasthan,Jodhpur,Whole Year,Mustard,363.21,30.72,235.73,1.48
+Punjab,Patiala,Whole Year,Chana,192.89,34.99,98.69,1.13
+Haryana,Panipat,Kharif,Soybean,188.62,33.76,179.24,1.36
+Rajasthan,Kota,Rabi,Wheat,105.52,23.93,232.04,3.38
+Punjab,Patiala,Whole Year,Mustard,2.73,25.92,110.08,1.57
+Haryana,Hisar,Rabi,Wheat,43.67,31.62,101.88,2.0
+Rajasthan,Jaipur,Rabi,Cotton,96.83,15.74,148.95,0.95
+Maharashtra,Nashik,Whole Year,Cotton,366.72,15.48,168.73,1.01
+Punjab,Patiala,Rabi,Maize,122.43,17.29,295.17,1.4
+Madhya Pradesh,Bhopal,Whole Year,Soybean,23.79,32.97,61.79,1.33
+Haryana,Hisar,Rabi,Soybean,138.32,33.35,342.19,0.85
+Rajasthan,Alwar,Kharif,Wheat,379.85,27.7,285.08,2.11
+Maharashtra,Nagpur,Rabi,Mustard,238.12,22.09,202.11,1.25
+Haryana,Karnal,Whole Year,Maize,93.86,30.08,186.98,0.93
+Punjab,Patiala,Whole Year,Cotton,437.78,26.22,117.49,1.12
+Madhya Pradesh,Jabalpur,Kharif,Maize,261.62,27.71,314.2,1.18
+Rajasthan,Alwar,Kharif,Soybean,445.14,25.7,90.37,1.06
+Maharashtra,Nashik,Kharif,Wheat,172.94,22.11,112.21,2.94
+Rajasthan,Kota,Whole Year,Rice,214.81,23.69,119.4,1.42
+Madhya Pradesh,Jabalpur,Rabi,Chana,234.32,16.28,325.55,1.19
+Rajasthan,Jaipur,Kharif,Rice,216.25,31.31,226.41,2.57
+Haryana,Rohtak,Whole Year,Soybean,160.21,20.16,290.37,1.17
+Maharashtra,Nashik,Rabi,Soybean,349.99,22.49,181.09,1.16
+Haryana,Karnal,Kharif,Soybean,64.51,22.41,274.2,1.0
+Madhya Pradesh,Bhopal,Rabi,Maize,95.92,37.93,134.69,1.35
+Maharashtra,Pune,Whole Year,Wheat,256.6,25.09,131.24,1.9
+Punjab,Patiala,Kharif,Chana,77.72,36.8,212.86,1.02
+Maharashtra,Nagpur,Whole Year,Wheat,403.14,15.73,228.19,3.15
+Madhya Pradesh,Jabalpur,Rabi,Cotton,170.41,36.68,200.86,2.0
+Madhya Pradesh,Jabalpur,Rabi,Maize,239.3,16.44,239.06,1.37
+Punjab,Ludhiana,Whole Year,Wheat,18.59,24.09,343.83,3.03
+Haryana,Panipat,Kharif,Cotton,375.83,22.18,265.18,0.96
+Haryana,Hisar,Kharif,Soybean,384.78,32.53,204.73,0.92
+Madhya Pradesh,Jabalpur,Whole Year,Rice,120.92,29.12,236.39,2.52
+Rajasthan,Kota,Rabi,Maize,404.24,27.7,50.51,1.1
+Rajasthan,Alwar,Kharif,Mustard,232.86,37.21,139.43,1.06
+Haryana,Karnal,Whole Year,Cotton,304.74,21.98,241.57,0.87
+Madhya Pradesh,Gwalior,Kharif,Wheat,136.83,16.66,194.86,3.17
+Rajasthan,Jaipur,Whole Year,Mustard,24.94,37.23,269.03,1.26
+Punjab,Ludhiana,Rabi,Cotton,226.63,20.18,98.54,1.31
+Madhya Pradesh,Gwalior,Rabi,Maize,263.14,34.65,231.75,1.05
+Punjab,Ludhiana,Rabi,Rice,166.75,28.3,79.44,1.46
+Maharashtra,Nashik,Kharif,Soybean,389.63,15.46,213.04,1.3
+Rajasthan,Kota,Kharif,Chana,486.2,28.99,206.65,0.72
+Madhya Pradesh,Bhopal,Rabi,Wheat,466.54,28.71,307.13,2.08
+Madhya Pradesh,Gwalior,Whole Year,Wheat,320.15,25.26,74.43,2.02
+Haryana,Karnal,Rabi,Rice,60.26,21.51,270.1,2.45
+Madhya Pradesh,Gwalior,Kharif,Maize,80.8,29.91,260.59,0.97
+Punjab,Patiala,Whole Year,Maize,434.71,36.46,291.71,1.2
+Haryana,Rohtak,Whole Year,Wheat,37.76,27.53,215.81,2.08
+Madhya Pradesh,Indore,Whole Year,Mustard,35.21,36.16,185.4,1.33
+Madhya Pradesh,Bhopal,Kharif,Soybean,402.42,22.04,144.47,1.23
+Maharashtra,Aurangabad,Rabi,Cotton,172.62,26.64,68.45,1.21
+Haryana,Panipat,Rabi,Mustard,480.93,32.58,145.92,1.23
+Maharashtra,Nagpur,Kharif,Cotton,205.96,20.36,165.99,1.09
+Haryana,Panipat,Rabi,Maize,180.04,31.49,223.43,1.18
+Haryana,Rohtak,Whole Year,Maize,327.6,16.95,335.07,1.29
+Maharashtra,Nashik,Whole Year,Chana,215.5,29.03,322.66,1.26
+Maharashtra,Nagpur,Kharif,Wheat,358.34,16.16,194.1,3.19
+Punjab,Patiala,Rabi,Wheat,402.99,26.19,300.45,1.97
+Haryana,Panipat,Whole Year,Cotton,201.75,24.52,150.15,1.0
+Maharashtra,Pune,Whole Year,Soybean,205.4,27.97,162.02,1.28
+Punjab,Jalandhar,Kharif,Cotton,159.51,28.42,195.17,1.86
+Punjab,Patiala,Rabi,Mustard,280.16,17.59,96.84,0.88
+Haryana,Panipat,Kharif,Maize,304.59,35.01,294.86,1.32
+Punjab,Jalandhar,Rabi,Rice,350.9,37.77,330.63,2.83
+Maharashtra,Nagpur,Rabi,Rice,395.08,35.46,260.77,2.54
+Haryana,Rohtak,Rabi,Chana,294.5,36.81,259.97,1.24
+Haryana,Karnal,Rabi,Chana,316.99,29.64,287.56,1.18
+Punjab,Ludhiana,Rabi,Maize,444.74,17.2,289.38,1.32
+Rajasthan,Alwar,Whole Year,Wheat,116.63,21.27,116.1,3.49
+Punjab,Jalandhar,Kharif,Wheat,387.03,33.3,184.49,2.23
+Rajasthan,Alwar,Kharif,Chana,17.02,28.56,154.11,1.04
+Punjab,Patiala,Kharif,Mustard,420.36,23.74,63.45,1.27
+Madhya Pradesh,Jabalpur,Kharif,Soybean,460.51,22.49,81.51,1.24
+Maharashtra,Nagpur,Whole Year,Maize,265.79,32.34,283.83,1.31
+Maharashtra,Nashik,Kharif,Cotton,412.27,31.23,249.0,1.84
+Punjab,Patiala,Whole Year,Soybean,219.8,28.51,198.88,0.99
+Maharashtra,Nashik,Whole Year,Mustard,68.75,33.46,233.01,0.83
+Maharashtra,Nashik,Rabi,Wheat,403.39,27.28,288.18,2.01
+Rajasthan,Jaipur,Whole Year,Mustard,27.19,22.39,348.31,0.84
+Madhya Pradesh,Bhopal,Whole Year,Cotton,227.79,19.26,107.63,0.97
+Haryana,Panipat,Kharif,Mustard,224.5,34.29,343.84,1.02
+Rajasthan,Jaipur,Kharif,Soybean,24.41,24.25,127.3,1.15
+Punjab,Amritsar,Rabi,Maize,74.4,17.31,139.38,1.14
+Madhya Pradesh,Bhopal,Kharif,Rice,202.65,27.77,58.88,1.23
+Madhya Pradesh,Bhopal,Kharif,Cotton,314.79,22.86,208.88,1.33
+Maharashtra,Nagpur,Rabi,Maize,351.35,19.84,132.68,0.87
+Madhya Pradesh,Gwalior,Rabi,Mustard,429.88,24.93,62.01,1.62
+Punjab,Ludhiana,Whole Year,Cotton,200.15,36.06,119.26,1.65
+Punjab,Patiala,Kharif,Maize,251.54,28.4,302.56,0.94
+Punjab,Amritsar,Rabi,Rice,39.03,29.61,292.58,2.38
+Punjab,Patiala,Kharif,Cotton,125.3,30.85,340.88,1.76
+Madhya Pradesh,Jabalpur,Rabi,Soybean,401.9,34.92,225.13,1.49
+Haryana,Rohtak,Kharif,Rice,320.28,22.67,276.0,2.25
+Haryana,Panipat,Whole Year,Cotton,406.21,36.23,334.11,1.59
+Haryana,Karnal,Rabi,Chana,231.59,34.66,189.51,1.33
+Madhya Pradesh,Jabalpur,Whole Year,Chana,282.19,23.17,99.31,1.55
+Maharashtra,Aurangabad,Kharif,Rice,147.37,33.29,170.65,2.46
+Rajasthan,Jaipur,Kharif,Cotton,11.29,15.26,281.08,0.73
+Rajasthan,Jodhpur,Whole Year,Rice,97.03,24.76,300.21,2.69
+Haryana,Panipat,Rabi,Maize,437.0,22.1,260.21,1.13
+Punjab,Amritsar,Kharif,Mustard,447.29,16.51,209.37,1.28
+Madhya Pradesh,Jabalpur,Whole Year,Chana,396.34,29.77,288.38,0.95
+Punjab,Ludhiana,Kharif,Maize,144.8,16.45,165.45,1.28
+Maharashtra,Nagpur,Whole Year,Soybean,151.88,16.03,217.01,1.14
+Haryana,Hisar,Kharif,Mustard,97.74,31.87,200.57,1.43
+Maharashtra,Aurangabad,Kharif,Wheat,285.38,26.32,205.38,1.6
+Madhya Pradesh,Bhopal,Whole Year,Cotton,475.24,29.94,133.24,1.39
+Madhya Pradesh,Jabalpur,Kharif,Wheat,320.25,28.46,103.32,1.99
+Rajasthan,Kota,Whole Year,Maize,407.67,22.91,324.09,1.16
+Haryana,Panipat,Whole Year,Wheat,241.68,19.35,331.22,3.19
+Rajasthan,Kota,Rabi,Wheat,47.46,21.97,199.4,3.17
+Punjab,Amritsar,Rabi,Soybean,418.34,35.07,64.78,1.1
+Madhya Pradesh,Jabalpur,Rabi,Cotton,422.18,31.48,80.14,1.65
+Rajasthan,Kota,Rabi,Wheat,89.76,18.98,234.92,2.95
+Maharashtra,Aurangabad,Kharif,Wheat,49.44,17.77,225.17,3.25
+Haryana,Rohtak,Whole Year,Cotton,474.57,25.22,180.75,1.39
+Maharashtra,Pune,Whole Year,Mustard,138.76,24.83,195.36,1.2
+Maharashtra,Nagpur,Whole Year,Maize,266.67,19.64,183.32,1.19
+Maharashtra,Nagpur,Kharif,Mustard,221.61,27.46,232.23,1.23
+Rajasthan,Kota,Kharif,Cotton,142.34,17.51,255.26,1.08
+Maharashtra,Pune,Kharif,Maize,70.64,33.02,349.78,1.02
+Maharashtra,Aurangabad,Whole Year,Rice,419.18,27.51,271.46,2.51
+Maharashtra,Pune,Kharif,Rice,420.32,15.23,310.82,2.79
+Punjab,Jalandhar,Whole Year,Chana,34.65,37.28,341.7,0.9
+Madhya Pradesh,Bhopal,Whole Year,Chana,221.42,31.96,168.62,1.51
+Haryana,Rohtak,Rabi,Maize,419.11,17.62,203.99,1.3
+Haryana,Panipat,Kharif,Soybean,121.16,17.95,276.95,1.2
+Madhya Pradesh,Bhopal,Kharif,Soybean,381.65,29.76,339.17,0.86
+Rajasthan,Jodhpur,Rabi,Mustard,361.73,31.28,110.2,1.35
+Rajasthan,Jodhpur,Kharif,Mustard,456.08,20.36,153.25,1.07
+Maharashtra,Nagpur,Kharif,Mustard,176.93,37.55,139.68,0.88
+Madhya Pradesh,Gwalior,Kharif,Maize,335.58,35.15,303.3,1.3
+Punjab,Amritsar,Whole Year,Soybean,385.39,28.11,242.67,1.11
+Maharashtra,Pune,Whole Year,Mustard,165.99,33.89,189.74,1.32
+Rajasthan,Kota,Rabi,Maize,227.04,25.66,131.82,1.1
+Punjab,Patiala,Whole Year,Cotton,73.06,29.63,305.03,1.85
+Maharashtra,Nashik,Whole Year,Mustard,243.88,22.39,155.44,1.11
+Maharashtra,Pune,Kharif,Chana,28.92,28.6,161.75,1.38
+Maharashtra,Aurangabad,Rabi,Wheat,137.19,25.94,172.49,1.95
+Maharashtra,Nagpur,Whole Year,Rice,151.61,30.2,145.76,1.38
+Punjab,Jalandhar,Kharif,Wheat,13.09,27.45,311.11,1.98
+Punjab,Jalandhar,Rabi,Maize,70.59,30.13,279.89,1.39
+Maharashtra,Nagpur,Kharif,Rice,252.37,21.2,245.07,2.53
+Punjab,Amritsar,Kharif,Chana,2.62,21.47,324.2,1.21
+Madhya Pradesh,Jabalpur,Kharif,Wheat,45.06,30.51,167.06,2.19
+Madhya Pradesh,Indore,Kharif,Maize,289.18,32.08,120.45,1.32
+Rajasthan,Alwar,Rabi,Soybean,492.97,31.43,297.82,0.85
+Haryana,Hisar,Kharif,Rice,29.81,23.55,344.39,2.53
+Rajasthan,Kota,Whole Year,Rice,65.66,22.75,281.31,2.31
+Haryana,Hisar,Kharif,Rice,5.22,37.27,227.64,2.68
+Haryana,Panipat,Whole Year,Soybean,302.21,20.56,175.89,1.46
+Maharashtra,Nashik,Kharif,Cotton,304.11,15.45,109.35,0.46
+Maharashtra,Aurangabad,Whole Year,Rice,341.32,23.57,313.27,2.28
+Madhya Pradesh,Gwalior,Whole Year,Maize,474.89,27.63,186.53,1.25
+Punjab,Jalandhar,Rabi,Cotton,231.4,37.64,186.88,1.74
+Haryana,Rohtak,Rabi,Mustard,12.39,27.65,142.73,1.78
+Maharashtra,Nashik,Whole Year,Soybean,341.59,34.42,190.77,1.24
+Madhya Pradesh,Jabalpur,Rabi,Maize,223.13,21.25,308.26,1.43
+Maharashtra,Nagpur,Whole Year,Chana,489.74,19.2,323.37,1.31
+Haryana,Panipat,Whole Year,Mustard,474.16,19.62,140.81,0.72
+Rajasthan,Jaipur,Rabi,Maize,303.61,31.59,76.4,1.16
+Haryana,Karnal,Whole Year,Wheat,291.65,32.91,198.37,1.98
+Punjab,Ludhiana,Whole Year,Soybean,33.09,35.41,87.64,1.17
+Maharashtra,Nashik,Kharif,Wheat,425.96,32.1,219.02,1.66
+Madhya Pradesh,Jabalpur,Kharif,Cotton,356.61,18.83,293.93,0.97
+Madhya Pradesh,Bhopal,Kharif,Wheat,108.26,36.06,106.84,1.97
+Punjab,Patiala,Kharif,Wheat,475.97,17.12,68.23,3.13
+Rajasthan,Jodhpur,Whole Year,Mustard,26.71,20.09,123.44,1.13
+Maharashtra,Nashik,Whole Year,Maize,335.79,16.54,66.23,1.18
+Rajasthan,Alwar,Rabi,Soybean,264.71,35.19,293.3,1.06
+Madhya Pradesh,Bhopal,Rabi,Wheat,223.15,35.94,81.04,2.39
+Madhya Pradesh,Jabalpur,Rabi,Wheat,392.45,17.67,304.04,2.87
+Maharashtra,Nagpur,Rabi,Chana,160.08,31.68,125.68,1.13
+Haryana,Panipat,Whole Year,Chana,76.41,36.63,50.13,1.04
+Punjab,Patiala,Kharif,Soybean,44.12,36.59,143.37,1.39
+Punjab,Ludhiana,Rabi,Chana,223.45,37.97,233.42,1.16
+Madhya Pradesh,Bhopal,Rabi,Soybean,426.74,34.27,53.47,1.02
+Rajasthan,Jodhpur,Kharif,Soybean,184.71,23.08,241.24,1.4
+Maharashtra,Nagpur,Rabi,Cotton,430.03,26.18,235.96,1.16
+Rajasthan,Jaipur,Kharif,Maize,445.13,23.18,112.46,0.91
+Haryana,Panipat,Kharif,Mustard,309.1,34.67,99.86,1.16
+Haryana,Rohtak,Whole Year,Rice,447.83,36.54,197.39,2.48
+Punjab,Amritsar,Rabi,Rice,494.65,36.1,168.91,2.3
+Maharashtra,Aurangabad,Whole Year,Wheat,252.48,23.67,142.24,3.21
+Haryana,Rohtak,Whole Year,Maize,205.21,21.52,79.48,1.41
+Haryana,Hisar,Whole Year,Cotton,280.89,30.35,83.87,1.78
+Madhya Pradesh,Jabalpur,Kharif,Maize,438.86,17.77,235.11,0.97
+Rajasthan,Jodhpur,Kharif,Soybean,110.62,36.85,96.11,1.21
+Rajasthan,Jaipur,Rabi,Chana,465.07,31.68,129.37,1.09
+Rajasthan,Kota,Whole Year,Mustard,134.11,16.7,337.11,1.26
+Rajasthan,Jaipur,Kharif,Cotton,287.96,17.98,103.06,1.09
+Rajasthan,Jaipur,Rabi,Chana,421.97,25.7,285.52,0.72
+Haryana,Panipat,Rabi,Cotton,363.71,23.2,221.4,0.93
+Maharashtra,Aurangabad,Whole Year,Rice,114.4,19.44,253.01,2.43
+Haryana,Karnal,Whole Year,Maize,398.92,26.38,191.77,1.19
+Punjab,Patiala,Rabi,Soybean,263.5,15.25,192.67,1.45
+Punjab,Ludhiana,Rabi,Maize,25.87,23.55,195.82,0.97
+Madhya Pradesh,Indore,Kharif,Mustard,125.02,22.28,275.57,1.46
+Madhya Pradesh,Jabalpur,Whole Year,Soybean,95.11,30.89,148.8,1.35
+Punjab,Jalandhar,Kharif,Wheat,213.16,36.7,200.22,2.27
+Haryana,Panipat,Kharif,Cotton,353.76,37.36,100.41,2.09
+Punjab,Amritsar,Rabi,Chana,367.67,16.47,169.61,1.15
+Haryana,Karnal,Rabi,Mustard,142.19,29.34,99.4,1.06
+Haryana,Panipat,Kharif,Cotton,25.63,28.77,208.28,1.6
+Haryana,Rohtak,Whole Year,Rice,41.3,19.36,257.35,2.32
+Maharashtra,Pune,Whole Year,Wheat,221.0,23.28,244.5,3.31
+Haryana,Rohtak,Whole Year,Soybean,254.87,27.71,148.73,1.19
+Punjab,Ludhiana,Rabi,Soybean,141.97,17.14,255.87,0.91
+Rajasthan,Jodhpur,Rabi,Chana,389.83,28.94,111.73,1.22
+Madhya Pradesh,Indore,Rabi,Chana,332.51,27.91,188.26,1.16
+Haryana,Hisar,Whole Year,Wheat,308.25,35.02,187.37,2.05
+Haryana,Karnal,Rabi,Maize,353.21,36.16,222.91,1.15
+Maharashtra,Pune,Whole Year,Cotton,257.18,16.6,117.02,0.96
+Maharashtra,Nashik,Whole Year,Soybean,46.44,18.29,263.73,1.63
+Haryana,Hisar,Kharif,Cotton,220.9,36.67,179.68,1.91
+Haryana,Hisar,Whole Year,Mustard,318.69,27.38,232.05,1.01
+Rajasthan,Alwar,Rabi,Mustard,115.35,22.02,253.68,1.31
+Haryana,Karnal,Rabi,Rice,41.87,23.72,102.62,1.75
+Haryana,Rohtak,Whole Year,Rice,333.58,23.85,290.76,2.64
+Rajasthan,Jaipur,Whole Year,Chana,148.32,29.83,306.64,1.48
+Haryana,Panipat,Rabi,Rice,492.9,33.4,310.64,2.58
+Punjab,Amritsar,Rabi,Cotton,432.46,24.12,129.16,0.6
+Punjab,Patiala,Whole Year,Wheat,498.1,20.88,261.49,3.51
+Madhya Pradesh,Jabalpur,Rabi,Soybean,286.61,36.93,152.62,1.28
+Haryana,Hisar,Rabi,Rice,86.12,32.77,172.05,2.52
+Madhya Pradesh,Indore,Whole Year,Cotton,17.84,22.19,99.86,0.92
+Punjab,Patiala,Kharif,Wheat,266.18,32.22,122.29,1.82
+Madhya Pradesh,Jabalpur,Kharif,Chana,451.11,36.72,318.62,1.17
+Madhya Pradesh,Gwalior,Rabi,Maize,14.13,28.58,261.95,1.11
+Punjab,Patiala,Whole Year,Soybean,128.71,21.99,229.75,0.79
+Maharashtra,Nashik,Rabi,Wheat,486.23,20.36,295.42,3.13
+Rajasthan,Jodhpur,Whole Year,Maize,203.26,27.77,125.98,1.34
+Haryana,Rohtak,Kharif,Rice,56.36,28.98,189.22,2.66
+Maharashtra,Pune,Whole Year,Rice,155.89,28.98,159.8,2.62
+Madhya Pradesh,Jabalpur,Kharif,Chana,429.89,22.16,50.44,0.99
+Punjab,Patiala,Whole Year,Chana,159.95,17.62,234.57,1.34
+Maharashtra,Nagpur,Whole Year,Rice,219.37,25.23,239.76,2.28
+Rajasthan,Alwar,Kharif,Mustard,265.15,29.89,132.67,1.32
+Maharashtra,Aurangabad,Rabi,Soybean,481.0,21.31,223.31,1.41
+Maharashtra,Nashik,Whole Year,Wheat,23.9,33.65,180.28,2.22
+Haryana,Rohtak,Whole Year,Wheat,93.53,37.04,226.9,1.68
+Madhya Pradesh,Bhopal,Rabi,Chana,143.72,23.06,56.18,1.22
+Maharashtra,Pune,Rabi,Rice,133.79,24.1,269.41,2.46
+Rajasthan,Kota,Whole Year,Chana,291.66,30.71,254.08,1.2
+Madhya Pradesh,Indore,Kharif,Chana,345.44,30.06,226.08,1.66
+Punjab,Patiala,Rabi,Chana,130.85,36.15,277.82,0.88
+Madhya Pradesh,Jabalpur,Kharif,Maize,253.78,23.14,244.16,1.27
+Rajasthan,Jaipur,Rabi,Mustard,302.61,20.62,293.83,1.26
+Maharashtra,Aurangabad,Rabi,Rice,184.52,31.91,231.05,2.44
+Maharashtra,Nagpur,Rabi,Soybean,11.56,17.49,129.52,1.23
+Haryana,Hisar,Whole Year,Maize,60.29,30.41,242.95,1.07
+Punjab,Ludhiana,Kharif,Rice,158.41,17.09,172.21,2.51
+Rajasthan,Jodhpur,Whole Year,Wheat,441.86,25.34,94.91,2.02
+Punjab,Ludhiana,Kharif,Rice,11.43,17.71,334.92,2.56
+Madhya Pradesh,Gwalior,Kharif,Rice,43.92,37.46,272.93,2.48
+Punjab,Amritsar,Rabi,Mustard,482.66,24.79,229.51,1.39
+Madhya Pradesh,Bhopal,Rabi,Mustard,116.07,17.25,193.65,1.04
+Punjab,Jalandhar,Kharif,Chana,15.41,27.73,254.14,1.08
+Haryana,Karnal,Whole Year,Chana,473.5,26.56,191.68,1.5
+Haryana,Karnal,Whole Year,Soybean,43.3,21.05,182.57,1.2
+Haryana,Hisar,Kharif,Mustard,275.51,22.82,274.95,1.65
+Rajasthan,Alwar,Whole Year,Wheat,254.87,27.37,123.75,1.94
+Haryana,Hisar,Whole Year,Cotton,128.24,29.28,184.27,1.78
+Madhya Pradesh,Indore,Rabi,Cotton,87.54,25.95,190.07,1.63
+Rajasthan,Kota,Rabi,Mustard,244.11,33.19,294.6,1.07
+Haryana,Hisar,Kharif,Wheat,351.91,37.49,184.0,1.86
+Madhya Pradesh,Jabalpur,Whole Year,Wheat,496.45,32.49,162.07,1.9
+Madhya Pradesh,Jabalpur,Kharif,Rice,266.42,37.45,252.38,2.5
+Rajasthan,Jaipur,Whole Year,Wheat,482.14,15.38,266.29,2.74
+Punjab,Patiala,Whole Year,Soybean,285.71,16.02,94.87,1.19
+Rajasthan,Kota,Kharif,Cotton,222.73,36.16,288.5,1.81
+Punjab,Jalandhar,Whole Year,Maize,434.28,32.6,287.22,1.03
+Haryana,Panipat,Whole Year,Maize,496.49,28.13,91.69,1.39
+Punjab,Ludhiana,Whole Year,Rice,63.18,33.34,198.73,2.21
+Punjab,Patiala,Whole Year,Chana,5.14,22.02,232.82,1.43
+Haryana,Karnal,Kharif,Wheat,40.64,23.02,233.15,3.02
+Rajasthan,Jodhpur,Kharif,Chana,112.56,15.71,124.76,1.23
+Madhya Pradesh,Bhopal,Rabi,Maize,460.05,20.35,190.26,0.98
+Rajasthan,Jaipur,Whole Year,Cotton,413.44,22.8,76.89,0.76
+Madhya Pradesh,Jabalpur,Kharif,Maize,103.52,25.34,219.86,1.37
+Maharashtra,Pune,Whole Year,Cotton,205.89,30.13,161.72,1.91
+Haryana,Rohtak,Kharif,Rice,11.94,36.8,54.91,1.42
+Madhya Pradesh,Gwalior,Kharif,Cotton,103.76,34.91,199.33,1.88
+Rajasthan,Kota,Rabi,Soybean,171.35,22.99,270.06,1.0
+Haryana,Rohtak,Kharif,Maize,318.77,20.52,117.33,1.07
+Maharashtra,Aurangabad,Rabi,Chana,74.67,28.63,315.76,1.35
+Maharashtra,Nashik,Whole Year,Maize,339.89,37.71,50.75,1.27
+Haryana,Rohtak,Whole Year,Chana,135.04,26.37,259.08,0.9
+Madhya Pradesh,Jabalpur,Kharif,Rice,102.87,19.48,237.73,2.54
+Madhya Pradesh,Bhopal,Kharif,Chana,34.43,32.45,184.32,1.0
+Madhya Pradesh,Gwalior,Kharif,Soybean,471.86,16.81,204.28,1.44
+Madhya Pradesh,Bhopal,Kharif,Soybean,486.2,21.86,124.78,1.79
+Madhya Pradesh,Bhopal,Kharif,Rice,220.54,27.3,168.32,2.3
+Haryana,Rohtak,Whole Year,Wheat,326.91,37.54,70.03,2.23
+Maharashtra,Nagpur,Kharif,Wheat,498.91,35.08,213.94,1.93
+Haryana,Karnal,Whole Year,Cotton,490.52,33.54,61.02,1.89
+Haryana,Rohtak,Kharif,Cotton,499.95,35.39,271.67,1.71
+Haryana,Panipat,Kharif,Cotton,199.04,28.12,138.02,1.65
+Maharashtra,Nagpur,Rabi,Chana,217.05,15.74,317.18,0.97
+Madhya Pradesh,Indore,Kharif,Chana,73.69,22.42,153.64,1.02
+Punjab,Amritsar,Whole Year,Cotton,239.8,19.21,290.56,1.07
+Haryana,Rohtak,Rabi,Soybean,418.78,37.15,75.74,1.2
+Haryana,Panipat,Rabi,Cotton,37.26,26.54,87.46,0.96
+Madhya Pradesh,Indore,Whole Year,Maize,212.37,27.59,347.5,1.09
+Haryana,Karnal,Kharif,Soybean,128.69,36.53,140.37,0.94
+Rajasthan,Jaipur,Whole Year,Cotton,430.78,37.45,311.45,2.05
+Rajasthan,Jodhpur,Kharif,Mustard,451.8,16.25,186.82,1.12
+Haryana,Karnal,Whole Year,Maize,170.91,22.31,128.4,1.24
+Rajasthan,Jaipur,Whole Year,Mustard,417.79,35.32,174.85,0.77
+Punjab,Jalandhar,Rabi,Maize,33.85,32.05,163.43,1.18
+Rajasthan,Kota,Kharif,Mustard,87.72,30.63,54.99,1.32
+Maharashtra,Aurangabad,Rabi,Mustard,23.53,20.51,228.26,1.33
+Rajasthan,Kota,Rabi,Wheat,178.37,24.63,299.59,3.29
+Rajasthan,Jodhpur,Rabi,Chana,241.79,27.29,193.54,1.33
+Madhya Pradesh,Indore,Kharif,Mustard,196.39,31.35,223.87,1.18
+Rajasthan,Jodhpur,Rabi,Mustard,204.73,34.34,93.5,1.58
+Maharashtra,Nashik,Rabi,Maize,412.9,35.5,324.54,1.32
+Madhya Pradesh,Gwalior,Whole Year,Chana,309.83,22.11,133.94,0.97
+Haryana,Hisar,Rabi,Maize,434.02,20.01,65.57,1.07
+Punjab,Patiala,Kharif,Soybean,411.19,19.46,77.36,0.99
+Haryana,Panipat,Rabi,Cotton,32.78,19.6,238.18,0.68
+Haryana,Panipat,Rabi,Rice,456.28,35.41,101.92,1.71
+Madhya Pradesh,Bhopal,Kharif,Wheat,174.58,37.52,156.16,1.88
+Punjab,Amritsar,Rabi,Mustard,29.3,27.39,160.19,1.29
+Haryana,Panipat,Kharif,Cotton,281.53,24.26,127.74,0.87
+Rajasthan,Kota,Rabi,Wheat,208.63,24.06,142.22,3.24
+Rajasthan,Kota,Kharif,Cotton,446.12,31.62,82.01,2.02
+Maharashtra,Nagpur,Rabi,Mustard,151.46,32.94,207.62,1.2
+Rajasthan,Jodhpur,Kharif,Wheat,471.54,24.17,118.94,3.32
+Rajasthan,Jaipur,Rabi,Maize,339.41,22.24,220.55,1.51
+Maharashtra,Nagpur,Whole Year,Maize,421.98,27.93,317.11,1.38
+Rajasthan,Jaipur,Rabi,Chana,363.79,36.7,98.56,1.42
+Haryana,Hisar,Whole Year,Cotton,206.79,18.89,72.21,1.1
+Maharashtra,Nagpur,Kharif,Rice,385.25,28.76,56.54,1.41
+Punjab,Ludhiana,Kharif,Mustard,84.74,24.45,204.47,1.17
+Rajasthan,Kota,Rabi,Wheat,295.59,30.91,269.83,2.05
+Punjab,Ludhiana,Whole Year,Cotton,269.56,37.39,169.81,1.82
+Maharashtra,Nagpur,Whole Year,Mustard,133.13,25.7,318.29,1.06
+Haryana,Hisar,Whole Year,Maize,207.55,16.84,327.26,1.34
+Madhya Pradesh,Gwalior,Kharif,Soybean,146.2,25.04,155.1,1.32
+Rajasthan,Alwar,Rabi,Mustard,154.99,16.64,178.33,1.01
+Haryana,Rohtak,Kharif,Wheat,455.59,33.79,345.26,2.02
+Haryana,Karnal,Rabi,Wheat,351.99,31.46,266.31,2.04
+Rajasthan,Kota,Rabi,Mustard,427.41,29.23,232.83,1.17
+Haryana,Hisar,Whole Year,Wheat,375.68,25.29,240.17,2.05
+Madhya Pradesh,Gwalior,Kharif,Maize,39.35,17.44,330.28,0.99
+Haryana,Rohtak,Rabi,Maize,369.85,19.07,291.54,1.39
+Madhya Pradesh,Bhopal,Rabi,Wheat,86.75,28.25,253.04,1.84
+Maharashtra,Nagpur,Whole Year,Rice,286.69,32.6,221.18,2.57
+Rajasthan,Alwar,Whole Year,Maize,439.19,27.34,61.25,1.25
+Maharashtra,Aurangabad,Rabi,Chana,466.85,22.42,198.17,1.64
+Madhya Pradesh,Gwalior,Whole Year,Cotton,160.08,19.48,193.53,0.99
+Punjab,Patiala,Rabi,Mustard,185.74,30.54,163.01,1.35
+Madhya Pradesh,Jabalpur,Rabi,Rice,136.7,27.39,96.2,1.45
+Rajasthan,Alwar,Kharif,Soybean,200.44,31.6,335.9,1.06
+Punjab,Amritsar,Rabi,Chana,215.91,23.97,249.61,1.35
+Maharashtra,Nagpur,Rabi,Rice,83.24,17.36,50.36,1.68
+Maharashtra,Aurangabad,Kharif,Soybean,122.58,22.11,167.14,1.42
+Punjab,Patiala,Rabi,Mustard,12.59,20.78,86.42,1.01
+Haryana,Hisar,Rabi,Maize,494.25,21.22,249.11,1.25
+Haryana,Karnal,Kharif,Chana,201.66,19.38,227.96,1.01
+Haryana,Panipat,Whole Year,Rice,353.79,20.94,284.19,2.59
+Punjab,Ludhiana,Whole Year,Mustard,269.73,37.68,158.47,1.3
+Punjab,Ludhiana,Rabi,Maize,199.03,17.55,121.9,1.14
+Haryana,Karnal,Rabi,Chana,234.5,33.5,233.77,1.14
+Haryana,Karnal,Kharif,Cotton,47.93,29.19,253.33,2.04
+Maharashtra,Nagpur,Whole Year,Cotton,316.22,36.79,101.08,1.9
+Punjab,Ludhiana,Rabi,Mustard,215.98,26.58,277.35,0.88
+Maharashtra,Aurangabad,Rabi,Wheat,40.62,22.49,184.51,2.99
+Rajasthan,Alwar,Rabi,Wheat,377.51,34.33,343.77,2.05
+Rajasthan,Kota,Whole Year,Soybean,368.49,27.99,108.36,1.52
+Maharashtra,Pune,Rabi,Maize,13.58,16.51,260.67,0.8
+Rajasthan,Kota,Whole Year,Chana,271.9,25.88,182.95,1.29
+Punjab,Amritsar,Rabi,Mustard,54.02,22.72,233.0,1.29
+Haryana,Karnal,Kharif,Soybean,444.53,26.92,169.02,1.18
+Haryana,Panipat,Rabi,Maize,137.12,20.9,125.37,1.44
+Rajasthan,Alwar,Kharif,Rice,396.31,25.31,336.38,2.59
+Rajasthan,Jodhpur,Whole Year,Rice,124.88,36.48,118.14,1.25
+Maharashtra,Pune,Kharif,Chana,313.71,24.39,108.07,1.32
+Rajasthan,Jaipur,Whole Year,Cotton,414.43,20.69,207.25,0.66
+Rajasthan,Jodhpur,Whole Year,Maize,313.01,17.02,151.62,1.44
+Haryana,Rohtak,Kharif,Rice,239.08,15.1,342.71,2.25
+Haryana,Panipat,Whole Year,Cotton,203.35,35.04,242.57,1.64
+Haryana,Panipat,Rabi,Rice,24.81,22.64,134.06,1.38
+Haryana,Rohtak,Rabi,Soybean,52.12,20.62,228.53,1.29
+Rajasthan,Alwar,Rabi,Soybean,203.27,25.52,260.48,0.73
+Madhya Pradesh,Bhopal,Whole Year,Cotton,296.08,35.26,197.55,1.9
+Madhya Pradesh,Gwalior,Rabi,Soybean,364.59,24.45,200.68,0.9
+Haryana,Hisar,Rabi,Chana,307.16,24.17,301.76,1.23
+Rajasthan,Alwar,Rabi,Cotton,485.65,35.96,134.99,1.81
+Rajasthan,Alwar,Whole Year,Cotton,123.87,22.83,262.51,0.97
+Madhya Pradesh,Indore,Whole Year,Wheat,167.92,21.82,59.96,3.2
+Maharashtra,Nashik,Rabi,Rice,328.52,33.06,259.79,2.63
+Punjab,Amritsar,Rabi,Chana,234.23,36.34,280.8,1.17
+Madhya Pradesh,Jabalpur,Whole Year,Chana,492.04,19.24,189.31,1.23
+Rajasthan,Alwar,Kharif,Mustard,11.82,30.8,107.71,1.58
+Madhya Pradesh,Bhopal,Whole Year,Wheat,391.7,24.53,200.29,2.97
+Haryana,Rohtak,Rabi,Mustard,445.51,32.71,124.82,1.15
+Madhya Pradesh,Bhopal,Kharif,Maize,368.5,18.58,130.85,1.32
+Punjab,Jalandhar,Whole Year,Maize,148.85,30.97,296.07,1.18
+Rajasthan,Kota,Whole Year,Mustard,5.24,20.07,197.57,1.23
+Rajasthan,Jaipur,Kharif,Cotton,189.76,21.7,283.18,1.23
+Madhya Pradesh,Bhopal,Kharif,Chana,41.46,31.11,72.55,0.92
+Punjab,Jalandhar,Whole Year,Cotton,40.34,26.52,264.15,1.24
+Haryana,Panipat,Whole Year,Soybean,202.51,19.59,312.81,1.26
+Madhya Pradesh,Indore,Whole Year,Cotton,77.57,20.02,67.85,0.96
+Madhya Pradesh,Jabalpur,Whole Year,Cotton,3.83,23.26,203.94,1.1
+Punjab,Patiala,Rabi,Chana,480.32,35.36,82.67,1.35
+Punjab,Ludhiana,Rabi,Mustard,291.76,17.36,269.55,1.1
+Maharashtra,Nagpur,Whole Year,Cotton,440.01,24.78,174.08,1.14
+Punjab,Patiala,Whole Year,Chana,328.93,24.64,192.51,1.13
+Haryana,Rohtak,Kharif,Rice,249.0,17.95,52.2,1.51
+Haryana,Rohtak,Whole Year,Rice,191.09,17.2,220.41,2.48
+Haryana,Karnal,Rabi,Mustard,352.8,37.83,166.01,1.48
+Haryana,Hisar,Whole Year,Rice,421.7,16.18,101.25,1.47
+Haryana,Rohtak,Whole Year,Cotton,304.07,32.17,274.92,1.94
+Madhya Pradesh,Indore,Rabi,Mustard,439.91,35.84,208.71,1.16
+Rajasthan,Jodhpur,Whole Year,Mustard,349.73,28.9,235.16,1.41
+Rajasthan,Kota,Kharif,Cotton,120.68,34.82,237.71,1.72
+Madhya Pradesh,Bhopal,Whole Year,Cotton,92.97,25.81,253.25,1.16
+Punjab,Ludhiana,Rabi,Cotton,306.72,29.88,341.43,1.82
+Haryana,Panipat,Rabi,Wheat,345.97,30.17,54.15,2.33
+Maharashtra,Pune,Kharif,Rice,164.05,31.75,245.98,2.45
+Punjab,Patiala,Whole Year,Maize,175.2,20.57,251.62,1.5
+Punjab,Amritsar,Whole Year,Chana,485.41,15.57,128.37,0.92
+Punjab,Jalandhar,Whole Year,Wheat,413.57,18.78,50.25,3.17
+Rajasthan,Jodhpur,Kharif,Mustard,32.66,32.77,300.75,1.3
+Rajasthan,Alwar,Whole Year,Soybean,327.41,19.19,304.81,1.35
+Madhya Pradesh,Gwalior,Kharif,Chana,21.18,33.89,91.59,1.11
+Haryana,Rohtak,Rabi,Rice,447.82,15.52,217.76,2.22
+Haryana,Karnal,Kharif,Maize,496.83,18.8,284.39,1.41
+Madhya Pradesh,Bhopal,Whole Year,Maize,275.63,37.43,143.68,1.49
+Madhya Pradesh,Jabalpur,Whole Year,Maize,77.14,25.67,138.44,1.3
+Haryana,Panipat,Rabi,Maize,40.31,20.78,266.57,1.22
+Rajasthan,Kota,Rabi,Chana,175.59,36.37,59.3,0.84
+Rajasthan,Kota,Kharif,Cotton,281.24,26.79,327.72,0.87
+Rajasthan,Kota,Rabi,Wheat,24.16,34.27,321.62,2.19
+Maharashtra,Aurangabad,Kharif,Maize,149.93,24.59,249.5,1.08
+Maharashtra,Nagpur,Rabi,Soybean,63.08,26.35,265.88,0.96
+Madhya Pradesh,Bhopal,Kharif,Mustard,168.27,16.54,281.33,1.31
+Haryana,Panipat,Rabi,Maize,299.65,30.86,273.96,0.94
+Madhya Pradesh,Bhopal,Whole Year,Rice,47.98,26.95,183.02,2.36
+Punjab,Ludhiana,Kharif,Chana,9.83,29.6,249.62,1.0
+Haryana,Karnal,Rabi,Maize,249.37,21.94,349.06,1.27
+Madhya Pradesh,Bhopal,Whole Year,Rice,224.67,34.94,89.28,1.53
+Madhya Pradesh,Jabalpur,Kharif,Rice,85.81,20.67,179.28,2.68
+Madhya Pradesh,Bhopal,Whole Year,Wheat,442.38,34.04,309.45,1.65
+Maharashtra,Nagpur,Kharif,Wheat,279.03,33.07,215.3,2.02
+Madhya Pradesh,Jabalpur,Whole Year,Wheat,136.54,21.8,202.42,3.18
+Punjab,Ludhiana,Whole Year,Wheat,91.9,21.09,261.92,3.1
+Punjab,Ludhiana,Whole Year,Cotton,376.79,28.55,119.93,1.81
+Maharashtra,Pune,Kharif,Maize,68.12,33.34,118.6,1.28
+Haryana,Hisar,Whole Year,Soybean,1.12,31.03,218.67,0.99
+Haryana,Hisar,Kharif,Maize,251.41,31.07,185.83,0.99
+Madhya Pradesh,Jabalpur,Rabi,Mustard,107.83,36.47,314.28,1.24
+Rajasthan,Kota,Kharif,Soybean,444.85,16.28,297.01,1.03
+Punjab,Ludhiana,Rabi,Mustard,301.54,23.86,332.04,1.34
+Punjab,Jalandhar,Rabi,Maize,282.37,33.25,272.61,1.23
+Rajasthan,Kota,Kharif,Maize,118.76,22.37,236.95,1.05
+Punjab,Ludhiana,Whole Year,Chana,51.38,34.89,57.89,1.15
+Haryana,Hisar,Kharif,Maize,451.23,32.25,327.25,1.31
+Punjab,Ludhiana,Kharif,Chana,379.33,29.5,239.84,1.09
+Haryana,Karnal,Rabi,Cotton,299.28,36.39,327.19,2.08
+Rajasthan,Kota,Whole Year,Wheat,481.8,33.29,172.35,2.15
+Madhya Pradesh,Jabalpur,Whole Year,Chana,58.94,19.46,153.23,1.19
+Maharashtra,Aurangabad,Kharif,Maize,108.8,21.91,340.14,1.01
+Punjab,Amritsar,Rabi,Mustard,478.15,25.43,148.31,1.06
+Haryana,Panipat,Kharif,Cotton,178.17,15.85,314.78,0.91
+Punjab,Ludhiana,Whole Year,Soybean,231.86,24.35,189.02,1.33
+Punjab,Patiala,Rabi,Maize,274.33,21.98,156.09,1.16
+Madhya Pradesh,Bhopal,Rabi,Maize,10.93,36.27,299.04,1.68
+Maharashtra,Nagpur,Kharif,Rice,307.89,18.03,126.19,1.52
+Haryana,Karnal,Rabi,Rice,385.4,31.52,272.52,2.65
+Haryana,Hisar,Whole Year,Cotton,75.33,36.98,234.05,1.9
+Maharashtra,Pune,Rabi,Rice,462.64,37.58,220.2,2.56
+Madhya Pradesh,Bhopal,Kharif,Maize,250.41,33.66,246.4,1.28
+Punjab,Jalandhar,Rabi,Cotton,452.17,34.11,171.98,1.77
+Rajasthan,Kota,Kharif,Rice,383.88,20.36,193.48,2.9
+Madhya Pradesh,Jabalpur,Kharif,Rice,291.36,34.17,129.1,1.75
+Punjab,Ludhiana,Rabi,Cotton,347.05,30.45,190.19,1.99
+Punjab,Ludhiana,Rabi,Cotton,349.27,30.34,96.4,1.38
+Rajasthan,Kota,Whole Year,Rice,36.75,23.37,57.83,1.39
+Rajasthan,Jaipur,Rabi,Mustard,341.72,32.15,85.96,1.42
+Punjab,Jalandhar,Whole Year,Cotton,340.01,30.44,288.08,1.55
+Haryana,Rohtak,Kharif,Mustard,451.97,32.35,254.29,1.21
+Punjab,Ludhiana,Kharif,Mustard,368.24,15.13,187.3,1.0
+Punjab,Ludhiana,Rabi,Wheat,162.65,18.1,215.08,3.59
+Punjab,Amritsar,Rabi,Mustard,194.29,36.78,110.39,0.83
+Rajasthan,Alwar,Whole Year,Cotton,393.91,19.61,146.49,1.26
+Madhya Pradesh,Gwalior,Whole Year,Maize,6.64,29.09,325.96,1.24
+Haryana,Rohtak,Kharif,Cotton,12.29,25.68,287.36,0.82
+Punjab,Ludhiana,Rabi,Cotton,494.64,31.5,347.77,1.57
+Maharashtra,Nagpur,Rabi,Wheat,426.56,21.93,203.21,3.17
+Maharashtra,Pune,Kharif,Wheat,67.86,22.43,168.11,3.17
+Punjab,Amritsar,Rabi,Rice,482.16,18.01,231.46,2.62
+Rajasthan,Kota,Kharif,Soybean,331.31,31.72,283.05,1.41
+Punjab,Patiala,Whole Year,Rice,264.86,24.98,192.72,2.62
+Rajasthan,Alwar,Kharif,Maize,374.37,28.84,159.27,1.27
+Rajasthan,Kota,Rabi,Mustard,13.9,19.93,254.72,0.96
+Punjab,Amritsar,Whole Year,Maize,153.77,16.43,144.9,1.35
+Maharashtra,Aurangabad,Whole Year,Maize,492.73,26.34,309.39,1.17
+Maharashtra,Aurangabad,Rabi,Cotton,299.24,35.19,73.93,2.06
+Punjab,Patiala,Rabi,Mustard,249.99,20.71,132.31,1.24
+Punjab,Ludhiana,Whole Year,Mustard,232.47,22.4,329.43,1.55
+Maharashtra,Nagpur,Whole Year,Chana,455.02,35.66,295.97,1.2
+Punjab,Amritsar,Kharif,Chana,67.98,15.54,85.01,1.25
+Madhya Pradesh,Jabalpur,Whole Year,Maize,481.84,37.59,276.05,1.32
+Haryana,Rohtak,Whole Year,Chana,250.54,33.77,97.03,1.37
+Punjab,Jalandhar,Kharif,Maize,23.34,34.76,341.03,1.21
+Punjab,Amritsar,Rabi,Cotton,113.73,23.42,143.06,1.17
+Rajasthan,Kota,Rabi,Wheat,128.57,27.26,134.07,1.68
+Rajasthan,Kota,Rabi,Chana,476.12,25.05,215.48,1.37
+Maharashtra,Pune,Whole Year,Rice,312.47,35.12,140.83,1.69
+Maharashtra,Nagpur,Whole Year,Cotton,264.33,36.66,235.73,1.61
+Haryana,Panipat,Rabi,Cotton,381.61,35.65,270.9,2.0
+Maharashtra,Pune,Whole Year,Maize,211.52,17.01,84.73,1.23
+Rajasthan,Alwar,Kharif,Wheat,209.85,15.58,336.75,3.27
+Maharashtra,Aurangabad,Whole Year,Chana,436.51,34.25,332.41,1.02
+Madhya Pradesh,Jabalpur,Kharif,Wheat,165.37,24.3,322.34,2.89
+Maharashtra,Nashik,Rabi,Cotton,249.83,36.12,217.62,1.96
+Madhya Pradesh,Indore,Kharif,Wheat,353.37,34.51,210.92,1.63
+Rajasthan,Alwar,Kharif,Soybean,271.12,22.38,208.25,1.03
+Madhya Pradesh,Bhopal,Kharif,Soybean,186.52,15.99,288.2,1.22
+Madhya Pradesh,Gwalior,Kharif,Cotton,30.45,22.7,304.01,1.13
+Madhya Pradesh,Bhopal,Kharif,Cotton,491.83,22.28,99.68,1.24
+Madhya Pradesh,Bhopal,Kharif,Rice,494.05,36.31,333.43,2.81
+Haryana,Karnal,Kharif,Maize,101.83,34.33,338.46,1.38
+Rajasthan,Jodhpur,Whole Year,Cotton,395.98,32.72,259.05,1.71
+Madhya Pradesh,Jabalpur,Rabi,Mustard,77.56,24.53,305.76,1.28
+Maharashtra,Nagpur,Rabi,Mustard,487.56,15.77,208.18,1.38
+Rajasthan,Kota,Whole Year,Cotton,207.89,16.47,137.03,0.88
+Punjab,Ludhiana,Whole Year,Mustard,123.65,18.58,90.55,1.6
+Punjab,Patiala,Whole Year,Chana,409.91,24.47,154.37,1.26
+Madhya Pradesh,Bhopal,Whole Year,Cotton,486.02,18.27,317.38,1.04
+Maharashtra,Nashik,Kharif,Rice,409.91,23.69,155.79,2.01
+Rajasthan,Kota,Whole Year,Rice,223.09,21.09,318.14,2.46
+Maharashtra,Nagpur,Rabi,Maize,108.53,29.83,90.32,1.03
+Punjab,Amritsar,Rabi,Cotton,217.45,22.87,113.8,1.1
+Rajasthan,Jaipur,Whole Year,Cotton,322.57,31.56,229.95,1.82
+Rajasthan,Jaipur,Rabi,Rice,240.31,27.03,59.0,1.29
+Haryana,Hisar,Rabi,Cotton,355.24,31.49,120.56,1.54
+Maharashtra,Pune,Rabi,Rice,17.02,24.93,282.07,2.95
+Maharashtra,Nagpur,Whole Year,Mustard,308.6,34.49,164.33,1.21
+Punjab,Jalandhar,Rabi,Rice,311.54,24.66,313.01,2.39
+Maharashtra,Nashik,Kharif,Mustard,110.66,37.45,145.57,1.21
+Maharashtra,Aurangabad,Kharif,Cotton,481.94,20.89,165.33,1.08
+Punjab,Amritsar,Rabi,Maize,262.68,31.12,249.2,1.2
+Maharashtra,Nashik,Whole Year,Mustard,211.33,33.56,289.94,1.1
+Haryana,Rohtak,Whole Year,Chana,260.31,22.13,194.32,1.07
+Madhya Pradesh,Bhopal,Whole Year,Cotton,158.08,17.21,328.48,1.06
+Punjab,Patiala,Rabi,Chana,374.18,21.94,113.91,1.28
+Rajasthan,Alwar,Whole Year,Soybean,18.9,21.51,245.67,1.08
+Rajasthan,Jodhpur,Kharif,Soybean,73.46,36.57,144.21,1.24
+Haryana,Panipat,Kharif,Rice,46.45,28.4,323.65,2.41
+Madhya Pradesh,Jabalpur,Rabi,Mustard,189.37,30.14,117.18,1.02
+Haryana,Karnal,Kharif,Chana,59.43,20.92,166.2,1.19
+Haryana,Karnal,Kharif,Wheat,129.56,26.48,308.07,1.87
+Madhya Pradesh,Bhopal,Whole Year,Chana,164.95,22.05,346.24,0.97
+Madhya Pradesh,Jabalpur,Whole Year,Wheat,119.38,29.78,65.56,2.22
+Punjab,Jalandhar,Kharif,Rice,101.37,30.7,297.75,2.68
+Madhya Pradesh,Jabalpur,Whole Year,Soybean,84.57,24.53,161.74,1.47
+Rajasthan,Kota,Whole Year,Soybean,75.6,26.71,328.42,1.1
+Haryana,Panipat,Kharif,Maize,123.3,22.46,267.14,1.18
+Maharashtra,Nagpur,Kharif,Mustard,161.92,22.14,87.29,1.24
+Madhya Pradesh,Jabalpur,Kharif,Mustard,331.67,18.41,272.34,1.32
+Madhya Pradesh,Indore,Kharif,Soybean,414.58,35.73,297.43,1.23
+Rajasthan,Alwar,Whole Year,Cotton,70.25,34.61,58.25,2.21
+Rajasthan,Jodhpur,Kharif,Wheat,264.53,29.26,171.12,2.18
+Maharashtra,Nagpur,Kharif,Mustard,20.52,15.32,156.01,1.08
+Haryana,Karnal,Whole Year,Maize,410.65,18.75,284.07,0.96
+Madhya Pradesh,Indore,Rabi,Maize,453.69,28.1,314.07,1.44
+Rajasthan,Kota,Rabi,Mustard,104.43,18.34,299.23,1.22
+Haryana,Hisar,Whole Year,Rice,100.54,15.26,149.29,1.73
+Haryana,Rohtak,Kharif,Cotton,225.08,24.61,104.42,1.02
+Madhya Pradesh,Indore,Rabi,Cotton,1.62,16.46,236.98,1.08
+Maharashtra,Nashik,Kharif,Rice,337.98,18.18,328.12,2.71
+Rajasthan,Kota,Rabi,Chana,213.11,33.66,325.67,1.25
+Maharashtra,Pune,Kharif,Wheat,29.24,27.89,276.6,2.52
+Punjab,Amritsar,Kharif,Chana,307.03,28.49,289.35,1.18
+Rajasthan,Alwar,Whole Year,Maize,391.77,18.05,129.64,1.18
+Haryana,Rohtak,Whole Year,Cotton,85.46,21.76,55.9,0.94
+Madhya Pradesh,Gwalior,Kharif,Soybean,435.8,18.91,305.48,1.31
+Madhya Pradesh,Indore,Rabi,Maize,79.36,21.22,183.87,1.47
+Rajasthan,Jaipur,Whole Year,Mustard,387.28,21.85,72.37,1.15
+Madhya Pradesh,Bhopal,Whole Year,Mustard,359.58,15.55,152.42,0.88
+Maharashtra,Nashik,Whole Year,Maize,79.61,24.58,140.73,1.38
+Madhya Pradesh,Gwalior,Rabi,Maize,295.78,30.11,284.54,0.98
+Maharashtra,Pune,Kharif,Rice,215.36,21.03,196.02,2.74
+Madhya Pradesh,Bhopal,Whole Year,Soybean,401.85,29.13,181.65,1.13
+Maharashtra,Pune,Kharif,Wheat,243.42,36.37,82.61,1.54
+Maharashtra,Nagpur,Whole Year,Mustard,219.95,37.99,204.22,1.27
+Rajasthan,Kota,Rabi,Chana,113.88,29.64,331.23,1.06
+Madhya Pradesh,Indore,Kharif,Wheat,143.65,17.13,199.83,3.38
+Rajasthan,Jodhpur,Rabi,Rice,151.67,21.48,283.92,2.73
+Haryana,Panipat,Whole Year,Wheat,227.97,32.17,93.8,1.91
+Madhya Pradesh,Indore,Whole Year,Chana,416.06,17.35,74.49,1.23
+Punjab,Patiala,Rabi,Mustard,210.87,29.55,201.63,1.01
+Haryana,Karnal,Whole Year,Rice,425.36,24.41,343.97,2.42
+Punjab,Patiala,Whole Year,Chana,143.4,25.83,106.17,0.92
+Haryana,Karnal,Kharif,Soybean,403.25,16.37,109.15,1.37
+Haryana,Rohtak,Rabi,Chana,11.51,28.99,338.57,1.28
+Punjab,Ludhiana,Rabi,Soybean,283.44,34.4,87.25,0.79
+Maharashtra,Pune,Whole Year,Cotton,465.51,27.14,265.98,0.97
+Maharashtra,Nagpur,Kharif,Cotton,404.22,28.04,195.94,1.56
+Haryana,Panipat,Rabi,Maize,308.57,31.4,317.63,1.78
+Madhya Pradesh,Bhopal,Kharif,Mustard,324.69,32.74,171.71,1.23
+Madhya Pradesh,Indore,Rabi,Cotton,283.54,33.99,187.11,1.87
+Haryana,Panipat,Rabi,Wheat,430.01,31.88,289.65,2.04
+Haryana,Hisar,Whole Year,Wheat,55.86,32.16,128.62,2.16
+Punjab,Amritsar,Rabi,Mustard,173.21,25.92,171.13,1.17
+Madhya Pradesh,Jabalpur,Kharif,Mustard,348.98,36.25,314.53,1.27
+Punjab,Ludhiana,Kharif,Mustard,215.42,37.7,207.29,1.38
+Haryana,Panipat,Kharif,Mustard,372.86,25.98,98.63,1.07
+Haryana,Panipat,Rabi,Rice,373.31,21.07,311.1,2.44
+Maharashtra,Nashik,Whole Year,Rice,442.66,17.32,340.1,2.67
+Maharashtra,Nagpur,Rabi,Wheat,267.11,21.12,319.68,3.46
+Punjab,Jalandhar,Rabi,Mustard,245.63,15.12,117.88,1.15
+Haryana,Hisar,Whole Year,Rice,355.62,22.43,86.79,1.2
+Madhya Pradesh,Gwalior,Whole Year,Cotton,299.45,22.51,104.92,1.05
+Rajasthan,Jaipur,Rabi,Mustard,476.62,26.48,278.16,1.05
+Madhya Pradesh,Bhopal,Rabi,Maize,326.87,28.15,208.47,1.21
+Rajasthan,Jaipur,Whole Year,Chana,392.85,17.55,318.55,1.3
+Madhya Pradesh,Bhopal,Kharif,Maize,452.15,25.26,256.62,1.38
+Madhya Pradesh,Bhopal,Whole Year,Rice,445.35,28.21,56.0,1.5
+Rajasthan,Jodhpur,Kharif,Soybean,310.69,25.04,171.82,1.25
+Haryana,Rohtak,Rabi,Wheat,424.0,22.51,254.33,3.22
+Madhya Pradesh,Indore,Kharif,Mustard,351.12,34.33,75.07,1.33
+Haryana,Rohtak,Rabi,Cotton,142.31,28.79,179.06,1.81
+Rajasthan,Jodhpur,Kharif,Chana,40.31,33.06,318.72,0.99
+Haryana,Karnal,Rabi,Chana,164.37,22.41,163.69,1.16
+Madhya Pradesh,Jabalpur,Whole Year,Rice,457.74,28.51,58.28,1.99
+Punjab,Ludhiana,Kharif,Maize,365.98,17.65,244.67,1.31
+Haryana,Panipat,Whole Year,Rice,250.21,33.46,133.63,1.58
+Madhya Pradesh,Jabalpur,Kharif,Chana,74.77,29.18,336.5,1.03
+Punjab,Amritsar,Whole Year,Rice,118.26,30.4,302.49,2.42
+Punjab,Amritsar,Whole Year,Maize,206.57,35.69,320.89,1.14
+Haryana,Karnal,Kharif,Rice,306.31,26.82,227.58,2.43
+Maharashtra,Pune,Whole Year,Cotton,496.04,17.03,205.77,1.07
+Madhya Pradesh,Gwalior,Kharif,Chana,426.25,23.96,204.91,0.83
+Rajasthan,Jodhpur,Whole Year,Rice,130.48,33.78,129.69,1.49
+Maharashtra,Nashik,Kharif,Mustard,260.14,18.24,178.96,1.2
+Maharashtra,Nashik,Kharif,Maize,199.98,21.96,122.11,1.49
+Haryana,Rohtak,Rabi,Maize,143.57,19.82,212.15,1.55
+Haryana,Rohtak,Rabi,Wheat,487.47,17.68,281.92,3.39
+Rajasthan,Jodhpur,Rabi,Rice,168.39,37.84,345.66,2.43
+Haryana,Rohtak,Kharif,Cotton,268.22,18.55,100.33,0.99
+Rajasthan,Alwar,Kharif,Soybean,255.95,22.72,186.5,1.25
+Punjab,Ludhiana,Whole Year,Maize,460.05,26.5,299.3,1.24
+Haryana,Hisar,Rabi,Mustard,201.42,29.36,144.76,1.03
+Punjab,Amritsar,Whole Year,Mustard,176.08,17.49,61.78,1.19
+Haryana,Rohtak,Kharif,Cotton,69.23,25.34,118.69,1.25
+Rajasthan,Jaipur,Kharif,Rice,444.66,27.15,238.44,2.51
+Madhya Pradesh,Indore,Whole Year,Mustard,73.36,22.77,255.31,1.33
+Maharashtra,Pune,Rabi,Maize,373.17,17.3,312.86,1.05
+Madhya Pradesh,Gwalior,Kharif,Maize,294.6,23.71,274.93,0.88
+Haryana,Rohtak,Whole Year,Soybean,124.98,28.95,271.07,1.19
+Madhya Pradesh,Gwalior,Kharif,Cotton,312.28,36.77,81.15,1.86
+Maharashtra,Nagpur,Kharif,Chana,440.29,26.53,105.98,1.25
+Madhya Pradesh,Gwalior,Whole Year,Cotton,179.62,17.58,289.98,0.8
+Maharashtra,Nagpur,Whole Year,Chana,223.15,32.01,292.55,1.36
+Haryana,Panipat,Whole Year,Chana,416.85,19.7,124.48,0.89
+Rajasthan,Kota,Rabi,Mustard,142.86,15.42,257.73,1.48
+Madhya Pradesh,Indore,Rabi,Soybean,158.51,26.3,99.83,1.28
+Madhya Pradesh,Indore,Whole Year,Rice,155.08,37.51,329.82,2.56
+Punjab,Patiala,Whole Year,Soybean,359.54,30.44,267.06,1.21
+Punjab,Amritsar,Rabi,Chana,168.09,16.7,346.28,1.12
+Haryana,Hisar,Kharif,Wheat,278.45,37.84,93.51,2.53
+Rajasthan,Alwar,Rabi,Chana,1.95,36.54,328.11,1.44
+Madhya Pradesh,Indore,Kharif,Mustard,457.28,21.39,271.9,1.38
+Madhya Pradesh,Bhopal,Rabi,Rice,137.02,25.49,139.14,1.41
+Madhya Pradesh,Jabalpur,Whole Year,Soybean,247.32,22.82,290.46,1.04
+Maharashtra,Aurangabad,Kharif,Chana,195.29,31.48,99.4,1.1
+Madhya Pradesh,Gwalior,Rabi,Wheat,482.73,17.38,188.05,2.89
+Madhya Pradesh,Indore,Whole Year,Rice,406.17,34.35,251.06,2.59
+Haryana,Panipat,Kharif,Cotton,294.47,28.32,221.98,1.83
+Punjab,Jalandhar,Rabi,Mustard,297.12,30.44,125.94,1.29
+Maharashtra,Aurangabad,Kharif,Cotton,218.2,22.74,197.4,1.04
+Maharashtra,Aurangabad,Kharif,Mustard,119.04,19.92,154.78,1.28
+Maharashtra,Aurangabad,Whole Year,Soybean,439.03,20.35,225.26,1.13
+Haryana,Karnal,Whole Year,Maize,66.16,15.73,132.03,0.96
+Rajasthan,Jodhpur,Kharif,Rice,306.17,24.3,215.44,2.27
+Haryana,Panipat,Kharif,Chana,370.76,20.17,226.93,1.6
+Rajasthan,Alwar,Kharif,Wheat,73.19,21.38,334.05,3.25
+Madhya Pradesh,Bhopal,Whole Year,Cotton,201.23,21.08,221.44,1.3
+Maharashtra,Nagpur,Rabi,Mustard,103.94,24.26,181.26,1.24
+Rajasthan,Jodhpur,Rabi,Rice,461.68,34.8,347.78,2.55
+Maharashtra,Pune,Whole Year,Maize,378.32,22.23,343.62,1.32
+Maharashtra,Aurangabad,Whole Year,Cotton,254.93,27.94,258.59,0.27
+Haryana,Hisar,Rabi,Mustard,342.63,24.63,77.58,1.1
+Haryana,Panipat,Kharif,Cotton,286.03,25.99,307.74,1.09
+Rajasthan,Jodhpur,Kharif,Chana,32.42,28.68,250.77,1.29
+Madhya Pradesh,Jabalpur,Whole Year,Soybean,400.46,36.3,144.47,1.16
+Punjab,Ludhiana,Whole Year,Maize,156.64,25.1,131.55,0.9
+Rajasthan,Jodhpur,Whole Year,Mustard,207.33,29.64,119.69,1.54
+Punjab,Amritsar,Whole Year,Maize,154.39,34.29,260.58,1.45
+Punjab,Jalandhar,Kharif,Mustard,88.14,16.79,259.88,1.26
+Rajasthan,Alwar,Whole Year,Chana,105.51,17.15,155.53,1.27
+Maharashtra,Aurangabad,Rabi,Wheat,212.63,25.64,212.86,1.71
+Haryana,Rohtak,Rabi,Wheat,365.7,23.49,150.33,3.47
+Rajasthan,Jodhpur,Rabi,Mustard,403.65,24.74,290.61,1.25
+Punjab,Amritsar,Rabi,Rice,112.94,28.9,179.98,2.34
+Maharashtra,Pune,Kharif,Soybean,67.98,34.25,274.93,1.43
+Punjab,Ludhiana,Kharif,Chana,419.59,23.57,273.57,1.12
+Rajasthan,Alwar,Whole Year,Wheat,382.66,16.81,227.01,3.63
+Haryana,Rohtak,Whole Year,Cotton,473.2,19.44,298.42,1.2
+Madhya Pradesh,Bhopal,Kharif,Wheat,51.46,34.54,289.59,1.61
+Maharashtra,Aurangabad,Rabi,Rice,101.65,28.33,74.97,1.51
+Punjab,Jalandhar,Whole Year,Soybean,165.88,30.36,249.64,1.06
+Madhya Pradesh,Bhopal,Whole Year,Rice,353.99,37.4,152.76,2.52
+Haryana,Panipat,Rabi,Mustard,338.07,23.43,194.48,1.56
+Rajasthan,Alwar,Rabi,Maize,302.31,37.84,339.24,1.33
+Haryana,Panipat,Rabi,Mustard,12.18,34.17,66.72,1.24
+Rajasthan,Jaipur,Kharif,Cotton,388.8,32.38,294.84,1.52
+Rajasthan,Kota,Kharif,Mustard,178.29,30.34,86.61,1.16
+Maharashtra,Nashik,Rabi,Wheat,400.67,21.14,304.8,3.0
+Madhya Pradesh,Gwalior,Whole Year,Chana,435.81,27.31,342.61,1.11
+Madhya Pradesh,Bhopal,Rabi,Maize,279.33,23.05,242.99,1.24
+Punjab,Ludhiana,Kharif,Mustard,82.01,24.31,346.05,1.52
+Maharashtra,Aurangabad,Whole Year,Mustard,290.58,32.28,208.52,1.12
+Maharashtra,Pune,Whole Year,Wheat,314.8,20.62,198.23,2.63
+Haryana,Karnal,Rabi,Soybean,452.25,33.2,149.94,0.99
+Rajasthan,Jaipur,Whole Year,Maize,24.14,36.03,79.6,1.09
+Maharashtra,Nagpur,Kharif,Wheat,362.48,33.24,120.29,1.94
+Madhya Pradesh,Gwalior,Kharif,Cotton,477.96,24.41,116.56,0.79
+Haryana,Karnal,Rabi,Chana,459.88,23.21,258.54,1.58
+Rajasthan,Jodhpur,Rabi,Mustard,174.41,35.02,88.71,1.14
+Rajasthan,Kota,Kharif,Soybean,391.21,32.14,321.57,1.08
+Rajasthan,Kota,Whole Year,Rice,446.26,37.86,340.79,2.36
+Punjab,Ludhiana,Kharif,Wheat,453.6,23.63,141.4,3.29
+Punjab,Amritsar,Kharif,Wheat,456.91,20.39,223.28,3.48
+Madhya Pradesh,Gwalior,Kharif,Soybean,70.13,19.97,218.85,0.96
+Haryana,Karnal,Whole Year,Wheat,326.42,16.03,137.49,3.22
+Maharashtra,Nashik,Kharif,Soybean,319.93,19.59,298.22,1.48
+Haryana,Panipat,Whole Year,Mustard,151.78,16.82,334.8,1.68
+Maharashtra,Aurangabad,Kharif,Maize,446.75,20.51,73.39,1.42
+Haryana,Hisar,Kharif,Cotton,29.56,24.8,208.94,1.2
+Madhya Pradesh,Bhopal,Rabi,Soybean,277.03,25.01,264.48,1.28
+Punjab,Ludhiana,Rabi,Maize,300.5,26.66,257.99,1.43
+Punjab,Ludhiana,Whole Year,Chana,438.43,34.34,285.81,0.67
+Haryana,Panipat,Whole Year,Mustard,138.16,35.42,109.09,1.52
+Rajasthan,Kota,Kharif,Soybean,339.63,27.63,132.72,1.12
+Haryana,Karnal,Whole Year,Cotton,2.55,27.62,170.32,1.03
+Maharashtra,Pune,Whole Year,Maize,416.7,31.49,193.69,0.82
+Haryana,Hisar,Kharif,Chana,180.19,34.51,165.21,0.85
+Rajasthan,Jodhpur,Rabi,Rice,167.75,21.05,301.54,2.44
+Haryana,Karnal,Rabi,Soybean,213.08,20.54,338.09,1.52
+Maharashtra,Nagpur,Whole Year,Mustard,5.09,31.54,217.62,1.08
+Haryana,Panipat,Rabi,Chana,81.73,17.5,136.89,1.34
+Rajasthan,Kota,Rabi,Soybean,154.21,17.24,319.03,1.53
+Maharashtra,Nagpur,Rabi,Maize,232.53,32.4,225.35,1.04
+Maharashtra,Pune,Whole Year,Rice,388.4,29.35,217.71,2.42
+Haryana,Panipat,Whole Year,Cotton,489.76,22.18,336.9,1.09
+Rajasthan,Alwar,Whole Year,Mustard,260.64,16.6,105.49,1.09
+Punjab,Jalandhar,Rabi,Soybean,234.33,16.57,112.86,1.14
+Rajasthan,Alwar,Rabi,Soybean,481.01,17.38,86.47,1.19
+Haryana,Karnal,Whole Year,Mustard,429.9,23.86,342.46,1.1
+Rajasthan,Alwar,Whole Year,Chana,365.62,35.46,102.74,1.23
+Rajasthan,Alwar,Kharif,Wheat,409.89,16.69,184.75,2.97
+Maharashtra,Nagpur,Rabi,Maize,213.88,35.27,95.09,1.3
+Haryana,Panipat,Whole Year,Maize,368.3,21.36,311.77,0.98
+Punjab,Jalandhar,Kharif,Rice,106.58,25.78,246.07,2.76
+Madhya Pradesh,Jabalpur,Whole Year,Soybean,273.56,19.58,173.06,1.5
+Madhya Pradesh,Bhopal,Rabi,Rice,487.23,17.48,112.04,1.53
+Haryana,Hisar,Whole Year,Soybean,313.1,15.91,103.23,1.4
+Madhya Pradesh,Jabalpur,Kharif,Cotton,91.86,28.0,59.01,1.57
+Maharashtra,Nagpur,Kharif,Soybean,277.51,29.01,191.02,1.03
+Maharashtra,Nashik,Kharif,Soybean,281.7,34.39,278.22,1.12
+Madhya Pradesh,Gwalior,Rabi,Wheat,160.84,27.6,232.0,2.18
+Madhya Pradesh,Indore,Whole Year,Soybean,260.53,16.95,82.35,1.19
+Maharashtra,Aurangabad,Whole Year,Soybean,476.31,24.43,312.98,1.29
+Rajasthan,Jodhpur,Whole Year,Maize,159.66,37.32,313.02,1.3
+Haryana,Panipat,Whole Year,Wheat,412.44,33.84,267.3,2.09
+Haryana,Rohtak,Whole Year,Rice,429.56,16.14,169.59,2.88
+Rajasthan,Jaipur,Kharif,Wheat,96.97,18.41,137.92,3.09
+Maharashtra,Nashik,Whole Year,Chana,10.92,20.37,333.57,1.13
+Madhya Pradesh,Bhopal,Rabi,Soybean,137.83,20.02,114.23,1.23
+Rajasthan,Kota,Rabi,Wheat,104.96,23.92,242.25,3.23
+Rajasthan,Jaipur,Whole Year,Wheat,358.93,37.54,96.05,2.01
+Madhya Pradesh,Jabalpur,Whole Year,Cotton,209.93,27.13,55.73,1.16
+Haryana,Karnal,Rabi,Cotton,25.31,25.67,300.86,0.94
+Haryana,Hisar,Kharif,Wheat,184.11,17.07,285.83,3.14
+Maharashtra,Nagpur,Rabi,Chana,179.44,25.68,216.5,1.08
+Maharashtra,Nagpur,Kharif,Soybean,421.49,21.09,157.7,1.32
+Punjab,Patiala,Whole Year,Chana,231.16,17.81,182.55,1.2
+Punjab,Ludhiana,Kharif,Cotton,114.67,34.11,132.91,1.67
+Rajasthan,Kota,Kharif,Soybean,106.85,21.76,261.98,1.4
+Maharashtra,Pune,Rabi,Cotton,163.67,17.12,113.05,1.12
+Madhya Pradesh,Indore,Kharif,Maize,227.28,32.45,176.19,1.09
+Madhya Pradesh,Jabalpur,Kharif,Maize,338.21,18.11,139.99,0.97
+Maharashtra,Nashik,Rabi,Maize,346.54,34.66,249.93,1.12
+Maharashtra,Pune,Rabi,Cotton,141.04,23.46,237.64,1.27
+Maharashtra,Nashik,Rabi,Soybean,356.95,15.98,127.48,1.11
+Maharashtra,Nagpur,Rabi,Mustard,297.36,16.81,316.88,1.11
+Haryana,Rohtak,Kharif,Chana,23.78,29.54,162.03,1.01
+Punjab,Jalandhar,Whole Year,Rice,51.31,20.49,57.22,1.64
+Haryana,Karnal,Kharif,Mustard,364.89,28.29,302.89,1.11
+Haryana,Rohtak,Kharif,Maize,337.42,29.86,235.0,0.72
+Maharashtra,Nagpur,Whole Year,Chana,431.66,15.29,104.46,1.44
+Maharashtra,Aurangabad,Whole Year,Chana,33.21,29.3,294.17,1.28
+Rajasthan,Alwar,Rabi,Rice,136.75,18.84,105.22,1.1
+Rajasthan,Alwar,Whole Year,Wheat,276.81,20.49,240.61,3.27
+Punjab,Ludhiana,Kharif,Cotton,8.54,16.36,200.27,1.05
+Haryana,Rohtak,Whole Year,Mustard,11.29,26.68,246.28,1.28
+Madhya Pradesh,Gwalior,Whole Year,Rice,303.48,23.35,124.73,1.7
+Rajasthan,Kota,Rabi,Mustard,214.98,20.18,202.06,1.24
+Rajasthan,Jodhpur,Rabi,Chana,221.93,23.83,331.97,1.14
+Punjab,Jalandhar,Rabi,Cotton,406.17,16.92,131.17,1.23
+Haryana,Rohtak,Kharif,Chana,336.72,19.27,250.33,1.34
+Rajasthan,Kota,Kharif,Rice,480.06,17.53,70.27,1.51
+Punjab,Patiala,Kharif,Soybean,372.58,35.67,128.07,1.11
+Madhya Pradesh,Jabalpur,Whole Year,Chana,351.12,37.22,74.7,1.22
+Rajasthan,Kota,Kharif,Chana,3.88,32.06,214.68,0.99
+Haryana,Panipat,Whole Year,Rice,339.35,30.05,258.56,3.0
+Rajasthan,Jaipur,Kharif,Soybean,379.86,33.72,206.48,1.19
+Rajasthan,Kota,Rabi,Wheat,258.03,21.57,349.13,3.38
+Maharashtra,Nashik,Rabi,Maize,2.46,23.03,71.43,1.28
+Punjab,Patiala,Whole Year,Chana,407.63,15.08,150.08,1.52
+Punjab,Amritsar,Kharif,Chana,345.83,27.96,94.24,1.04
+Madhya Pradesh,Jabalpur,Rabi,Chana,391.4,18.87,293.6,1.29
+Rajasthan,Jaipur,Whole Year,Maize,258.88,29.35,121.91,1.2
+Madhya Pradesh,Jabalpur,Kharif,Mustard,276.88,33.0,191.64,1.15
+Maharashtra,Aurangabad,Rabi,Maize,42.0,29.76,291.03,1.12
+Rajasthan,Jaipur,Whole Year,Maize,181.93,30.72,83.8,0.85
+Madhya Pradesh,Bhopal,Rabi,Rice,169.82,18.47,240.06,2.32
+Madhya Pradesh,Bhopal,Rabi,Soybean,324.67,25.57,221.13,1.29
+Rajasthan,Kota,Whole Year,Maize,328.51,21.08,67.88,0.96
+Maharashtra,Aurangabad,Whole Year,Rice,214.99,34.44,268.65,2.49
+Haryana,Rohtak,Whole Year,Cotton,209.92,21.6,151.78,0.74
+Madhya Pradesh,Indore,Rabi,Rice,241.02,32.16,195.51,2.51
+Maharashtra,Nagpur,Kharif,Chana,315.94,33.25,54.35,1.51
+Rajasthan,Kota,Whole Year,Soybean,426.27,28.73,223.81,1.29
+Punjab,Jalandhar,Kharif,Mustard,366.22,19.86,190.05,1.21
+Rajasthan,Kota,Kharif,Maize,333.35,23.04,141.3,1.27
+Maharashtra,Nashik,Rabi,Wheat,399.58,32.49,143.64,1.99
+Punjab,Amritsar,Whole Year,Rice,189.52,33.69,198.14,2.88
+Punjab,Amritsar,Whole Year,Mustard,74.57,33.8,117.67,1.0
+Punjab,Jalandhar,Whole Year,Mustard,411.26,32.68,264.11,1.25
+Punjab,Jalandhar,Kharif,Chana,150.23,27.86,125.18,1.2
+Maharashtra,Nagpur,Whole Year,Cotton,62.03,17.26,165.47,1.14
+Madhya Pradesh,Indore,Kharif,Mustard,311.27,25.83,248.7,1.22
+Punjab,Ludhiana,Whole Year,Wheat,489.61,23.3,82.61,3.31
+Punjab,Jalandhar,Whole Year,Soybean,153.42,23.91,339.94,1.39
+Haryana,Karnal,Whole Year,Rice,159.75,27.05,197.92,2.42
+Madhya Pradesh,Gwalior,Rabi,Wheat,38.11,34.71,308.04,2.35
+Rajasthan,Alwar,Rabi,Maize,271.6,27.32,251.24,0.92
+Haryana,Panipat,Whole Year,Maize,160.89,24.14,252.41,0.96
+Punjab,Patiala,Kharif,Soybean,313.74,33.66,346.0,1.1
+Punjab,Patiala,Whole Year,Chana,141.06,35.04,318.9,1.44
+Punjab,Jalandhar,Kharif,Wheat,54.16,34.03,132.27,2.13
+Madhya Pradesh,Jabalpur,Rabi,Maize,206.1,34.55,124.77,1.12
+Punjab,Jalandhar,Kharif,Cotton,473.12,23.94,241.92,0.97
+Haryana,Rohtak,Rabi,Chana,11.84,35.81,83.98,1.16
+Punjab,Amritsar,Whole Year,Cotton,411.05,21.54,129.12,0.96
+Rajasthan,Jodhpur,Whole Year,Rice,32.14,24.28,247.4,2.72
+Maharashtra,Nagpur,Rabi,Wheat,294.72,15.1,135.43,2.75
+Madhya Pradesh,Bhopal,Kharif,Cotton,156.87,29.89,129.58,2.02
+Madhya Pradesh,Bhopal,Whole Year,Rice,130.99,28.4,302.65,2.71
+Madhya Pradesh,Indore,Rabi,Maize,212.16,29.33,170.56,1.19
+Rajasthan,Alwar,Whole Year,Mustard,450.17,22.18,132.13,1.45
+Maharashtra,Nagpur,Kharif,Rice,298.63,36.58,309.79,2.59
+Punjab,Jalandhar,Whole Year,Rice,282.43,16.13,312.12,3.0
+Madhya Pradesh,Bhopal,Whole Year,Chana,8.98,16.1,214.95,1.02
+Madhya Pradesh,Jabalpur,Rabi,Cotton,51.56,25.75,250.12,0.92
+Haryana,Panipat,Kharif,Cotton,408.32,30.77,234.83,1.57
+Madhya Pradesh,Jabalpur,Whole Year,Soybean,12.42,36.19,226.75,1.12
+Maharashtra,Pune,Whole Year,Mustard,260.78,29.06,293.15,1.31
+Rajasthan,Alwar,Whole Year,Chana,55.72,16.72,162.22,1.22
+Rajasthan,Alwar,Rabi,Chana,479.06,22.61,278.26,0.9
+Maharashtra,Pune,Whole Year,Maize,63.03,26.67,65.48,1.23
+Maharashtra,Nashik,Whole Year,Chana,37.27,25.53,98.44,1.32
+Rajasthan,Jaipur,Kharif,Cotton,450.83,19.93,250.45,1.35
+Maharashtra,Aurangabad,Rabi,Rice,252.5,15.26,128.43,1.67
+Maharashtra,Nagpur,Whole Year,Soybean,13.08,22.24,88.68,1.11
+Punjab,Amritsar,Rabi,Mustard,38.3,20.59,337.09,1.02
+Rajasthan,Jaipur,Whole Year,Mustard,157.7,21.41,122.53,1.1
+Punjab,Ludhiana,Whole Year,Mustard,263.86,21.39,260.14,0.86
+Maharashtra,Aurangabad,Rabi,Cotton,36.22,36.93,323.06,1.64
+Punjab,Ludhiana,Rabi,Cotton,156.49,27.87,90.34,0.95
+Maharashtra,Nagpur,Rabi,Chana,132.25,23.44,168.0,1.02
+Maharashtra,Aurangabad,Whole Year,Maize,131.56,16.56,147.83,1.24
+Punjab,Ludhiana,Whole Year,Cotton,64.13,20.21,119.81,0.92
+Haryana,Karnal,Whole Year,Cotton,380.35,31.42,122.53,1.68
+Maharashtra,Aurangabad,Whole Year,Wheat,163.72,37.46,314.25,1.91
+Haryana,Hisar,Rabi,Rice,342.32,34.14,200.26,2.6
+Punjab,Ludhiana,Kharif,Maize,346.97,31.57,192.88,1.2
+Maharashtra,Nashik,Rabi,Maize,329.17,19.19,168.17,1.04
+Rajasthan,Jaipur,Rabi,Chana,222.55,27.62,313.96,1.24
+Maharashtra,Nagpur,Kharif,Mustard,308.51,26.26,187.76,1.23
+Rajasthan,Alwar,Whole Year,Maize,120.38,30.1,53.73,1.54
+Rajasthan,Alwar,Rabi,Rice,85.91,19.16,58.66,1.93
+Rajasthan,Kota,Rabi,Soybean,392.13,30.33,122.43,1.23
+Maharashtra,Nagpur,Rabi,Rice,453.83,17.7,93.56,1.35
+Rajasthan,Alwar,Whole Year,Wheat,404.97,31.92,256.82,1.99
+Maharashtra,Nagpur,Whole Year,Soybean,314.9,16.42,74.46,1.21
+Punjab,Ludhiana,Rabi,Soybean,145.95,34.58,80.39,1.16
+Haryana,Panipat,Rabi,Cotton,128.17,37.93,156.58,1.61
+Maharashtra,Nashik,Whole Year,Wheat,314.8,20.13,166.36,3.14
+Rajasthan,Jaipur,Rabi,Cotton,78.14,28.98,238.59,1.79
+Madhya Pradesh,Gwalior,Kharif,Soybean,388.76,18.64,86.99,1.02
+Haryana,Panipat,Whole Year,Mustard,284.75,31.17,312.54,1.53
+Punjab,Jalandhar,Kharif,Soybean,412.96,24.36,256.08,1.4
+Madhya Pradesh,Indore,Whole Year,Mustard,447.92,36.85,265.65,1.43
+Madhya Pradesh,Indore,Kharif,Wheat,342.43,29.38,252.73,1.91
+Madhya Pradesh,Gwalior,Whole Year,Mustard,386.88,22.37,102.53,1.05
+Punjab,Patiala,Rabi,Cotton,431.88,22.67,97.05,1.05
+Rajasthan,Jaipur,Rabi,Maize,232.97,16.91,203.65,0.96
+Rajasthan,Jodhpur,Whole Year,Maize,383.51,28.39,324.48,0.95
+Maharashtra,Nagpur,Kharif,Wheat,231.31,37.78,201.32,2.02
+Haryana,Hisar,Whole Year,Cotton,316.71,15.45,85.92,0.93
+Rajasthan,Jodhpur,Whole Year,Cotton,378.04,24.49,69.39,0.8
+Maharashtra,Pune,Rabi,Maize,34.46,21.99,245.74,1.25
+Punjab,Amritsar,Kharif,Mustard,11.03,30.95,314.98,1.22
+Punjab,Amritsar,Whole Year,Maize,451.17,37.73,308.58,1.15
+Punjab,Patiala,Kharif,Rice,459.3,31.55,64.42,1.57
+Punjab,Amritsar,Kharif,Wheat,26.07,32.34,120.75,2.17
+Madhya Pradesh,Bhopal,Whole Year,Cotton,85.45,16.01,106.74,0.89
+Madhya Pradesh,Gwalior,Rabi,Chana,98.65,24.04,80.25,1.25
+Maharashtra,Nashik,Rabi,Soybean,455.1,25.64,76.6,1.18
+Rajasthan,Jodhpur,Kharif,Rice,92.22,17.86,63.49,1.79
+Punjab,Ludhiana,Kharif,Maize,458.89,21.27,322.27,1.42
+Maharashtra,Nagpur,Kharif,Soybean,210.02,31.54,140.11,1.2
+Maharashtra,Aurangabad,Rabi,Maize,262.23,17.81,138.0,1.34
+Madhya Pradesh,Indore,Kharif,Cotton,375.18,20.86,192.27,0.9
+Madhya Pradesh,Jabalpur,Kharif,Maize,479.19,16.27,120.01,1.31
+Madhya Pradesh,Bhopal,Whole Year,Rice,79.38,24.54,140.97,1.3
+Rajasthan,Jodhpur,Whole Year,Soybean,307.79,23.69,153.89,1.42
+Maharashtra,Nagpur,Rabi,Chana,48.83,33.33,102.48,0.96
+Rajasthan,Jodhpur,Kharif,Mustard,199.92,16.38,156.67,1.31
+Punjab,Jalandhar,Rabi,Wheat,392.6,37.25,314.14,2.27
+Punjab,Jalandhar,Rabi,Soybean,358.5,23.03,289.77,1.43
+Maharashtra,Aurangabad,Kharif,Wheat,20.65,30.13,304.39,1.96
+Haryana,Karnal,Whole Year,Wheat,412.65,21.62,171.57,3.35
+Maharashtra,Pune,Rabi,Chana,202.31,29.19,56.78,1.74
+Maharashtra,Nagpur,Kharif,Wheat,11.9,27.57,239.26,2.05
+Madhya Pradesh,Gwalior,Whole Year,Rice,30.27,17.94,198.32,2.2
+Madhya Pradesh,Indore,Whole Year,Soybean,128.02,16.41,208.97,1.16
+Rajasthan,Jodhpur,Whole Year,Mustard,303.25,37.31,344.81,1.2
+Rajasthan,Jaipur,Kharif,Soybean,43.5,27.22,253.67,0.9
+Madhya Pradesh,Gwalior,Whole Year,Rice,287.4,25.14,188.84,2.57
+Maharashtra,Aurangabad,Kharif,Chana,11.45,21.86,65.29,0.97
+Rajasthan,Alwar,Whole Year,Maize,157.99,25.64,55.56,1.34
+Haryana,Hisar,Kharif,Cotton,270.06,25.53,122.76,1.24
+Madhya Pradesh,Bhopal,Kharif,Mustard,340.47,18.5,218.12,1.0
+Punjab,Amritsar,Kharif,Cotton,199.79,18.84,324.9,1.24
+Rajasthan,Kota,Kharif,Wheat,415.17,19.08,116.09,3.13
+Haryana,Rohtak,Kharif,Chana,186.95,23.24,349.64,0.92
+Maharashtra,Nashik,Rabi,Maize,147.37,18.23,259.19,1.07
+Maharashtra,Pune,Rabi,Cotton,485.91,16.0,347.94,0.9
+Madhya Pradesh,Jabalpur,Kharif,Chana,233.7,36.07,286.98,0.89
+Punjab,Ludhiana,Kharif,Cotton,163.95,20.8,183.04,0.72
+Madhya Pradesh,Gwalior,Rabi,Mustard,116.44,33.3,210.27,1.41
+Punjab,Jalandhar,Whole Year,Chana,380.2,22.28,162.68,1.52
+Madhya Pradesh,Bhopal,Kharif,Rice,389.52,30.56,194.55,1.84
+Madhya Pradesh,Jabalpur,Rabi,Chana,410.93,19.88,263.99,1.12
+Haryana,Karnal,Kharif,Rice,380.19,30.8,206.1,2.29
+Madhya Pradesh,Indore,Whole Year,Rice,218.47,34.29,218.98,2.27
+Madhya Pradesh,Indore,Kharif,Rice,83.29,35.48,347.28,2.41
+Haryana,Rohtak,Rabi,Cotton,447.09,34.65,341.26,1.99
+Punjab,Jalandhar,Rabi,Mustard,430.87,30.45,50.48,1.47
+Rajasthan,Jodhpur,Rabi,Mustard,465.0,30.28,52.33,1.3
+Punjab,Ludhiana,Kharif,Maize,104.6,32.58,330.64,0.92
+Haryana,Hisar,Kharif,Mustard,402.42,33.2,265.9,1.15
+Rajasthan,Jaipur,Rabi,Soybean,481.54,33.3,260.24,1.27
+Maharashtra,Pune,Whole Year,Wheat,447.75,37.41,295.94,1.94
+Punjab,Ludhiana,Whole Year,Soybean,228.04,36.2,197.66,1.34
+Haryana,Hisar,Whole Year,Cotton,203.43,16.74,229.6,1.22
+Madhya Pradesh,Bhopal,Rabi,Soybean,220.29,21.81,154.53,1.3
+Madhya Pradesh,Gwalior,Whole Year,Rice,478.99,23.5,67.12,1.64
+Madhya Pradesh,Bhopal,Kharif,Mustard,94.94,26.09,249.86,1.39
+Punjab,Patiala,Rabi,Rice,237.14,33.2,340.57,2.24
+Haryana,Karnal,Whole Year,Wheat,36.78,34.55,298.8,2.0
+Punjab,Ludhiana,Rabi,Cotton,212.25,22.12,347.36,0.93
+Haryana,Karnal,Rabi,Soybean,167.19,37.19,281.59,1.1
+Madhya Pradesh,Indore,Kharif,Mustard,387.94,18.43,72.9,1.39
+Haryana,Panipat,Rabi,Chana,223.39,19.87,65.17,0.9
+Punjab,Ludhiana,Whole Year,Rice,271.9,36.77,93.01,1.87
+Haryana,Karnal,Kharif,Mustard,126.24,15.96,200.12,1.13
+Madhya Pradesh,Gwalior,Kharif,Wheat,455.06,26.03,64.7,2.0
+Haryana,Rohtak,Rabi,Chana,359.39,33.43,225.21,1.1
+Madhya Pradesh,Indore,Rabi,Chana,339.97,37.5,244.31,0.94
+Haryana,Rohtak,Kharif,Soybean,233.17,25.21,274.26,1.01
+Rajasthan,Jaipur,Rabi,Maize,18.88,30.42,67.51,0.92
+Madhya Pradesh,Bhopal,Rabi,Mustard,206.04,35.82,274.84,1.15
+Haryana,Hisar,Whole Year,Cotton,45.28,20.63,322.96,1.19
+Maharashtra,Nagpur,Whole Year,Cotton,177.06,23.43,273.58,0.98
+Madhya Pradesh,Indore,Kharif,Mustard,301.59,31.84,317.84,1.46
+Rajasthan,Jodhpur,Rabi,Chana,437.54,15.74,213.99,1.13
+Punjab,Amritsar,Kharif,Mustard,93.76,28.9,311.09,1.09
+Maharashtra,Nashik,Whole Year,Mustard,234.89,34.4,329.4,0.65
+Maharashtra,Aurangabad,Whole Year,Chana,367.69,31.13,280.71,0.58
+Rajasthan,Jaipur,Whole Year,Wheat,23.26,21.15,205.97,3.28
+Rajasthan,Alwar,Rabi,Maize,76.51,35.33,106.44,1.53
+Madhya Pradesh,Bhopal,Rabi,Mustard,222.71,31.1,240.77,1.81
+Haryana,Panipat,Whole Year,Cotton,121.83,32.06,289.19,2.14
+Maharashtra,Pune,Rabi,Cotton,304.65,29.87,115.49,2.02
+Madhya Pradesh,Jabalpur,Whole Year,Cotton,48.83,16.72,76.51,0.62
+Madhya Pradesh,Gwalior,Whole Year,Maize,182.33,18.84,260.03,1.47
+Punjab,Amritsar,Rabi,Wheat,94.03,16.73,208.37,3.1
+Rajasthan,Alwar,Kharif,Rice,202.7,15.36,323.22,2.64
+Maharashtra,Nashik,Whole Year,Maize,191.75,20.67,231.99,1.2
+Madhya Pradesh,Gwalior,Rabi,Maize,392.69,16.66,337.93,1.27
+Maharashtra,Aurangabad,Whole Year,Maize,487.06,36.53,242.58,0.98
+Rajasthan,Jaipur,Kharif,Chana,419.65,37.75,84.92,0.88
+Rajasthan,Alwar,Kharif,Maize,424.81,36.92,280.15,1.57
+Punjab,Jalandhar,Kharif,Rice,30.75,29.43,111.59,1.89
+Madhya Pradesh,Bhopal,Whole Year,Rice,475.43,32.51,221.82,2.42
+Maharashtra,Aurangabad,Rabi,Soybean,85.53,20.55,276.8,0.91
+Madhya Pradesh,Jabalpur,Rabi,Chana,273.05,37.7,305.61,1.04
+Rajasthan,Jaipur,Whole Year,Soybean,81.1,34.07,139.28,0.92
+Punjab,Amritsar,Rabi,Chana,312.96,36.74,74.63,1.11
+Haryana,Panipat,Kharif,Cotton,456.68,32.68,345.14,1.38
+Rajasthan,Jaipur,Rabi,Wheat,477.81,15.09,282.83,3.17
+Maharashtra,Aurangabad,Whole Year,Wheat,8.66,30.73,297.4,2.12
+Rajasthan,Jaipur,Rabi,Mustard,409.51,22.7,245.13,0.98
+Maharashtra,Nagpur,Kharif,Wheat,79.36,35.52,85.75,2.22
+Haryana,Karnal,Kharif,Cotton,395.95,36.96,286.87,1.4
+Maharashtra,Nashik,Whole Year,Maize,363.07,25.24,276.16,1.34
+Punjab,Patiala,Kharif,Wheat,90.18,25.83,330.08,2.24
+Maharashtra,Nagpur,Rabi,Chana,301.93,31.45,321.4,0.91
+Maharashtra,Nashik,Whole Year,Chana,466.38,34.18,215.41,1.38
+Punjab,Jalandhar,Whole Year,Maize,93.94,30.22,197.76,1.12
+Maharashtra,Nashik,Rabi,Maize,473.84,26.69,218.38,1.23
+Maharashtra,Nagpur,Whole Year,Chana,168.37,33.64,306.69,1.29
+Rajasthan,Jaipur,Rabi,Rice,66.64,31.67,172.05,2.58
+Rajasthan,Jaipur,Whole Year,Rice,304.14,36.4,95.29,1.37
+Rajasthan,Jodhpur,Whole Year,Cotton,4.83,32.79,191.17,1.51
+Punjab,Amritsar,Whole Year,Cotton,119.82,16.54,69.89,1.02
+Haryana,Karnal,Whole Year,Wheat,158.79,22.88,89.57,2.83
+Punjab,Patiala,Rabi,Soybean,147.52,15.02,131.04,1.38
+Maharashtra,Aurangabad,Whole Year,Mustard,247.01,37.21,214.03,1.07
+Madhya Pradesh,Gwalior,Rabi,Rice,254.6,17.62,116.4,1.44
+Maharashtra,Nagpur,Rabi,Soybean,175.58,27.48,174.81,1.07
+Madhya Pradesh,Indore,Whole Year,Chana,130.44,25.62,81.03,1.52
+Maharashtra,Nashik,Rabi,Rice,447.1,38.0,215.08,2.75
+Madhya Pradesh,Gwalior,Whole Year,Mustard,206.42,27.31,157.91,1.3
+Madhya Pradesh,Jabalpur,Kharif,Mustard,100.22,20.99,135.96,1.25
+Maharashtra,Nashik,Kharif,Soybean,353.39,33.35,162.81,1.15
+Punjab,Amritsar,Whole Year,Rice,168.31,26.18,50.44,1.44
+Haryana,Karnal,Rabi,Wheat,176.5,25.0,205.81,2.11
+Madhya Pradesh,Indore,Rabi,Wheat,288.05,19.95,332.16,3.46
+Punjab,Patiala,Rabi,Rice,313.09,28.37,245.86,2.43
+Haryana,Rohtak,Whole Year,Rice,344.06,16.3,82.93,1.39
+Madhya Pradesh,Jabalpur,Rabi,Chana,292.13,19.29,339.36,1.33
+Madhya Pradesh,Indore,Whole Year,Maize,44.19,18.3,319.46,1.06
+Madhya Pradesh,Bhopal,Whole Year,Cotton,34.2,31.59,278.98,2.06
+Maharashtra,Pune,Kharif,Mustard,336.9,25.08,145.67,1.36
+Haryana,Rohtak,Rabi,Wheat,303.49,17.67,317.56,3.17
+Punjab,Jalandhar,Rabi,Wheat,189.75,15.96,278.83,3.46
+Punjab,Ludhiana,Whole Year,Mustard,249.67,27.12,169.03,1.26
+Haryana,Panipat,Whole Year,Maize,118.29,22.66,237.96,1.16
+Haryana,Panipat,Rabi,Maize,23.44,23.19,239.41,0.99
+Rajasthan,Jaipur,Rabi,Wheat,150.19,21.34,222.79,3.43
+Maharashtra,Nashik,Whole Year,Maize,59.28,25.7,267.97,0.92
+Madhya Pradesh,Jabalpur,Rabi,Chana,317.19,30.86,119.31,1.21
+Rajasthan,Jaipur,Whole Year,Soybean,32.63,27.13,216.06,1.23
+Haryana,Hisar,Kharif,Rice,472.94,21.56,96.67,1.28
+Rajasthan,Jodhpur,Kharif,Chana,480.83,24.95,225.25,1.35
+Punjab,Amritsar,Rabi,Chana,51.73,34.19,164.63,0.86
+Rajasthan,Jodhpur,Whole Year,Rice,286.81,27.57,106.81,1.76
+Haryana,Rohtak,Kharif,Cotton,357.49,26.06,324.83,0.79
+Rajasthan,Alwar,Whole Year,Wheat,311.79,29.66,271.09,2.04
+Rajasthan,Kota,Kharif,Mustard,255.06,22.88,180.85,0.8
+Madhya Pradesh,Indore,Kharif,Rice,39.83,22.93,290.71,2.54
+Madhya Pradesh,Jabalpur,Rabi,Wheat,421.81,23.05,118.85,2.98
+Rajasthan,Jodhpur,Whole Year,Cotton,296.37,31.69,73.96,1.82
+Maharashtra,Nashik,Kharif,Mustard,448.31,17.19,309.26,1.09
+Rajasthan,Alwar,Whole Year,Cotton,329.01,25.09,309.36,1.23
+Rajasthan,Jodhpur,Kharif,Cotton,376.85,28.19,259.02,2.01
+Maharashtra,Pune,Whole Year,Maize,387.41,26.39,211.13,1.15
+Maharashtra,Nashik,Kharif,Rice,81.71,27.64,87.81,1.51
+Haryana,Hisar,Whole Year,Rice,233.97,24.31,168.57,2.51
+Madhya Pradesh,Indore,Kharif,Cotton,225.69,36.39,313.78,1.86
+Maharashtra,Nashik,Whole Year,Cotton,302.19,15.31,62.79,1.24
+Haryana,Rohtak,Rabi,Chana,427.73,18.87,323.37,1.42
+Haryana,Karnal,Rabi,Wheat,355.18,28.68,157.19,2.2
+Punjab,Jalandhar,Rabi,Maize,435.07,20.59,183.7,1.46
+Madhya Pradesh,Indore,Whole Year,Chana,53.2,28.73,100.76,1.0
+Punjab,Patiala,Kharif,Cotton,134.07,35.04,246.23,1.82
+Rajasthan,Alwar,Whole Year,Mustard,208.6,19.23,206.03,1.32
+Maharashtra,Pune,Whole Year,Chana,336.73,17.71,68.51,0.93
+Haryana,Karnal,Kharif,Cotton,170.05,18.76,171.04,0.65
+Haryana,Panipat,Kharif,Rice,342.54,18.26,156.17,2.59
+Madhya Pradesh,Indore,Kharif,Chana,212.89,21.54,260.43,1.16
+Punjab,Patiala,Rabi,Mustard,362.54,17.95,87.02,0.98
+Rajasthan,Kota,Kharif,Maize,18.73,36.26,292.68,1.18
+Rajasthan,Kota,Whole Year,Rice,264.69,30.03,277.8,2.62
+Punjab,Jalandhar,Kharif,Mustard,180.72,16.65,91.04,1.19
+Punjab,Jalandhar,Rabi,Maize,338.81,27.7,335.76,0.6
+Haryana,Karnal,Whole Year,Chana,158.13,27.05,111.84,1.28
+Haryana,Karnal,Rabi,Chana,161.88,34.37,311.9,1.04
+Punjab,Patiala,Kharif,Cotton,370.82,19.76,304.62,1.15
+Madhya Pradesh,Gwalior,Rabi,Rice,271.72,34.86,340.13,2.45
+Madhya Pradesh,Gwalior,Whole Year,Mustard,441.24,29.15,288.94,1.03
+Maharashtra,Aurangabad,Whole Year,Chana,219.77,29.04,197.9,0.88
+Madhya Pradesh,Gwalior,Whole Year,Rice,61.58,32.18,110.81,1.46
+Punjab,Patiala,Rabi,Soybean,420.79,23.53,140.68,1.66
+Madhya Pradesh,Indore,Kharif,Maize,371.87,33.46,213.19,1.17
+Madhya Pradesh,Bhopal,Kharif,Rice,476.26,20.81,129.85,1.63
+Maharashtra,Pune,Rabi,Mustard,96.11,22.28,90.91,1.24
+Haryana,Karnal,Whole Year,Rice,83.63,15.59,259.36,2.61
+Madhya Pradesh,Jabalpur,Whole Year,Mustard,44.27,26.52,317.07,1.06
+Madhya Pradesh,Indore,Whole Year,Cotton,482.43,21.07,154.82,0.93
+Rajasthan,Alwar,Rabi,Mustard,413.94,29.75,129.06,0.99
+Madhya Pradesh,Gwalior,Kharif,Cotton,253.98,35.35,62.71,1.94
+Rajasthan,Jaipur,Kharif,Cotton,489.48,23.28,277.04,0.8
+Maharashtra,Aurangabad,Rabi,Cotton,416.7,32.54,296.19,2.01
+Maharashtra,Aurangabad,Kharif,Chana,211.95,17.22,100.66,0.99
+Maharashtra,Nashik,Rabi,Mustard,249.39,34.23,214.54,1.25
+Rajasthan,Kota,Kharif,Chana,274.64,35.11,154.27,1.03
+Maharashtra,Pune,Kharif,Mustard,277.96,25.34,105.0,1.15
+Madhya Pradesh,Gwalior,Kharif,Soybean,111.69,33.52,138.3,1.1
+Maharashtra,Aurangabad,Kharif,Chana,247.17,16.16,60.92,0.9
+Punjab,Jalandhar,Whole Year,Maize,327.68,30.78,338.43,1.2
+Haryana,Hisar,Kharif,Soybean,260.77,25.29,287.52,1.2
+Haryana,Karnal,Whole Year,Cotton,460.18,23.08,62.34,1.01
+Maharashtra,Aurangabad,Kharif,Chana,379.25,26.72,139.83,1.13
+Punjab,Jalandhar,Rabi,Mustard,35.24,35.17,222.64,0.93
+Punjab,Amritsar,Whole Year,Chana,92.48,22.69,255.91,1.13
+Maharashtra,Aurangabad,Kharif,Wheat,361.5,31.67,227.56,1.69
+Haryana,Hisar,Rabi,Maize,127.08,37.97,130.09,1.32
+Haryana,Rohtak,Whole Year,Soybean,492.51,37.14,131.54,0.94
+Haryana,Karnal,Kharif,Rice,388.53,35.95,245.79,2.04
+Maharashtra,Nagpur,Kharif,Wheat,490.02,16.19,224.07,3.11
+Haryana,Karnal,Rabi,Chana,425.94,28.24,143.93,0.8
+Rajasthan,Jodhpur,Kharif,Cotton,312.22,30.73,240.99,1.64
+Rajasthan,Jaipur,Rabi,Mustard,430.45,24.63,115.26,1.36
+Haryana,Karnal,Rabi,Chana,98.97,36.91,319.14,0.86
+Madhya Pradesh,Bhopal,Kharif,Rice,394.87,20.64,207.17,2.24
+Rajasthan,Alwar,Whole Year,Soybean,183.28,27.7,148.36,1.12
+Rajasthan,Jodhpur,Kharif,Maize,478.66,19.98,341.05,1.61
+Maharashtra,Nagpur,Whole Year,Chana,27.37,21.74,188.27,1.31
+Haryana,Karnal,Whole Year,Mustard,365.22,23.58,95.25,1.21
+Haryana,Panipat,Whole Year,Cotton,46.93,34.96,77.04,1.87
+Haryana,Rohtak,Kharif,Wheat,52.79,27.05,256.1,2.13
+Madhya Pradesh,Bhopal,Kharif,Cotton,396.43,36.81,52.94,2.0
+Maharashtra,Nagpur,Rabi,Mustard,400.61,35.59,275.29,1.25
+Haryana,Karnal,Kharif,Rice,317.98,18.89,72.37,1.56
+Rajasthan,Alwar,Whole Year,Soybean,351.83,27.96,316.89,1.27
+Madhya Pradesh,Indore,Rabi,Cotton,11.15,25.1,117.25,0.88
+Maharashtra,Aurangabad,Rabi,Mustard,103.77,25.41,133.32,1.61
+Maharashtra,Aurangabad,Kharif,Maize,396.51,31.05,315.82,1.33
+Punjab,Jalandhar,Whole Year,Soybean,399.88,22.38,203.65,1.08
+Maharashtra,Aurangabad,Whole Year,Cotton,408.76,15.29,218.77,1.29
+Punjab,Amritsar,Rabi,Maize,81.35,19.32,267.49,1.28
+Punjab,Amritsar,Whole Year,Cotton,318.42,25.31,55.13,1.01
+Haryana,Rohtak,Rabi,Soybean,55.06,15.01,80.54,1.27
+Punjab,Patiala,Kharif,Chana,497.54,18.27,308.67,1.25
+Punjab,Jalandhar,Rabi,Soybean,486.14,37.2,164.98,1.0
+Haryana,Rohtak,Whole Year,Maize,189.3,15.16,174.27,1.32
+Maharashtra,Aurangabad,Kharif,Cotton,98.03,34.37,130.13,1.49
+Madhya Pradesh,Jabalpur,Whole Year,Cotton,239.57,22.69,315.24,0.83
+Punjab,Ludhiana,Rabi,Maize,45.2,19.65,80.8,1.26
+Haryana,Panipat,Whole Year,Cotton,211.11,22.69,289.47,1.0
+Maharashtra,Aurangabad,Kharif,Rice,452.16,28.69,234.36,2.69
+Maharashtra,Aurangabad,Whole Year,Chana,61.11,36.35,254.93,1.43
+Haryana,Hisar,Kharif,Rice,403.18,36.97,126.57,1.58
+Rajasthan,Alwar,Kharif,Maize,422.09,34.09,342.25,1.3
+Haryana,Karnal,Whole Year,Maize,99.81,19.78,293.26,1.37
+Punjab,Patiala,Kharif,Wheat,69.26,34.51,340.89,1.99
+Rajasthan,Jodhpur,Rabi,Soybean,262.05,33.72,193.55,1.44
+Haryana,Panipat,Kharif,Wheat,261.33,28.33,203.54,2.03
+Punjab,Jalandhar,Kharif,Soybean,185.51,18.82,249.81,1.51
+Maharashtra,Aurangabad,Whole Year,Mustard,314.5,19.11,334.0,1.47
+Punjab,Ludhiana,Kharif,Maize,332.07,25.96,270.89,1.38
+Maharashtra,Nagpur,Rabi,Wheat,478.94,29.45,65.0,1.75
+Punjab,Ludhiana,Kharif,Cotton,255.99,36.5,268.88,2.32
+Maharashtra,Aurangabad,Kharif,Soybean,51.82,22.49,174.56,1.23
+Rajasthan,Jaipur,Whole Year,Maize,183.14,27.1,231.36,1.39
+Madhya Pradesh,Jabalpur,Kharif,Maize,150.68,32.33,80.64,1.18
+Madhya Pradesh,Bhopal,Kharif,Soybean,92.42,29.39,341.07,0.93
+Madhya Pradesh,Jabalpur,Whole Year,Rice,395.8,21.92,70.95,1.52
+Punjab,Jalandhar,Whole Year,Soybean,34.71,22.59,340.7,1.18
+Punjab,Jalandhar,Rabi,Rice,359.47,17.29,205.71,2.79
+Maharashtra,Nashik,Whole Year,Wheat,447.33,19.11,204.4,3.13
+Maharashtra,Nashik,Kharif,Soybean,450.5,37.3,114.99,1.08
+Maharashtra,Nagpur,Whole Year,Soybean,46.59,24.52,325.82,1.01
+Rajasthan,Kota,Whole Year,Soybean,141.82,27.45,195.08,1.21
+Maharashtra,Pune,Kharif,Rice,39.39,20.3,142.98,1.0
+Maharashtra,Nagpur,Rabi,Soybean,14.85,27.09,78.81,1.08
+Haryana,Panipat,Rabi,Chana,32.79,22.47,161.52,0.94
+Rajasthan,Jodhpur,Rabi,Rice,84.78,30.75,208.67,2.49
+Maharashtra,Aurangabad,Rabi,Mustard,450.46,31.08,106.83,1.34
+Rajasthan,Jaipur,Rabi,Wheat,231.17,24.6,130.27,3.22
+Haryana,Hisar,Rabi,Mustard,16.28,25.27,104.26,1.14
+Maharashtra,Nashik,Whole Year,Rice,201.28,18.74,256.64,2.29
+Haryana,Panipat,Kharif,Maize,100.5,27.06,184.14,1.1
+Haryana,Karnal,Whole Year,Soybean,170.78,30.03,337.02,1.24
+Madhya Pradesh,Jabalpur,Whole Year,Rice,180.12,37.96,133.89,1.18
+Punjab,Amritsar,Kharif,Mustard,177.32,28.41,217.6,1.33
+Haryana,Hisar,Kharif,Chana,436.7,37.22,126.54,1.24
+Maharashtra,Nashik,Whole Year,Soybean,387.88,20.34,150.48,1.09
+Madhya Pradesh,Jabalpur,Kharif,Mustard,366.43,20.65,177.48,1.21
+Haryana,Rohtak,Rabi,Rice,223.35,30.84,195.54,2.51
+Punjab,Patiala,Whole Year,Chana,410.86,26.95,160.06,1.37
+Maharashtra,Aurangabad,Rabi,Wheat,143.92,23.14,233.92,3.54
+Punjab,Amritsar,Whole Year,Maize,4.97,20.16,289.8,1.16
+Rajasthan,Jaipur,Whole Year,Wheat,476.52,36.0,67.16,2.16
+Haryana,Panipat,Rabi,Soybean,480.42,31.01,105.97,1.25
+Punjab,Jalandhar,Whole Year,Wheat,13.73,32.99,65.83,1.76
+Madhya Pradesh,Bhopal,Rabi,Mustard,127.11,34.35,335.33,1.28
+Maharashtra,Nashik,Whole Year,Cotton,148.37,21.11,246.96,0.98
+Rajasthan,Alwar,Kharif,Mustard,259.42,28.93,276.0,1.13
+Maharashtra,Aurangabad,Rabi,Cotton,94.97,31.19,60.0,2.01
+Punjab,Jalandhar,Whole Year,Cotton,20.05,28.54,309.33,2.2
+Maharashtra,Aurangabad,Whole Year,Mustard,307.69,28.3,192.27,1.1
+Rajasthan,Jodhpur,Rabi,Wheat,118.74,27.32,335.97,1.98
+Rajasthan,Jodhpur,Kharif,Wheat,211.79,29.75,107.06,1.63
+Punjab,Amritsar,Rabi,Mustard,256.42,34.48,234.77,1.58
+Maharashtra,Aurangabad,Rabi,Cotton,352.31,29.65,209.46,1.91
+Maharashtra,Nashik,Kharif,Maize,243.37,18.67,223.1,1.28
+Maharashtra,Pune,Whole Year,Rice,149.09,34.83,172.05,2.93
+Haryana,Panipat,Kharif,Chana,195.56,24.27,198.75,1.11
+Rajasthan,Alwar,Whole Year,Rice,214.59,25.78,308.4,2.48
+Madhya Pradesh,Gwalior,Rabi,Wheat,309.29,19.0,72.48,2.91
+Haryana,Karnal,Whole Year,Chana,280.61,15.62,339.91,1.13
+Punjab,Patiala,Whole Year,Rice,405.37,21.42,274.62,2.4
+Rajasthan,Jodhpur,Whole Year,Chana,216.63,31.11,85.19,1.33
+Punjab,Patiala,Kharif,Soybean,237.65,37.34,173.49,1.21
+Haryana,Rohtak,Rabi,Cotton,134.65,17.19,112.87,0.7
+Madhya Pradesh,Jabalpur,Whole Year,Mustard,333.88,36.43,63.49,0.9
+Rajasthan,Jodhpur,Kharif,Wheat,385.75,27.81,227.93,2.29
+Maharashtra,Nashik,Kharif,Cotton,312.38,33.39,243.08,1.9
+Haryana,Panipat,Rabi,Soybean,180.62,29.08,159.04,1.01
+Haryana,Karnal,Kharif,Cotton,204.34,23.99,296.11,1.19
+Madhya Pradesh,Indore,Rabi,Cotton,423.25,35.77,116.84,1.76
+Punjab,Ludhiana,Kharif,Rice,131.43,32.51,203.0,2.96
+Haryana,Panipat,Rabi,Wheat,499.08,29.61,312.06,1.76
+Madhya Pradesh,Jabalpur,Rabi,Chana,20.57,26.88,148.44,1.14
+Haryana,Karnal,Kharif,Maize,222.85,24.3,65.74,1.04
+Madhya Pradesh,Jabalpur,Rabi,Chana,483.24,21.85,175.69,1.35
+Punjab,Ludhiana,Kharif,Cotton,27.16,37.06,100.42,1.77
+Haryana,Panipat,Whole Year,Chana,237.03,21.84,269.27,1.31
+Madhya Pradesh,Gwalior,Kharif,Chana,174.47,29.69,198.74,1.02
+Haryana,Hisar,Whole Year,Chana,390.95,18.59,101.63,1.28
+Maharashtra,Nagpur,Whole Year,Wheat,39.12,29.28,151.85,2.23
+Madhya Pradesh,Indore,Rabi,Wheat,210.28,23.02,75.84,3.31
+Madhya Pradesh,Jabalpur,Rabi,Mustard,341.98,15.17,125.75,0.96
+Punjab,Patiala,Kharif,Rice,497.02,31.87,205.37,2.62
+Maharashtra,Pune,Kharif,Maize,309.44,23.94,264.2,1.38
+Punjab,Jalandhar,Kharif,Mustard,425.07,35.94,104.07,1.42
+Punjab,Ludhiana,Whole Year,Wheat,217.07,24.49,85.3,2.93
+Haryana,Panipat,Whole Year,Maize,335.84,37.24,126.92,0.95
+Haryana,Hisar,Whole Year,Rice,375.2,35.81,113.46,1.39
+Haryana,Rohtak,Rabi,Rice,115.12,27.91,141.97,1.66
+Madhya Pradesh,Gwalior,Rabi,Cotton,455.44,31.62,134.52,1.99
+Madhya Pradesh,Jabalpur,Whole Year,Maize,239.43,16.87,92.43,1.04
+Rajasthan,Alwar,Rabi,Wheat,258.62,25.37,328.63,2.23
+Madhya Pradesh,Gwalior,Kharif,Wheat,356.05,28.4,154.15,2.13
+Haryana,Panipat,Whole Year,Cotton,323.08,24.13,314.41,1.22
+Madhya Pradesh,Indore,Whole Year,Rice,490.15,21.45,69.58,0.97
+Rajasthan,Jaipur,Whole Year,Rice,254.8,20.21,259.9,2.61
+Punjab,Ludhiana,Whole Year,Wheat,229.13,30.85,193.12,1.9
+Madhya Pradesh,Gwalior,Rabi,Soybean,48.27,33.91,114.21,1.58
+Punjab,Ludhiana,Rabi,Rice,408.71,29.96,303.32,2.23
+Rajasthan,Kota,Kharif,Cotton,165.83,22.53,256.61,0.76
+Punjab,Ludhiana,Rabi,Wheat,269.49,37.3,73.0,1.78
+Haryana,Hisar,Rabi,Rice,135.79,23.03,347.68,2.19
+Punjab,Ludhiana,Whole Year,Chana,326.48,34.34,136.15,1.43
+Madhya Pradesh,Jabalpur,Rabi,Wheat,466.24,20.99,145.65,3.55
+Madhya Pradesh,Indore,Rabi,Mustard,458.1,20.73,158.57,1.33
+Haryana,Hisar,Whole Year,Mustard,175.7,33.51,244.06,1.09
+Rajasthan,Alwar,Kharif,Rice,114.77,15.21,284.29,2.59
+Punjab,Amritsar,Rabi,Wheat,186.46,33.28,269.57,2.11
+Haryana,Rohtak,Whole Year,Soybean,113.85,21.57,87.1,1.4
+Haryana,Panipat,Rabi,Wheat,172.2,18.78,343.58,3.01
+Maharashtra,Aurangabad,Rabi,Cotton,371.06,18.88,224.0,1.12
+Maharashtra,Nagpur,Kharif,Rice,429.59,22.11,178.96,2.89
+Punjab,Patiala,Rabi,Wheat,98.51,34.76,186.68,1.9
+Madhya Pradesh,Indore,Rabi,Chana,178.95,30.24,78.54,1.35
+Madhya Pradesh,Bhopal,Kharif,Chana,262.69,22.05,171.83,1.48
+Rajasthan,Kota,Whole Year,Mustard,396.65,29.52,175.62,1.02
+Haryana,Panipat,Rabi,Maize,407.15,20.53,142.71,1.18
+Haryana,Panipat,Kharif,Wheat,454.39,34.95,68.59,1.89
+Punjab,Ludhiana,Whole Year,Rice,15.87,32.61,321.93,2.65
+Punjab,Patiala,Kharif,Soybean,212.12,16.44,286.39,1.37
+Punjab,Amritsar,Whole Year,Rice,372.28,19.34,297.47,2.23
+Haryana,Hisar,Whole Year,Cotton,49.21,31.08,134.82,1.56
+Haryana,Panipat,Whole Year,Chana,317.79,19.76,55.52,1.34
+Madhya Pradesh,Indore,Kharif,Maize,428.49,32.67,162.76,1.29
+Punjab,Patiala,Whole Year,Chana,102.79,26.36,187.37,1.49
+Haryana,Panipat,Kharif,Maize,400.22,22.65,136.06,1.29
+Rajasthan,Jodhpur,Kharif,Cotton,457.57,18.16,200.95,0.87
+Haryana,Karnal,Rabi,Soybean,349.12,17.78,195.76,1.08
+Rajasthan,Alwar,Whole Year,Wheat,67.16,18.95,309.24,3.57
+Rajasthan,Jodhpur,Whole Year,Mustard,337.72,18.97,86.52,1.25
+Rajasthan,Alwar,Whole Year,Chana,79.94,20.53,323.35,1.37
+Rajasthan,Kota,Kharif,Chana,457.31,16.0,281.12,1.09
+Punjab,Amritsar,Kharif,Maize,230.46,28.26,147.74,0.96
+Rajasthan,Jaipur,Whole Year,Maize,259.19,30.86,244.95,1.26
+Maharashtra,Nagpur,Kharif,Mustard,5.18,29.51,252.54,1.59
+Punjab,Jalandhar,Rabi,Wheat,332.61,20.64,186.89,3.24
+Haryana,Panipat,Whole Year,Chana,194.75,35.54,323.27,1.42
+Haryana,Rohtak,Whole Year,Chana,159.16,20.28,163.99,0.85
+Maharashtra,Nagpur,Kharif,Soybean,441.3,21.37,164.4,1.39
+Maharashtra,Nagpur,Rabi,Mustard,485.93,37.55,127.31,1.11
+Haryana,Rohtak,Whole Year,Chana,252.55,31.68,298.06,1.08
+Madhya Pradesh,Bhopal,Whole Year,Mustard,161.93,24.17,298.71,1.07
+Haryana,Rohtak,Kharif,Maize,390.58,30.33,167.57,1.22
+Maharashtra,Aurangabad,Rabi,Chana,344.17,25.66,275.63,1.06
+Rajasthan,Alwar,Kharif,Rice,231.21,36.87,290.46,2.41
+Punjab,Ludhiana,Rabi,Soybean,379.78,24.47,345.67,0.94
+Madhya Pradesh,Jabalpur,Whole Year,Mustard,303.6,26.66,198.1,1.24
+Rajasthan,Kota,Kharif,Chana,303.52,15.35,87.57,1.08
+Madhya Pradesh,Jabalpur,Rabi,Soybean,379.06,32.03,305.95,0.9
+Haryana,Karnal,Kharif,Maize,106.21,26.65,99.13,0.96
+Rajasthan,Jaipur,Whole Year,Rice,184.44,30.29,153.57,2.6
+Punjab,Jalandhar,Kharif,Chana,209.77,22.02,184.59,1.28
+Maharashtra,Aurangabad,Kharif,Rice,333.23,24.96,321.57,2.47
+Haryana,Hisar,Kharif,Rice,346.3,30.07,81.83,1.52
+Madhya Pradesh,Bhopal,Rabi,Rice,374.18,36.33,215.93,2.6
+Madhya Pradesh,Bhopal,Rabi,Cotton,187.16,29.64,266.03,1.79
+Madhya Pradesh,Bhopal,Rabi,Mustard,203.36,34.17,161.46,1.39
+Rajasthan,Kota,Rabi,Soybean,94.74,23.71,169.87,1.05
+Madhya Pradesh,Jabalpur,Kharif,Chana,95.53,29.12,150.97,1.28
+Madhya Pradesh,Jabalpur,Kharif,Soybean,167.18,24.87,224.87,1.53
+Madhya Pradesh,Gwalior,Rabi,Soybean,409.74,21.56,91.09,1.14
+Rajasthan,Jodhpur,Rabi,Cotton,104.71,33.48,221.97,1.82
+Punjab,Amritsar,Whole Year,Chana,471.6,34.3,241.92,1.25
+Punjab,Amritsar,Rabi,Maize,174.86,31.16,55.64,1.16
+Rajasthan,Kota,Whole Year,Cotton,56.15,35.82,154.99,1.53
+Haryana,Panipat,Whole Year,Cotton,32.88,23.7,130.23,1.01
+Rajasthan,Kota,Whole Year,Soybean,172.65,23.8,246.28,1.1
+Rajasthan,Alwar,Kharif,Chana,61.03,33.82,210.39,1.13
+Rajasthan,Jaipur,Whole Year,Rice,76.54,18.74,250.12,2.55
+Madhya Pradesh,Jabalpur,Kharif,Cotton,64.41,21.99,98.52,1.03
+Madhya Pradesh,Gwalior,Kharif,Soybean,107.7,30.34,308.58,1.03
+Madhya Pradesh,Bhopal,Kharif,Cotton,494.07,15.37,173.32,1.07
+Rajasthan,Jodhpur,Rabi,Rice,3.62,18.63,180.22,2.31
+Punjab,Patiala,Kharif,Cotton,330.55,22.68,246.11,1.09
+Rajasthan,Kota,Rabi,Cotton,352.67,25.6,84.84,0.89
+Madhya Pradesh,Bhopal,Kharif,Wheat,267.84,23.01,55.68,3.06
+Punjab,Ludhiana,Kharif,Rice,76.72,25.54,315.57,2.56
+Rajasthan,Kota,Rabi,Mustard,220.54,31.48,297.37,0.94
+Maharashtra,Aurangabad,Kharif,Cotton,257.78,34.09,335.61,2.3
+Punjab,Amritsar,Rabi,Cotton,14.59,31.87,285.14,1.81
+Haryana,Rohtak,Kharif,Maize,346.52,35.58,254.45,1.33
+Punjab,Amritsar,Kharif,Rice,309.83,15.43,267.17,2.48
+Madhya Pradesh,Indore,Kharif,Rice,383.14,24.91,348.13,2.58
+Rajasthan,Jodhpur,Whole Year,Rice,282.28,27.12,148.61,1.79
+Madhya Pradesh,Indore,Whole Year,Wheat,169.07,16.53,281.94,3.29
+Punjab,Patiala,Rabi,Rice,148.39,34.83,176.74,2.85
+Haryana,Hisar,Kharif,Mustard,91.54,21.45,207.26,1.13
+Maharashtra,Nashik,Kharif,Maize,331.84,24.74,87.61,1.48
+Haryana,Karnal,Rabi,Cotton,259.91,23.18,244.55,1.17
+Maharashtra,Nagpur,Whole Year,Mustard,102.01,20.6,285.07,1.24
+Maharashtra,Aurangabad,Kharif,Chana,443.65,29.03,290.87,1.16
+Haryana,Karnal,Rabi,Chana,174.82,29.61,114.02,1.24
+Haryana,Karnal,Kharif,Chana,381.39,25.63,150.53,1.39
+Maharashtra,Nashik,Rabi,Mustard,364.37,21.94,156.02,1.42
+Maharashtra,Aurangabad,Whole Year,Wheat,20.29,23.72,233.15,3.15
+Rajasthan,Jaipur,Rabi,Mustard,172.36,35.77,99.01,1.14
+Madhya Pradesh,Bhopal,Whole Year,Soybean,388.15,32.22,113.22,1.11
+Rajasthan,Jodhpur,Whole Year,Cotton,215.14,30.25,178.27,1.64
+Rajasthan,Kota,Whole Year,Maize,438.27,24.97,232.4,1.22
+Maharashtra,Pune,Kharif,Chana,409.25,23.88,127.26,1.35
+Haryana,Karnal,Whole Year,Chana,363.12,25.86,275.96,1.31
+Maharashtra,Nagpur,Kharif,Rice,69.81,16.34,132.44,1.55
+Haryana,Panipat,Whole Year,Mustard,152.67,27.71,145.42,1.08
+Madhya Pradesh,Indore,Rabi,Maize,485.84,27.84,209.81,1.11
+Haryana,Panipat,Rabi,Rice,85.06,25.39,348.5,2.28
+Maharashtra,Nashik,Rabi,Rice,42.87,36.93,235.29,2.32
+Punjab,Jalandhar,Rabi,Cotton,222.6,17.1,316.8,1.36
+Haryana,Karnal,Kharif,Soybean,315.42,15.17,168.81,1.22
+Haryana,Rohtak,Rabi,Chana,55.71,27.62,210.35,1.28
+Maharashtra,Nagpur,Rabi,Chana,180.49,34.28,75.31,0.94
+Haryana,Rohtak,Rabi,Cotton,424.37,20.18,280.11,1.19
+Rajasthan,Alwar,Whole Year,Maize,400.76,27.94,303.36,1.26
+Maharashtra,Nashik,Kharif,Cotton,424.33,34.18,231.31,1.98
+Punjab,Jalandhar,Kharif,Maize,8.92,33.32,56.91,0.91
+Maharashtra,Nashik,Whole Year,Mustard,79.6,26.06,135.11,1.2
+Punjab,Jalandhar,Whole Year,Maize,204.94,17.85,278.76,1.21
+Madhya Pradesh,Indore,Kharif,Soybean,156.57,23.07,222.42,1.07
+Maharashtra,Pune,Kharif,Wheat,454.83,15.15,100.07,3.52
+Maharashtra,Pune,Whole Year,Maize,353.87,37.81,77.06,1.58
+Punjab,Amritsar,Rabi,Soybean,181.46,15.99,158.73,1.29
+Punjab,Jalandhar,Rabi,Mustard,110.66,15.23,202.42,1.03
+Rajasthan,Jodhpur,Whole Year,Chana,399.85,34.94,295.95,1.46
+Punjab,Amritsar,Kharif,Chana,268.03,22.2,212.0,1.15
+Punjab,Patiala,Whole Year,Maize,144.38,23.53,148.56,1.13
+Madhya Pradesh,Jabalpur,Kharif,Maize,83.53,20.42,170.6,1.42
+Rajasthan,Jodhpur,Kharif,Rice,280.74,24.17,344.14,2.38
+Haryana,Karnal,Kharif,Mustard,440.77,36.13,303.83,1.36
+Maharashtra,Nagpur,Whole Year,Wheat,139.66,31.5,138.43,1.97
+Madhya Pradesh,Indore,Kharif,Maize,90.43,17.55,215.53,1.1
+Haryana,Karnal,Rabi,Maize,58.51,28.43,336.06,1.23
+Maharashtra,Pune,Whole Year,Wheat,13.81,20.98,324.73,3.32
+Madhya Pradesh,Gwalior,Rabi,Cotton,232.02,19.7,95.42,1.05
+Haryana,Rohtak,Whole Year,Maize,5.2,21.57,316.73,1.64
+Haryana,Panipat,Rabi,Cotton,169.93,34.19,66.53,1.91
+Rajasthan,Kota,Kharif,Maize,36.74,22.04,79.94,1.23
+Haryana,Panipat,Kharif,Maize,149.12,27.22,141.69,1.01
+Rajasthan,Jaipur,Whole Year,Soybean,110.69,18.36,239.51,1.0
+Madhya Pradesh,Gwalior,Whole Year,Rice,366.67,22.01,196.49,2.39
+Rajasthan,Alwar,Kharif,Chana,331.45,22.42,339.03,0.81
+Haryana,Panipat,Rabi,Cotton,430.77,16.46,230.96,0.91
+Maharashtra,Aurangabad,Whole Year,Cotton,435.19,18.6,345.62,1.22
+Punjab,Patiala,Whole Year,Mustard,281.73,37.92,81.32,1.26
+Punjab,Amritsar,Rabi,Maize,159.85,33.95,98.52,1.1
+Haryana,Rohtak,Kharif,Wheat,130.22,34.52,290.79,1.9
+Punjab,Jalandhar,Rabi,Maize,405.46,21.16,344.52,1.19
+Rajasthan,Alwar,Kharif,Cotton,129.81,31.57,331.92,1.74
+Madhya Pradesh,Jabalpur,Rabi,Cotton,414.03,27.44,119.03,1.13
+Rajasthan,Kota,Rabi,Wheat,272.18,18.24,130.95,2.97
+Punjab,Amritsar,Whole Year,Wheat,138.85,36.51,237.64,2.53
+Punjab,Ludhiana,Kharif,Maize,40.3,15.8,331.34,1.09
+Maharashtra,Nashik,Kharif,Cotton,397.84,30.85,340.57,1.85
+Haryana,Panipat,Kharif,Maize,398.13,18.56,211.51,1.09
+Maharashtra,Nashik,Rabi,Wheat,432.31,20.69,301.4,3.11
+Haryana,Hisar,Kharif,Cotton,55.02,18.18,123.77,0.9
+Madhya Pradesh,Bhopal,Rabi,Soybean,209.7,27.56,99.95,1.07
+Maharashtra,Nagpur,Whole Year,Rice,142.73,34.46,344.37,2.42
+Punjab,Amritsar,Kharif,Mustard,96.13,23.12,168.27,1.25
+Rajasthan,Alwar,Kharif,Rice,100.58,22.32,195.36,2.63
+Maharashtra,Nashik,Rabi,Rice,39.96,31.33,59.93,1.75
+Haryana,Panipat,Whole Year,Chana,466.15,17.32,182.27,1.07
+Rajasthan,Kota,Kharif,Maize,320.97,31.09,191.7,1.16
+Punjab,Patiala,Rabi,Rice,95.48,22.29,77.69,1.67
+Haryana,Panipat,Kharif,Cotton,410.07,32.24,347.61,1.88
+Madhya Pradesh,Indore,Rabi,Chana,366.97,37.43,214.25,1.06
+Madhya Pradesh,Gwalior,Whole Year,Soybean,128.64,18.02,262.58,1.64
+Rajasthan,Jaipur,Rabi,Wheat,122.63,20.34,309.35,3.25
+Punjab,Patiala,Rabi,Maize,322.13,27.14,129.64,1.05
+Rajasthan,Kota,Whole Year,Chana,44.8,19.56,271.81,1.28
+Madhya Pradesh,Bhopal,Whole Year,Chana,253.98,22.97,348.26,1.46
+Maharashtra,Pune,Whole Year,Maize,283.36,28.09,198.94,0.91
+Madhya Pradesh,Gwalior,Kharif,Wheat,442.68,28.48,304.66,2.07
+Rajasthan,Jodhpur,Kharif,Chana,82.53,26.84,133.17,1.08
+Haryana,Panipat,Whole Year,Cotton,393.24,30.5,136.33,1.49
+Madhya Pradesh,Bhopal,Kharif,Soybean,271.29,23.63,107.76,1.26
+Haryana,Rohtak,Kharif,Rice,299.7,18.26,230.52,2.52
+Rajasthan,Jodhpur,Rabi,Mustard,223.03,29.25,305.2,1.23
+Rajasthan,Kota,Rabi,Chana,324.07,25.25,186.26,1.7
+Haryana,Hisar,Rabi,Wheat,128.42,19.65,132.72,2.82
+Rajasthan,Kota,Kharif,Soybean,449.45,15.94,62.96,1.29
+Maharashtra,Nashik,Rabi,Wheat,452.46,16.3,293.95,3.3
+Haryana,Panipat,Whole Year,Wheat,369.72,31.46,256.82,2.11
+Rajasthan,Jodhpur,Whole Year,Wheat,402.35,30.82,132.33,1.67
+Maharashtra,Pune,Rabi,Maize,88.24,15.28,209.52,1.2
+Punjab,Patiala,Rabi,Chana,383.35,19.18,110.46,1.83
+Madhya Pradesh,Bhopal,Whole Year,Cotton,170.86,36.45,67.3,1.78
+Haryana,Karnal,Kharif,Cotton,15.26,25.62,122.77,0.8
+Madhya Pradesh,Gwalior,Kharif,Mustard,270.38,29.13,208.89,1.33
+Punjab,Jalandhar,Rabi,Rice,95.61,15.84,259.45,2.77
+Haryana,Panipat,Kharif,Rice,385.57,28.85,144.18,1.43
+Maharashtra,Pune,Whole Year,Wheat,81.78,32.33,290.01,2.45
+Haryana,Hisar,Whole Year,Mustard,368.54,19.25,140.75,1.73
+Haryana,Rohtak,Kharif,Cotton,241.82,18.63,258.12,0.98
+Punjab,Amritsar,Whole Year,Rice,454.61,32.71,86.01,1.75
+Haryana,Hisar,Whole Year,Wheat,142.99,22.6,122.65,3.23
+Haryana,Panipat,Whole Year,Mustard,367.68,22.08,188.25,1.23
+Punjab,Jalandhar,Kharif,Chana,225.19,31.65,338.47,1.21
+Punjab,Amritsar,Whole Year,Maize,232.74,15.92,318.26,1.05
+Madhya Pradesh,Bhopal,Rabi,Chana,156.46,26.82,76.39,1.11
+Haryana,Hisar,Whole Year,Cotton,22.58,23.6,153.87,1.15
+Rajasthan,Jaipur,Kharif,Mustard,4.36,15.16,211.44,0.95
+Punjab,Jalandhar,Kharif,Wheat,336.72,18.82,234.62,3.55
+Madhya Pradesh,Gwalior,Rabi,Wheat,489.78,17.04,296.67,3.19
+Punjab,Ludhiana,Whole Year,Mustard,36.69,27.01,55.81,1.18
+Haryana,Panipat,Rabi,Maize,91.75,31.91,109.71,1.55
+Punjab,Patiala,Kharif,Mustard,336.97,30.47,76.36,1.16
+Haryana,Hisar,Kharif,Wheat,252.19,19.76,330.61,3.0
+Maharashtra,Pune,Rabi,Cotton,323.92,29.83,252.06,1.66
+Haryana,Hisar,Whole Year,Wheat,204.68,32.55,87.47,2.06
+Rajasthan,Kota,Whole Year,Rice,250.87,21.13,172.5,2.53
+Maharashtra,Nagpur,Rabi,Wheat,417.26,29.64,97.69,1.83
+Maharashtra,Pune,Rabi,Maize,483.8,30.6,345.44,1.38
+Haryana,Panipat,Whole Year,Mustard,351.56,23.54,145.31,1.17
+Madhya Pradesh,Gwalior,Kharif,Soybean,14.49,15.01,287.74,1.33
+Haryana,Panipat,Kharif,Maize,185.22,19.84,91.34,0.84
+Punjab,Amritsar,Kharif,Chana,209.18,28.65,225.93,1.22
+Maharashtra,Pune,Rabi,Maize,167.17,22.59,295.94,1.06
+Rajasthan,Alwar,Whole Year,Rice,329.53,20.73,271.02,2.2
+Rajasthan,Alwar,Rabi,Cotton,491.64,23.91,244.35,0.81
+Punjab,Patiala,Whole Year,Maize,152.99,30.59,263.59,1.28
+Punjab,Patiala,Kharif,Soybean,21.72,16.81,111.59,1.23
+Rajasthan,Kota,Rabi,Rice,462.14,21.26,222.16,2.91
+Haryana,Hisar,Rabi,Cotton,338.93,33.13,136.72,2.13
+Madhya Pradesh,Bhopal,Kharif,Cotton,132.61,37.67,66.54,1.52
+Punjab,Patiala,Kharif,Rice,477.27,19.29,101.03,1.31
+Madhya Pradesh,Gwalior,Kharif,Maize,48.27,20.21,316.51,1.39
+Rajasthan,Jaipur,Kharif,Chana,356.45,37.7,163.13,0.98
+Punjab,Ludhiana,Kharif,Rice,272.54,19.18,133.32,1.42
+Madhya Pradesh,Jabalpur,Kharif,Cotton,31.0,19.0,268.36,1.28
+Haryana,Karnal,Rabi,Cotton,80.13,18.98,86.42,1.02
+Madhya Pradesh,Jabalpur,Kharif,Chana,363.07,15.67,267.7,1.34
+Punjab,Ludhiana,Kharif,Mustard,55.41,29.19,63.45,1.23
+Haryana,Panipat,Whole Year,Chana,358.38,32.84,275.23,0.65
+Punjab,Jalandhar,Rabi,Mustard,3.76,18.5,303.11,1.27
+Rajasthan,Alwar,Kharif,Soybean,63.03,19.23,211.3,1.06
+Madhya Pradesh,Indore,Kharif,Rice,253.73,34.8,303.04,2.57
+Punjab,Jalandhar,Kharif,Cotton,144.53,36.1,88.78,1.89
+Madhya Pradesh,Jabalpur,Whole Year,Soybean,437.81,18.21,169.69,1.04
+Madhya Pradesh,Indore,Whole Year,Soybean,95.21,32.25,290.78,0.91
+Maharashtra,Aurangabad,Kharif,Wheat,83.79,37.67,267.62,1.67
+Punjab,Ludhiana,Kharif,Chana,478.5,17.46,276.35,1.13
+Haryana,Hisar,Rabi,Maize,356.32,36.3,236.04,1.18
+Maharashtra,Pune,Whole Year,Soybean,207.36,36.32,73.43,1.23
+Rajasthan,Jodhpur,Rabi,Soybean,17.69,32.32,158.36,1.29
+Punjab,Patiala,Whole Year,Maize,338.33,24.7,245.04,0.89
+Madhya Pradesh,Bhopal,Rabi,Chana,352.43,27.51,161.89,1.24
+Maharashtra,Nashik,Rabi,Wheat,251.95,23.21,129.94,3.25
+Punjab,Patiala,Whole Year,Wheat,428.38,19.49,331.83,3.32
+Madhya Pradesh,Indore,Rabi,Soybean,297.08,33.16,304.72,1.31
+Rajasthan,Kota,Rabi,Cotton,186.92,15.31,172.09,0.86
+Haryana,Karnal,Rabi,Maize,72.86,30.64,119.96,0.96
+Punjab,Amritsar,Whole Year,Mustard,343.57,21.9,220.35,0.94
+Maharashtra,Nagpur,Kharif,Rice,236.42,36.04,276.68,2.87
+Madhya Pradesh,Bhopal,Rabi,Maize,397.64,15.14,83.71,0.8
+Madhya Pradesh,Gwalior,Kharif,Rice,121.08,32.56,210.62,2.64
+Maharashtra,Nashik,Rabi,Chana,411.6,37.17,158.0,1.0
+Haryana,Hisar,Whole Year,Chana,163.67,26.29,228.36,1.3
+Rajasthan,Jaipur,Kharif,Maize,211.42,36.23,311.71,1.5
+Madhya Pradesh,Indore,Rabi,Maize,127.07,26.23,269.41,1.58
+Haryana,Panipat,Rabi,Maize,220.24,18.74,275.34,1.19
+Rajasthan,Jaipur,Whole Year,Rice,282.09,16.25,226.33,2.25
+Maharashtra,Nagpur,Kharif,Maize,390.05,23.98,334.82,1.23
+Rajasthan,Jaipur,Kharif,Rice,441.31,16.89,161.11,2.57
+Rajasthan,Kota,Whole Year,Mustard,59.94,35.47,186.93,1.15
+Maharashtra,Pune,Rabi,Wheat,163.41,23.3,226.64,3.13
+Punjab,Ludhiana,Kharif,Cotton,111.73,23.78,210.53,1.01
+Punjab,Ludhiana,Whole Year,Soybean,397.72,25.44,298.08,1.09
+Maharashtra,Nashik,Rabi,Chana,86.33,32.11,222.47,1.16
+Haryana,Rohtak,Kharif,Rice,457.5,26.23,113.37,0.99
+Madhya Pradesh,Jabalpur,Whole Year,Rice,321.61,22.76,198.77,2.47
+Rajasthan,Alwar,Whole Year,Mustard,334.23,27.38,199.25,0.99
+Haryana,Hisar,Whole Year,Rice,430.69,34.89,298.06,2.3
+Rajasthan,Alwar,Kharif,Rice,27.04,21.43,190.74,2.41
+Rajasthan,Alwar,Whole Year,Maize,438.92,18.99,56.04,1.26
+Punjab,Ludhiana,Whole Year,Rice,242.99,19.75,244.33,2.49
+Maharashtra,Nagpur,Rabi,Cotton,43.54,23.22,230.55,1.03
+Rajasthan,Jaipur,Whole Year,Cotton,405.3,21.32,261.61,0.94
+Rajasthan,Kota,Whole Year,Mustard,301.61,15.42,51.22,1.46
+Madhya Pradesh,Bhopal,Rabi,Mustard,40.3,24.75,75.76,1.73
+Punjab,Amritsar,Whole Year,Wheat,74.88,27.05,227.58,2.06
+Rajasthan,Jodhpur,Kharif,Maize,351.57,20.71,169.26,0.96
+Haryana,Karnal,Rabi,Chana,186.59,35.86,76.22,1.01
+Madhya Pradesh,Bhopal,Kharif,Chana,208.91,35.92,338.16,0.72
+Punjab,Patiala,Whole Year,Maize,137.46,17.31,194.88,1.74
+Madhya Pradesh,Bhopal,Whole Year,Chana,311.62,36.02,186.5,1.3
+Madhya Pradesh,Jabalpur,Rabi,Mustard,303.23,32.15,316.77,0.81
+Rajasthan,Jodhpur,Kharif,Maize,35.17,33.46,292.1,1.05
+Maharashtra,Nagpur,Kharif,Mustard,59.89,34.58,313.25,1.35
+Maharashtra,Nagpur,Whole Year,Cotton,11.58,28.27,94.98,1.52
+Maharashtra,Nagpur,Rabi,Rice,157.57,30.39,110.79,1.43
+Punjab,Ludhiana,Rabi,Chana,127.65,16.71,138.43,1.32
+Punjab,Jalandhar,Whole Year,Cotton,437.76,17.41,186.68,1.15
+Haryana,Panipat,Whole Year,Chana,40.68,21.36,141.26,1.01
+Madhya Pradesh,Bhopal,Whole Year,Mustard,385.93,18.25,97.32,1.42
+Rajasthan,Jodhpur,Rabi,Mustard,468.9,32.75,279.29,1.59
+Rajasthan,Kota,Rabi,Rice,452.33,22.09,259.55,2.34
+Haryana,Karnal,Kharif,Soybean,240.84,37.94,148.51,0.81
+Madhya Pradesh,Gwalior,Whole Year,Mustard,247.19,33.69,91.54,1.13
+Haryana,Karnal,Rabi,Cotton,296.77,27.8,302.25,1.43
+Rajasthan,Alwar,Whole Year,Chana,443.75,24.39,91.23,1.38
+Punjab,Jalandhar,Kharif,Cotton,339.57,16.71,272.95,1.06
+Maharashtra,Aurangabad,Rabi,Chana,432.4,26.58,131.92,1.3
+Rajasthan,Jaipur,Kharif,Wheat,372.89,29.78,329.52,2.06
+Haryana,Panipat,Rabi,Chana,487.87,19.74,92.59,0.94
+Madhya Pradesh,Bhopal,Rabi,Chana,337.49,26.48,113.27,1.41
+Madhya Pradesh,Gwalior,Whole Year,Maize,241.39,24.41,193.01,1.48
+Madhya Pradesh,Jabalpur,Rabi,Rice,226.68,16.09,235.93,2.43
+Punjab,Amritsar,Rabi,Rice,400.84,22.66,114.5,1.86
+Madhya Pradesh,Jabalpur,Rabi,Chana,480.32,28.1,186.98,1.33
+Haryana,Hisar,Kharif,Mustard,208.65,35.44,155.44,1.48
+Maharashtra,Nagpur,Kharif,Mustard,458.09,19.22,102.07,1.48
+Haryana,Panipat,Rabi,Wheat,447.42,17.3,234.97,3.42
+Maharashtra,Nashik,Whole Year,Wheat,491.95,16.52,223.34,3.09
+Maharashtra,Nagpur,Rabi,Soybean,257.67,19.92,106.42,1.11
+Rajasthan,Jaipur,Rabi,Rice,227.51,19.36,133.29,1.43
+Maharashtra,Aurangabad,Whole Year,Mustard,494.61,19.23,152.46,1.25
+Rajasthan,Alwar,Rabi,Mustard,156.09,18.4,236.66,1.17
+Rajasthan,Alwar,Whole Year,Mustard,130.38,23.6,95.05,1.52
+Madhya Pradesh,Gwalior,Kharif,Wheat,418.63,27.63,245.61,2.34
+Rajasthan,Kota,Kharif,Wheat,85.38,26.76,301.3,2.15
+Haryana,Panipat,Rabi,Soybean,313.77,37.46,123.7,1.02
+Madhya Pradesh,Gwalior,Kharif,Soybean,88.08,32.48,343.48,1.3
+Madhya Pradesh,Bhopal,Kharif,Mustard,196.83,25.77,179.78,1.46
+Haryana,Panipat,Kharif,Chana,164.31,25.93,261.78,1.2
+Haryana,Rohtak,Kharif,Rice,275.63,24.6,105.97,1.69
+Madhya Pradesh,Indore,Whole Year,Chana,496.38,36.14,254.98,1.1
+Rajasthan,Jodhpur,Whole Year,Soybean,2.0,33.26,302.99,1.34
+Haryana,Panipat,Kharif,Soybean,366.84,26.94,148.54,1.4
+Maharashtra,Aurangabad,Whole Year,Mustard,88.21,18.64,216.64,1.64
+Punjab,Jalandhar,Whole Year,Cotton,420.73,33.58,223.73,1.73
+Maharashtra,Aurangabad,Rabi,Mustard,75.85,23.96,156.47,1.22
+Haryana,Hisar,Kharif,Chana,335.95,24.93,67.31,0.94
+Punjab,Jalandhar,Whole Year,Mustard,337.07,22.99,277.73,1.3
+Punjab,Jalandhar,Rabi,Cotton,388.63,23.28,333.11,1.18
+Madhya Pradesh,Bhopal,Whole Year,Cotton,483.17,37.92,231.84,1.77
+Punjab,Ludhiana,Kharif,Chana,97.52,17.85,240.25,1.35
+Maharashtra,Nagpur,Kharif,Soybean,145.18,16.72,196.73,1.31
+Punjab,Ludhiana,Rabi,Cotton,370.89,34.37,163.27,2.18
+Haryana,Rohtak,Kharif,Maize,262.61,18.79,236.91,1.14
+Maharashtra,Nagpur,Whole Year,Chana,143.91,36.01,150.8,1.06
+Maharashtra,Nagpur,Rabi,Chana,120.67,16.13,327.94,1.29
+Maharashtra,Pune,Whole Year,Soybean,289.75,26.36,159.15,1.15
+Punjab,Amritsar,Whole Year,Chana,264.21,25.98,151.12,1.31
+Rajasthan,Kota,Rabi,Maize,170.34,25.85,140.19,1.38
+Haryana,Rohtak,Rabi,Maize,405.9,20.95,248.1,1.03
+Haryana,Hisar,Whole Year,Maize,107.29,31.32,176.18,1.22
+Haryana,Rohtak,Rabi,Wheat,458.11,32.57,142.03,1.96
+Haryana,Hisar,Kharif,Wheat,200.15,15.59,170.42,3.05
+Madhya Pradesh,Bhopal,Kharif,Soybean,236.53,32.26,346.13,1.03
+Haryana,Rohtak,Whole Year,Chana,341.54,20.46,59.04,1.17
+Rajasthan,Kota,Whole Year,Cotton,233.51,30.6,197.66,1.61
+Rajasthan,Jodhpur,Rabi,Wheat,312.09,37.94,346.06,2.01
+Rajasthan,Alwar,Rabi,Chana,169.92,34.21,281.87,0.76
+Rajasthan,Alwar,Kharif,Wheat,43.82,32.52,204.86,2.37
+Madhya Pradesh,Gwalior,Rabi,Rice,74.41,37.88,320.13,2.66
+Punjab,Patiala,Rabi,Rice,129.22,33.77,186.65,2.66
+Punjab,Ludhiana,Rabi,Rice,5.75,19.31,177.05,2.56
+Punjab,Jalandhar,Rabi,Rice,93.39,18.27,300.41,2.94
+Rajasthan,Alwar,Whole Year,Wheat,101.96,27.54,180.06,2.14
+Punjab,Jalandhar,Rabi,Mustard,181.25,30.34,217.56,1.33
+Rajasthan,Jaipur,Whole Year,Wheat,180.71,23.09,216.47,3.79
+Maharashtra,Nagpur,Kharif,Maize,371.65,15.03,239.51,0.54
+Madhya Pradesh,Indore,Kharif,Soybean,29.43,17.46,132.81,1.08
+Maharashtra,Aurangabad,Whole Year,Soybean,483.06,25.94,203.09,1.4
+Madhya Pradesh,Gwalior,Whole Year,Rice,82.77,28.43,150.04,2.73
+Rajasthan,Kota,Kharif,Soybean,291.65,26.16,132.18,1.34
+Haryana,Hisar,Rabi,Rice,164.11,22.82,261.9,2.42
+Madhya Pradesh,Indore,Kharif,Mustard,475.54,35.06,309.86,1.03
+Madhya Pradesh,Jabalpur,Kharif,Wheat,444.72,20.73,290.66,2.82
+Punjab,Patiala,Whole Year,Soybean,264.12,19.5,82.45,1.3
+Madhya Pradesh,Gwalior,Whole Year,Soybean,167.31,15.5,92.69,1.37
+Haryana,Panipat,Rabi,Mustard,496.53,34.95,240.54,1.24
+Rajasthan,Kota,Kharif,Mustard,486.59,15.66,144.23,1.56
+Madhya Pradesh,Jabalpur,Kharif,Wheat,257.36,15.43,173.48,3.22
+Haryana,Rohtak,Whole Year,Wheat,368.63,32.1,197.16,2.48
+Maharashtra,Aurangabad,Rabi,Soybean,390.73,19.14,189.48,1.24
+Madhya Pradesh,Gwalior,Whole Year,Chana,366.93,30.98,162.72,1.21
+Rajasthan,Alwar,Kharif,Mustard,37.51,31.98,339.56,0.94
+Madhya Pradesh,Gwalior,Kharif,Mustard,384.33,29.79,227.78,1.37
+Rajasthan,Alwar,Kharif,Maize,244.85,37.73,108.73,1.6
+Punjab,Amritsar,Whole Year,Mustard,330.95,33.74,149.99,1.29
+Madhya Pradesh,Gwalior,Kharif,Wheat,331.28,17.45,197.74,3.19
+Rajasthan,Jodhpur,Whole Year,Rice,336.73,33.21,190.3,2.47
+Madhya Pradesh,Gwalior,Kharif,Rice,179.05,23.67,202.47,2.41
+Madhya Pradesh,Bhopal,Rabi,Wheat,281.87,30.44,220.87,1.56
+Haryana,Rohtak,Whole Year,Soybean,238.53,23.21,342.01,1.18
+Madhya Pradesh,Gwalior,Whole Year,Soybean,38.92,27.91,170.04,1.16
+Haryana,Rohtak,Kharif,Chana,245.11,18.63,257.81,1.31
+Haryana,Karnal,Rabi,Maize,69.71,20.99,196.86,1.38
+Madhya Pradesh,Indore,Rabi,Soybean,472.0,35.89,189.79,1.15
+Rajasthan,Jaipur,Kharif,Maize,379.5,15.36,83.97,1.14
+Maharashtra,Aurangabad,Kharif,Cotton,376.25,35.37,133.65,1.73
+Madhya Pradesh,Jabalpur,Whole Year,Mustard,318.04,25.9,195.64,1.08
+Rajasthan,Jodhpur,Kharif,Maize,49.18,35.14,90.96,1.11
+Maharashtra,Aurangabad,Whole Year,Chana,488.95,15.28,155.72,1.22
+Madhya Pradesh,Indore,Rabi,Rice,303.42,28.59,65.58,1.47
+Punjab,Ludhiana,Rabi,Mustard,262.37,21.06,92.47,1.53
+Maharashtra,Pune,Rabi,Rice,62.67,23.85,150.28,2.49
+Maharashtra,Nashik,Kharif,Maize,425.61,17.27,125.93,1.42
+Punjab,Ludhiana,Whole Year,Cotton,359.43,18.89,89.05,0.73
+Maharashtra,Nashik,Kharif,Mustard,271.12,29.89,132.62,1.31
+Madhya Pradesh,Gwalior,Kharif,Wheat,89.57,17.4,128.67,3.15
+Rajasthan,Jodhpur,Whole Year,Wheat,134.69,21.94,315.26,3.23
+Madhya Pradesh,Jabalpur,Rabi,Cotton,436.39,16.29,245.83,0.75
+Madhya Pradesh,Bhopal,Rabi,Cotton,170.88,21.54,270.8,0.9
+Madhya Pradesh,Bhopal,Whole Year,Cotton,320.35,20.24,305.84,1.02
+Rajasthan,Alwar,Rabi,Soybean,391.56,20.32,259.64,1.53
+Haryana,Karnal,Whole Year,Rice,323.23,35.45,87.65,1.06
+Haryana,Hisar,Kharif,Mustard,440.48,37.39,50.85,0.92
+Haryana,Rohtak,Rabi,Wheat,45.88,33.66,330.18,2.02
+Madhya Pradesh,Jabalpur,Kharif,Rice,153.73,24.48,183.72,2.67
+Maharashtra,Aurangabad,Whole Year,Wheat,106.97,18.01,122.58,3.27
+Madhya Pradesh,Bhopal,Rabi,Rice,407.58,36.01,119.11,1.28
+Maharashtra,Nashik,Kharif,Soybean,327.52,26.19,277.5,0.99
+Punjab,Patiala,Whole Year,Soybean,139.21,37.89,175.06,1.16
+Madhya Pradesh,Gwalior,Whole Year,Soybean,464.05,27.98,240.45,1.46
+Punjab,Patiala,Kharif,Mustard,496.1,29.87,208.64,1.14
+Maharashtra,Nashik,Kharif,Wheat,328.67,16.44,336.89,3.27
+Haryana,Hisar,Kharif,Cotton,306.45,33.64,103.68,1.82
+Punjab,Ludhiana,Kharif,Mustard,167.73,23.65,96.77,1.21
+Madhya Pradesh,Bhopal,Kharif,Wheat,187.21,24.26,301.33,3.45
+Maharashtra,Pune,Whole Year,Cotton,75.55,18.35,335.97,1.15
+Punjab,Ludhiana,Rabi,Wheat,122.95,29.11,159.92,2.34
+Maharashtra,Nagpur,Rabi,Mustard,106.81,25.75,228.01,1.23
+Maharashtra,Nagpur,Rabi,Rice,316.87,35.99,237.36,2.53
+Punjab,Jalandhar,Rabi,Wheat,451.47,18.15,194.73,2.98
+Haryana,Karnal,Rabi,Mustard,369.88,31.39,73.88,1.04
+Madhya Pradesh,Jabalpur,Whole Year,Mustard,450.9,19.53,164.17,1.27
+Punjab,Ludhiana,Whole Year,Cotton,279.33,25.98,114.62,0.9
+Madhya Pradesh,Jabalpur,Kharif,Rice,130.48,26.11,278.48,2.62
+Madhya Pradesh,Jabalpur,Rabi,Wheat,8.39,15.67,115.81,3.18
+Punjab,Jalandhar,Rabi,Rice,379.91,34.92,52.37,1.45
+Haryana,Hisar,Kharif,Maize,228.16,36.48,82.92,1.27
+Maharashtra,Pune,Rabi,Mustard,59.8,32.81,165.28,1.32
+Maharashtra,Aurangabad,Rabi,Maize,50.36,33.37,251.24,1.35
+Haryana,Hisar,Rabi,Maize,304.38,19.47,258.28,1.3
+Rajasthan,Jodhpur,Rabi,Maize,473.59,32.76,85.09,1.28
+Haryana,Rohtak,Rabi,Chana,354.87,34.45,260.3,0.94
+Haryana,Rohtak,Whole Year,Maize,311.21,23.89,115.06,1.35
+Haryana,Rohtak,Rabi,Maize,498.4,29.32,275.77,1.23
+Punjab,Amritsar,Kharif,Rice,161.92,25.73,222.69,2.22
+Madhya Pradesh,Jabalpur,Rabi,Chana,150.69,32.1,214.82,1.11
+Madhya Pradesh,Indore,Rabi,Rice,278.96,36.93,98.64,1.78
+Haryana,Karnal,Whole Year,Chana,190.08,33.28,293.2,1.11
+Rajasthan,Alwar,Kharif,Chana,87.28,24.66,185.49,1.25
+Maharashtra,Nashik,Kharif,Chana,50.13,27.89,237.06,1.31
+Madhya Pradesh,Jabalpur,Kharif,Soybean,116.44,23.83,346.97,1.1
+Rajasthan,Alwar,Kharif,Mustard,433.4,25.42,231.68,1.24
+Maharashtra,Pune,Rabi,Cotton,366.78,15.94,95.87,1.25
+Maharashtra,Nagpur,Rabi,Rice,414.35,22.87,280.16,2.21
+Haryana,Panipat,Kharif,Wheat,459.12,20.47,251.6,3.11
+Maharashtra,Aurangabad,Kharif,Soybean,312.1,28.48,151.4,1.0
+Madhya Pradesh,Indore,Kharif,Soybean,375.02,29.68,140.72,0.94
+Rajasthan,Jodhpur,Whole Year,Mustard,466.16,24.62,215.37,1.14
+Rajasthan,Jaipur,Whole Year,Mustard,491.87,26.86,95.92,1.32
+Haryana,Panipat,Whole Year,Chana,1.45,30.22,95.38,1.59
+Madhya Pradesh,Bhopal,Whole Year,Mustard,466.97,26.05,125.62,1.32
+Madhya Pradesh,Indore,Whole Year,Wheat,211.13,25.28,83.75,1.76
+Maharashtra,Pune,Rabi,Wheat,71.39,31.09,296.5,2.12
+Punjab,Patiala,Whole Year,Wheat,363.4,15.01,133.15,3.3
+Madhya Pradesh,Gwalior,Rabi,Maize,265.96,19.5,241.77,1.59
+Maharashtra,Nagpur,Whole Year,Wheat,424.65,17.48,219.48,3.39
+Punjab,Ludhiana,Whole Year,Cotton,59.92,17.13,97.43,1.17
+Maharashtra,Aurangabad,Whole Year,Maize,366.4,37.11,175.3,1.24
+Haryana,Karnal,Whole Year,Wheat,206.6,24.32,339.98,3.19
+Haryana,Rohtak,Rabi,Rice,150.23,24.21,168.89,2.95
+Madhya Pradesh,Bhopal,Rabi,Maize,4.51,28.6,289.42,1.45
+Rajasthan,Alwar,Rabi,Cotton,488.16,16.76,331.41,1.11
+Haryana,Rohtak,Kharif,Cotton,105.67,24.9,343.01,0.97
+Rajasthan,Jaipur,Whole Year,Mustard,55.83,32.33,184.1,1.23
+Punjab,Patiala,Kharif,Wheat,429.53,33.66,286.76,2.45
+Maharashtra,Nashik,Rabi,Rice,364.72,23.91,80.21,1.28
+Haryana,Hisar,Whole Year,Cotton,299.98,23.32,261.68,0.93
+Punjab,Amritsar,Rabi,Mustard,46.42,30.82,251.72,1.17
+Haryana,Rohtak,Kharif,Cotton,112.46,25.82,56.0,1.1
+Maharashtra,Nagpur,Kharif,Chana,141.84,22.47,74.71,1.19
+Madhya Pradesh,Bhopal,Whole Year,Cotton,254.77,15.07,115.66,0.55
+Punjab,Ludhiana,Whole Year,Wheat,131.43,34.97,58.9,2.11
+Punjab,Ludhiana,Rabi,Maize,188.87,36.2,135.89,1.22
+Haryana,Rohtak,Whole Year,Cotton,129.51,19.18,50.81,1.16
+Maharashtra,Nashik,Rabi,Maize,310.6,16.29,202.07,1.2
+Rajasthan,Jaipur,Whole Year,Maize,82.16,17.07,274.7,1.35
+Punjab,Ludhiana,Whole Year,Chana,454.24,18.71,289.14,1.07
+Punjab,Amritsar,Rabi,Rice,469.12,37.15,203.41,2.69
+Madhya Pradesh,Jabalpur,Kharif,Mustard,213.17,34.23,307.87,1.19
+Rajasthan,Jodhpur,Whole Year,Mustard,94.58,15.28,102.19,1.24
+Madhya Pradesh,Indore,Rabi,Maize,370.18,23.15,189.82,1.47
+Punjab,Ludhiana,Whole Year,Cotton,304.44,15.35,287.67,1.0
+Rajasthan,Kota,Whole Year,Soybean,439.91,32.7,344.48,1.39
+Haryana,Panipat,Rabi,Cotton,270.09,20.43,60.36,0.68
+Punjab,Jalandhar,Whole Year,Wheat,358.98,29.58,71.31,1.85
+Rajasthan,Kota,Rabi,Cotton,488.21,22.69,238.99,1.03
+Rajasthan,Jodhpur,Rabi,Rice,164.39,32.67,101.96,1.25
+Punjab,Jalandhar,Rabi,Mustard,243.01,31.12,184.34,1.39
+Rajasthan,Jaipur,Rabi,Chana,232.98,17.33,303.89,1.19
+Rajasthan,Kota,Rabi,Maize,119.89,36.08,290.55,1.15
+Maharashtra,Nagpur,Kharif,Cotton,93.64,24.1,87.22,0.89
+Rajasthan,Kota,Rabi,Cotton,357.85,27.42,165.02,0.72
+Rajasthan,Jaipur,Rabi,Wheat,14.43,20.05,180.61,2.81
+Haryana,Hisar,Whole Year,Rice,276.5,24.99,205.61,2.54
+Madhya Pradesh,Bhopal,Kharif,Maize,2.14,19.07,87.96,1.5
+Maharashtra,Aurangabad,Kharif,Mustard,267.95,18.02,196.71,0.87
+Madhya Pradesh,Bhopal,Kharif,Chana,29.23,33.58,81.01,1.02
+Rajasthan,Jodhpur,Kharif,Rice,71.56,17.69,241.59,2.53
+Rajasthan,Alwar,Whole Year,Mustard,391.32,36.72,217.94,1.01
+Haryana,Panipat,Kharif,Mustard,496.56,29.57,163.59,1.07
+Haryana,Karnal,Whole Year,Soybean,40.43,36.39,131.44,1.08
+Maharashtra,Pune,Whole Year,Chana,2.5,30.93,227.17,1.16
+Rajasthan,Alwar,Whole Year,Chana,129.39,26.98,80.23,1.31
+Rajasthan,Jaipur,Rabi,Rice,251.14,28.9,269.76,2.27
+Punjab,Ludhiana,Kharif,Wheat,3.63,31.93,151.2,1.74
+Punjab,Ludhiana,Kharif,Rice,158.4,28.92,115.99,2.03
+Maharashtra,Pune,Whole Year,Maize,486.83,35.55,248.02,1.32
+Maharashtra,Nagpur,Kharif,Mustard,453.4,22.85,174.82,1.65
+Maharashtra,Pune,Kharif,Cotton,430.01,16.32,235.49,0.89
+Madhya Pradesh,Indore,Rabi,Soybean,239.96,32.28,190.23,1.21
+Punjab,Amritsar,Whole Year,Wheat,21.36,26.78,79.45,1.93
+Maharashtra,Pune,Kharif,Wheat,257.59,20.02,198.14,3.26
+Rajasthan,Alwar,Whole Year,Cotton,283.06,23.23,161.7,1.02
+Maharashtra,Nagpur,Whole Year,Rice,67.69,15.9,286.87,2.71
+Maharashtra,Nashik,Whole Year,Mustard,250.39,36.36,57.34,1.3
+Rajasthan,Alwar,Rabi,Mustard,156.92,18.02,63.0,1.35
+Rajasthan,Jaipur,Rabi,Maize,368.02,21.36,276.01,1.61
+Rajasthan,Kota,Whole Year,Mustard,40.22,15.01,56.1,1.16
+Madhya Pradesh,Jabalpur,Rabi,Chana,21.63,32.14,344.29,1.07
+Rajasthan,Jodhpur,Whole Year,Soybean,4.0,17.71,217.71,1.0
+Punjab,Ludhiana,Kharif,Rice,357.19,15.73,305.65,2.43
+Maharashtra,Nagpur,Rabi,Rice,191.67,20.35,80.8,1.82
+Maharashtra,Aurangabad,Kharif,Chana,449.91,20.6,86.6,1.36
+Punjab,Patiala,Kharif,Chana,374.63,22.86,278.56,1.65
+Maharashtra,Pune,Kharif,Rice,452.97,35.76,347.73,2.45
+Haryana,Karnal,Whole Year,Mustard,407.26,28.36,148.07,1.2
+Punjab,Ludhiana,Rabi,Soybean,296.38,30.15,214.44,1.5
+Madhya Pradesh,Bhopal,Kharif,Maize,326.74,23.44,282.5,1.14
+Haryana,Karnal,Rabi,Soybean,126.5,22.38,140.85,1.3
+Haryana,Rohtak,Whole Year,Chana,259.03,35.37,176.41,1.42
+Punjab,Amritsar,Rabi,Wheat,351.48,26.74,99.47,2.04
+Madhya Pradesh,Jabalpur,Rabi,Chana,355.71,28.88,306.42,1.42
+Madhya Pradesh,Bhopal,Rabi,Soybean,154.61,15.97,186.55,1.13
+Madhya Pradesh,Gwalior,Whole Year,Chana,423.27,27.48,179.41,1.49
+Haryana,Panipat,Rabi,Maize,493.34,23.21,239.59,0.98
+Rajasthan,Jodhpur,Whole Year,Mustard,301.0,20.09,216.78,1.25
+Haryana,Hisar,Kharif,Rice,191.99,20.65,149.28,1.27
+Rajasthan,Jaipur,Rabi,Chana,37.86,18.74,237.62,1.12
+Maharashtra,Nashik,Rabi,Mustard,275.28,19.07,335.52,0.92
+Madhya Pradesh,Indore,Whole Year,Soybean,37.57,15.27,336.7,1.12
+Haryana,Karnal,Rabi,Soybean,108.53,23.18,241.83,0.83
+Haryana,Karnal,Whole Year,Rice,390.02,22.04,81.41,1.35
+Rajasthan,Jaipur,Rabi,Soybean,282.61,16.62,269.12,0.88
+Punjab,Ludhiana,Whole Year,Cotton,134.69,36.78,146.5,1.69
+Madhya Pradesh,Gwalior,Kharif,Chana,44.74,30.7,103.39,1.51
+Haryana,Karnal,Kharif,Cotton,376.51,21.64,322.79,1.0
+Madhya Pradesh,Indore,Kharif,Cotton,298.79,15.75,174.07,0.97
+Madhya Pradesh,Gwalior,Kharif,Maize,303.76,16.99,347.27,1.34
+Haryana,Rohtak,Whole Year,Chana,74.78,34.1,109.26,1.39
+Haryana,Hisar,Kharif,Cotton,472.74,15.45,128.23,0.87
+Haryana,Hisar,Rabi,Rice,248.43,24.11,113.64,1.6
+Madhya Pradesh,Jabalpur,Whole Year,Rice,28.66,22.62,242.92,2.59
+Rajasthan,Jaipur,Whole Year,Maize,210.24,34.78,348.15,0.98
+Rajasthan,Kota,Kharif,Mustard,388.8,34.44,134.36,1.56
+Punjab,Ludhiana,Whole Year,Wheat,471.67,20.85,258.8,2.82
+Punjab,Jalandhar,Rabi,Chana,375.62,27.88,336.38,1.29
+Madhya Pradesh,Bhopal,Whole Year,Soybean,249.69,16.64,165.29,1.13
+Maharashtra,Nashik,Rabi,Cotton,204.05,20.46,221.5,0.99
+Haryana,Rohtak,Kharif,Soybean,16.24,36.18,228.27,1.5
+Rajasthan,Kota,Kharif,Chana,337.37,16.01,340.4,1.22
+Punjab,Ludhiana,Whole Year,Mustard,66.12,28.68,305.91,1.0
+Maharashtra,Nashik,Rabi,Wheat,279.74,30.81,247.98,1.63
+Maharashtra,Pune,Rabi,Rice,477.12,35.2,82.06,1.6
+Punjab,Amritsar,Kharif,Rice,111.67,31.5,232.77,2.32
+Madhya Pradesh,Jabalpur,Kharif,Chana,421.99,27.89,147.5,1.38
+Rajasthan,Jodhpur,Kharif,Soybean,279.05,32.31,306.49,1.27
+Punjab,Jalandhar,Whole Year,Mustard,144.42,17.4,119.85,0.89
+Maharashtra,Pune,Rabi,Soybean,7.53,16.17,250.61,1.51
+Madhya Pradesh,Bhopal,Kharif,Maize,406.37,19.02,314.81,1.57
+Rajasthan,Alwar,Rabi,Wheat,239.4,36.74,148.86,2.2
+Maharashtra,Nashik,Kharif,Chana,465.15,19.25,258.5,1.55
+Haryana,Karnal,Rabi,Chana,200.19,20.15,116.47,1.27
+Punjab,Ludhiana,Rabi,Wheat,462.4,18.35,145.95,3.03
+Madhya Pradesh,Bhopal,Rabi,Rice,71.96,26.19,300.33,2.58
+Maharashtra,Aurangabad,Kharif,Cotton,495.01,30.08,344.66,1.88
+Maharashtra,Pune,Whole Year,Rice,489.7,24.25,142.01,1.49
+Haryana,Hisar,Rabi,Soybean,282.67,35.09,144.76,1.19
+Rajasthan,Alwar,Rabi,Soybean,107.69,31.49,143.97,1.25
+Maharashtra,Nagpur,Whole Year,Wheat,251.66,22.56,182.04,2.96
+Rajasthan,Jaipur,Kharif,Cotton,97.32,18.5,249.41,1.32
+Haryana,Rohtak,Kharif,Rice,411.2,15.61,67.88,1.36
+Madhya Pradesh,Indore,Kharif,Soybean,213.4,19.24,103.12,1.24
+Madhya Pradesh,Indore,Whole Year,Chana,326.87,19.44,175.23,1.02
+Haryana,Panipat,Whole Year,Cotton,364.84,23.7,51.75,1.17
+Haryana,Panipat,Whole Year,Soybean,153.87,25.72,120.86,1.13
+Madhya Pradesh,Indore,Rabi,Cotton,368.61,20.12,322.86,1.04
+Madhya Pradesh,Jabalpur,Whole Year,Mustard,148.93,16.18,333.18,0.95
+Maharashtra,Pune,Whole Year,Maize,415.23,28.09,66.59,0.77
+Rajasthan,Jaipur,Whole Year,Rice,142.12,31.1,51.65,1.18
+Maharashtra,Pune,Whole Year,Chana,88.91,33.24,305.48,1.34
+Rajasthan,Alwar,Rabi,Mustard,362.86,37.97,241.89,1.02
+Maharashtra,Pune,Kharif,Cotton,277.54,32.24,226.33,1.79
+Madhya Pradesh,Gwalior,Kharif,Mustard,375.27,28.18,196.71,1.15
+Maharashtra,Nashik,Kharif,Cotton,196.16,23.09,317.5,1.25
+Rajasthan,Alwar,Rabi,Maize,162.52,35.24,263.59,1.26
+Punjab,Jalandhar,Rabi,Wheat,159.3,21.92,69.82,3.22
+Haryana,Panipat,Kharif,Mustard,263.71,21.01,225.15,1.18
+Maharashtra,Nagpur,Rabi,Maize,151.5,36.4,146.2,0.78
+Haryana,Rohtak,Rabi,Soybean,313.93,32.5,191.64,1.62
+Maharashtra,Nashik,Kharif,Mustard,150.36,25.31,151.06,1.25
+Punjab,Patiala,Kharif,Chana,492.36,33.71,107.65,1.12
+Rajasthan,Jaipur,Rabi,Maize,124.21,18.96,150.66,1.2
+Rajasthan,Jaipur,Rabi,Rice,64.38,24.94,280.1,2.91
+Haryana,Karnal,Kharif,Mustard,195.85,19.69,85.76,1.18
+Haryana,Rohtak,Rabi,Chana,393.18,37.29,280.86,1.3
+Haryana,Rohtak,Whole Year,Chana,272.72,36.55,59.05,1.18
+Punjab,Patiala,Whole Year,Mustard,193.06,27.28,141.25,1.07
+Punjab,Jalandhar,Whole Year,Cotton,210.02,34.43,136.23,1.88
+Madhya Pradesh,Bhopal,Kharif,Cotton,266.58,22.75,137.37,1.0
+Punjab,Patiala,Kharif,Mustard,366.69,15.62,328.07,1.56
+Rajasthan,Alwar,Rabi,Chana,493.16,29.03,255.19,1.33
+Rajasthan,Kota,Whole Year,Chana,201.98,30.7,66.79,0.69
+Rajasthan,Kota,Rabi,Mustard,246.85,36.88,192.82,1.28
+Haryana,Karnal,Whole Year,Wheat,94.58,37.54,102.67,1.63
+Maharashtra,Aurangabad,Kharif,Cotton,153.56,30.03,91.23,1.69
+Maharashtra,Nagpur,Whole Year,Maize,287.2,31.6,334.94,1.38
+Rajasthan,Kota,Whole Year,Rice,215.03,36.73,193.9,2.34
+Haryana,Panipat,Kharif,Mustard,493.05,35.45,253.42,1.02
+Rajasthan,Alwar,Rabi,Cotton,394.85,25.35,80.92,0.82
+Rajasthan,Jodhpur,Rabi,Mustard,391.13,31.11,76.52,1.39
+Maharashtra,Nashik,Rabi,Chana,156.62,35.4,176.84,1.26
+Punjab,Amritsar,Kharif,Chana,406.35,22.73,296.34,1.68
+Madhya Pradesh,Indore,Kharif,Soybean,194.17,29.79,171.4,1.37
+Madhya Pradesh,Indore,Kharif,Mustard,196.31,15.44,101.16,1.21
+Rajasthan,Jodhpur,Rabi,Soybean,397.91,30.99,212.54,0.9
+Rajasthan,Jaipur,Rabi,Chana,325.24,25.78,268.72,1.24
+Madhya Pradesh,Jabalpur,Rabi,Rice,31.56,21.05,212.46,3.11
+Rajasthan,Kota,Rabi,Wheat,290.66,31.69,135.17,1.84
+Rajasthan,Kota,Rabi,Mustard,330.41,21.22,86.64,1.32
+Maharashtra,Aurangabad,Rabi,Wheat,374.5,24.22,265.1,3.21
+Rajasthan,Jaipur,Rabi,Maize,232.79,19.09,113.36,0.97
+Haryana,Hisar,Rabi,Maize,142.74,16.96,258.45,0.95
+Haryana,Rohtak,Kharif,Wheat,175.99,30.95,150.87,2.01
+Haryana,Panipat,Kharif,Cotton,440.59,29.92,316.81,1.53
+Maharashtra,Aurangabad,Whole Year,Cotton,71.27,30.04,334.24,1.89
+Maharashtra,Nashik,Rabi,Mustard,85.01,30.05,269.89,1.14
+Haryana,Panipat,Whole Year,Cotton,100.0,34.82,234.79,2.09
+Maharashtra,Nagpur,Whole Year,Chana,178.71,22.16,314.04,1.05
+Madhya Pradesh,Bhopal,Rabi,Soybean,267.83,15.12,312.13,0.94
+Punjab,Jalandhar,Rabi,Rice,421.27,37.39,148.09,1.48
+Punjab,Patiala,Kharif,Maize,342.57,31.29,255.84,1.16
+Punjab,Patiala,Whole Year,Soybean,214.8,33.58,331.48,1.03
+Maharashtra,Aurangabad,Whole Year,Mustard,444.03,27.23,274.55,1.18
+Haryana,Panipat,Whole Year,Soybean,434.34,30.61,132.35,1.02
+Rajasthan,Alwar,Whole Year,Soybean,97.29,28.63,213.38,0.88
+Madhya Pradesh,Gwalior,Kharif,Cotton,15.27,27.68,74.65,0.65
+Punjab,Amritsar,Rabi,Soybean,1.62,29.96,62.76,0.82
+Haryana,Panipat,Kharif,Chana,333.2,16.69,248.02,1.52
+Punjab,Ludhiana,Rabi,Cotton,37.52,15.88,69.19,0.88
+Maharashtra,Pune,Rabi,Maize,126.71,19.27,95.22,1.04
+Haryana,Karnal,Kharif,Mustard,22.72,37.55,249.94,0.88
+Madhya Pradesh,Indore,Kharif,Maize,423.94,20.39,170.33,1.34
+Rajasthan,Jodhpur,Whole Year,Rice,404.88,24.24,223.33,2.18
+Madhya Pradesh,Jabalpur,Kharif,Mustard,266.21,36.07,322.59,1.37
+Madhya Pradesh,Bhopal,Rabi,Cotton,250.24,20.26,289.48,0.81
+Maharashtra,Nagpur,Rabi,Rice,220.34,27.95,324.77,2.56
+Madhya Pradesh,Bhopal,Kharif,Cotton,102.12,37.2,51.75,1.96
+Haryana,Karnal,Kharif,Soybean,437.57,19.86,143.17,0.92
+Punjab,Ludhiana,Rabi,Maize,80.87,34.01,341.79,1.1
+Rajasthan,Alwar,Kharif,Maize,303.69,22.88,252.78,1.35
+Madhya Pradesh,Gwalior,Whole Year,Soybean,375.41,20.24,299.76,1.22
+Maharashtra,Aurangabad,Whole Year,Chana,266.63,32.79,127.36,1.29
+Rajasthan,Kota,Kharif,Maize,247.43,30.12,54.6,1.52
+Punjab,Patiala,Kharif,Chana,268.84,35.7,195.87,0.8
+Maharashtra,Aurangabad,Whole Year,Mustard,193.36,37.23,83.39,1.42
+Punjab,Amritsar,Kharif,Mustard,151.24,18.39,52.24,1.29
+Haryana,Karnal,Whole Year,Mustard,56.71,17.04,283.26,1.21
+Punjab,Amritsar,Whole Year,Wheat,127.43,32.26,219.85,1.73
+Madhya Pradesh,Indore,Whole Year,Soybean,442.74,31.94,222.91,1.28
+Madhya Pradesh,Indore,Rabi,Wheat,114.22,35.29,209.79,2.02
+Madhya Pradesh,Indore,Rabi,Soybean,17.94,24.11,331.19,1.2
+Madhya Pradesh,Jabalpur,Whole Year,Soybean,284.49,26.86,126.61,1.23
+Maharashtra,Aurangabad,Kharif,Mustard,22.38,24.46,342.61,1.31
+Haryana,Panipat,Rabi,Wheat,22.95,33.88,109.71,1.67
+Madhya Pradesh,Indore,Rabi,Rice,473.27,25.25,312.46,2.54
+Maharashtra,Pune,Rabi,Maize,190.23,33.34,153.16,1.05
+Haryana,Hisar,Kharif,Chana,132.65,20.47,343.89,0.99
+Madhya Pradesh,Jabalpur,Whole Year,Wheat,302.47,31.79,123.64,1.84
+Maharashtra,Aurangabad,Rabi,Rice,85.13,26.04,309.58,2.44
+Punjab,Ludhiana,Kharif,Maize,196.4,27.55,73.72,1.49
+Maharashtra,Aurangabad,Whole Year,Rice,123.7,28.91,62.07,1.36
+Punjab,Ludhiana,Whole Year,Wheat,42.67,20.67,252.69,3.09
+Rajasthan,Jodhpur,Rabi,Rice,41.69,37.88,104.08,1.72
+Haryana,Hisar,Kharif,Wheat,88.52,19.53,54.85,3.12
+Haryana,Panipat,Whole Year,Chana,295.04,16.95,293.65,1.08
+Haryana,Hisar,Rabi,Cotton,154.47,22.56,115.9,1.12
+Punjab,Patiala,Rabi,Rice,426.47,37.86,186.51,2.65
+Haryana,Karnal,Rabi,Mustard,186.53,37.21,248.13,1.12
+Haryana,Hisar,Whole Year,Cotton,430.23,18.5,181.66,1.06
+Haryana,Karnal,Whole Year,Maize,249.49,17.34,204.19,1.3
+Haryana,Karnal,Kharif,Wheat,240.3,19.83,249.66,3.21
+Rajasthan,Alwar,Kharif,Soybean,313.79,25.89,256.7,1.14
+Rajasthan,Jodhpur,Rabi,Cotton,180.06,34.48,267.14,2.19
+Rajasthan,Kota,Rabi,Rice,252.33,33.23,130.29,1.79
+Punjab,Patiala,Kharif,Soybean,260.89,30.59,209.58,1.0
+Punjab,Ludhiana,Kharif,Chana,193.86,21.44,261.7,1.12
+Punjab,Jalandhar,Whole Year,Wheat,151.74,29.29,331.82,2.14
+Punjab,Amritsar,Rabi,Mustard,366.88,15.53,76.96,1.16
+Haryana,Rohtak,Rabi,Cotton,390.54,16.08,261.52,0.94
+Rajasthan,Alwar,Rabi,Chana,123.25,33.44,64.88,1.23
+Punjab,Patiala,Kharif,Cotton,106.08,22.91,158.11,0.87
+Maharashtra,Nashik,Kharif,Chana,158.72,32.61,146.98,1.34
+Punjab,Patiala,Kharif,Mustard,204.61,23.18,154.15,0.95
+Punjab,Ludhiana,Whole Year,Cotton,256.1,29.84,249.85,1.91
+Rajasthan,Jaipur,Kharif,Maize,378.38,30.69,81.74,1.39
+Maharashtra,Aurangabad,Rabi,Maize,118.87,33.49,172.82,1.02
+Rajasthan,Alwar,Whole Year,Mustard,268.55,20.6,185.74,1.3
+Haryana,Panipat,Kharif,Soybean,229.29,18.77,331.78,1.06
+Punjab,Amritsar,Kharif,Soybean,156.96,37.28,290.27,1.14
+Rajasthan,Kota,Kharif,Wheat,389.78,18.6,190.08,3.01
+Madhya Pradesh,Bhopal,Whole Year,Mustard,458.73,20.76,220.75,1.38
+Madhya Pradesh,Bhopal,Whole Year,Mustard,327.12,18.64,92.86,1.08
+Rajasthan,Kota,Rabi,Mustard,98.97,21.92,148.98,1.22
+Haryana,Karnal,Kharif,Wheat,145.34,17.58,336.07,3.3
+Maharashtra,Pune,Rabi,Mustard,423.23,23.0,154.4,1.26
+Madhya Pradesh,Indore,Rabi,Cotton,39.78,34.7,137.8,2.05
+Madhya Pradesh,Gwalior,Whole Year,Maize,189.19,15.3,103.24,1.21
+Haryana,Karnal,Rabi,Chana,316.76,30.28,81.15,1.09
+Punjab,Ludhiana,Kharif,Cotton,477.03,27.31,157.13,1.4
+Haryana,Karnal,Kharif,Wheat,368.46,31.25,322.66,1.71
+Punjab,Ludhiana,Kharif,Wheat,97.55,32.19,89.76,2.21
+Haryana,Panipat,Rabi,Maize,147.37,34.93,266.8,1.3
+Punjab,Jalandhar,Whole Year,Cotton,355.76,30.88,143.75,1.97
+Maharashtra,Nagpur,Rabi,Rice,394.61,36.0,276.0,2.33
+Maharashtra,Nagpur,Kharif,Mustard,244.14,30.99,277.72,1.32
+Haryana,Hisar,Rabi,Cotton,182.49,26.1,302.55,1.03
+Rajasthan,Kota,Rabi,Cotton,382.48,21.37,148.9,1.03
+Haryana,Panipat,Whole Year,Soybean,463.88,15.03,331.75,1.01
+Madhya Pradesh,Jabalpur,Kharif,Maize,88.75,17.62,107.51,1.18
+Madhya Pradesh,Bhopal,Rabi,Wheat,19.89,15.73,259.29,2.76
+Maharashtra,Nashik,Kharif,Chana,4.66,34.29,155.06,1.32
+Haryana,Karnal,Whole Year,Mustard,94.36,15.23,322.65,0.76
+Haryana,Rohtak,Kharif,Chana,101.94,18.57,271.35,1.22
+Haryana,Karnal,Whole Year,Mustard,21.7,28.99,145.47,1.3
+Punjab,Amritsar,Rabi,Wheat,17.51,33.21,136.06,1.9
+Haryana,Panipat,Whole Year,Chana,59.44,21.81,267.03,1.31
+Haryana,Hisar,Kharif,Soybean,451.04,19.25,292.04,1.11
+Haryana,Hisar,Rabi,Mustard,114.15,15.07,217.86,1.34
+Punjab,Patiala,Rabi,Mustard,282.68,25.41,187.41,0.94
+Maharashtra,Aurangabad,Kharif,Rice,346.62,24.92,313.39,2.22
+Haryana,Rohtak,Rabi,Soybean,422.4,22.95,153.0,1.28
+Punjab,Patiala,Rabi,Chana,274.7,23.43,309.8,1.02
+Punjab,Jalandhar,Whole Year,Soybean,263.54,22.6,66.41,1.11
+Madhya Pradesh,Gwalior,Kharif,Cotton,493.83,27.21,220.76,0.99
+Maharashtra,Nashik,Rabi,Maize,329.17,32.27,250.46,1.45
+Rajasthan,Alwar,Kharif,Chana,240.74,18.1,285.63,1.3
+Punjab,Ludhiana,Whole Year,Cotton,29.16,27.87,133.16,1.19
+Maharashtra,Pune,Kharif,Maize,387.53,26.57,192.4,1.28
+Haryana,Hisar,Whole Year,Maize,378.87,22.88,65.42,0.83
+Punjab,Amritsar,Whole Year,Soybean,407.18,37.12,273.87,0.85
+Maharashtra,Nagpur,Kharif,Cotton,255.43,30.59,121.14,1.68
+Punjab,Amritsar,Rabi,Rice,399.03,18.94,232.54,2.51
+Haryana,Rohtak,Kharif,Chana,57.4,22.97,153.12,1.07
+Madhya Pradesh,Bhopal,Rabi,Chana,44.11,28.88,256.24,1.36
+Maharashtra,Nagpur,Rabi,Soybean,263.15,18.37,57.09,0.88
+Maharashtra,Pune,Kharif,Cotton,291.63,27.92,53.88,0.82
+Madhya Pradesh,Indore,Whole Year,Soybean,207.0,21.79,71.17,1.35
+Maharashtra,Nashik,Whole Year,Wheat,30.66,27.51,206.48,2.02
+Maharashtra,Aurangabad,Kharif,Cotton,241.32,34.72,302.02,1.65
+Haryana,Hisar,Rabi,Chana,419.12,18.24,144.44,1.44
+Punjab,Amritsar,Whole Year,Chana,478.0,15.3,329.07,1.15
+Madhya Pradesh,Gwalior,Whole Year,Rice,324.08,22.56,345.66,2.42
+Haryana,Hisar,Rabi,Maize,257.74,30.72,75.66,1.34
+Madhya Pradesh,Jabalpur,Rabi,Rice,494.81,15.59,299.45,2.42
+Maharashtra,Aurangabad,Rabi,Wheat,278.66,27.34,304.64,2.06
+Rajasthan,Kota,Rabi,Wheat,304.66,21.08,218.99,3.33
+Madhya Pradesh,Bhopal,Whole Year,Chana,416.59,25.34,346.17,1.53
+Haryana,Hisar,Kharif,Mustard,241.06,23.47,111.46,0.84
+Madhya Pradesh,Bhopal,Rabi,Rice,181.27,25.0,116.29,1.1
+Maharashtra,Pune,Rabi,Wheat,333.3,26.47,286.42,2.01
+Haryana,Rohtak,Whole Year,Cotton,75.35,16.28,131.44,0.6
+Punjab,Amritsar,Kharif,Cotton,481.92,18.94,288.17,0.79
+Rajasthan,Jaipur,Rabi,Wheat,315.68,31.03,347.41,1.86
+Maharashtra,Nashik,Rabi,Wheat,33.37,30.33,247.28,1.91
+Haryana,Panipat,Kharif,Cotton,325.13,15.8,338.29,1.06
+Rajasthan,Jaipur,Whole Year,Mustard,471.83,36.38,116.09,1.22
+Punjab,Patiala,Whole Year,Maize,402.88,15.12,193.66,1.25
+Rajasthan,Alwar,Kharif,Rice,460.63,33.7,116.49,1.5
+Madhya Pradesh,Bhopal,Rabi,Chana,282.74,22.3,263.73,1.11
+Maharashtra,Nashik,Rabi,Cotton,94.24,23.21,194.29,1.06
+Haryana,Karnal,Whole Year,Cotton,12.74,26.11,177.45,1.11
+Punjab,Patiala,Rabi,Cotton,493.6,36.8,262.21,1.75
+Punjab,Amritsar,Kharif,Chana,442.93,25.83,210.84,1.38
+Haryana,Panipat,Kharif,Mustard,161.55,17.01,98.63,0.95
+Madhya Pradesh,Jabalpur,Whole Year,Chana,111.22,33.11,198.46,0.99
+Haryana,Hisar,Kharif,Rice,433.27,35.78,205.6,2.49
+Maharashtra,Nagpur,Kharif,Soybean,65.06,29.32,146.27,1.36
+Maharashtra,Pune,Whole Year,Mustard,424.23,18.74,249.77,1.29
+Punjab,Patiala,Rabi,Chana,113.74,16.31,215.01,1.18
+Haryana,Panipat,Rabi,Rice,287.81,37.21,285.67,2.66
+Rajasthan,Jodhpur,Rabi,Maize,241.8,18.08,129.41,1.31
+Maharashtra,Aurangabad,Kharif,Mustard,128.45,23.79,224.1,1.34
+Rajasthan,Jodhpur,Kharif,Rice,437.04,34.8,95.95,1.8
+Maharashtra,Nashik,Whole Year,Maize,66.7,21.62,342.63,1.01
+Madhya Pradesh,Bhopal,Rabi,Chana,453.88,34.65,189.47,0.84
+Rajasthan,Jaipur,Kharif,Mustard,75.42,21.21,194.82,1.27
+Punjab,Jalandhar,Rabi,Maize,311.18,17.31,104.3,1.14
+Punjab,Patiala,Kharif,Chana,314.59,28.58,295.75,1.04
+Haryana,Karnal,Kharif,Mustard,449.32,22.61,209.4,1.05
+Madhya Pradesh,Indore,Kharif,Mustard,412.65,29.59,68.23,1.22
+Madhya Pradesh,Gwalior,Rabi,Chana,410.32,21.0,290.05,1.04
+Haryana,Panipat,Whole Year,Maize,415.49,18.02,270.17,1.17
+Maharashtra,Nagpur,Whole Year,Chana,321.1,27.71,62.1,1.29
+Rajasthan,Jodhpur,Kharif,Soybean,453.65,27.55,185.77,1.15
+Madhya Pradesh,Bhopal,Whole Year,Chana,186.71,17.0,56.42,1.39
+Rajasthan,Kota,Kharif,Wheat,16.68,17.48,227.45,3.22
+Punjab,Amritsar,Rabi,Mustard,481.98,34.24,267.01,1.06
+Rajasthan,Kota,Kharif,Maize,226.27,32.59,216.29,1.44
+Rajasthan,Jaipur,Rabi,Chana,187.73,26.96,60.46,1.53
+Madhya Pradesh,Gwalior,Rabi,Mustard,25.31,37.79,112.34,1.09
+Madhya Pradesh,Gwalior,Kharif,Maize,222.42,21.45,228.62,1.18
+Maharashtra,Nagpur,Whole Year,Mustard,57.82,25.03,287.34,1.16
+Madhya Pradesh,Gwalior,Whole Year,Cotton,170.03,32.27,253.6,1.99
+Maharashtra,Pune,Whole Year,Wheat,223.03,27.97,145.95,2.1
+Maharashtra,Nagpur,Whole Year,Wheat,344.88,32.11,171.08,1.87
+Maharashtra,Aurangabad,Whole Year,Soybean,84.56,16.1,255.06,1.53
+Haryana,Panipat,Rabi,Rice,100.41,37.67,278.96,2.42
+Punjab,Ludhiana,Rabi,Maize,249.98,16.53,89.61,1.43
+Rajasthan,Kota,Kharif,Cotton,173.42,32.97,285.08,1.3
+Rajasthan,Alwar,Rabi,Rice,351.57,29.63,187.68,2.02
+Rajasthan,Jaipur,Kharif,Wheat,74.6,17.45,327.34,3.03
+Punjab,Jalandhar,Whole Year,Chana,223.21,21.05,171.75,1.33
+Maharashtra,Nashik,Rabi,Cotton,356.97,25.91,131.0,1.15
+Punjab,Amritsar,Whole Year,Cotton,456.52,33.77,105.59,1.76
+Madhya Pradesh,Jabalpur,Whole Year,Chana,187.97,29.09,67.39,1.24
+Haryana,Karnal,Rabi,Mustard,244.71,30.2,300.82,1.4
+Haryana,Karnal,Kharif,Wheat,254.68,25.57,237.24,2.02
+Punjab,Jalandhar,Rabi,Chana,351.39,32.76,86.99,1.28
+Haryana,Rohtak,Rabi,Soybean,416.12,16.0,296.26,0.91
+Rajasthan,Jaipur,Kharif,Maize,268.77,20.35,205.01,1.19
+Maharashtra,Nashik,Whole Year,Soybean,208.96,15.96,265.98,1.34
+Haryana,Hisar,Kharif,Maize,11.29,36.42,125.62,1.32
+Maharashtra,Nagpur,Rabi,Rice,276.42,17.03,78.53,1.49
+Madhya Pradesh,Bhopal,Whole Year,Maize,339.66,26.71,116.7,1.05
+Haryana,Karnal,Kharif,Chana,114.97,30.18,65.54,1.21
+Maharashtra,Nashik,Rabi,Cotton,215.54,35.12,239.66,1.83
+Madhya Pradesh,Indore,Whole Year,Cotton,276.05,34.83,212.51,1.92
+Rajasthan,Jaipur,Whole Year,Wheat,277.2,37.48,286.16,2.15
+Haryana,Hisar,Kharif,Mustard,395.83,26.38,333.64,1.46
+Madhya Pradesh,Bhopal,Whole Year,Chana,478.12,21.24,191.59,1.36
+Rajasthan,Kota,Kharif,Rice,392.97,29.39,151.26,2.72
+Maharashtra,Nashik,Kharif,Rice,5.3,16.58,275.79,2.07
+Rajasthan,Jodhpur,Rabi,Wheat,399.08,34.07,218.0,1.76
+Haryana,Hisar,Rabi,Maize,312.36,33.32,50.98,1.41
+Madhya Pradesh,Indore,Rabi,Cotton,329.18,18.5,282.47,0.97
+Madhya Pradesh,Bhopal,Rabi,Maize,495.49,37.03,290.07,1.6
+Maharashtra,Nagpur,Rabi,Chana,298.93,15.15,322.67,1.28
+Haryana,Panipat,Whole Year,Mustard,311.22,35.06,330.32,1.23
+Madhya Pradesh,Gwalior,Whole Year,Cotton,69.1,29.14,81.75,2.0
+Punjab,Ludhiana,Whole Year,Mustard,313.56,37.67,59.3,1.05
+Punjab,Ludhiana,Kharif,Cotton,434.34,23.22,92.7,1.29
+Rajasthan,Alwar,Rabi,Chana,226.55,21.24,326.8,1.63
+Madhya Pradesh,Jabalpur,Rabi,Maize,257.19,27.21,227.67,1.48
+Madhya Pradesh,Gwalior,Whole Year,Wheat,494.6,26.03,237.66,2.2
+Maharashtra,Nagpur,Whole Year,Rice,302.6,34.54,291.69,2.42
+Maharashtra,Pune,Kharif,Mustard,401.69,29.73,111.72,0.91
+Maharashtra,Pune,Kharif,Cotton,206.01,34.79,116.14,2.14
+Maharashtra,Aurangabad,Kharif,Maize,492.25,17.4,64.19,1.24
+Punjab,Ludhiana,Kharif,Soybean,92.89,32.15,283.98,1.74
+Maharashtra,Aurangabad,Whole Year,Wheat,442.23,26.45,174.48,2.04
+Punjab,Ludhiana,Whole Year,Cotton,424.89,21.47,335.89,1.15
+Madhya Pradesh,Indore,Whole Year,Rice,67.35,21.43,337.67,2.36
+Punjab,Amritsar,Rabi,Chana,35.82,26.86,89.08,0.82
+Maharashtra,Nagpur,Whole Year,Soybean,72.95,21.62,79.89,1.34
+Haryana,Rohtak,Rabi,Soybean,417.99,29.75,155.5,1.12
+Maharashtra,Pune,Kharif,Cotton,435.69,34.68,109.56,2.28
+Madhya Pradesh,Gwalior,Kharif,Rice,271.22,34.73,191.12,2.44
+Rajasthan,Jaipur,Whole Year,Maize,88.22,25.48,199.51,1.48
+Punjab,Patiala,Kharif,Maize,257.58,20.17,88.85,1.18
+Maharashtra,Nagpur,Whole Year,Rice,32.77,24.75,209.78,2.5
+Madhya Pradesh,Indore,Whole Year,Mustard,55.56,16.51,340.5,1.12
+Maharashtra,Pune,Rabi,Maize,352.53,28.9,255.56,1.17
+Maharashtra,Nashik,Rabi,Cotton,357.63,20.81,345.48,0.84
+Haryana,Rohtak,Kharif,Mustard,390.91,28.86,263.0,0.97
+Rajasthan,Jodhpur,Whole Year,Chana,285.57,17.89,119.59,1.28
+Haryana,Rohtak,Rabi,Mustard,171.01,26.39,294.11,1.08
+Madhya Pradesh,Bhopal,Kharif,Cotton,90.12,24.59,271.42,0.67
+Punjab,Ludhiana,Kharif,Chana,22.86,32.14,253.97,1.24
+Haryana,Rohtak,Whole Year,Mustard,299.04,28.9,69.81,1.08
+Haryana,Hisar,Whole Year,Soybean,361.81,34.02,146.87,0.86
+Maharashtra,Pune,Whole Year,Rice,481.85,25.14,53.92,1.48
+Punjab,Jalandhar,Kharif,Chana,285.46,16.95,250.06,1.39
+Madhya Pradesh,Jabalpur,Kharif,Soybean,5.6,31.16,170.15,1.14
+Maharashtra,Nashik,Kharif,Cotton,37.12,24.02,144.41,0.9
+Madhya Pradesh,Bhopal,Whole Year,Rice,238.94,29.98,54.17,1.59
+Punjab,Patiala,Rabi,Soybean,79.9,24.91,339.3,1.16
+Haryana,Rohtak,Kharif,Chana,488.71,18.52,206.48,1.39
+Punjab,Patiala,Rabi,Wheat,72.67,28.7,243.95,2.35
+Madhya Pradesh,Jabalpur,Rabi,Chana,143.26,27.79,65.43,1.06
+Rajasthan,Jodhpur,Whole Year,Maize,464.18,29.34,201.28,1.25
+Haryana,Rohtak,Rabi,Rice,498.56,26.47,145.87,1.23
+Punjab,Patiala,Rabi,Maize,444.87,24.86,275.87,1.22
+Maharashtra,Aurangabad,Kharif,Soybean,67.19,33.38,212.9,1.26
+Rajasthan,Alwar,Rabi,Wheat,303.33,34.1,204.34,2.17
+Maharashtra,Aurangabad,Kharif,Soybean,274.17,28.53,262.36,0.99
+Rajasthan,Alwar,Whole Year,Mustard,344.71,15.5,167.09,1.01
+Rajasthan,Alwar,Whole Year,Mustard,223.7,20.53,70.69,1.16
+Maharashtra,Pune,Rabi,Mustard,412.45,31.72,166.19,1.38
+Punjab,Ludhiana,Rabi,Maize,260.34,25.36,342.04,1.33
+Haryana,Karnal,Kharif,Mustard,377.94,26.8,348.67,1.11
+Haryana,Panipat,Kharif,Soybean,52.33,22.15,72.82,1.24
+Rajasthan,Jaipur,Kharif,Soybean,486.79,32.45,344.64,1.19
+Madhya Pradesh,Jabalpur,Rabi,Mustard,340.13,26.44,276.03,1.2
+Maharashtra,Aurangabad,Kharif,Rice,474.45,36.47,117.44,1.28
+Madhya Pradesh,Jabalpur,Whole Year,Chana,220.91,21.85,67.85,1.23
+Haryana,Karnal,Kharif,Soybean,342.2,35.96,196.77,1.08
+Maharashtra,Aurangabad,Whole Year,Mustard,222.44,19.1,160.48,1.15
+Punjab,Ludhiana,Kharif,Soybean,495.38,31.53,204.16,1.57
+Rajasthan,Jaipur,Rabi,Wheat,182.87,16.28,139.25,3.45
+Maharashtra,Nagpur,Kharif,Mustard,72.7,29.4,206.57,0.87
+Rajasthan,Jaipur,Rabi,Wheat,110.74,24.12,337.35,3.59
+Maharashtra,Pune,Kharif,Chana,96.59,15.47,130.95,1.18
+Madhya Pradesh,Gwalior,Whole Year,Cotton,414.39,28.58,221.39,1.79
+Punjab,Patiala,Whole Year,Chana,472.58,20.44,255.94,1.03
+Madhya Pradesh,Indore,Kharif,Mustard,280.52,29.38,324.84,1.41
+Punjab,Amritsar,Kharif,Soybean,30.68,35.35,193.66,0.79
+Punjab,Patiala,Whole Year,Soybean,269.87,20.26,270.77,1.17
+Madhya Pradesh,Indore,Kharif,Soybean,128.59,34.1,294.92,1.18
+Maharashtra,Nagpur,Kharif,Chana,287.0,30.1,274.87,0.95
+Maharashtra,Aurangabad,Rabi,Maize,348.21,34.44,116.87,0.81
+Rajasthan,Kota,Kharif,Rice,479.9,32.69,265.54,2.69
+Rajasthan,Jaipur,Kharif,Cotton,263.75,21.75,321.35,1.12
+Punjab,Ludhiana,Whole Year,Chana,286.92,36.15,133.94,1.32
+Rajasthan,Jodhpur,Kharif,Rice,284.5,26.82,118.36,1.65
+Rajasthan,Jodhpur,Kharif,Soybean,266.25,22.02,116.24,1.05
+Punjab,Patiala,Whole Year,Chana,102.9,17.28,223.63,1.08
+Maharashtra,Aurangabad,Whole Year,Wheat,70.18,20.45,325.56,3.36
+Rajasthan,Alwar,Kharif,Chana,22.31,22.55,213.86,1.24
+Maharashtra,Aurangabad,Rabi,Maize,323.45,24.45,99.5,1.11
+Punjab,Amritsar,Rabi,Maize,463.97,24.15,184.91,1.21
+Maharashtra,Nagpur,Rabi,Rice,359.89,29.84,85.75,1.78
+Punjab,Ludhiana,Rabi,Chana,24.55,15.97,243.02,0.96
+Rajasthan,Kota,Rabi,Cotton,315.82,25.33,298.26,1.03
+Madhya Pradesh,Gwalior,Whole Year,Chana,175.75,37.92,160.42,1.14
+Haryana,Karnal,Kharif,Soybean,258.28,30.11,216.97,1.19
+Punjab,Jalandhar,Rabi,Rice,409.15,18.89,290.98,2.6
+Madhya Pradesh,Bhopal,Rabi,Chana,62.29,20.92,108.22,1.37
+Rajasthan,Jaipur,Kharif,Soybean,225.94,34.0,265.03,1.58
+Madhya Pradesh,Bhopal,Rabi,Soybean,269.51,32.86,140.23,1.22
+Punjab,Ludhiana,Rabi,Cotton,461.61,22.31,220.24,0.96
+Maharashtra,Nagpur,Kharif,Rice,181.51,18.54,144.34,1.27
+Maharashtra,Nagpur,Whole Year,Maize,147.5,33.11,195.26,1.45
+Haryana,Rohtak,Whole Year,Cotton,440.63,23.06,111.03,0.82
+Punjab,Patiala,Kharif,Chana,62.24,25.89,211.22,1.6
+Maharashtra,Nashik,Rabi,Chana,428.62,30.12,307.46,1.34
+Maharashtra,Aurangabad,Kharif,Maize,357.37,23.82,293.67,1.34
+Maharashtra,Nagpur,Rabi,Mustard,342.71,22.72,185.62,1.66
+Maharashtra,Nagpur,Whole Year,Mustard,189.18,36.79,71.61,1.09
+Haryana,Panipat,Rabi,Rice,410.43,25.74,170.56,2.76
+Madhya Pradesh,Jabalpur,Whole Year,Chana,34.45,16.44,181.43,1.56
+Rajasthan,Jaipur,Kharif,Chana,65.83,36.97,150.06,1.48
+Haryana,Karnal,Whole Year,Cotton,468.74,26.11,180.4,1.15
+Maharashtra,Nashik,Kharif,Rice,402.06,35.75,208.38,2.52
+Punjab,Amritsar,Kharif,Mustard,38.86,17.73,324.44,1.26
+Rajasthan,Kota,Kharif,Mustard,267.66,37.94,313.65,1.28
+Maharashtra,Nashik,Rabi,Mustard,194.57,31.89,152.34,1.29
+Maharashtra,Pune,Rabi,Mustard,239.65,15.46,347.14,1.07
+Punjab,Jalandhar,Rabi,Soybean,433.88,29.11,247.88,1.33
+Punjab,Amritsar,Kharif,Rice,346.86,24.79,171.84,2.96
+Rajasthan,Jodhpur,Whole Year,Cotton,232.07,31.45,245.09,1.6
+Madhya Pradesh,Bhopal,Kharif,Chana,128.87,31.41,96.48,1.07
+Maharashtra,Aurangabad,Kharif,Soybean,40.55,36.75,315.97,1.23
+Maharashtra,Aurangabad,Kharif,Soybean,139.44,23.86,123.55,1.04
+Maharashtra,Nashik,Rabi,Soybean,461.14,23.26,329.78,0.91
+Haryana,Karnal,Kharif,Chana,227.69,15.26,265.25,1.51
+Haryana,Panipat,Rabi,Chana,341.8,22.49,311.38,1.42
+Rajasthan,Alwar,Kharif,Wheat,138.24,33.07,136.28,2.06
+Madhya Pradesh,Gwalior,Rabi,Cotton,182.8,22.24,290.22,0.92
+Punjab,Jalandhar,Rabi,Soybean,382.23,30.86,152.44,0.97
+Madhya Pradesh,Jabalpur,Whole Year,Chana,459.5,17.84,275.91,1.51
+Rajasthan,Jaipur,Whole Year,Wheat,122.68,33.59,236.24,2.34
+Madhya Pradesh,Jabalpur,Whole Year,Wheat,258.92,36.62,242.87,2.44
+Madhya Pradesh,Indore,Whole Year,Soybean,351.92,34.29,141.3,1.15
+Haryana,Karnal,Rabi,Soybean,269.98,20.2,139.39,1.18
+Madhya Pradesh,Indore,Rabi,Maize,393.85,26.88,325.59,1.02
+Punjab,Ludhiana,Kharif,Rice,121.4,16.37,146.02,1.37
+Punjab,Jalandhar,Kharif,Soybean,242.59,22.43,327.21,0.87
+Rajasthan,Kota,Whole Year,Wheat,73.06,35.3,297.34,2.02
+Rajasthan,Kota,Rabi,Mustard,324.47,36.01,184.42,1.06
+Madhya Pradesh,Jabalpur,Whole Year,Chana,260.11,31.75,50.21,0.99
+Madhya Pradesh,Bhopal,Rabi,Soybean,254.27,17.15,226.72,1.22
+Punjab,Ludhiana,Rabi,Mustard,17.73,16.42,128.24,1.09
+Haryana,Karnal,Whole Year,Maize,273.52,29.28,186.73,1.27
+Rajasthan,Jodhpur,Whole Year,Cotton,295.02,25.83,170.91,0.84
+Haryana,Karnal,Rabi,Mustard,214.56,29.63,328.45,1.53
+Maharashtra,Aurangabad,Rabi,Wheat,422.76,25.39,155.04,2.07
+Haryana,Rohtak,Rabi,Chana,259.53,31.94,325.09,1.23
+Punjab,Amritsar,Whole Year,Rice,57.41,37.35,311.96,2.61
+Punjab,Amritsar,Whole Year,Chana,393.18,17.09,224.46,1.2
+Maharashtra,Nagpur,Kharif,Rice,390.8,18.71,143.73,1.81
+Madhya Pradesh,Gwalior,Whole Year,Chana,476.1,31.45,58.23,1.16
+Rajasthan,Jaipur,Whole Year,Chana,46.98,19.72,282.01,1.16
+Madhya Pradesh,Jabalpur,Rabi,Mustard,304.34,29.22,200.06,1.17
+Maharashtra,Aurangabad,Rabi,Cotton,267.41,29.2,130.09,1.38
+Haryana,Rohtak,Kharif,Mustard,415.8,20.75,65.83,1.41
+Rajasthan,Kota,Rabi,Chana,33.02,16.61,228.53,1.09
+Maharashtra,Nagpur,Whole Year,Cotton,252.74,35.81,341.89,1.5
+Maharashtra,Aurangabad,Rabi,Cotton,132.51,21.77,257.95,1.07
+Rajasthan,Jodhpur,Kharif,Chana,71.28,29.87,288.5,1.08
+Haryana,Panipat,Rabi,Mustard,310.97,24.54,217.35,1.26
+Rajasthan,Alwar,Whole Year,Soybean,242.21,20.42,301.0,0.96
+Madhya Pradesh,Jabalpur,Whole Year,Rice,221.36,25.12,166.09,2.51
+Haryana,Rohtak,Whole Year,Wheat,345.96,23.11,244.14,3.08
+Haryana,Rohtak,Rabi,Mustard,67.35,35.31,264.27,1.43
+Rajasthan,Alwar,Whole Year,Wheat,99.15,28.15,184.2,2.36
+Maharashtra,Aurangabad,Rabi,Chana,181.15,29.18,309.32,1.25
+Punjab,Ludhiana,Rabi,Mustard,158.58,18.03,331.46,0.88
+Maharashtra,Nagpur,Kharif,Wheat,376.93,19.39,127.46,2.96
+Haryana,Karnal,Kharif,Wheat,377.56,26.32,304.16,2.57
+Haryana,Karnal,Kharif,Cotton,118.01,15.59,187.06,1.03
+Haryana,Panipat,Whole Year,Mustard,134.17,27.89,167.88,1.24
+Rajasthan,Kota,Whole Year,Cotton,49.72,31.51,326.44,1.78
+Haryana,Karnal,Rabi,Mustard,424.22,31.51,318.84,0.95
+Punjab,Jalandhar,Rabi,Mustard,357.05,24.17,194.49,1.23
+Haryana,Panipat,Kharif,Cotton,414.83,15.47,185.14,1.01
+Rajasthan,Kota,Whole Year,Cotton,244.85,32.55,309.7,1.66
+Rajasthan,Alwar,Kharif,Maize,457.03,34.88,209.28,0.79
+Madhya Pradesh,Gwalior,Rabi,Wheat,186.82,22.98,172.14,3.28
+Maharashtra,Pune,Whole Year,Wheat,155.28,23.79,199.42,3.01
+Maharashtra,Nagpur,Rabi,Cotton,411.28,18.22,51.57,0.98
+Maharashtra,Nagpur,Kharif,Rice,378.42,35.19,249.56,2.11
+Madhya Pradesh,Indore,Kharif,Cotton,179.54,31.63,55.07,2.05
+Rajasthan,Kota,Rabi,Maize,409.74,18.26,161.24,1.33
+Maharashtra,Aurangabad,Whole Year,Wheat,265.68,25.95,304.5,2.39
+Haryana,Karnal,Kharif,Mustard,240.79,23.39,153.06,1.52
+Rajasthan,Jodhpur,Rabi,Cotton,45.89,20.13,135.49,1.25
+Rajasthan,Alwar,Whole Year,Mustard,118.3,25.54,165.56,0.91
+Maharashtra,Nashik,Rabi,Wheat,201.5,29.18,164.68,1.79
+Madhya Pradesh,Jabalpur,Whole Year,Soybean,401.52,35.92,217.12,0.93
+Maharashtra,Pune,Rabi,Soybean,232.62,20.29,217.17,0.91
+Punjab,Patiala,Whole Year,Rice,354.19,28.73,234.29,2.68
+Haryana,Panipat,Whole Year,Soybean,240.16,15.47,154.51,1.13
+Punjab,Jalandhar,Rabi,Mustard,103.69,20.95,93.97,1.02
+Madhya Pradesh,Indore,Kharif,Chana,268.95,30.62,156.83,1.08
+Rajasthan,Jodhpur,Whole Year,Wheat,199.19,19.9,248.83,3.08
+Haryana,Hisar,Kharif,Rice,65.23,19.87,191.66,2.39
+Punjab,Patiala,Kharif,Cotton,38.51,32.23,198.38,1.67
+Punjab,Jalandhar,Rabi,Cotton,186.27,33.93,309.59,1.83
+Rajasthan,Jaipur,Whole Year,Wheat,260.53,29.85,103.47,1.78
+Rajasthan,Jodhpur,Whole Year,Cotton,132.74,26.33,300.09,0.68
+Punjab,Jalandhar,Rabi,Cotton,410.81,27.7,111.65,1.04
+Haryana,Hisar,Rabi,Soybean,98.11,28.47,184.23,0.99
+Haryana,Rohtak,Rabi,Rice,180.37,27.22,178.62,2.54
+Rajasthan,Kota,Rabi,Rice,23.47,18.63,342.74,2.72
+Maharashtra,Nagpur,Whole Year,Maize,115.98,25.46,309.42,1.13
+Haryana,Rohtak,Kharif,Chana,405.43,24.53,149.04,1.32
+Punjab,Amritsar,Kharif,Wheat,272.67,28.34,209.52,2.52
+Haryana,Panipat,Whole Year,Mustard,375.17,29.99,325.48,1.56
+Madhya Pradesh,Gwalior,Rabi,Mustard,212.83,15.32,303.07,1.43
+Maharashtra,Nagpur,Rabi,Mustard,317.96,37.1,232.07,1.14
+Rajasthan,Alwar,Whole Year,Soybean,490.6,32.98,315.7,1.24
+Maharashtra,Nagpur,Rabi,Rice,366.05,28.09,313.39,2.39
+Madhya Pradesh,Indore,Whole Year,Maize,395.28,28.34,158.18,1.15
+Madhya Pradesh,Gwalior,Rabi,Soybean,321.75,21.01,205.96,1.21
+Punjab,Patiala,Whole Year,Wheat,212.1,34.31,177.46,2.09
+Madhya Pradesh,Bhopal,Kharif,Maize,120.86,35.6,164.95,1.27
+Haryana,Rohtak,Whole Year,Chana,326.72,36.17,299.61,1.17
+Haryana,Karnal,Whole Year,Wheat,248.29,36.72,56.96,1.87
+Madhya Pradesh,Indore,Rabi,Mustard,496.0,35.01,206.32,1.36
+Madhya Pradesh,Jabalpur,Whole Year,Maize,9.4,31.2,160.06,1.21
+Punjab,Jalandhar,Rabi,Wheat,357.95,17.69,337.9,2.89
+Madhya Pradesh,Bhopal,Rabi,Mustard,362.57,21.49,85.5,1.29
+Maharashtra,Pune,Whole Year,Mustard,469.31,24.3,102.88,1.37
+Madhya Pradesh,Bhopal,Rabi,Cotton,349.61,33.85,80.05,1.8
+Rajasthan,Kota,Whole Year,Wheat,383.95,30.31,237.97,1.66
+Punjab,Jalandhar,Rabi,Chana,52.53,24.42,106.51,0.86
+Haryana,Karnal,Kharif,Cotton,217.56,20.03,116.89,1.05
+Maharashtra,Aurangabad,Kharif,Chana,178.73,25.54,253.96,1.66
+Madhya Pradesh,Bhopal,Rabi,Chana,154.13,26.05,259.39,1.0
+Maharashtra,Aurangabad,Kharif,Maize,131.93,32.55,323.56,1.05
+Rajasthan,Alwar,Kharif,Rice,480.3,37.34,106.42,1.65
+Rajasthan,Kota,Whole Year,Chana,294.29,20.4,142.11,1.56
+Madhya Pradesh,Indore,Kharif,Cotton,60.06,33.62,168.68,1.83
+Maharashtra,Pune,Whole Year,Soybean,334.87,35.45,260.42,1.43
+Haryana,Panipat,Kharif,Soybean,350.74,21.05,225.59,1.35
+Maharashtra,Nagpur,Rabi,Rice,393.14,30.96,280.38,2.34
+Maharashtra,Nashik,Kharif,Mustard,192.78,18.9,335.6,1.14
+Rajasthan,Jaipur,Rabi,Rice,94.52,27.03,289.01,2.35
+Rajasthan,Jodhpur,Whole Year,Cotton,107.66,17.69,159.25,0.89
+Rajasthan,Kota,Kharif,Soybean,483.08,32.28,229.7,1.39
+Maharashtra,Nashik,Kharif,Mustard,20.81,24.75,340.75,1.66
+Punjab,Amritsar,Whole Year,Cotton,236.37,23.39,154.02,1.16
+Madhya Pradesh,Gwalior,Rabi,Cotton,328.01,23.01,325.73,1.48
+Punjab,Ludhiana,Whole Year,Cotton,473.26,28.65,306.89,1.78
+Punjab,Amritsar,Rabi,Mustard,76.69,30.06,92.81,1.38
+Punjab,Amritsar,Whole Year,Soybean,26.14,18.53,146.12,1.43
+Rajasthan,Kota,Whole Year,Rice,235.49,32.85,98.29,1.48
+Madhya Pradesh,Bhopal,Rabi,Chana,44.07,29.42,220.77,1.12
+Maharashtra,Nagpur,Whole Year,Wheat,428.15,29.88,256.7,1.74
+Haryana,Panipat,Whole Year,Chana,194.92,18.65,146.48,1.06
+Maharashtra,Nagpur,Whole Year,Rice,456.53,20.75,184.4,2.78
+Maharashtra,Nagpur,Rabi,Wheat,455.19,29.72,110.54,1.98
+Rajasthan,Jodhpur,Rabi,Wheat,453.55,21.6,58.55,3.15
+Haryana,Hisar,Whole Year,Cotton,438.51,25.43,248.94,1.0
+Rajasthan,Alwar,Rabi,Cotton,138.06,35.54,194.01,1.48
+Punjab,Amritsar,Whole Year,Cotton,241.99,26.55,105.75,1.02
+Madhya Pradesh,Gwalior,Rabi,Wheat,282.29,34.51,136.44,1.91
+Haryana,Karnal,Whole Year,Chana,450.41,37.98,294.96,0.84
+Madhya Pradesh,Bhopal,Rabi,Rice,469.79,21.43,147.15,1.29
+Rajasthan,Kota,Rabi,Cotton,202.91,34.27,135.02,1.86
+Haryana,Karnal,Kharif,Cotton,467.04,18.31,259.46,0.67
+Madhya Pradesh,Indore,Kharif,Rice,366.23,22.96,144.01,1.58
+Rajasthan,Kota,Kharif,Rice,189.32,17.56,283.24,2.8
+Punjab,Amritsar,Whole Year,Maize,15.08,36.98,285.71,0.98
+Maharashtra,Nagpur,Whole Year,Rice,194.55,29.26,155.1,2.2
+Maharashtra,Nashik,Kharif,Soybean,470.86,31.79,319.97,1.32
+Maharashtra,Nashik,Rabi,Rice,149.79,20.13,165.66,2.85
+Madhya Pradesh,Indore,Whole Year,Soybean,225.63,23.13,92.96,1.51
+Maharashtra,Pune,Rabi,Wheat,484.59,23.03,329.71,3.19
+Rajasthan,Jodhpur,Rabi,Wheat,11.75,23.77,329.76,3.31
+Maharashtra,Nagpur,Whole Year,Chana,106.56,16.44,107.04,1.46
+Madhya Pradesh,Bhopal,Rabi,Soybean,487.19,16.77,78.44,1.42
+Punjab,Patiala,Rabi,Wheat,83.8,36.57,344.07,2.16
+Maharashtra,Nagpur,Whole Year,Soybean,35.4,22.53,245.95,1.08
+Haryana,Panipat,Kharif,Maize,484.05,15.91,220.79,1.16
+Haryana,Rohtak,Kharif,Rice,4.94,15.34,283.06,2.46
+Madhya Pradesh,Bhopal,Whole Year,Maize,280.89,27.86,185.71,1.11
+Haryana,Hisar,Whole Year,Chana,151.71,30.42,65.11,1.11
+Haryana,Hisar,Kharif,Mustard,170.48,34.28,234.02,1.18
+Punjab,Ludhiana,Whole Year,Maize,271.04,17.4,329.93,1.05
+Punjab,Jalandhar,Kharif,Maize,338.42,17.79,236.79,1.18
+Madhya Pradesh,Bhopal,Whole Year,Maize,324.14,37.05,340.22,1.3
+Punjab,Ludhiana,Rabi,Wheat,162.52,21.21,64.36,3.07
+Haryana,Hisar,Rabi,Mustard,393.34,18.29,295.67,1.19
+Rajasthan,Kota,Kharif,Rice,299.71,15.02,88.25,1.3
+Madhya Pradesh,Indore,Whole Year,Chana,54.84,37.31,67.45,1.48
+Haryana,Panipat,Whole Year,Soybean,150.56,22.18,283.64,0.72
+Haryana,Hisar,Kharif,Mustard,405.39,35.73,238.06,1.04
+Rajasthan,Alwar,Whole Year,Chana,194.84,19.03,237.07,0.83
+Madhya Pradesh,Indore,Kharif,Maize,457.77,29.59,94.15,1.03
+Rajasthan,Alwar,Kharif,Chana,363.12,20.01,166.51,1.46
+Rajasthan,Jaipur,Whole Year,Soybean,231.9,20.05,281.84,1.23
+Rajasthan,Alwar,Whole Year,Wheat,244.37,28.78,269.61,1.94
+Haryana,Panipat,Kharif,Cotton,381.38,28.55,159.69,1.87
+Punjab,Ludhiana,Rabi,Rice,57.04,20.12,251.2,2.45
+Madhya Pradesh,Indore,Rabi,Rice,335.97,36.57,117.32,1.48
+Haryana,Hisar,Rabi,Wheat,478.39,18.78,88.32,3.17
+Punjab,Jalandhar,Rabi,Soybean,485.72,20.24,145.8,1.25
+Punjab,Jalandhar,Whole Year,Rice,88.27,37.33,61.94,1.59
+Rajasthan,Jodhpur,Kharif,Mustard,471.9,37.52,194.4,1.22
+Rajasthan,Kota,Whole Year,Mustard,444.23,35.97,254.97,1.17
+Haryana,Rohtak,Rabi,Maize,204.91,21.73,89.89,1.51
+Maharashtra,Pune,Kharif,Soybean,301.07,28.04,200.99,1.39
+Rajasthan,Alwar,Rabi,Rice,25.38,30.1,55.87,1.38
+Madhya Pradesh,Bhopal,Rabi,Mustard,468.97,33.76,253.71,1.02
+Madhya Pradesh,Indore,Rabi,Rice,264.45,23.54,225.69,2.35
+Madhya Pradesh,Bhopal,Rabi,Soybean,98.65,33.63,174.43,1.02
+Haryana,Rohtak,Whole Year,Chana,497.95,32.96,93.58,1.09
+Rajasthan,Jaipur,Whole Year,Rice,263.82,36.72,226.79,2.11
+Maharashtra,Aurangabad,Rabi,Mustard,424.91,37.79,174.55,1.3
+Maharashtra,Pune,Whole Year,Wheat,272.87,24.4,212.51,3.43
+Haryana,Karnal,Kharif,Wheat,312.78,16.87,272.9,3.33
+Maharashtra,Nagpur,Whole Year,Mustard,149.51,24.8,143.52,1.27
+Punjab,Jalandhar,Kharif,Wheat,308.35,18.05,111.82,3.07
+Madhya Pradesh,Indore,Rabi,Mustard,427.4,27.52,72.41,1.19
+Rajasthan,Jodhpur,Rabi,Soybean,293.97,34.19,187.65,1.58
+Madhya Pradesh,Bhopal,Whole Year,Soybean,136.67,16.0,76.27,1.27
+Haryana,Panipat,Whole Year,Soybean,422.02,16.97,302.7,1.61
+Punjab,Jalandhar,Rabi,Rice,64.43,22.15,116.46,1.59
+Madhya Pradesh,Jabalpur,Rabi,Rice,421.97,33.53,54.38,1.46
+Madhya Pradesh,Indore,Kharif,Cotton,208.7,24.02,213.03,0.8
+Madhya Pradesh,Gwalior,Whole Year,Rice,136.32,30.32,60.53,1.9
+Maharashtra,Aurangabad,Whole Year,Cotton,21.39,30.03,239.37,1.43
+Punjab,Patiala,Kharif,Mustard,311.85,21.43,75.64,1.34
+Rajasthan,Jodhpur,Kharif,Cotton,492.83,29.89,77.58,2.09
+Punjab,Amritsar,Kharif,Soybean,31.43,25.86,144.39,1.55
+Rajasthan,Alwar,Kharif,Cotton,12.81,35.82,148.08,2.1
+Maharashtra,Aurangabad,Whole Year,Soybean,158.11,22.1,128.26,1.22
+Maharashtra,Aurangabad,Kharif,Cotton,264.37,16.23,347.57,1.1
+Madhya Pradesh,Gwalior,Whole Year,Rice,272.95,17.4,298.84,2.42
+Madhya Pradesh,Bhopal,Rabi,Cotton,42.68,25.23,181.01,0.84
+Rajasthan,Jodhpur,Kharif,Soybean,289.0,37.68,71.46,1.12
+Rajasthan,Jodhpur,Rabi,Chana,261.0,32.96,216.05,1.35
+Maharashtra,Aurangabad,Whole Year,Wheat,133.61,19.68,132.14,3.0
+Rajasthan,Jaipur,Kharif,Wheat,282.27,28.73,276.51,2.07
+Haryana,Karnal,Whole Year,Mustard,384.33,15.65,315.6,1.24
+Madhya Pradesh,Indore,Kharif,Mustard,299.1,30.94,85.38,0.62
+Haryana,Hisar,Kharif,Cotton,279.12,15.49,272.8,1.1
+Rajasthan,Jaipur,Rabi,Wheat,154.56,37.24,57.15,1.82
+Rajasthan,Alwar,Whole Year,Chana,370.2,33.52,296.72,0.99
+Maharashtra,Nagpur,Kharif,Maize,127.85,35.94,227.44,1.01
+Haryana,Rohtak,Kharif,Mustard,56.43,17.46,85.72,1.21
+Maharashtra,Nashik,Rabi,Rice,306.32,28.75,94.13,1.4
+Maharashtra,Nagpur,Whole Year,Wheat,9.36,18.38,348.75,3.15
+Rajasthan,Kota,Kharif,Chana,378.74,36.76,205.97,1.54
+Madhya Pradesh,Gwalior,Kharif,Cotton,360.46,29.97,339.61,1.5
+Punjab,Ludhiana,Whole Year,Rice,326.51,18.96,57.73,1.6
+Rajasthan,Jaipur,Kharif,Cotton,233.56,17.09,164.48,1.18
+Maharashtra,Pune,Kharif,Maize,365.89,21.71,168.33,1.17
+Haryana,Hisar,Kharif,Rice,439.06,36.27,202.75,2.31
+Madhya Pradesh,Indore,Whole Year,Rice,399.0,16.31,170.61,3.01
+Punjab,Jalandhar,Rabi,Wheat,180.7,29.75,267.51,1.77
+Maharashtra,Pune,Whole Year,Rice,404.79,22.43,347.23,2.26
+Rajasthan,Kota,Kharif,Soybean,179.48,25.63,319.5,0.77
+Haryana,Rohtak,Rabi,Maize,378.55,36.34,197.44,1.04
+Rajasthan,Jaipur,Rabi,Mustard,294.07,30.34,57.05,0.92
+Madhya Pradesh,Jabalpur,Kharif,Cotton,191.63,35.56,113.67,2.03
+Haryana,Hisar,Kharif,Chana,23.13,15.8,130.22,1.23
+Rajasthan,Alwar,Whole Year,Soybean,416.94,26.61,77.46,0.93
+Maharashtra,Nashik,Kharif,Wheat,488.51,20.86,100.17,2.5
+Rajasthan,Alwar,Rabi,Rice,52.16,34.97,129.64,1.34
+Rajasthan,Jodhpur,Rabi,Rice,479.34,15.66,77.5,1.35
+Rajasthan,Alwar,Kharif,Wheat,278.14,22.12,71.46,3.07
+Madhya Pradesh,Bhopal,Whole Year,Mustard,323.69,36.84,101.36,1.53
+Maharashtra,Pune,Rabi,Maize,75.1,17.05,273.33,0.84
+Madhya Pradesh,Gwalior,Whole Year,Maize,25.68,19.63,137.6,1.45
+Madhya Pradesh,Bhopal,Whole Year,Wheat,92.51,27.54,193.4,2.08
+Maharashtra,Aurangabad,Kharif,Maize,470.37,37.97,180.43,0.98
+Punjab,Jalandhar,Rabi,Mustard,446.57,34.74,143.62,1.33
+Madhya Pradesh,Indore,Rabi,Cotton,260.83,18.1,282.52,0.95
+Punjab,Amritsar,Rabi,Mustard,337.53,19.4,226.93,1.18
+Madhya Pradesh,Gwalior,Rabi,Mustard,476.72,17.25,268.42,1.25
+Maharashtra,Nashik,Kharif,Maize,126.73,20.62,252.77,1.14
+Punjab,Jalandhar,Whole Year,Soybean,148.42,34.49,204.35,1.02
+Madhya Pradesh,Indore,Whole Year,Soybean,254.82,26.67,85.17,1.27
+Rajasthan,Alwar,Rabi,Maize,68.42,36.1,250.19,1.46
+Haryana,Karnal,Whole Year,Mustard,305.88,17.35,174.2,0.75
+Haryana,Hisar,Rabi,Chana,220.51,36.79,317.2,1.32
+Madhya Pradesh,Indore,Kharif,Maize,471.78,21.44,344.3,1.25
+Punjab,Amritsar,Rabi,Mustard,169.4,21.65,230.33,1.11
+Rajasthan,Jaipur,Whole Year,Soybean,423.48,15.28,58.44,1.26
+Punjab,Jalandhar,Rabi,Maize,222.91,35.58,215.86,1.67
+Madhya Pradesh,Jabalpur,Kharif,Wheat,139.88,33.02,143.89,1.78
+Rajasthan,Alwar,Kharif,Rice,280.39,20.63,94.52,1.35
+Maharashtra,Nagpur,Rabi,Wheat,3.42,27.4,107.01,1.84
+Rajasthan,Alwar,Whole Year,Soybean,334.27,37.58,115.96,1.39
+Maharashtra,Nagpur,Kharif,Soybean,23.34,28.54,267.38,1.3
+Maharashtra,Pune,Kharif,Maize,305.69,22.64,104.48,0.73
+Punjab,Amritsar,Whole Year,Wheat,223.23,20.43,105.64,3.24
+Punjab,Jalandhar,Kharif,Cotton,105.62,32.79,294.75,2.19
+Maharashtra,Nagpur,Rabi,Chana,416.53,30.95,324.9,1.2
+Rajasthan,Jodhpur,Kharif,Maize,329.32,23.41,175.36,1.23
+Maharashtra,Aurangabad,Rabi,Maize,400.26,33.49,67.95,1.04
+Madhya Pradesh,Gwalior,Kharif,Soybean,211.75,27.54,228.34,1.14
+Rajasthan,Jodhpur,Kharif,Cotton,273.04,25.49,292.45,0.78
+Rajasthan,Jaipur,Whole Year,Maize,194.44,18.45,277.39,0.8
+Madhya Pradesh,Bhopal,Kharif,Wheat,171.08,15.67,200.72,3.44
+Haryana,Karnal,Kharif,Cotton,145.01,32.67,305.18,1.7
+Rajasthan,Jaipur,Whole Year,Chana,22.36,32.0,178.51,1.28
+Madhya Pradesh,Bhopal,Kharif,Chana,68.37,34.02,93.18,0.81
+Rajasthan,Jaipur,Rabi,Chana,91.64,21.88,140.06,1.03
+Punjab,Patiala,Kharif,Wheat,411.5,24.69,183.16,3.64
+Madhya Pradesh,Gwalior,Rabi,Rice,466.84,30.42,106.95,1.73
+Madhya Pradesh,Jabalpur,Rabi,Wheat,349.91,28.56,186.66,2.08
+Maharashtra,Pune,Rabi,Rice,435.04,32.2,153.57,2.45
+Rajasthan,Jodhpur,Kharif,Maize,2.89,23.75,137.15,1.06
+Maharashtra,Nagpur,Whole Year,Mustard,424.01,19.93,102.32,1.04
+Rajasthan,Jodhpur,Rabi,Maize,215.98,29.83,190.31,0.87
+Rajasthan,Kota,Rabi,Wheat,76.5,24.03,116.17,3.35
+Rajasthan,Kota,Rabi,Soybean,494.36,25.94,144.96,1.62
+Madhya Pradesh,Bhopal,Rabi,Mustard,443.47,18.81,86.08,1.08
+Madhya Pradesh,Bhopal,Kharif,Chana,30.46,37.69,340.31,1.32
+Maharashtra,Aurangabad,Kharif,Rice,451.43,25.86,175.38,2.43
+Madhya Pradesh,Indore,Rabi,Cotton,62.22,30.46,302.52,1.84
+Madhya Pradesh,Jabalpur,Rabi,Rice,15.06,24.18,285.44,2.47
+Rajasthan,Jodhpur,Kharif,Maize,303.95,20.8,240.29,0.98
+Rajasthan,Kota,Rabi,Mustard,391.86,18.97,286.51,0.94
+Rajasthan,Jaipur,Rabi,Maize,163.35,31.33,121.52,1.33
+Rajasthan,Kota,Rabi,Maize,338.46,37.91,254.81,1.01
+Madhya Pradesh,Gwalior,Rabi,Soybean,38.14,27.9,157.6,1.14
+Rajasthan,Jaipur,Whole Year,Cotton,48.07,27.42,138.83,0.88
+Punjab,Ludhiana,Rabi,Cotton,19.8,25.81,107.83,1.23
+Madhya Pradesh,Indore,Whole Year,Rice,406.08,21.45,51.89,1.52
+Punjab,Ludhiana,Whole Year,Soybean,9.79,23.14,163.81,1.15
+Maharashtra,Nagpur,Whole Year,Wheat,383.6,35.84,341.16,1.49
+Punjab,Ludhiana,Rabi,Cotton,148.18,15.16,280.29,1.04
+Punjab,Amritsar,Whole Year,Soybean,352.0,32.53,256.59,1.14
+Maharashtra,Nashik,Whole Year,Maize,240.12,37.91,151.27,1.23
+Rajasthan,Jaipur,Kharif,Soybean,448.64,33.08,340.12,1.15
+Maharashtra,Nagpur,Rabi,Cotton,154.24,25.04,199.44,0.8
+Punjab,Ludhiana,Kharif,Wheat,219.2,37.67,52.0,2.28
+Punjab,Ludhiana,Rabi,Chana,286.41,37.35,304.02,1.59
+Punjab,Jalandhar,Whole Year,Mustard,478.7,29.79,297.58,1.07
+Madhya Pradesh,Indore,Kharif,Mustard,305.16,20.13,252.28,1.02
+Rajasthan,Alwar,Kharif,Chana,258.99,27.54,54.12,0.91
+Madhya Pradesh,Bhopal,Rabi,Mustard,187.73,18.82,66.37,1.12
+Haryana,Panipat,Whole Year,Mustard,35.96,29.3,227.42,1.16
+Haryana,Hisar,Whole Year,Rice,326.17,34.83,165.74,2.26
+Maharashtra,Aurangabad,Rabi,Chana,420.13,22.17,98.85,1.08
+Rajasthan,Jodhpur,Whole Year,Cotton,91.42,35.69,75.94,1.72
+Haryana,Panipat,Kharif,Rice,100.22,28.21,172.35,2.17
+Rajasthan,Jaipur,Kharif,Wheat,222.46,28.62,86.95,2.08
+Rajasthan,Kota,Kharif,Mustard,278.58,26.78,287.98,1.1
+Punjab,Patiala,Kharif,Cotton,14.85,37.3,178.11,1.71
+Rajasthan,Jaipur,Rabi,Wheat,33.99,27.97,142.05,1.98
+Rajasthan,Jodhpur,Rabi,Chana,309.43,33.14,230.21,1.08
+Maharashtra,Pune,Kharif,Mustard,276.34,27.07,144.86,1.55
+Madhya Pradesh,Indore,Rabi,Chana,359.37,21.65,166.76,1.23
+Maharashtra,Nagpur,Whole Year,Cotton,128.81,27.71,202.99,1.16
+Madhya Pradesh,Bhopal,Kharif,Wheat,418.85,22.04,193.07,2.87
+Haryana,Karnal,Rabi,Chana,22.4,26.66,65.3,1.1
+Rajasthan,Alwar,Kharif,Soybean,372.62,18.19,99.97,1.22
+Haryana,Hisar,Kharif,Chana,41.27,32.81,125.93,1.2
+Punjab,Amritsar,Kharif,Rice,213.97,18.69,214.68,2.29
+Rajasthan,Jaipur,Whole Year,Chana,64.07,31.1,208.36,1.17
+Haryana,Panipat,Whole Year,Rice,321.5,19.73,345.38,2.42
+Punjab,Patiala,Whole Year,Cotton,416.09,26.61,246.1,1.18
+Haryana,Hisar,Whole Year,Rice,115.82,23.59,65.19,1.28
+Punjab,Ludhiana,Rabi,Cotton,218.97,19.16,234.19,1.47
+Madhya Pradesh,Indore,Rabi,Cotton,472.15,37.35,281.61,1.61
+Maharashtra,Pune,Rabi,Chana,100.34,36.72,165.78,1.06
+Punjab,Patiala,Rabi,Cotton,262.59,29.04,349.7,1.86
+Madhya Pradesh,Bhopal,Kharif,Rice,395.63,32.87,319.76,2.3
+Maharashtra,Nashik,Rabi,Maize,67.29,19.55,223.08,1.03
+Rajasthan,Jodhpur,Rabi,Rice,426.24,28.29,309.94,2.22
+Madhya Pradesh,Bhopal,Whole Year,Mustard,33.12,15.66,102.51,1.23
+Madhya Pradesh,Indore,Kharif,Soybean,414.97,36.37,268.91,1.34
+Haryana,Panipat,Kharif,Maize,234.05,35.36,285.78,1.11
+Madhya Pradesh,Bhopal,Rabi,Wheat,268.66,36.68,258.43,2.04
+Punjab,Amritsar,Whole Year,Mustard,424.92,25.57,246.04,1.01
+Maharashtra,Nashik,Kharif,Soybean,337.23,29.54,340.68,1.23
+Haryana,Hisar,Rabi,Maize,337.39,17.62,349.97,1.38
+Maharashtra,Nashik,Kharif,Mustard,331.66,32.58,71.84,1.21
+Maharashtra,Pune,Rabi,Maize,461.46,37.8,107.41,1.1
+Punjab,Ludhiana,Kharif,Rice,200.16,21.46,120.57,1.65
+Haryana,Karnal,Kharif,Soybean,377.72,34.2,284.42,1.33
+Punjab,Patiala,Rabi,Rice,135.55,30.7,72.89,1.38
+Punjab,Jalandhar,Kharif,Mustard,419.24,16.13,309.02,0.99
+Madhya Pradesh,Indore,Kharif,Mustard,23.19,18.81,229.45,1.41
+Madhya Pradesh,Jabalpur,Rabi,Maize,417.58,24.14,80.28,1.25
+Haryana,Rohtak,Rabi,Cotton,165.21,24.86,120.67,1.28
+Punjab,Jalandhar,Kharif,Maize,380.69,18.55,73.27,1.54
+Rajasthan,Alwar,Whole Year,Maize,347.19,19.23,113.81,1.23
+Rajasthan,Jodhpur,Whole Year,Chana,412.64,34.24,308.71,1.42
+Punjab,Patiala,Whole Year,Soybean,26.49,28.74,150.23,1.2
+Madhya Pradesh,Bhopal,Kharif,Maize,280.07,17.4,296.49,1.25
+Maharashtra,Pune,Rabi,Mustard,447.19,18.77,114.42,0.9
+Rajasthan,Jaipur,Whole Year,Rice,260.99,27.76,334.97,2.38
+Madhya Pradesh,Indore,Whole Year,Cotton,402.31,17.27,132.68,0.74
+Rajasthan,Jaipur,Rabi,Rice,381.4,33.1,300.77,2.55
+Maharashtra,Aurangabad,Whole Year,Maize,222.84,37.33,340.45,1.73
+Haryana,Rohtak,Rabi,Rice,462.18,33.5,333.13,2.53
+Punjab,Patiala,Rabi,Wheat,130.1,34.56,274.83,1.89
+Rajasthan,Alwar,Kharif,Soybean,231.1,27.8,197.82,1.11
+Rajasthan,Alwar,Whole Year,Maize,347.57,16.99,110.05,1.37
+Punjab,Ludhiana,Rabi,Cotton,327.0,37.81,131.35,1.7
+Punjab,Jalandhar,Rabi,Mustard,165.0,29.03,322.54,1.19
+Madhya Pradesh,Indore,Whole Year,Chana,423.7,18.35,238.18,0.98
+Punjab,Amritsar,Whole Year,Soybean,109.79,17.34,203.58,1.66
+Maharashtra,Nashik,Whole Year,Maize,349.53,34.8,337.64,1.31
+Punjab,Amritsar,Rabi,Mustard,161.76,29.84,316.3,0.92
+Maharashtra,Pune,Kharif,Soybean,400.63,35.05,204.56,1.23
+Rajasthan,Jodhpur,Rabi,Mustard,186.67,33.6,342.0,1.31
+Madhya Pradesh,Jabalpur,Kharif,Maize,442.1,16.27,289.13,1.06
+Maharashtra,Nagpur,Whole Year,Rice,441.86,23.94,133.59,1.66
+Rajasthan,Alwar,Whole Year,Mustard,122.74,15.08,101.78,0.97
+Maharashtra,Aurangabad,Kharif,Chana,164.28,29.54,324.82,0.74
+Madhya Pradesh,Gwalior,Rabi,Rice,44.2,23.47,219.08,2.93
+Madhya Pradesh,Bhopal,Kharif,Chana,216.55,30.23,94.75,1.22
+Madhya Pradesh,Jabalpur,Whole Year,Wheat,344.22,34.13,109.4,2.32
+Punjab,Patiala,Rabi,Mustard,15.25,21.11,187.15,1.29
+Maharashtra,Nagpur,Whole Year,Maize,206.18,33.99,73.83,1.5
+Madhya Pradesh,Indore,Kharif,Maize,493.5,26.28,285.7,0.94
+Punjab,Jalandhar,Rabi,Rice,271.1,27.42,116.06,1.52
+Punjab,Amritsar,Rabi,Rice,353.75,35.06,223.37,2.3
+Maharashtra,Nashik,Whole Year,Rice,178.75,20.3,129.28,1.51
+Haryana,Panipat,Kharif,Chana,479.04,21.68,245.12,0.86
+Punjab,Patiala,Rabi,Wheat,171.79,37.68,337.51,1.98
+Punjab,Patiala,Rabi,Soybean,134.75,27.0,123.52,1.46
+Punjab,Amritsar,Kharif,Mustard,241.29,31.08,142.47,1.37
+Haryana,Rohtak,Kharif,Cotton,457.77,26.81,170.23,1.36
+Madhya Pradesh,Bhopal,Whole Year,Rice,174.94,30.05,89.27,1.41
+Maharashtra,Nashik,Rabi,Soybean,425.03,19.44,292.82,1.43
+Maharashtra,Nashik,Kharif,Mustard,255.47,20.38,323.61,1.37
+Punjab,Amritsar,Whole Year,Chana,105.76,16.48,315.87,1.22
+Punjab,Patiala,Rabi,Cotton,133.08,34.62,164.54,1.99
+Punjab,Amritsar,Kharif,Mustard,47.33,34.38,290.68,1.33
+Punjab,Amritsar,Kharif,Mustard,193.37,15.14,60.82,0.76
+Rajasthan,Alwar,Rabi,Rice,294.56,16.5,177.11,2.43
+Haryana,Karnal,Whole Year,Maize,156.67,15.01,147.23,1.82
+Madhya Pradesh,Jabalpur,Kharif,Mustard,119.29,15.59,283.53,0.79
+Punjab,Ludhiana,Rabi,Cotton,275.17,21.57,103.64,1.02
+Rajasthan,Jodhpur,Kharif,Soybean,97.69,20.44,337.56,1.14
+Maharashtra,Pune,Whole Year,Soybean,119.67,25.46,147.02,1.57
+Punjab,Ludhiana,Rabi,Mustard,102.89,25.1,204.52,1.3
+Haryana,Panipat,Whole Year,Wheat,379.06,16.67,73.38,3.34
+Punjab,Ludhiana,Kharif,Chana,309.24,32.85,310.69,1.25
+Rajasthan,Jodhpur,Whole Year,Cotton,400.33,17.96,74.08,1.0
+Haryana,Panipat,Rabi,Soybean,132.36,25.68,237.4,1.32
+Madhya Pradesh,Gwalior,Kharif,Wheat,107.86,17.21,79.13,3.35
+Rajasthan,Jodhpur,Whole Year,Wheat,339.48,16.94,292.11,3.46
+Haryana,Hisar,Whole Year,Chana,39.46,28.5,272.26,1.11
+Madhya Pradesh,Gwalior,Whole Year,Soybean,430.76,30.02,200.23,1.27
+Madhya Pradesh,Indore,Whole Year,Mustard,471.47,23.59,237.3,1.16
+Punjab,Patiala,Kharif,Wheat,185.5,22.17,162.25,3.17
+Punjab,Patiala,Kharif,Rice,449.74,32.85,274.25,2.69
+Maharashtra,Nashik,Rabi,Mustard,384.26,36.15,152.41,1.28
+Rajasthan,Alwar,Rabi,Mustard,471.36,30.72,220.78,1.32
+Maharashtra,Aurangabad,Whole Year,Wheat,62.33,34.0,333.82,2.11
+Punjab,Jalandhar,Whole Year,Cotton,232.0,18.34,262.87,1.14
+Haryana,Rohtak,Rabi,Cotton,41.8,26.1,318.22,0.57
+Madhya Pradesh,Gwalior,Rabi,Wheat,43.45,32.27,75.51,1.72
+Rajasthan,Alwar,Kharif,Cotton,37.07,27.92,199.17,1.29
+Haryana,Hisar,Rabi,Soybean,401.52,29.56,221.67,1.04
+Rajasthan,Jodhpur,Rabi,Soybean,410.88,37.4,341.14,1.29
+Punjab,Jalandhar,Kharif,Maize,109.28,16.32,293.5,0.99
+Maharashtra,Nagpur,Whole Year,Rice,215.95,19.7,245.74,2.25
+Haryana,Rohtak,Kharif,Soybean,303.58,18.75,98.29,1.44
+Rajasthan,Jodhpur,Whole Year,Rice,375.27,21.71,115.87,1.47
+Maharashtra,Nashik,Rabi,Maize,441.17,28.26,319.01,1.13
+Punjab,Ludhiana,Rabi,Maize,234.13,28.78,177.61,1.46
+Haryana,Panipat,Whole Year,Soybean,93.76,27.64,164.72,1.3
+Rajasthan,Jodhpur,Kharif,Soybean,281.58,31.33,312.43,0.59
+Punjab,Ludhiana,Kharif,Soybean,375.64,31.04,95.98,1.0
+Rajasthan,Jodhpur,Whole Year,Cotton,490.15,17.19,183.03,0.98
+Madhya Pradesh,Indore,Kharif,Maize,160.97,19.07,89.19,1.3
+Punjab,Jalandhar,Whole Year,Chana,183.93,24.48,171.35,1.05
+Haryana,Hisar,Kharif,Mustard,110.92,16.5,282.5,1.27
+Maharashtra,Nagpur,Rabi,Cotton,329.19,22.27,312.66,0.95
+Madhya Pradesh,Gwalior,Whole Year,Cotton,264.54,21.57,95.64,1.01
+Punjab,Patiala,Kharif,Soybean,476.79,29.94,65.03,1.24
+Punjab,Ludhiana,Kharif,Maize,416.71,22.56,143.17,1.25
+Madhya Pradesh,Gwalior,Rabi,Rice,67.95,26.0,232.67,3.1
+Punjab,Patiala,Whole Year,Wheat,190.45,17.98,124.25,3.35
+Madhya Pradesh,Jabalpur,Kharif,Wheat,352.9,37.21,107.27,1.97
+Haryana,Hisar,Rabi,Cotton,75.7,27.61,319.63,0.84
+Rajasthan,Jaipur,Kharif,Chana,468.89,24.19,78.06,1.28
+Rajasthan,Jaipur,Whole Year,Cotton,379.36,25.84,119.92,0.89
+Rajasthan,Alwar,Rabi,Wheat,477.01,28.29,172.55,1.72
+Punjab,Ludhiana,Kharif,Mustard,329.55,34.51,169.66,1.56
+Maharashtra,Nashik,Kharif,Mustard,432.79,21.55,159.53,1.29
+Madhya Pradesh,Indore,Rabi,Cotton,156.73,18.83,290.99,0.98
+Rajasthan,Jaipur,Whole Year,Cotton,38.86,19.57,286.07,0.92
+Haryana,Hisar,Rabi,Soybean,121.22,16.39,134.94,1.31
+Punjab,Amritsar,Whole Year,Cotton,176.21,34.71,223.41,1.63
+Haryana,Karnal,Whole Year,Wheat,45.49,36.89,238.42,1.52
+Madhya Pradesh,Gwalior,Rabi,Chana,393.36,33.34,269.03,1.29
+Rajasthan,Jaipur,Whole Year,Rice,271.12,16.98,58.04,1.73
+Maharashtra,Nagpur,Rabi,Rice,328.03,21.11,73.25,1.39
+Rajasthan,Jaipur,Kharif,Mustard,154.55,34.57,118.6,1.5
+Rajasthan,Jodhpur,Kharif,Cotton,193.45,23.0,324.37,0.72
+Rajasthan,Alwar,Whole Year,Soybean,39.98,36.98,75.55,1.24
+Maharashtra,Nashik,Rabi,Mustard,371.34,30.79,181.57,1.51
+Punjab,Patiala,Kharif,Maize,185.51,18.29,275.75,1.19
+Madhya Pradesh,Bhopal,Whole Year,Maize,53.8,19.61,344.57,1.44
+Haryana,Panipat,Rabi,Soybean,101.8,34.46,143.01,1.23
+Punjab,Ludhiana,Rabi,Maize,365.86,18.18,103.03,1.09
+Maharashtra,Nashik,Kharif,Cotton,321.81,18.52,347.29,1.06
+Haryana,Karnal,Whole Year,Rice,394.45,29.87,58.59,1.7
+Maharashtra,Aurangabad,Rabi,Cotton,37.6,31.17,169.72,1.88
+Haryana,Panipat,Rabi,Mustard,157.71,27.62,152.38,1.44
+Maharashtra,Aurangabad,Rabi,Maize,344.82,16.36,193.17,1.25
+Punjab,Amritsar,Kharif,Rice,146.29,20.08,280.29,2.81
+Maharashtra,Nagpur,Kharif,Wheat,477.0,34.56,247.65,1.68
+Madhya Pradesh,Bhopal,Kharif,Cotton,233.89,30.86,324.29,2.33
+Rajasthan,Kota,Kharif,Cotton,306.46,24.95,338.09,1.19
+Madhya Pradesh,Indore,Whole Year,Soybean,154.83,18.14,163.89,1.28
+Haryana,Hisar,Rabi,Maize,379.54,30.24,301.74,1.33
+Maharashtra,Nashik,Kharif,Rice,339.91,37.54,348.22,2.75
+Rajasthan,Jodhpur,Rabi,Chana,363.58,19.3,296.57,1.15
+Haryana,Karnal,Kharif,Rice,43.0,36.42,164.56,1.84
+Maharashtra,Nagpur,Kharif,Cotton,316.47,32.89,327.38,1.58
+Punjab,Jalandhar,Rabi,Wheat,15.05,17.04,267.51,3.57
+Punjab,Jalandhar,Rabi,Chana,276.1,19.25,132.89,0.96
+Haryana,Rohtak,Kharif,Chana,405.66,28.08,338.4,1.1
