@@ -62,7 +62,7 @@ export const createProduct = async (req: Request, res: Response, next: NextFunct
 
 export const updateProductStatus = async (req: Request, res: Response, next: NextFunction) => {
   const { id } = req.params;
-  const { status } = req.body;
+  const { status, rejection_reason, note } = req.body;
   const user = req.user as User;
 
   if (!status) {
@@ -80,6 +80,13 @@ export const updateProductStatus = async (req: Request, res: Response, next: Nex
     }
 
     product.status = status;
+    if (rejection_reason !== undefined) {
+      product.rejectionReason = rejection_reason;
+    } else if (note !== undefined) {
+      product.rejectionReason = note;
+    } else if (status === 'approved') {
+      product.rejectionReason = null;
+    }
     await product.save();
 
     return res.json(Helper.formatProduct(product));
@@ -88,4 +95,25 @@ export const updateProductStatus = async (req: Request, res: Response, next: Nex
   }
 };
 
-export default { getProducts, createProduct, updateProductStatus };
+export const deleteProduct = async (req: Request, res: Response, next: NextFunction) => {
+  const { id } = req.params;
+  const user = req.user as User;
+
+  try {
+    const product = await Product.findByPk(id);
+    if (!product) {
+      return res.status(404).json({ error: 'Crop listing not found.' });
+    }
+
+    if (product.farmerId !== user.id && user.role !== 'admin') {
+      return res.status(403).json({ error: 'Unauthorized to delete this listing.' });
+    }
+
+    await product.destroy();
+    return res.json({ success: true, message: 'Listing deleted successfully.' });
+  } catch (err) {
+    return next(err);
+  }
+};
+
+export default { getProducts, createProduct, updateProductStatus, deleteProduct };

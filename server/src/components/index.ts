@@ -24,6 +24,7 @@ Product.belongsTo(User, { foreignKey: 'farmerId', as: 'profiles' });
 User.hasMany(Order, { foreignKey: 'buyerId', as: 'purchases' });
 User.hasMany(Order, { foreignKey: 'farmerId', as: 'sales' });
 Order.belongsTo(User, { foreignKey: 'buyerId', as: 'buyer' });
+Order.belongsTo(User, { foreignKey: 'farmerId', as: 'farmer' });
 Order.belongsTo(User, { foreignKey: 'farmerId', as: 'profiles' });
 
 // Product - Order

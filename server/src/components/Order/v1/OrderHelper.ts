@@ -1,4 +1,5 @@
 export const formatOrder = (order: any) => {
+  const farmerData = order.farmer || order.profiles;
   return {
     id: order.id,
     product_id: order.productId,
@@ -17,8 +18,18 @@ export const formatOrder = (order: any) => {
       quantity_unit: order.products.quantityUnit,
       price_per_unit: order.products.pricePerUnit
     } : null,
-    profiles: order.profiles ? {
-      full_name: order.profiles.fullName
+    buyer: order.buyer ? {
+      id: order.buyer.id,
+      full_name: order.buyer.fullName,
+      email: order.buyer.email
+    } : null,
+    farmer: farmerData ? {
+      id: farmerData.id,
+      full_name: farmerData.fullName,
+      email: farmerData.email
+    } : null,
+    profiles: farmerData ? {
+      full_name: farmerData.fullName
     } : null
   };
 };

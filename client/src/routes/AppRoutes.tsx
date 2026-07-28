@@ -9,6 +9,7 @@ import Mandi from '../features/marketplace/Mandi';
 import AIHelper from '../features/chat/AIHelper';
 import AdminConsole from '../features/admin/AdminConsole';
 import ApproveListingsPage from '../features/admin/ApproveListingsPage';
+import AdminOrdersPage from '../features/admin/AdminOrdersPage';
 import FarmsPage from '../features/farms/FarmsPage';
 import CreateFarmPage from '../features/farms/CreateFarmPage';
 
@@ -113,6 +114,14 @@ export default function AppRoutes() {
         element={
           <ProtectedRoute allowedRoles={['admin']}>
             <ApproveListingsPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/admin/orders"
+        element={
+          <ProtectedRoute allowedRoles={['admin']}>
+            <AdminOrdersPage />
           </ProtectedRoute>
         }
       />

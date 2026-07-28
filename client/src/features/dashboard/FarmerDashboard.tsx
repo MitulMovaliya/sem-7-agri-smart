@@ -125,6 +125,59 @@ export default function FarmerDashboard() {
         </div>
       </div>
 
+      {/* Quick Navigation Guide for Users */}
+      <div style={{ backgroundColor: 'var(--surface)', padding: '16px 20px', borderRadius: '12px', border: '1px solid var(--border)' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
+          <span className="material-symbols-outlined" style={{ color: 'var(--primary)', fontVariationSettings: "'FILL' 1" }}>explore</span>
+          <h2 style={{ fontSize: '15px', fontWeight: 'bold', color: 'var(--text-primary)' }}>Quick Navigation - Where would you like to go?</h2>
+        </div>
+        <div className="quick-nav-grid">
+          <div className="quick-nav-card" onClick={() => navigate('/farmer/mandi')}>
+            <div className="quick-nav-icon-wrapper">
+              <span className="material-symbols-outlined" style={{ fontSize: '24px' }}>storefront</span>
+            </div>
+            <div>
+              <div style={{ fontWeight: 'bold', fontSize: '13px' }}>Mandi Marketplace</div>
+              <div style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>Buy & Sell crops directly</div>
+            </div>
+          </div>
+
+          {profile?.role === 'farmer' && (
+            <div className="quick-nav-card" onClick={() => navigate('/farmer/predict')}>
+              <div className="quick-nav-icon-wrapper">
+                <span className="material-symbols-outlined" style={{ fontSize: '24px' }}>analytics</span>
+              </div>
+              <div>
+                <div style={{ fontWeight: 'bold', fontSize: '13px' }}>Crop & Disease AI</div>
+                <div style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>AI yield & disease diagnosis</div>
+              </div>
+            </div>
+          )}
+
+          {profile?.role === 'farmer' && (
+            <div className="quick-nav-card" onClick={() => navigate('/farmer/farms')}>
+              <div className="quick-nav-icon-wrapper">
+                <span className="material-symbols-outlined" style={{ fontSize: '24px' }}>map</span>
+              </div>
+              <div>
+                <div style={{ fontWeight: 'bold', fontSize: '13px' }}>My Farm Fields</div>
+                <div style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>Manage land & soil records</div>
+              </div>
+            </div>
+          )}
+
+          <div className="quick-nav-card" onClick={() => navigate('/farmer/chat')}>
+            <div className="quick-nav-icon-wrapper">
+              <span className="material-symbols-outlined" style={{ fontSize: '24px' }}>support_agent</span>
+            </div>
+            <div>
+              <div style={{ fontWeight: 'bold', fontSize: '13px' }}>Ask AI Assistant</div>
+              <div style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>Farming help in your language</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Responsive Dashboard Grid */}
       <div className="dashboard-grid">
         {/* Left Column (Weather & Quick Actions) */}
@@ -196,12 +249,18 @@ export default function FarmerDashboard() {
         <div>
           <h3 style={{ fontSize: '14px', marginBottom: '8px' }}>My Trade Status</h3>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-            <div className="card" style={{ padding: '20px' }}>
-              <span style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>ACTIVE LISTINGS</span>
+            <div className="card" style={{ padding: '20px', cursor: 'pointer' }} onClick={() => navigate('/farmer/mandi?tab=my-listings')}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <span style={{ fontSize: '11px', color: 'var(--text-secondary)', fontWeight: 'bold' }}>MY CROP LISTINGS</span>
+                <span className="material-symbols-outlined" style={{ fontSize: '18px', color: 'var(--primary)' }}>arrow_forward</span>
+              </div>
               <h2 style={{ fontSize: '28px', fontWeight: 'bold', marginTop: '4px' }}>{listingsCount}</h2>
             </div>
-            <div className="card" style={{ padding: '20px' }}>
-              <span style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>ACTIVE ORDERS</span>
+            <div className="card" style={{ padding: '20px', cursor: 'pointer' }} onClick={() => navigate('/farmer/mandi?tab=orders')}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <span style={{ fontSize: '11px', color: 'var(--text-secondary)', fontWeight: 'bold' }}>ACTIVE ORDERS</span>
+                <span className="material-symbols-outlined" style={{ fontSize: '18px', color: 'var(--primary)' }}>arrow_forward</span>
+              </div>
               <h2 style={{ fontSize: '28px', fontWeight: 'bold', color: 'var(--primary)', marginTop: '4px' }}>{activeOrdersCount}</h2>
             </div>
           </div>

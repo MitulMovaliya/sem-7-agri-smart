@@ -231,6 +231,23 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <span>Approve Listings</span>
             </Link>
             <Link
+              to="/admin/orders"
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '12px',
+                padding: '8px 12px',
+                color: currentPath === '/admin/orders' ? 'var(--primary)' : 'var(--text-secondary)',
+                backgroundColor: currentPath === '/admin/orders' ? 'var(--secondary-container)' : 'transparent',
+                fontWeight: currentPath === '/admin/orders' ? 'bold' : 'normal',
+                textDecoration: 'none',
+                borderRadius: 'var(--radius)'
+              }}
+            >
+              <span className="material-symbols-outlined">receipt_long</span>
+              <span>Orders & Status</span>
+            </Link>
+            <Link
               to="/admin/ml"
               style={{
                 display: 'flex',
@@ -307,23 +324,24 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </p>
         </div>
 
-        <nav style={{ display: 'flex', flexDirection: 'column', gap: '8px', flex: 1 }}>
+        <nav style={{ display: 'flex', flexDirection: 'column', gap: '4px', flex: 1 }}>
           <Link
             to="/farmer"
             style={{
               display: 'flex',
               alignItems: 'center',
               gap: '12px',
-              padding: '8px 12px',
-              color: currentPath === '/farmer' ? 'var(--primary)' : 'var(--text-secondary)',
-              backgroundColor: currentPath === '/farmer' ? 'var(--secondary-container)' : 'transparent',
+              padding: '10px 14px',
+              color: currentPath === '/farmer' ? '#ffffff' : 'var(--text-secondary)',
+              backgroundColor: currentPath === '/farmer' ? 'var(--primary)' : 'transparent',
               fontWeight: currentPath === '/farmer' ? 'bold' : 'normal',
               textDecoration: 'none',
-              borderRadius: 'var(--radius)'
+              borderRadius: 'var(--radius)',
+              transition: 'all 0.15s ease'
             }}
           >
             <span className="material-symbols-outlined" style={{ fontVariationSettings: currentPath === '/farmer' ? "'FILL' 1" : '' }}>home</span>
-            <span>Home</span>
+            <span style={{ fontSize: '14px' }}>Home</span>
           </Link>
           {profile.role === 'farmer' && (
             <Link
@@ -332,16 +350,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 display: 'flex',
                 alignItems: 'center',
                 gap: '12px',
-                padding: '8px 12px',
-                color: currentPath === '/farmer/farms' ? 'var(--primary)' : 'var(--text-secondary)',
-                backgroundColor: currentPath === '/farmer/farms' ? 'var(--secondary-container)' : 'transparent',
+                padding: '10px 14px',
+                color: currentPath === '/farmer/farms' ? '#ffffff' : 'var(--text-secondary)',
+                backgroundColor: currentPath === '/farmer/farms' ? 'var(--primary)' : 'transparent',
                 fontWeight: currentPath === '/farmer/farms' ? 'bold' : 'normal',
                 textDecoration: 'none',
-                borderRadius: 'var(--radius)'
+                borderRadius: 'var(--radius)',
+                transition: 'all 0.15s ease'
               }}
             >
               <span className="material-symbols-outlined" style={{ fontVariationSettings: currentPath === '/farmer/farms' ? "'FILL' 1" : '' }}>map</span>
-              <span>My Farms</span>
+              <span style={{ fontSize: '14px' }}>My Farms</span>
             </Link>
           )}
           {profile.role === 'farmer' && (
@@ -351,16 +370,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 display: 'flex',
                 alignItems: 'center',
                 gap: '12px',
-                padding: '8px 12px',
-                color: currentPath === '/farmer/predict' ? 'var(--primary)' : 'var(--text-secondary)',
-                backgroundColor: currentPath === '/farmer/predict' ? 'var(--secondary-container)' : 'transparent',
+                padding: '10px 14px',
+                color: currentPath === '/farmer/predict' ? '#ffffff' : 'var(--text-secondary)',
+                backgroundColor: currentPath === '/farmer/predict' ? 'var(--primary)' : 'transparent',
                 fontWeight: currentPath === '/farmer/predict' ? 'bold' : 'normal',
                 textDecoration: 'none',
-                borderRadius: 'var(--radius)'
+                borderRadius: 'var(--radius)',
+                transition: 'all 0.15s ease'
               }}
             >
               <span className="material-symbols-outlined" style={{ fontVariationSettings: currentPath === '/farmer/predict' ? "'FILL' 1" : '' }}>analytics</span>
-              <span>Predict</span>
+              <span style={{ fontSize: '14px' }}>Predict</span>
             </Link>
           )}
           <Link
@@ -369,16 +389,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               display: 'flex',
               alignItems: 'center',
               gap: '12px',
-              padding: '8px 12px',
-              color: currentPath === '/farmer/mandi' ? 'var(--primary)' : 'var(--text-secondary)',
-              backgroundColor: currentPath === '/farmer/mandi' ? 'var(--secondary-container)' : 'transparent',
+              padding: '10px 14px',
+              color: currentPath === '/farmer/mandi' ? '#ffffff' : 'var(--text-secondary)',
+              backgroundColor: currentPath === '/farmer/mandi' ? 'var(--primary)' : 'transparent',
               fontWeight: currentPath === '/farmer/mandi' ? 'bold' : 'normal',
               textDecoration: 'none',
-              borderRadius: 'var(--radius)'
+              borderRadius: 'var(--radius)',
+              transition: 'all 0.15s ease'
             }}
           >
             <span className="material-symbols-outlined" style={{ fontVariationSettings: currentPath === '/farmer/mandi' ? "'FILL' 1" : '' }}>storefront</span>
-            <span>Mandi</span>
+            <span style={{ fontSize: '14px' }}>Mandi</span>
           </Link>
           <Link
             to="/farmer/chat"
@@ -386,16 +407,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               display: 'flex',
               alignItems: 'center',
               gap: '12px',
-              padding: '8px 12px',
-              color: currentPath === '/farmer/chat' ? 'var(--primary)' : 'var(--text-secondary)',
-              backgroundColor: currentPath === '/farmer/chat' ? 'var(--secondary-container)' : 'transparent',
+              padding: '10px 14px',
+              color: currentPath === '/farmer/chat' ? '#ffffff' : 'var(--text-secondary)',
+              backgroundColor: currentPath === '/farmer/chat' ? 'var(--primary)' : 'transparent',
               fontWeight: currentPath === '/farmer/chat' ? 'bold' : 'normal',
               textDecoration: 'none',
-              borderRadius: 'var(--radius)'
+              borderRadius: 'var(--radius)',
+              transition: 'all 0.15s ease'
             }}
           >
             <span className="material-symbols-outlined" style={{ fontVariationSettings: currentPath === '/farmer/chat' ? "'FILL' 1" : '' }}>support_agent</span>
-            <span>Assistant</span>
+            <span style={{ fontSize: '14px' }}>Assistant</span>
           </Link>
         </nav>
 
@@ -450,14 +472,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         {/* Content Body */}
         <main className="farmer-content">{children}</main>
 
-        {/* Floating Chat FAB - visible on mobile only */}
+        {/* Floating Chat FAB - visible on desktop and mobile for quick assistance */}
         {currentPath !== '/farmer/chat' && (
-          <button
-            onClick={() => navigate('/farmer/chat')}
-            className="farmer-chat-fab"
-          >
-            <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>chat</span>
-          </button>
+          <div className="floating-chat-container">
+            <button
+              onClick={() => navigate('/farmer/chat')}
+              className="floating-chat-fab-badge"
+              title="Ask AgriSmart AI Assistant"
+            >
+              <span className="material-symbols-outlined" style={{ fontSize: '18px', fontVariationSettings: "'FILL' 1" }}>support_agent</span>
+              <span>Ask AI Assistant</span>
+            </button>
+          </div>
         )}
 
         {/* Bottom Navigation - visible on mobile only */}

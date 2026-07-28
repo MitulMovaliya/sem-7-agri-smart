@@ -11,6 +11,19 @@ if (!groqApiKey) {
 const groq = new Groq({ apiKey: groqApiKey || '' });
 const ML_SERVICE_URL = process.env.ML_SERVICE_URL || 'http://localhost:8000';
 
+export const getAllSessions = async (req: Request, res: Response, next: NextFunction) => {
+  const user = req.user as User;
+  try {
+    const sessions = await ChatSession.findAll({
+      where: { userId: user.id },
+      order: [['updatedAt', 'DESC']]
+    });
+    return res.json(sessions);
+  } catch (err) {
+    return next(err);
+  }
+};
+
 export const getActiveSession = async (req: Request, res: Response, next: NextFunction) => {
   const user = req.user as User;
   try {
@@ -37,6 +50,25 @@ export const createSession = async (req: Request, res: Response, next: NextFunct
       language: language || user.language || 'hi'
     });
     return res.status(201).json(session);
+  } catch (err) {
+    return next(err);
+  }
+};
+
+export const deleteSession = async (req: Request, res: Response, next: NextFunction) => {
+  const { id } = req.params;
+  const user = req.user as User;
+
+  try {
+    const session = await ChatSession.findByPk(id);
+    if (!session || session.userId !== user.id) {
+      return res.status(404).json({ error: 'Chat session not found or access denied.' });
+    }
+
+    await ChatMessage.destroy({ where: { sessionId: id } });
+    await session.destroy();
+
+    return res.json({ message: 'Chat session deleted successfully.' });
   } catch (err) {
     return next(err);
   }
@@ -77,11 +109,19 @@ export const sendMessageStream = async (req: Request, res: Response) => {
       return res.status(404).json({ error: "Chat session not found or access denied." });
     }
 
-    const history = await ChatMessage.findAll({
+    // Auto-update session title on first message if default
+    if (session.title === 'Chat with Sahayak' || session.title === 'New Chat' || !session.title) {
+      const generatedTitle = prompt.trim().substring(0, 35) + (prompt.trim().length > 35 ? '...' : '');
+      session.title = generatedTitle;
+    }
+
+    // Fetch only the most recent 6 messages to keep context focused & efficient
+    const rawHistory = await ChatMessage.findAll({
       where: { sessionId: session_id },
-      order: [['createdAt', 'ASC']],
-      limit: 10
+      order: [['createdAt', 'DESC']],
+      limit: 6
     });
+    const history = rawHistory.reverse();
 
     // 1. Generate query embeddings
     let context = '';
@@ -172,4 +212,4 @@ ${context ? `Here is some verified agricultural context that might help answer t
   }
 };
 
-export default { getActiveSession, createSession, getSessionMessages, sendMessageStream };
+export default { getAllSessions, getActiveSession, createSession, deleteSession, getSessionMessages, sendMessageStream };

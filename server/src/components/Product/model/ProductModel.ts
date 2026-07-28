@@ -13,6 +13,7 @@ export class Product extends Model {
   declare qualityGrade: string | null;
   declare images: string[];
   declare status: 'pending' | 'approved' | 'rejected' | 'sold';
+  declare rejectionReason: string | null;
   declare readonly createdAt: Date;
   declare readonly updatedAt: Date;
 }
@@ -69,6 +70,10 @@ Product.init(
       type: DataTypes.ENUM('pending', 'approved', 'rejected', 'sold'),
       allowNull: false,
       defaultValue: 'pending',
+    },
+    rejectionReason: {
+      type: DataTypes.TEXT,
+      allowNull: true,
     },
   },
   {

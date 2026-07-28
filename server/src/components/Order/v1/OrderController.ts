@@ -7,13 +7,15 @@ export const getOrders = async (req: Request, res: Response, next: NextFunction)
   const user = req.user as User;
 
   try {
+    const whereClause = user.role === 'admin' ? {} : {
+      [Op.or]: [
+        { buyerId: user.id },
+        { farmerId: user.id }
+      ]
+    };
+
     const orders = await Order.findAll({
-      where: {
-        [Op.or]: [
-          { buyerId: user.id },
-          { farmerId: user.id }
-        ]
-      },
+      where: whereClause,
       include: [
         {
           model: Product,
@@ -21,8 +23,13 @@ export const getOrders = async (req: Request, res: Response, next: NextFunction)
         },
         {
           model: User,
-          as: 'profiles',
-          attributes: ['fullName']
+          as: 'buyer',
+          attributes: ['id', 'fullName', 'email']
+        },
+        {
+          model: User,
+          as: 'farmer',
+          attributes: ['id', 'fullName', 'email']
         }
       ],
       order: [['createdAt', 'DESC']]

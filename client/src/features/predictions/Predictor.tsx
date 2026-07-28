@@ -560,11 +560,11 @@ export default function Predictor() {
     borderDark: "#d1d5db",
     textPrimary: "#111827",
     textMuted: "#6b7280",
-    primaryGreen: "#059669",
-    primaryGreenHover: "#047857",
-    primaryGreenLightBg: "#ecfdf5",
-    primaryGreenBorder: "#a7f3d0",
-    green: "#059669",
+    primaryGreen: "#013a13",
+    primaryGreenHover: "#1e5128",
+    primaryGreenLightBg: "#e6f4ea",
+    primaryGreenBorder: "#b8f1b9",
+    green: "#013a13",
     orange: "#d97706",
     purple: "#7c3aed",
     blue: "#2563eb",
@@ -574,21 +574,16 @@ export default function Predictor() {
 
   return (
     <div style={{ fontFamily: zStyle.fontFamily, display: 'flex', flexDirection: 'column', gap: '20px', color: zStyle.textPrimary }}>
-      {/* Zerodha-Style Header with Farm Primary Green */}
-      <div style={{ borderBottom: `1px solid ${zStyle.border}`, paddingBottom: '14px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '12px' }}>
+      {/* AgriSmart Header Banner */}
+      <div className="mandi-header-banner">
         <div>
-          <h1 style={{ fontSize: '20px', fontWeight: 600, color: zStyle.textPrimary, letterSpacing: '-0.2px', margin: 0 }}>
-            Precision Predictor
-          </h1>
-          <p style={{ fontSize: '13px', color: zStyle.textMuted, margin: '4px 0 0' }}>
-            Machine learning models for real yield, soil health, and crop advice.
-          </p>
+          <h1 className="mandi-header-title">🌱 Precision Crop & Disease AI Predictor</h1>
+          <p className="mandi-header-subtitle">Machine learning models for yield estimation, disease diagnosis & crop advice</p>
         </div>
-
         {weatherLoaded && (
-          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '11px', fontWeight: 600, color: zStyle.primaryGreen, backgroundColor: zStyle.primaryGreenLightBg, border: `1px solid ${zStyle.primaryGreenBorder}`, padding: '5px 10px', borderRadius: '3px' }}>
-            <span className="material-symbols-outlined" style={{ fontSize: '14px' }}>thermostat</span>
-            <span>Live Regional Weather Active</span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '12px', fontWeight: 600, color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.15)', border: '1px solid rgba(255,255,255,0.3)', padding: '6px 12px', borderRadius: '20px', whiteSpace: 'nowrap' }}>
+            <span className="material-symbols-outlined" style={{ fontSize: '16px' }}>thermostat</span>
+            <span>Live Weather Synced</span>
           </div>
         )}
       </div>

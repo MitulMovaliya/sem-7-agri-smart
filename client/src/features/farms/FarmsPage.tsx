@@ -198,31 +198,32 @@ export default function FarmsPage() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', fontFamily: 'Inter, system-ui, sans-serif' }}>
-      {/* Header Bar */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px' }}>
+      {/* Header Banner */}
+      <div className="mandi-header-banner">
         <div>
-          <h2 style={{ fontSize: '20px', fontWeight: 600, color: '#111827', margin: 0, letterSpacing: '-0.01em' }}>My Farms</h2>
-          <p style={{ fontSize: '12px', color: '#6b7280', margin: '2px 0 0 0' }}>Manage farm lands, crop rotations & soil parameters</p>
+          <h1 className="mandi-header-title">🚜 My Farms & Field Management</h1>
+          <p className="mandi-header-subtitle">Manage registered farm lands, soil health parameters & crop rotations</p>
         </div>
-        <button 
-          onClick={() => navigate('/farmer/farms/create')} 
-          style={{ 
-            display: 'inline-flex', 
-            alignItems: 'center', 
-            gap: '6px', 
-            backgroundColor: '#059669', 
-            color: '#ffffff', 
-            padding: '8px 14px', 
-            borderRadius: '6px', 
-            fontSize: '12px', 
-            fontWeight: 600, 
-            border: 'none', 
+        <button
+          onClick={() => navigate('/farmer/farms/create')}
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '6px',
+            backgroundColor: '#ffffff',
+            color: '#013a13',
+            padding: '10px 18px',
+            borderRadius: '8px',
+            fontSize: '13px',
+            fontWeight: 700,
+            border: 'none',
             cursor: 'pointer',
-            boxShadow: '0 1px 2px rgba(0,0,0,0.05)'
+            boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
+            whiteSpace: 'nowrap'
           }}
         >
-          <span className="material-symbols-outlined" style={{ fontSize: '16px' }}>add</span>
-          Register Farm
+          <span className="material-symbols-outlined" style={{ fontSize: '18px' }}>add_circle</span>
+          <span>Register Farm</span>
         </button>
       </div>
 
@@ -236,7 +237,7 @@ export default function FarmsPage() {
           <span className="material-symbols-outlined" style={{ fontSize: '40px', color: '#9ca3af', marginBottom: '8px' }}>agriculture</span>
           <h4 style={{ fontSize: '15px', color: '#111827', margin: 0 }}>No Farms Registered Yet</h4>
           <p style={{ margin: '6px 0 16px', fontSize: '12px' }}>Add your farm coordinates, crop details, and soil reports to get started.</p>
-          <button onClick={() => navigate('/farmer/farms/create')} style={{ backgroundColor: '#059669', color: '#fff', border: 'none', padding: '8px 14px', borderRadius: '6px', fontSize: '12px', fontWeight: 600, cursor: 'pointer' }}>
+          <button onClick={() => navigate('/farmer/farms/create')} style={{ backgroundColor: 'var(--primary)', color: '#fff', border: 'none', padding: '8px 14px', borderRadius: '6px', fontSize: '12px', fontWeight: 600, cursor: 'pointer' }}>
             Register First Farm
           </button>
         </div>
@@ -284,7 +285,7 @@ export default function FarmsPage() {
                       flexShrink: 0,
                       border: '1px solid #a7f3d0'
                     }}>
-                      <span className="material-symbols-outlined" style={{ fontSize: '20px', color: '#059669' }}>
+                      <span className="material-symbols-outlined" style={{ fontSize: '20px', color: 'var(--primary)' }}>
                         potted_plant
                       </span>
                     </div>
@@ -366,7 +367,7 @@ export default function FarmsPage() {
                             gap: '6px'
                           }}
                         >
-                          <span className="material-symbols-outlined" style={{ fontSize: '15px', color: '#059669' }}>sync_alt</span>
+                          <span className="material-symbols-outlined" style={{ fontSize: '15px', color: 'var(--primary)' }}>sync_alt</span>
                           Rotate Crop
                         </button>
                         <button
@@ -404,7 +405,7 @@ export default function FarmsPage() {
                             gap: '6px'
                           }}
                         >
-                          <span className="material-symbols-outlined" style={{ fontSize: '15px', color: '#059669' }}>science</span>
+                          <span className="material-symbols-outlined" style={{ fontSize: '15px', color: 'var(--primary)' }}>science</span>
                           Update Soil Stats
                         </button>
                         <div style={{ height: '1px', backgroundColor: '#f3f4f6', margin: '2px 0' }} />
@@ -447,7 +448,7 @@ export default function FarmsPage() {
                       <span className="material-symbols-outlined" style={{ fontSize: '14px', color: '#10b981' }}>eco</span>
                       <span>Current Crop</span>
                     </div>
-                    <div style={{ fontSize: '14px', fontWeight: '600', color: '#059669', marginTop: '4px', textTransform: 'capitalize', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                    <div style={{ fontSize: '14px', fontWeight: '600', color: 'var(--primary)', marginTop: '4px', textTransform: 'capitalize', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                       {f.crop_type || 'Unspecified'}
                     </div>
                   </div>
@@ -475,7 +476,7 @@ export default function FarmsPage() {
                         alignItems: 'center',
                         justifyContent: 'center',
                         backgroundColor: '#ecfdf5', 
-                        color: '#059669', 
+                        color: 'var(--primary)', 
                         padding: '2px 8px', 
                         borderRadius: '12px', 
                         fontWeight: '600', 
@@ -508,7 +509,7 @@ export default function FarmsPage() {
                       display: 'flex',
                       alignItems: 'center',
                       gap: '2px',
-                      color: '#059669',
+                      color: 'var(--primary)',
                       fontWeight: '600',
                       fontSize: '12px',
                       border: 'none',
@@ -534,7 +535,7 @@ export default function FarmsPage() {
                     </div>
 
                     <div style={{ fontWeight: '600', fontSize: '11px', color: '#374151', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                      <span className="material-symbols-outlined" style={{ fontSize: '14px', color: '#059669' }}>analytics</span>
+                      <span className="material-symbols-outlined" style={{ fontSize: '14px', color: 'var(--primary)' }}>analytics</span>
                       Soil Health Parameter Timeline
                     </div>
 
@@ -576,7 +577,7 @@ export default function FarmsPage() {
           <div className="card" style={{ width: '100%', maxWidth: '420px', backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', boxShadow: '0 8px 30px rgba(0,0,0,0.12)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', borderBottom: '1px solid #e5e7eb', paddingBottom: '10px', marginBottom: '14px' }}>
               <strong style={{ fontSize: '14px', display: 'flex', alignItems: 'center', gap: '6px', color: '#111827' }}>
-                <span className="material-symbols-outlined" style={{ color: '#059669', fontSize: '18px' }}>science</span>
+                <span className="material-symbols-outlined" style={{ color: 'var(--primary)', fontSize: '18px' }}>science</span>
                 Update Soil Stats - {updatingSoilFarm.name}
               </strong>
               <button onClick={() => setUpdatingSoilFarm(null)} style={{ border: 'none', background: 'none', cursor: 'pointer', fontSize: '14px', color: '#6b7280' }}>✕</button>
@@ -612,7 +613,7 @@ export default function FarmsPage() {
 
               <div style={{ display: 'flex', gap: '10px', marginTop: '6px' }}>
                 <button type="button" onClick={() => setUpdatingSoilFarm(null)} className="btn btn-secondary" style={{ flex: 1, height: '34px', fontSize: '12px' }}>Cancel</button>
-                <button type="submit" className="btn btn-primary" style={{ flex: 1, height: '34px', fontSize: '12px', backgroundColor: '#059669' }} disabled={modalSubmitting}>
+                <button type="submit" className="btn btn-primary" style={{ flex: 1, height: '34px', fontSize: '12px', backgroundColor: 'var(--primary)' }} disabled={modalSubmitting}>
                   {modalSubmitting ? 'Saving...' : 'Save Parameters'}
                 </button>
               </div>
@@ -627,7 +628,7 @@ export default function FarmsPage() {
           <div className="card" style={{ width: '100%', maxWidth: '380px', backgroundColor: '#ffffff', padding: '20px', borderRadius: '8px', boxShadow: '0 8px 30px rgba(0,0,0,0.12)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', borderBottom: '1px solid #e5e7eb', paddingBottom: '10px', marginBottom: '14px' }}>
               <strong style={{ fontSize: '14px', display: 'flex', alignItems: 'center', gap: '6px', color: '#111827' }}>
-                <span className="material-symbols-outlined" style={{ color: '#059669', fontSize: '18px' }}>sync_alt</span>
+                <span className="material-symbols-outlined" style={{ color: 'var(--primary)', fontSize: '18px' }}>sync_alt</span>
                 Rotate Crop - {updatingCropFarm.name}
               </strong>
               <button onClick={() => setUpdatingCropFarm(null)} style={{ border: 'none', background: 'none', cursor: 'pointer', fontSize: '14px', color: '#6b7280' }}>✕</button>
@@ -649,7 +650,7 @@ export default function FarmsPage() {
 
               <div style={{ display: 'flex', gap: '10px', marginTop: '6px' }}>
                 <button type="button" onClick={() => setUpdatingCropFarm(null)} className="btn btn-secondary" style={{ flex: 1, height: '34px', fontSize: '12px' }}>Cancel</button>
-                <button type="submit" className="btn btn-primary" style={{ flex: 1, height: '34px', fontSize: '12px', backgroundColor: '#059669' }} disabled={cropSubmitting}>
+                <button type="submit" className="btn btn-primary" style={{ flex: 1, height: '34px', fontSize: '12px', backgroundColor: 'var(--primary)' }} disabled={cropSubmitting}>
                   {cropSubmitting ? 'Saving...' : 'Update Crop'}
                 </button>
               </div>

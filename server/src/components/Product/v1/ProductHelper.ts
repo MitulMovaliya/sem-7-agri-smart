@@ -11,6 +11,7 @@ export const formatProduct = (product: any) => {
     quality_grade: product.qualityGrade,
     images: product.images,
     status: product.status,
+    rejection_reason: product.rejectionReason || null,
     createdAt: product.createdAt,
     profiles: product.profiles ? {
       full_name: product.profiles.fullName

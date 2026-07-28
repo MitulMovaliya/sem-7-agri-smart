@@ -17,6 +17,8 @@ router.get('/users', requireAuth, requireAdmin, Controller.getUsers);
 router.patch('/users/:id/verify', requireAuth, requireAdmin, Controller.verifyUser);
 router.get('/products/pending', requireAuth, requireAdmin, Controller.getPendingProducts);
 router.get('/products', requireAuth, requireAdmin, Controller.getAdminProducts);
+router.get('/orders', requireAuth, requireAdmin, Controller.getAdminOrders);
+router.patch('/orders/:id', requireAuth, requireAdmin, Controller.updateAdminOrderStatus);
 
 export default router;
 

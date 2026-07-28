@@ -62,6 +62,13 @@ export default function ApproveListingsPage() {
   };
 
   const moderateProduct = async (productId: string, action: 'approved' | 'rejected') => {
+    let rejectionReason: string | null = null;
+    if (action === 'rejected') {
+      const inputReason = window.prompt("Enter rejection reason note for farmer (optional):", "Quality standards or details incomplete");
+      if (inputReason === null) return; // User cancelled
+      rejectionReason = inputReason.trim();
+    }
+
     setModeratingId(productId);
     try {
       const token = localStorage.getItem('token');
@@ -73,16 +80,16 @@ export default function ApproveListingsPage() {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${token}`
         },
-        body: JSON.stringify({ status: action })
+        body: JSON.stringify({ status: action, rejection_reason: rejectionReason })
       });
 
       if (response.ok) {
         showToast(`Listing ${action === 'approved' ? 'approved' : 'rejected'} successfully.`);
         setProducts((prev) =>
-          prev.map((p) => (p.id === productId ? { ...p, status: action } : p))
+          prev.map((p) => (p.id === productId ? { ...p, status: action, rejection_reason: rejectionReason } : p))
         );
         if (selectedProduct?.id === productId) {
-          setSelectedProduct((prev) => (prev ? { ...prev, status: action } : null));
+          setSelectedProduct((prev) => (prev ? { ...prev, status: action, rejection_reason: rejectionReason } : null));
         }
       } else {
         const errorData = await response.json();
@@ -572,45 +579,45 @@ export default function ApproveListingsPage() {
                   </button>
 
                   <div style={{ display: 'flex', gap: '6px' }}>
-                    {product.status !== 'approved' && (
-                      <button
-                        onClick={() => moderateProduct(product.id, 'approved')}
-                        disabled={isModerating}
-                        className="btn btn-primary"
-                        style={{
-                          height: '32px',
-                          fontSize: '11px',
-                          padding: '0 12px',
-                          backgroundColor: 'var(--positive)',
-                          display: 'flex',
-                          alignItems: 'center',
-                          gap: '4px'
-                        }}
-                      >
-                        <span className="material-symbols-outlined" style={{ fontSize: '14px' }}>check</span>
-                        Approve
-                      </button>
-                    )}
+                    {product.status === 'pending' && (
+                      <>
+                        <button
+                          onClick={() => moderateProduct(product.id, 'approved')}
+                          disabled={isModerating}
+                          className="btn btn-primary"
+                          style={{
+                            height: '32px',
+                            fontSize: '11px',
+                            padding: '0 12px',
+                            backgroundColor: 'var(--positive)',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '4px'
+                          }}
+                        >
+                          <span className="material-symbols-outlined" style={{ fontSize: '14px' }}>check</span>
+                          Approve
+                        </button>
 
-                    {product.status !== 'rejected' && (
-                      <button
-                        onClick={() => moderateProduct(product.id, 'rejected')}
-                        disabled={isModerating}
-                        className="btn btn-secondary"
-                        style={{
-                          height: '32px',
-                          fontSize: '11px',
-                          padding: '0 12px',
-                          color: 'var(--negative)',
-                          borderColor: 'var(--negative)',
-                          display: 'flex',
-                          alignItems: 'center',
-                          gap: '4px'
-                        }}
-                      >
-                        <span className="material-symbols-outlined" style={{ fontSize: '14px' }}>close</span>
-                        Reject
-                      </button>
+                        <button
+                          onClick={() => moderateProduct(product.id, 'rejected')}
+                          disabled={isModerating}
+                          className="btn btn-secondary"
+                          style={{
+                            height: '32px',
+                            fontSize: '11px',
+                            padding: '0 12px',
+                            color: 'var(--negative)',
+                            borderColor: 'var(--negative)',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '4px'
+                          }}
+                        >
+                          <span className="material-symbols-outlined" style={{ fontSize: '14px' }}>close</span>
+                          Reject
+                        </button>
+                      </>
                     )}
                   </div>
                 </div>
@@ -749,26 +756,25 @@ export default function ApproveListingsPage() {
                 Close
               </button>
 
-              {selectedProduct.status !== 'approved' && (
-                <button
-                  onClick={() => moderateProduct(selectedProduct.id, 'approved')}
-                  disabled={moderatingId === selectedProduct.id}
-                  className="btn btn-primary"
-                  style={{ height: '36px', fontSize: '12px', backgroundColor: 'var(--positive)' }}
-                >
-                  Approve Listing
-                </button>
-              )}
-
-              {selectedProduct.status !== 'rejected' && (
-                <button
-                  onClick={() => moderateProduct(selectedProduct.id, 'rejected')}
-                  disabled={moderatingId === selectedProduct.id}
-                  className="btn btn-secondary"
-                  style={{ height: '36px', fontSize: '12px', color: 'var(--negative)', borderColor: 'var(--negative)' }}
-                >
-                  Reject Listing
-                </button>
+              {selectedProduct.status === 'pending' && (
+                <>
+                  <button
+                    onClick={() => moderateProduct(selectedProduct.id, 'approved')}
+                    disabled={moderatingId === selectedProduct.id}
+                    className="btn btn-primary"
+                    style={{ height: '36px', fontSize: '12px', backgroundColor: 'var(--positive)' }}
+                  >
+                    Approve Listing
+                  </button>
+                  <button
+                    onClick={() => moderateProduct(selectedProduct.id, 'rejected')}
+                    disabled={moderatingId === selectedProduct.id}
+                    className="btn btn-secondary"
+                    style={{ height: '36px', fontSize: '12px', color: 'var(--negative)', borderColor: 'var(--negative)' }}
+                  >
+                    Reject Listing
+                  </button>
+                </>
               )}
             </div>
           </div>
