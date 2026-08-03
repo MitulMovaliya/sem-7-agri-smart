@@ -189,7 +189,7 @@ export default function AIHelper() {
       {
         id: 'welcome',
         role: 'assistant',
-        content: 'Hello! I am your AgriSmart Assistant. Ask me anything about crops, soil health, fertilizers, weather, or government schemes.'
+        content: 'Hello! I am your AgriSmart AI Assistant. How can I assist you today? Ask me anything about crop diseases, pest control, soil health, fertilizer management, weather forecasts, or government farming schemes. All answers will be provided in clear English.'
       }
     ]);
   };
@@ -304,7 +304,12 @@ export default function AIHelper() {
 
   const grouped = groupSessionsByDate(sessions);
   const currentSession = sessions.find(s => s.id === sessionId);
-  const quickSuggestions = ["Best crop to grow?", "NPK optimization?", "Weather forecast?"];
+  const quickSuggestions = [
+    "Best crop to grow for current season?",
+    "NPK fertilizer optimization guide",
+    "How to identify & treat leaf diseases?",
+    "Government agricultural schemes & subsidies"
+  ];
 
   return (
     <div className="chat-layout">
@@ -422,7 +427,7 @@ export default function AIHelper() {
 
             <div>
               <h2 style={{ fontSize: '15px', fontWeight: '600', margin: 0, color: 'var(--text-primary)' }}>
-                {currentSession?.title || 'AI Sahayak'}
+                {currentSession?.title || 'AI Assistant'}
               </h2>
               <div style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '11px', color: 'var(--positive)', fontWeight: 'bold' }}>
                 <span>●</span>
@@ -461,7 +466,7 @@ export default function AIHelper() {
               {m.role === 'assistant' && (
                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '8px', paddingBottom: '6px', borderBottom: '1px solid var(--border)', fontSize: '11px', fontWeight: 'bold', color: 'var(--primary)' }}>
                   <span className="material-symbols-outlined" style={{ fontSize: '15px' }}>smart_toy</span>
-                  <span>Krishi Sahayak AI</span>
+                  <span>AgriSmart AI Assistant</span>
                 </div>
               )}
               {m.role === 'user' ? (

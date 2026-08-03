@@ -46,8 +46,8 @@ export const createSession = async (req: Request, res: Response, next: NextFunct
     const session = await ChatSession.create({
       userId: user.id,
       threadId,
-      title: title || 'Chat with Sahayak',
-      language: language || user.language || 'hi'
+      title: title || 'Chat with AI Assistant',
+      language: language || user.language || 'en'
     });
     return res.status(201).json(session);
   } catch (err) {
@@ -110,7 +110,7 @@ export const sendMessageStream = async (req: Request, res: Response) => {
     }
 
     // Auto-update session title on first message if default
-    if (session.title === 'Chat with Sahayak' || session.title === 'New Chat' || !session.title) {
+    if (session.title === 'Chat with Sahayak' || session.title === 'Chat with AI Assistant' || session.title === 'New Chat' || !session.title) {
       const generatedTitle = prompt.trim().substring(0, 35) + (prompt.trim().length > 35 ? '...' : '');
       session.title = generatedTitle;
     }
@@ -154,12 +154,18 @@ export const sendMessageStream = async (req: Request, res: Response) => {
       logger.warn("RAG embedding retrieval failed, falling back to basic prompt.", { error: err });
     }
 
-    const systemPrompt = `You are AgriSmart AI Sahayak, a helpful assistant for rural Indian farmers and buyers.
-Your goal is to answer queries about crop diseases, weather anomalies, farming methods, market rates, and government schemes.
-Keep responses concise, practical, easy to read, and formatted in Markdown.
-Always reply in the farmer's language of choice (English or Hindi).
+    const systemPrompt = `You are AgriSmart AI Assistant, an expert agricultural advisor for farmers and agricultural traders.
 
-${context ? `Here is some verified agricultural context that might help answer the user's question:\n${context}` : ''}`;
+CRITICAL LANGUAGE RULE:
+- You MUST reply EXCLUSIVELY in clear, natural, and professional English language.
+- Even if the user submits queries in Hindi, Gujarati, Hinglish, or any other non-English language, understand their intent but provide your response STRICTLY in English.
+
+CORE RESPONSIBILITIES & GUIDELINES:
+- Provide high-quality, accurate, and practical advice on crop health, soil nutrients (NPK), pest/disease control, irrigation, weather adaptation, market prices, and government schemes.
+- Structure your response cleanly using GitHub-flavored Markdown (bold headings, key highlights, clear bullet points, step-by-step instructions).
+- Keep answers direct, professional, concise, and easy to read.
+
+${context ? `VERIFIED AGRICULTURAL KNOWLEDGE BASE CONTEXT:\n${context}` : ''}`;
 
     const groqMessages = [
       { role: 'system' as const, content: systemPrompt },

@@ -131,6 +131,14 @@ h1, h2, h3, h4, h5, h6 {
   border-color: var(--primary-light);
 }
 
+select.input-field {
+  padding-right: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+
 /* Primary and Secondary Buttons */
 .btn {
   display: inline-flex;

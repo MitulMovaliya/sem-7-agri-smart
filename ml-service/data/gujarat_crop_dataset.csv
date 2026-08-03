@@ -1,0 +1,1001 @@
+State,District,Taluka,N,P,K,pH,Humidity,Water_Source,Season,Soil_Type,Crop
+Gujarat,Vadodara,Savli,201.6,87.1,124.6,6.13,78.4,Nahar/Canal,Zaid/Summer,Medium Black,Sugarcane
+Gujarat,Sabarkantha,Idar,29.3,34.0,23.4,7.58,39.2,Tube-well,Rabi/Winter,Sandy Loam,Cumin
+Gujarat,Rajkot,Jetpur,18.1,39.1,21.7,7.12,36.5,Well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Devbhumi Dwarka,Khambhalia,59.2,27.6,26.0,7.74,60.5,Rainwater,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Morbi,Morbi,139.1,55.7,56.0,7.07,66.3,Tube-well,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Morbi,Wankaner,135.1,70.5,31.8,7.56,45.7,Nahar/Canal,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Bharuch,Vagra,124.4,46.6,49.7,6.92,75.8,Lake,Kharif/Monsoon,Deep Black,Rice
+Gujarat,Junagadh,Visavadar,145.7,67.0,47.9,7.06,45.0,Tube-well,Rabi/Winter,Coastal Alluvial,Wheat
+Gujarat,Narmada,Tilakwada,202.3,77.1,109.2,6.54,89.9,Tube-well,Zaid/Summer,Medium Black,Sugarcane
+Gujarat,Banaskantha,Palanpur,117.6,53.8,42.7,6.6,64.5,Rainwater,Kharif/Monsoon,Sandy Loam,Cotton
+Gujarat,Narmada,Rajpipla,144.2,62.5,53.1,6.51,61.8,Nahar/Canal,Kharif/Monsoon,Hilly Loam,Maize
+Gujarat,Jamnagar,Jamnagar,45.2,22.1,27.5,7.76,57.7,Rainwater,Kharif/Monsoon,Coastal Sandy,Pearl Millet (Bajra)
+Gujarat,Kheda,Matar,73.0,25.5,43.2,7.64,61.6,Well,Kharif/Monsoon,Goradu (Loamy),Castor
+Gujarat,Valsad,Valsad,201.2,92.6,128.9,6.8,72.5,Nahar/Canal,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Ahmedabad,Viramgam,127.8,60.7,61.4,6.48,85.1,Lake,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Morbi,Halvad,83.8,30.6,46.6,7.38,55.2,Rainwater,Kharif/Monsoon,Sandy Loam,Cotton
+Gujarat,Surat,Bardoli,186.0,71.1,104.3,6.81,84.5,Nahar/Canal,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Ahmedabad,Dholka,94.8,52.9,52.7,6.56,85.9,Nahar/Canal,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Mehsana,Vijapur,35.7,30.7,17.8,6.78,56.6,Rainwater,Kharif/Monsoon,Sandy Loam,Pearl Millet (Bajra)
+Gujarat,Kutch,Nakhatrana,34.4,38.5,32.0,7.22,42.3,Tube-well,Rabi/Winter,Saline Coastal,Cumin
+Gujarat,Panchmahal,Godhra,99.4,31.6,39.6,7.09,53.5,Tube-well,Rabi/Winter,Medium Black,Castor
+Gujarat,Gandhinagar,Kalol,73.2,43.6,38.7,6.57,46.7,Tube-well,Rabi/Winter,Alluvial,Mustard
+Gujarat,Porbandar,Porbandar,62.7,26.7,41.5,7.02,63.8,Tube-well,Kharif/Monsoon,Coastal Sandy,Castor
+Gujarat,Bharuch,Hansot,215.4,68.2,115.8,6.36,77.9,Tube-well,Kharif/Monsoon,Deep Black,Sugarcane
+Gujarat,Valsad,Vapi,193.5,82.5,85.0,6.81,80.1,Tube-well,Zaid/Summer,Coastal Sandy,Sugarcane
+Gujarat,Banaskantha,Palanpur,18.2,36.7,29.1,7.8,49.8,Well,Rabi/Winter,Sandy Loam,Cumin
+Gujarat,Rajkot,Jetpur,86.9,33.2,46.6,6.91,70.1,Tube-well,Kharif/Monsoon,Black (Deep),Cotton
+Gujarat,Botad,Barwala,96.2,46.2,22.3,7.05,50.5,Rainwater,Rabi/Winter,Black (Medium),Castor
+Gujarat,Rajkot,Jasdan,52.2,31.0,23.6,6.51,46.9,Rainwater,Kharif/Monsoon,Black (Deep),Pearl Millet (Bajra)
+Gujarat,Anand,Borsad,61.7,34.1,43.3,7.76,45.8,Tube-well,Rabi/Winter,Alluvial,Castor
+Gujarat,Devbhumi Dwarka,Dwarka,53.4,37.7,23.1,7.43,48.9,Well,Kharif/Monsoon,Coastal Sandy,Pearl Millet (Bajra)
+Gujarat,Bharuch,Ankleshwar,126.8,50.0,67.9,6.96,88.0,Nahar/Canal,Kharif/Monsoon,Deep Black,Rice
+Gujarat,Bharuch,Ankleshwar,143.6,65.8,36.7,7.22,65.6,Rainwater,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Valsad,Pardi,173.0,94.6,128.3,6.42,82.8,Tube-well,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Patan,Patan,29.5,69.5,31.0,6.98,63.6,Rainwater,Kharif/Monsoon,Sandy Loam,Groundnut
+Gujarat,Gir Somnath,Veraval,15.9,28.7,25.4,8.05,45.3,Well,Rabi/Winter,Coastal Sandy,Cumin
+Gujarat,Kheda,Kapadvanj,133.2,53.7,52.5,7.41,48.3,Nahar/Canal,Rabi/Winter,Alluvial,Wheat
+Gujarat,Gir Somnath,Talala,76.8,48.5,36.9,7.67,57.3,Tube-well,Kharif/Monsoon,Coastal Sandy,Castor
+Gujarat,Valsad,Dharampur,164.7,91.4,110.3,6.48,78.8,Tube-well,Kharif/Monsoon,Coastal Sandy,Sugarcane
+Gujarat,Panchmahal,Halol,104.7,78.6,35.9,7.17,51.1,Nahar/Canal,Rabi/Winter,Medium Black,Wheat
+Gujarat,Anand,Anand,181.9,95.4,108.8,7.08,77.7,Nahar/Canal,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Patan,Siddhpur,93.1,54.1,50.9,7.2,68.9,Tube-well,Kharif/Monsoon,Sandy,Cotton
+Gujarat,Vadodara,Karjan,130.6,61.6,45.1,7.25,67.6,Rainwater,Rabi/Winter,Alluvial,Maize
+Gujarat,Jamnagar,Kalavad,138.3,65.6,45.7,7.13,36.5,Nahar/Canal,Rabi/Winter,Coastal Sandy,Wheat
+Gujarat,Navsari,Chikhli,94.0,44.5,51.5,6.18,78.2,Lake,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Arvalli,Malpur,103.1,65.0,41.7,7.15,76.8,Rainwater,Rabi/Winter,Sandy Loam,Maize
+Gujarat,Sabarkantha,Prantij,125.2,55.6,58.6,7.13,73.7,Tube-well,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Dahod,Jhalod,51.2,38.4,37.0,7.03,38.3,Well,Rabi/Winter,Hilly Loam,Mustard
+Gujarat,Narmada,Rajpipla,122.1,44.1,53.9,6.06,80.7,Nahar/Canal,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Panchmahal,Kalol,38.8,36.6,20.0,6.31,50.5,Tube-well,Zaid/Summer,Medium Black,Sesame
+Gujarat,Surat,Mandvi,102.0,40.9,37.4,7.26,69.3,Nahar/Canal,Kharif/Monsoon,Deep Black,Maize
+Gujarat,Bharuch,Vagra,147.4,54.0,37.7,6.55,68.9,Nahar/Canal,Kharif/Monsoon,Deep Black,Maize
+Gujarat,Vadodara,Savli,128.8,77.2,39.4,7.93,39.0,Nahar/Canal,Rabi/Winter,Medium Black,Wheat
+Gujarat,Bharuch,Jambusar,139.1,50.4,42.9,6.56,66.6,Nahar/Canal,Kharif/Monsoon,Deep Black,Maize
+Gujarat,Botad,Ranpur,30.8,27.2,32.8,6.84,53.8,Rainwater,Zaid/Summer,Black (Medium),Sesame
+Gujarat,Amreli,Dhari,30.9,34.6,20.4,7.39,70.8,Tube-well,Zaid/Summer,Black (Deep),Sesame
+Gujarat,Bhavnagar,Sihor,23.4,54.8,38.1,6.83,63.9,Tube-well,Kharif/Monsoon,Coastal Saline,Groundnut
+Gujarat,Dang,Waghai,100.5,68.4,32.6,7.08,66.2,Nahar/Canal,Rabi/Winter,Red Loam,Maize
+Gujarat,Bharuch,Vagra,104.7,52.1,47.3,6.8,80.5,Nahar/Canal,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Devbhumi Dwarka,Bhanvad,115.3,56.9,48.0,7.18,49.9,Nahar/Canal,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Amreli,Savarkundla,51.7,39.5,25.5,6.92,47.5,Well,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Kheda,Mahemdabad,20.4,30.7,20.5,7.56,63.8,Tube-well,Kharif/Monsoon,Alluvial,Sesame
+Gujarat,Banaskantha,Palanpur,108.7,40.2,59.0,6.88,76.5,Tube-well,Kharif/Monsoon,Sandy Loam,Cotton
+Gujarat,Vadodara,Dabhoi,131.5,41.6,34.5,6.84,62.0,Nahar/Canal,Kharif/Monsoon,Medium Black,Maize
+Gujarat,Bharuch,Hansot,109.0,67.3,48.9,6.71,81.4,Lake,Kharif/Monsoon,Deep Black,Rice
+Gujarat,Surat,Mandvi,133.0,44.7,35.2,6.11,55.1,Rainwater,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Chhota Udaipur,Kawant,122.4,51.1,43.6,7.53,78.1,Tube-well,Kharif/Monsoon,Hilly Loam,Cotton
+Gujarat,Kheda,Nadiad,207.9,62.9,88.3,6.46,85.0,Tube-well,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Navsari,Navsari,110.1,48.2,56.2,6.53,84.0,Lake,Kharif/Monsoon,Coastal Sandy,Rice
+Gujarat,Mahisagar,Balasinor,137.7,55.1,47.3,7.93,80.0,Rainwater,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Tapi,Songadh,99.1,57.6,59.0,6.59,76.4,Tube-well,Kharif/Monsoon,Red Loam,Rice
+Gujarat,Devbhumi Dwarka,Bhanvad,116.5,70.8,37.2,7.93,51.3,Tube-well,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Junagadh,Junagadh City,105.8,73.2,51.6,7.79,35.0,Nahar/Canal,Rabi/Winter,Coastal Alluvial,Wheat
+Gujarat,Narmada,Rajpipla,193.8,90.4,90.2,6.82,88.6,Tube-well,Kharif/Monsoon,Hilly Loam,Sugarcane
+Gujarat,Chhota Udaipur,Chhota Udaipur,89.5,46.5,46.6,6.64,79.8,Nahar/Canal,Kharif/Monsoon,Hilly Loam,Cotton
+Gujarat,Vadodara,Padra,71.7,42.6,30.4,7.13,54.4,Well,Rabi/Winter,Alluvial,Castor
+Gujarat,Narmada,Nandod,169.3,91.6,100.7,7.4,80.2,Nahar/Canal,Zaid/Summer,Medium Black,Sugarcane
+Gujarat,Rajkot,Jetpur,122.3,64.5,38.3,7.72,42.5,Tube-well,Rabi/Winter,Black (Deep),Wheat
+Gujarat,Gir Somnath,Kodinar,94.2,35.3,28.0,7.11,63.3,Tube-well,Rabi/Winter,Black (Medium),Castor
+Gujarat,Surendranagar,Wadhwan,25.0,31.8,32.4,8.14,41.6,Tube-well,Rabi/Winter,Saline,Cumin
+Gujarat,Narmada,Dediapada,113.5,69.1,50.2,6.83,84.7,Nahar/Canal,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Botad,Barwala,48.5,24.7,28.7,6.93,50.7,Rainwater,Kharif/Monsoon,Black (Deep),Pearl Millet (Bajra)
+Gujarat,Bhavnagar,Bhavnagar,24.2,26.0,15.6,6.65,51.4,Tube-well,Kharif/Monsoon,Coastal Saline,Sesame
+Gujarat,Devbhumi Dwarka,Kalyanpur,29.1,63.8,34.2,6.3,76.8,Tube-well,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Bharuch,Hansot,194.7,78.4,113.3,7.35,79.3,Tube-well,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Navsari,Navsari,105.0,68.9,60.7,6.55,79.5,Lake,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Surendranagar,Surendranagar,29.4,69.8,37.4,7.47,71.5,Tube-well,Kharif/Monsoon,Saline,Groundnut
+Gujarat,Tapi,Vyara,138.8,46.9,54.1,6.33,59.4,Rainwater,Rabi/Winter,Red Loam,Maize
+Gujarat,Dang,Subir,205.2,61.3,98.2,6.2,88.2,Tube-well,Zaid/Summer,Forest Loam,Sugarcane
+Gujarat,Gir Somnath,Kodinar,28.3,67.4,50.8,6.53,75.6,Tube-well,Kharif/Monsoon,Coastal Sandy,Groundnut
+Gujarat,Ahmedabad,Viramgam,107.0,79.0,51.5,7.67,54.6,Tube-well,Rabi/Winter,Medium Black,Wheat
+Gujarat,Morbi,Halvad,87.4,41.1,52.5,6.89,64.5,Nahar/Canal,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Morbi,Tankara,33.3,24.4,16.3,8.07,48.6,Well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Valsad,Valsad,171.3,79.7,84.9,7.33,72.7,Nahar/Canal,Zaid/Summer,Coastal Sandy,Sugarcane
+Gujarat,Narmada,Nandod,132.7,65.0,48.5,7.41,61.4,Rainwater,Kharif/Monsoon,Hilly Loam,Maize
+Gujarat,Morbi,Halvad,17.0,33.7,25.9,8.27,40.4,Well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Patan,Siddhpur,31.6,59.3,44.9,6.23,74.7,Rainwater,Kharif/Monsoon,Sandy Loam,Groundnut
+Gujarat,Bharuch,Hansot,191.0,92.5,91.6,7.16,85.8,Nahar/Canal,Zaid/Summer,Deep Black,Sugarcane
+Gujarat,Rajkot,Jasdan,17.7,66.0,33.3,6.67,74.7,Rainwater,Kharif/Monsoon,Black (Deep),Groundnut
+Gujarat,Gir Somnath,Kodinar,137.1,65.8,48.6,7.37,50.6,Tube-well,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Porbandar,Ranavav,61.7,44.6,41.7,7.18,54.2,Well,Kharif/Monsoon,Coastal Sandy,Castor
+Gujarat,Sabarkantha,Prantij,69.6,52.7,21.8,6.61,47.2,Tube-well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Kutch,Mandvi,43.6,32.1,17.0,7.55,66.3,Well,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Panchmahal,Shehera,207.9,75.9,116.5,6.47,76.3,Tube-well,Kharif/Monsoon,Medium Black,Sugarcane
+Gujarat,Dang,Ahwa,104.6,42.6,43.0,7.12,63.6,Tube-well,Rabi/Winter,Red Loam,Maize
+Gujarat,Banaskantha,Tharad,106.1,50.6,50.0,7.13,75.0,Nahar/Canal,Rabi/Winter,Sandy,Maize
+Gujarat,Surat,Mahuva,118.9,46.4,59.7,6.27,76.6,Nahar/Canal,Kharif/Monsoon,Deep Black,Rice
+Gujarat,Morbi,Wankaner,93.8,49.4,40.5,7.3,57.9,Rainwater,Kharif/Monsoon,Black (Medium),Castor
+Gujarat,Sabarkantha,Himatnagar,146.1,60.5,34.5,6.97,48.1,Nahar/Canal,Rabi/Winter,Medium Black,Wheat
+Gujarat,Kutch,Rapar,22.5,29.1,18.1,7.41,39.9,Tube-well,Rabi/Winter,Sandy,Cumin
+Gujarat,Bhavnagar,Mahuva,21.8,59.9,42.1,6.77,61.8,Rainwater,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Porbandar,Ranavav,28.6,31.9,25.5,7.4,38.3,Well,Rabi/Winter,Coastal Sandy,Cumin
+Gujarat,Surat,Mandvi,128.2,48.7,43.6,6.6,81.5,Nahar/Canal,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Banaskantha,Tharad,22.9,34.8,23.7,7.6,36.2,Tube-well,Rabi/Winter,Sandy Loam,Cumin
+Gujarat,Gir Somnath,Una,33.5,20.4,21.5,7.7,60.5,Well,Kharif/Monsoon,Coastal Sandy,Pearl Millet (Bajra)
+Gujarat,Morbi,Halvad,30.9,28.0,16.6,7.42,68.6,Rainwater,Kharif/Monsoon,Black (Medium),Sesame
+Gujarat,Dahod,Jhalod,145.3,60.5,48.2,7.78,51.3,Tube-well,Rabi/Winter,Hilly Loam,Wheat
+Gujarat,Bharuch,Ankleshwar,120.1,62.8,59.7,6.21,86.6,Nahar/Canal,Kharif/Monsoon,Deep Black,Rice
+Gujarat,Gandhinagar,Dehgam,31.0,29.4,27.6,7.31,64.8,Rainwater,Zaid/Summer,Sandy Loam,Sesame
+Gujarat,Devbhumi Dwarka,Bhanvad,16.1,36.6,16.5,8.12,47.8,Tube-well,Rabi/Winter,Coastal Sandy,Cumin
+Gujarat,Porbandar,Ranavav,96.4,39.3,24.7,7.29,55.0,Rainwater,Kharif/Monsoon,Black (Medium),Castor
+Gujarat,Surat,Bardoli,122.3,41.2,61.2,7.19,82.9,Lake,Kharif/Monsoon,Deep Black,Rice
+Gujarat,Jamnagar,Jodiya,138.7,70.4,31.3,7.56,41.7,Nahar/Canal,Rabi/Winter,Coastal Sandy,Wheat
+Gujarat,Botad,Ranpur,116.7,67.5,33.5,7.22,54.4,Tube-well,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Patan,Harij,31.1,49.9,33.2,7.11,78.7,Tube-well,Kharif/Monsoon,Sandy,Groundnut
+Gujarat,Bhavnagar,Talaja,115.4,78.5,38.5,7.72,38.8,Nahar/Canal,Rabi/Winter,Coastal Saline,Wheat
+Gujarat,Banaskantha,Palanpur,90.8,45.9,42.1,6.55,51.7,Well,Kharif/Monsoon,Sandy,Castor
+Gujarat,Banaskantha,Deesa,136.1,51.3,39.1,7.66,54.4,Tube-well,Rabi/Winter,Sandy Loam,Wheat
+Gujarat,Navsari,Gandevi,148.3,63.5,57.1,6.29,70.6,Rainwater,Kharif/Monsoon,Coastal Sandy,Maize
+Gujarat,Chhota Udaipur,Kawant,130.8,64.0,44.2,6.3,84.6,Nahar/Canal,Kharif/Monsoon,Hilly Loam,Rice
+Gujarat,Morbi,Morbi,113.6,77.2,33.7,7.32,53.9,Tube-well,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Dahod,Limkheda,103.8,41.2,41.6,6.62,60.6,Rainwater,Kharif/Monsoon,Hilly Loam,Cotton
+Gujarat,Gir Somnath,Talala,21.0,38.3,24.4,7.36,69.0,Rainwater,Kharif/Monsoon,Black (Medium),Sesame
+Gujarat,Ahmedabad,Bavla,95.4,55.0,46.5,7.59,68.2,Rainwater,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Vadodara,Karjan,59.5,46.0,35.6,6.58,51.7,Tube-well,Rabi/Winter,Alluvial,Mustard
+Gujarat,Gandhinagar,Kalol,60.1,33.8,34.3,6.74,58.4,Rainwater,Rabi/Winter,Alluvial,Castor
+Gujarat,Morbi,Morbi,27.7,39.6,20.1,7.02,46.8,Tube-well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Devbhumi Dwarka,Khambhalia,21.1,30.9,31.3,6.45,69.5,Rainwater,Zaid/Summer,Coastal Sandy,Sesame
+Gujarat,Narmada,Dediapada,152.6,68.1,119.6,7.33,76.3,Tube-well,Zaid/Summer,Hilly Loam,Sugarcane
+Gujarat,Valsad,Dharampur,127.7,45.7,50.7,6.94,88.0,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Rice
+Gujarat,Botad,Botad,42.2,34.9,32.9,6.74,74.3,Tube-well,Zaid/Summer,Black (Deep),Sesame
+Gujarat,Gandhinagar,Mansa,53.2,45.1,40.6,7.21,41.4,Well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Bhavnagar,Palitana,108.3,63.3,41.2,7.67,53.2,Nahar/Canal,Rabi/Winter,Coastal Saline,Wheat
+Gujarat,Mahisagar,Lunawada,125.7,72.5,34.0,6.84,52.0,Nahar/Canal,Rabi/Winter,Medium Black,Wheat
+Gujarat,Chhota Udaipur,Jetpur Pavi,118.1,78.5,30.8,6.98,44.0,Nahar/Canal,Rabi/Winter,Red-Yellow,Wheat
+Gujarat,Morbi,Halvad,33.2,28.0,28.0,6.55,52.8,Rainwater,Kharif/Monsoon,Sandy Loam,Sesame
+Gujarat,Amreli,Dhari,30.5,34.1,19.3,7.8,45.4,Well,Rabi/Winter,Black (Deep),Cumin
+Gujarat,Gandhinagar,Gandhinagar,66.9,42.8,44.9,7.55,64.4,Rainwater,Kharif/Monsoon,Alluvial,Castor
+Gujarat,Gir Somnath,Veraval,94.1,42.8,43.2,7.33,60.9,Rainwater,Rabi/Winter,Coastal Sandy,Castor
+Gujarat,Porbandar,Porbandar,34.8,40.8,43.9,6.68,75.1,Rainwater,Kharif/Monsoon,Coastal Sandy,Groundnut
+Gujarat,Banaskantha,Palanpur,88.8,38.1,39.2,7.57,46.5,Well,Rabi/Winter,Sandy,Castor
+Gujarat,Gir Somnath,Una,32.6,35.6,27.8,7.24,49.5,Tube-well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Mahisagar,Lunawada,66.5,48.4,25.6,7.73,55.4,Tube-well,Rabi/Winter,Red-Yellow,Castor
+Gujarat,Navsari,Chikhli,193.8,84.6,84.7,6.96,81.8,Nahar/Canal,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Anand,Sojitra,22.0,39.0,30.4,6.57,55.3,Rainwater,Kharif/Monsoon,Alluvial,Sesame
+Gujarat,Arvalli,Meghraj,147.8,54.5,54.1,7.03,61.8,Nahar/Canal,Rabi/Winter,Medium Black,Maize
+Gujarat,Kutch,Anjar,43.9,26.8,17.9,7.79,53.0,Well,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Devbhumi Dwarka,Dwarka,28.0,29.3,20.3,6.55,52.4,Rainwater,Zaid/Summer,Black (Medium),Sesame
+Gujarat,Navsari,Jalalpore,215.4,88.8,89.5,6.24,89.9,Tube-well,Zaid/Summer,Coastal Sandy,Sugarcane
+Gujarat,Narmada,Tilakwada,137.3,55.2,69.0,6.26,80.3,Nahar/Canal,Kharif/Monsoon,Hilly Loam,Rice
+Gujarat,Surat,Kamrej,126.8,65.4,42.9,7.32,71.7,Rainwater,Rabi/Winter,Deep Black,Maize
+Gujarat,Patan,Patan,64.5,37.2,29.7,7.09,46.0,Tube-well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Vadodara,Padra,117.9,51.0,44.3,6.72,81.0,Tube-well,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Junagadh,Junagadh City,28.0,44.5,52.3,6.38,78.3,Tube-well,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Gir Somnath,Una,73.5,45.7,33.3,7.42,51.0,Well,Rabi/Winter,Black (Medium),Castor
+Gujarat,Sabarkantha,Talod,34.9,61.8,47.2,6.23,66.9,Tube-well,Kharif/Monsoon,Medium Black,Groundnut
+Gujarat,Dahod,Devgadh Baria,131.5,58.6,55.2,6.22,70.7,Nahar/Canal,Kharif/Monsoon,Red-Yellow,Maize
+Gujarat,Junagadh,Keshod,105.1,42.4,36.1,7.25,70.3,Tube-well,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Ahmedabad,Sanand,186.8,72.6,88.7,7.37,76.8,Tube-well,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Devbhumi Dwarka,Kalyanpur,29.0,46.7,54.3,6.59,62.2,Tube-well,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Panchmahal,Kalol,146.7,63.9,38.2,6.18,70.6,Nahar/Canal,Rabi/Winter,Medium Black,Maize
+Gujarat,Surendranagar,Limbdi,21.1,39.1,16.6,7.49,66.4,Tube-well,Kharif/Monsoon,Saline,Sesame
+Gujarat,Ahmedabad,Sanand,54.4,48.5,26.0,6.57,53.1,Tube-well,Rabi/Winter,Alluvial,Mustard
+Gujarat,Dahod,Dahod,135.9,53.0,49.3,6.81,46.0,Nahar/Canal,Rabi/Winter,Red-Yellow,Wheat
+Gujarat,Jamnagar,Kalavad,21.4,32.9,33.2,7.12,43.6,Well,Rabi/Winter,Coastal Sandy,Cumin
+Gujarat,Junagadh,Visavadar,44.9,27.9,24.9,7.51,74.1,Rainwater,Kharif/Monsoon,Black (Medium),Sesame
+Gujarat,Navsari,Navsari,104.2,69.7,56.3,6.59,89.1,Tube-well,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Porbandar,Ranavav,19.1,53.8,36.4,6.44,73.4,Tube-well,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Navsari,Gandevi,125.8,42.6,50.1,6.28,58.2,Rainwater,Rabi/Winter,Alluvial,Maize
+Gujarat,Gir Somnath,Veraval,122.3,58.0,38.2,7.5,46.5,Tube-well,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Dang,Subir,182.6,66.4,114.3,7.38,87.8,Nahar/Canal,Zaid/Summer,Red Loam,Sugarcane
+Gujarat,Valsad,Vapi,137.9,54.3,53.6,7.19,80.6,Nahar/Canal,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Ahmedabad,Sanand,103.9,66.9,31.5,7.46,45.1,Nahar/Canal,Rabi/Winter,Alluvial,Wheat
+Gujarat,Anand,Borsad,110.3,57.5,32.7,6.77,73.6,Nahar/Canal,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Narmada,Nandod,113.1,64.2,61.7,6.48,87.2,Lake,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Panchmahal,Godhra,93.2,69.8,68.0,6.08,89.0,Lake,Kharif/Monsoon,Red-Yellow,Rice
+Gujarat,Junagadh,Visavadar,24.4,66.7,41.2,7.39,64.4,Tube-well,Kharif/Monsoon,Coastal Alluvial,Groundnut
+Gujarat,Bhavnagar,Palitana,103.6,33.8,59.4,7.75,73.9,Nahar/Canal,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Valsad,Dharampur,102.4,50.4,48.3,7.12,85.9,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Rice
+Gujarat,Vadodara,Dabhoi,84.0,47.8,43.4,7.51,76.8,Rainwater,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Bharuch,Vagra,100.9,65.9,41.7,6.6,79.3,Lake,Kharif/Monsoon,Deep Black,Rice
+Gujarat,Gir Somnath,Kodinar,120.7,58.3,43.9,7.51,49.7,Tube-well,Rabi/Winter,Coastal Sandy,Wheat
+Gujarat,Amreli,Dhari,33.8,33.4,30.7,7.41,41.2,Well,Rabi/Winter,Black (Deep),Cumin
+Gujarat,Anand,Khambhat,94.0,32.5,37.7,7.55,63.3,Tube-well,Rabi/Winter,Goradu (Loamy),Castor
+Gujarat,Arvalli,Bayad,58.1,46.2,43.1,7.6,36.8,Well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Kheda,Matar,99.4,62.9,61.7,6.67,82.2,Nahar/Canal,Kharif/Monsoon,Goradu (Loamy),Rice
+Gujarat,Botad,Botad,33.7,62.6,52.9,7.1,72.6,Rainwater,Kharif/Monsoon,Black (Deep),Groundnut
+Gujarat,Patan,Harij,44.0,33.0,21.2,7.04,67.1,Well,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Narmada,Nandod,105.6,41.4,65.9,6.89,75.2,Tube-well,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Arvalli,Bayad,22.6,36.7,25.0,7.85,45.3,Tube-well,Rabi/Winter,Sandy Loam,Cumin
+Gujarat,Dang,Subir,108.4,63.8,35.1,7.08,66.2,Rainwater,Rabi/Winter,Red Loam,Maize
+Gujarat,Surat,Bardoli,120.6,65.3,36.9,7.06,55.2,Tube-well,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Porbandar,Ranavav,109.3,30.2,46.5,6.52,68.2,Nahar/Canal,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Tapi,Vyara,105.4,42.9,34.5,6.29,67.1,Tube-well,Rabi/Winter,Medium Black,Maize
+Gujarat,Devbhumi Dwarka,Kalyanpur,107.5,37.3,50.9,6.95,75.7,Tube-well,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Bhavnagar,Bhavnagar,26.1,21.1,15.2,7.22,42.5,Well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Mahisagar,Lunawada,134.1,50.8,47.0,6.91,78.1,Rainwater,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Tapi,Songadh,119.4,62.6,61.4,6.48,76.2,Nahar/Canal,Kharif/Monsoon,Red Loam,Rice
+Gujarat,Jamnagar,Lalpur,29.6,34.8,30.8,7.17,52.0,Tube-well,Zaid/Summer,Black (Medium),Sesame
+Gujarat,Devbhumi Dwarka,Khambhalia,21.8,35.4,34.1,7.52,46.6,Tube-well,Rabi/Winter,Coastal Sandy,Cumin
+Gujarat,Sabarkantha,Prantij,33.8,27.5,18.7,7.02,59.5,Tube-well,Kharif/Monsoon,Medium Black,Sesame
+Gujarat,Navsari,Navsari,176.6,91.4,87.7,6.58,77.2,Nahar/Canal,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Bhavnagar,Palitana,17.0,21.7,23.6,7.72,42.7,Well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Mehsana,Mehsana,55.9,20.2,23.3,7.67,63.1,Well,Kharif/Monsoon,Sandy Loam,Pearl Millet (Bajra)
+Gujarat,Bharuch,Vagra,171.1,79.7,83.2,6.65,78.4,Tube-well,Zaid/Summer,Deep Black,Sugarcane
+Gujarat,Ahmedabad,Viramgam,73.8,34.9,22.7,6.9,54.0,Well,Rabi/Winter,Alluvial,Mustard
+Gujarat,Botad,Barwala,31.3,37.2,34.5,7.18,39.8,Well,Rabi/Winter,Black (Deep),Cumin
+Gujarat,Kheda,Matar,71.7,42.4,32.3,7.25,49.8,Rainwater,Rabi/Winter,Alluvial,Castor
+Gujarat,Surendranagar,Chotila,129.6,66.4,47.0,7.46,54.1,Tube-well,Rabi/Winter,Saline,Wheat
+Gujarat,Narmada,Nandod,123.6,44.2,49.1,6.3,77.3,Tube-well,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Mahisagar,Lunawada,120.0,55.2,57.6,7.04,67.5,Nahar/Canal,Rabi/Winter,Medium Black,Maize
+Gujarat,Morbi,Morbi,24.2,32.3,26.3,7.1,66.2,Tube-well,Kharif/Monsoon,Black (Medium),Sesame
+Gujarat,Botad,Botad,93.3,52.4,46.7,7.53,60.5,Tube-well,Kharif/Monsoon,Black (Deep),Cotton
+Gujarat,Morbi,Halvad,44.9,29.7,20.9,7.49,52.1,Tube-well,Kharif/Monsoon,Sandy Loam,Sesame
+Gujarat,Anand,Borsad,33.0,27.0,17.0,7.21,61.3,Rainwater,Zaid/Summer,Goradu (Loamy),Sesame
+Gujarat,Kutch,Bhuj,28.0,33.5,18.3,8.28,38.7,Well,Rabi/Winter,Saline Coastal,Cumin
+Gujarat,Amreli,Rajula,69.3,35.1,24.6,7.33,53.6,Rainwater,Rabi/Winter,Black (Medium),Castor
+Gujarat,Sabarkantha,Prantij,78.2,35.1,38.8,7.55,36.3,Tube-well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Mehsana,Kadi,33.4,33.4,24.8,7.95,52.8,Well,Kharif/Monsoon,Sandy Loam,Pearl Millet (Bajra)
+Gujarat,Surendranagar,Dhrangadhra,130.7,48.5,54.4,7.56,62.4,Tube-well,Kharif/Monsoon,Saline,Cotton
+Gujarat,Bhavnagar,Palitana,87.0,41.2,34.2,7.08,69.9,Tube-well,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Surendranagar,Wadhwan,24.8,22.8,21.3,7.59,35.8,Tube-well,Rabi/Winter,Saline,Cumin
+Gujarat,Devbhumi Dwarka,Kalyanpur,39.1,55.2,42.4,7.09,65.4,Tube-well,Kharif/Monsoon,Coastal Sandy,Groundnut
+Gujarat,Chhota Udaipur,Jetpur Pavi,114.6,58.2,43.4,7.0,44.1,Tube-well,Rabi/Winter,Hilly Loam,Wheat
+Gujarat,Gandhinagar,Gandhinagar,80.4,41.0,25.5,7.05,49.7,Tube-well,Rabi/Winter,Alluvial,Mustard
+Gujarat,Bharuch,Bharuch,133.1,42.6,66.0,6.14,87.2,Tube-well,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Panchmahal,Ghoghamba,97.0,46.2,46.2,6.07,80.3,Lake,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Tapi,Nizar,128.6,68.6,45.4,7.35,73.7,Rainwater,Rabi/Winter,Red Loam,Maize
+Gujarat,Banaskantha,Palanpur,94.6,31.2,37.8,7.58,60.2,Well,Kharif/Monsoon,Sandy Loam,Castor
+Gujarat,Patan,Siddhpur,78.1,40.8,42.0,6.62,55.3,Rainwater,Rabi/Winter,Sandy Loam,Castor
+Gujarat,Tapi,Uchchhal,90.1,63.2,62.0,6.88,81.9,Lake,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Devbhumi Dwarka,Kalyanpur,27.4,49.7,37.1,6.91,58.3,Rainwater,Kharif/Monsoon,Coastal Sandy,Groundnut
+Gujarat,Gandhinagar,Gandhinagar,127.0,43.8,33.7,7.79,66.0,Nahar/Canal,Kharif/Monsoon,Sandy Loam,Cotton
+Gujarat,Rajkot,Jasdan,34.8,38.7,20.5,7.48,51.3,Well,Kharif/Monsoon,Black (Deep),Pearl Millet (Bajra)
+Gujarat,Morbi,Morbi,23.6,21.8,16.9,7.28,36.2,Tube-well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Dahod,Dahod,139.3,42.7,34.0,6.61,64.6,Rainwater,Kharif/Monsoon,Hilly Loam,Cotton
+Gujarat,Mehsana,Kadi,41.5,36.3,32.5,7.46,61.9,Rainwater,Kharif/Monsoon,Sandy Loam,Pearl Millet (Bajra)
+Gujarat,Kutch,Nakhatrana,29.4,32.6,18.0,7.54,45.3,Well,Rabi/Winter,Sandy,Cumin
+Gujarat,Panchmahal,Godhra,89.2,33.8,30.7,7.53,50.0,Well,Kharif/Monsoon,Red-Yellow,Castor
+Gujarat,Bhavnagar,Talaja,61.1,46.2,41.9,6.77,57.1,Well,Rabi/Winter,Black (Medium),Castor
+Gujarat,Kheda,Matar,103.2,37.2,49.1,6.61,77.2,Tube-well,Kharif/Monsoon,Alluvial,Cotton
+Gujarat,Rajkot,Dhoraji,24.1,60.5,49.1,7.44,74.3,Tube-well,Kharif/Monsoon,Black (Deep),Groundnut
+Gujarat,Sabarkantha,Himatnagar,96.9,48.7,29.9,6.87,59.3,Tube-well,Kharif/Monsoon,Sandy Loam,Castor
+Gujarat,Arvalli,Meghraj,17.1,42.4,53.0,7.47,58.9,Tube-well,Kharif/Monsoon,Sandy Loam,Groundnut
+Gujarat,Gir Somnath,Veraval,102.9,52.6,40.9,7.34,47.2,Tube-well,Rabi/Winter,Coastal Sandy,Wheat
+Gujarat,Valsad,Valsad,161.5,98.1,106.2,7.17,84.4,Nahar/Canal,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Jamnagar,Dhrol,53.1,20.6,31.1,6.91,46.6,Rainwater,Kharif/Monsoon,Coastal Sandy,Pearl Millet (Bajra)
+Gujarat,Kutch,Mundra,55.8,23.3,18.1,7.66,67.4,Well,Kharif/Monsoon,Saline Coastal,Pearl Millet (Bajra)
+Gujarat,Vadodara,Waghodia,94.7,44.2,41.5,6.73,78.3,Rainwater,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Junagadh,Keshod,145.8,59.6,50.6,7.49,37.4,Nahar/Canal,Rabi/Winter,Coastal Alluvial,Wheat
+Gujarat,Surat,Mandvi,103.4,54.0,38.5,7.27,62.5,Rainwater,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Narmada,Tilakwada,201.8,69.7,98.4,7.46,90.0,Tube-well,Kharif/Monsoon,Medium Black,Sugarcane
+Gujarat,Kheda,Mahemdabad,94.0,40.4,55.2,7.82,78.8,Rainwater,Kharif/Monsoon,Goradu (Loamy),Cotton
+Gujarat,Rajkot,Jetpur,36.2,39.7,23.4,7.94,69.3,Rainwater,Kharif/Monsoon,Black (Deep),Pearl Millet (Bajra)
+Gujarat,Anand,Anand,104.8,56.9,43.8,7.62,69.5,Nahar/Canal,Kharif/Monsoon,Goradu (Loamy),Cotton
+Gujarat,Porbandar,Kutiyana,34.8,21.2,28.2,6.38,57.3,Rainwater,Zaid/Summer,Coastal Sandy,Sesame
+Gujarat,Gir Somnath,Talala,111.7,78.3,33.4,7.72,37.2,Nahar/Canal,Rabi/Winter,Coastal Sandy,Wheat
+Gujarat,Mehsana,Vijapur,23.0,27.2,30.4,6.83,61.6,Tube-well,Zaid/Summer,Sandy Loam,Sesame
+Gujarat,Vadodara,Karjan,83.4,38.2,22.3,6.82,42.1,Tube-well,Rabi/Winter,Medium Black,Mustard
+Gujarat,Porbandar,Kutiyana,101.6,62.1,41.3,7.7,40.0,Tube-well,Rabi/Winter,Coastal Sandy,Wheat
+Gujarat,Narmada,Dediapada,208.1,99.3,86.5,7.24,77.4,Nahar/Canal,Zaid/Summer,Medium Black,Sugarcane
+Gujarat,Bhavnagar,Bhavnagar,134.1,43.3,33.9,7.86,75.7,Rainwater,Kharif/Monsoon,Coastal Saline,Cotton
+Gujarat,Botad,Botad,33.5,28.7,29.5,7.64,40.7,Tube-well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Mahisagar,Balasinor,169.6,95.3,81.7,6.93,74.9,Tube-well,Zaid/Summer,Red-Yellow,Sugarcane
+Gujarat,Navsari,Jalalpore,104.4,51.5,42.6,6.96,73.3,Tube-well,Rabi/Winter,Coastal Sandy,Maize
+Gujarat,Bharuch,Vagra,127.2,54.5,57.4,6.75,63.9,Rainwater,Rabi/Winter,Deep Black,Maize
+Gujarat,Amreli,Rajula,95.8,44.5,21.5,7.79,55.6,Tube-well,Kharif/Monsoon,Black (Medium),Castor
+Gujarat,Dahod,Dahod,187.4,91.6,116.9,7.15,89.0,Tube-well,Zaid/Summer,Red-Yellow,Sugarcane
+Gujarat,Surendranagar,Wadhwan,35.2,60.9,52.8,6.24,72.5,Tube-well,Kharif/Monsoon,Saline,Groundnut
+Gujarat,Anand,Khambhat,51.5,31.4,35.0,6.53,44.6,Well,Rabi/Winter,Alluvial,Mustard
+Gujarat,Botad,Gadhada,103.0,54.4,47.6,6.97,37.2,Nahar/Canal,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Morbi,Wankaner,40.1,26.5,34.5,7.6,55.9,Rainwater,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Gandhinagar,Kalol,29.5,34.7,20.9,6.45,50.0,Rainwater,Kharif/Monsoon,Sandy Loam,Sesame
+Gujarat,Patan,Siddhpur,58.1,22.8,29.9,6.86,69.6,Rainwater,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Jamnagar,Jodiya,19.2,33.9,22.0,8.02,45.8,Well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Surat,Kamrej,144.2,54.8,41.4,6.82,57.3,Tube-well,Rabi/Winter,Deep Black,Maize
+Gujarat,Ahmedabad,Sanand,114.7,49.6,58.5,6.11,58.9,Tube-well,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Surendranagar,Surendranagar,83.8,40.3,32.1,6.54,63.8,Rainwater,Kharif/Monsoon,Black (Medium),Castor
+Gujarat,Jamnagar,Dhrol,92.3,35.7,50.9,7.58,73.2,Tube-well,Kharif/Monsoon,Coastal Sandy,Cotton
+Gujarat,Dang,Waghai,177.5,82.0,104.5,6.08,70.1,Nahar/Canal,Zaid/Summer,Red Loam,Sugarcane
+Gujarat,Bhavnagar,Talaja,15.5,23.4,20.8,7.11,47.7,Tube-well,Rabi/Winter,Coastal Saline,Cumin
+Gujarat,Valsad,Umargam,122.1,51.6,51.1,6.46,77.8,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Rice
+Gujarat,Junagadh,Visavadar,31.7,31.3,18.0,7.91,36.5,Tube-well,Rabi/Winter,Coastal Alluvial,Cumin
+Gujarat,Devbhumi Dwarka,Dwarka,92.7,35.5,33.4,7.63,54.5,Rainwater,Kharif/Monsoon,Black (Medium),Castor
+Gujarat,Bharuch,Jambusar,185.1,96.0,120.0,7.02,82.4,Nahar/Canal,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Vadodara,Karjan,65.0,35.6,44.7,7.07,64.9,Tube-well,Kharif/Monsoon,Alluvial,Castor
+Gujarat,Anand,Borsad,127.8,66.6,51.4,7.42,53.3,Nahar/Canal,Rabi/Winter,Goradu (Loamy),Wheat
+Gujarat,Rajkot,Gondal,26.3,31.7,34.3,7.13,36.6,Tube-well,Rabi/Winter,Black (Deep),Cumin
+Gujarat,Mehsana,Unjha,41.5,29.7,27.2,6.56,51.9,Well,Kharif/Monsoon,Alluvial,Pearl Millet (Bajra)
+Gujarat,Anand,Anand,101.9,62.4,67.6,7.08,75.3,Lake,Kharif/Monsoon,Goradu (Loamy),Rice
+Gujarat,Valsad,Vapi,96.7,69.2,53.3,6.99,79.0,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Rice
+Gujarat,Arvalli,Bayad,38.5,35.2,32.3,7.35,62.9,Tube-well,Kharif/Monsoon,Medium Black,Sesame
+Gujarat,Jamnagar,Jodiya,53.4,30.5,26.4,6.76,66.9,Rainwater,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Kheda,Mahemdabad,135.1,51.1,38.2,7.74,67.6,Rainwater,Kharif/Monsoon,Goradu (Loamy),Cotton
+Gujarat,Vadodara,Karjan,24.4,37.4,26.7,6.69,54.1,Tube-well,Zaid/Summer,Medium Black,Sesame
+Gujarat,Dang,Waghai,161.4,82.9,128.2,7.29,82.9,Nahar/Canal,Kharif/Monsoon,Forest Loam,Sugarcane
+Gujarat,Panchmahal,Shehera,134.7,49.4,48.0,6.51,61.3,Tube-well,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Valsad,Umargam,102.6,54.0,60.3,6.99,81.0,Tube-well,Kharif/Monsoon,Coastal Sandy,Rice
+Gujarat,Mehsana,Unjha,50.5,29.6,21.7,6.91,53.1,Well,Kharif/Monsoon,Sandy Loam,Pearl Millet (Bajra)
+Gujarat,Tapi,Nizar,213.0,92.2,120.1,6.9,83.2,Nahar/Canal,Zaid/Summer,Medium Black,Sugarcane
+Gujarat,Banaskantha,Vadgam,76.2,43.4,34.6,7.79,61.3,Rainwater,Rabi/Winter,Sandy,Castor
+Gujarat,Botad,Ranpur,55.4,36.8,32.5,6.77,47.4,Well,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Banaskantha,Tharad,111.1,56.7,51.8,7.3,52.7,Tube-well,Rabi/Winter,Sandy Loam,Wheat
+Gujarat,Morbi,Wankaner,16.1,32.7,26.6,7.81,42.1,Well,Rabi/Winter,Sandy Loam,Cumin
+Gujarat,Kheda,Kapadvanj,84.8,33.8,44.8,6.95,54.7,Tube-well,Rabi/Winter,Goradu (Loamy),Mustard
+Gujarat,Narmada,Tilakwada,124.4,58.9,35.3,6.95,55.1,Tube-well,Kharif/Monsoon,Medium Black,Maize
+Gujarat,Tapi,Songadh,139.3,63.4,33.9,6.65,64.9,Rainwater,Kharif/Monsoon,Red Loam,Maize
+Gujarat,Mahisagar,Khanpur,92.0,41.2,30.4,6.98,75.8,Nahar/Canal,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Kheda,Nadiad,171.8,64.1,105.2,6.46,71.3,Tube-well,Zaid/Summer,Goradu (Loamy),Sugarcane
+Gujarat,Junagadh,Mangrol,32.8,39.9,21.9,8.17,40.4,Well,Rabi/Winter,Coastal Alluvial,Cumin
+Gujarat,Kheda,Kapadvanj,123.6,33.9,52.0,7.38,59.2,Rainwater,Kharif/Monsoon,Goradu (Loamy),Cotton
+Gujarat,Morbi,Halvad,47.8,21.0,17.2,7.75,46.2,Rainwater,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Vadodara,Dabhoi,102.6,61.1,46.2,6.82,75.1,Lake,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Arvalli,Malpur,125.6,68.5,37.1,7.74,45.0,Tube-well,Rabi/Winter,Medium Black,Wheat
+Gujarat,Kheda,Thasra,170.7,61.6,104.8,6.31,88.7,Tube-well,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Botad,Botad,130.1,50.1,34.5,6.64,67.8,Rainwater,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Mehsana,Visnagar,31.6,22.0,18.5,6.26,57.3,Tube-well,Zaid/Summer,Alluvial,Sesame
+Gujarat,Gir Somnath,Veraval,131.1,49.9,35.1,7.04,65.9,Rainwater,Kharif/Monsoon,Coastal Sandy,Cotton
+Gujarat,Tapi,Nizar,110.0,68.9,48.2,6.46,87.8,Nahar/Canal,Kharif/Monsoon,Red Loam,Rice
+Gujarat,Arvalli,Modasa,105.2,77.3,42.1,7.48,43.8,Tube-well,Rabi/Winter,Medium Black,Wheat
+Gujarat,Surendranagar,Dhrangadhra,135.2,33.4,42.3,6.57,61.5,Tube-well,Kharif/Monsoon,Saline,Cotton
+Gujarat,Gir Somnath,Kodinar,43.0,34.5,24.6,7.5,61.0,Rainwater,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Anand,Anand,94.8,26.9,32.3,6.81,64.4,Rainwater,Rabi/Winter,Alluvial,Castor
+Gujarat,Surat,Mahuva,140.9,42.4,43.3,6.86,57.0,Rainwater,Rabi/Winter,Alluvial,Maize
+Gujarat,Gandhinagar,Mansa,105.1,62.4,43.9,6.8,36.8,Tube-well,Rabi/Winter,Sandy Loam,Wheat
+Gujarat,Valsad,Umargam,130.8,65.3,50.0,6.92,84.0,Nahar/Canal,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Morbi,Morbi,100.5,54.9,58.9,6.94,68.0,Rainwater,Kharif/Monsoon,Sandy Loam,Cotton
+Gujarat,Mehsana,Visnagar,22.7,32.2,18.8,7.5,59.8,Tube-well,Kharif/Monsoon,Sandy Loam,Sesame
+Gujarat,Narmada,Tilakwada,214.9,93.5,109.4,7.16,79.0,Nahar/Canal,Kharif/Monsoon,Medium Black,Sugarcane
+Gujarat,Porbandar,Ranavav,136.1,55.2,44.5,7.26,78.0,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Cotton
+Gujarat,Amreli,Savarkundla,116.0,56.5,45.1,7.08,79.5,Nahar/Canal,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Bharuch,Vagra,130.2,44.1,58.1,7.06,82.7,Tube-well,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Gir Somnath,Kodinar,38.0,44.0,47.8,7.47,59.4,Tube-well,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Gir Somnath,Talala,82.8,41.7,30.4,7.47,61.8,Well,Rabi/Winter,Black (Medium),Castor
+Gujarat,Navsari,Navsari,119.0,41.6,31.7,6.4,73.1,Tube-well,Kharif/Monsoon,Coastal Sandy,Maize
+Gujarat,Navsari,Gandevi,202.8,61.3,120.7,6.15,87.4,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Sugarcane
+Gujarat,Dahod,Jhalod,65.5,53.9,44.4,6.91,46.0,Well,Rabi/Winter,Hilly Loam,Mustard
+Gujarat,Rajkot,Jasdan,96.5,42.6,36.2,7.48,55.9,Tube-well,Rabi/Winter,Black (Deep),Castor
+Gujarat,Kheda,Matar,103.7,68.9,52.1,6.18,55.9,Nahar/Canal,Kharif/Monsoon,Goradu (Loamy),Maize
+Gujarat,Tapi,Songadh,173.1,88.4,87.7,6.23,76.5,Nahar/Canal,Kharif/Monsoon,Medium Black,Sugarcane
+Gujarat,Surat,Kamrej,139.2,49.5,36.6,6.28,56.6,Tube-well,Rabi/Winter,Deep Black,Maize
+Gujarat,Porbandar,Ranavav,74.0,47.1,36.6,6.93,50.9,Tube-well,Rabi/Winter,Coastal Sandy,Castor
+Gujarat,Ahmedabad,Daskroi,42.6,32.3,27.4,7.54,67.1,Rainwater,Zaid/Summer,Alluvial,Sesame
+Gujarat,Gir Somnath,Veraval,15.5,30.3,30.4,7.67,42.6,Well,Rabi/Winter,Coastal Sandy,Cumin
+Gujarat,Gandhinagar,Mansa,216.4,66.7,127.8,6.81,70.1,Nahar/Canal,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Kutch,Rapar,19.1,36.6,32.6,7.96,41.5,Tube-well,Rabi/Winter,Sandy,Cumin
+Gujarat,Kutch,Bhuj,32.6,21.1,30.9,7.34,59.4,Rainwater,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Dahod,Garbada,110.2,49.5,51.7,6.14,75.1,Lake,Kharif/Monsoon,Hilly Loam,Rice
+Gujarat,Kutch,Rapar,20.8,33.7,27.1,7.37,48.9,Tube-well,Rabi/Winter,Sandy,Cumin
+Gujarat,Surendranagar,Surendranagar,17.7,27.8,30.9,7.71,49.4,Tube-well,Rabi/Winter,Saline,Cumin
+Gujarat,Anand,Borsad,82.5,47.2,41.8,7.32,57.1,Rainwater,Kharif/Monsoon,Goradu (Loamy),Cotton
+Gujarat,Panchmahal,Halol,99.2,58.5,47.6,6.14,85.1,Nahar/Canal,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Surat,Palsana,133.6,47.5,35.9,6.87,76.9,Rainwater,Kharif/Monsoon,Deep Black,Maize
+Gujarat,Devbhumi Dwarka,Dwarka,84.2,35.8,44.6,6.99,71.5,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Cotton
+Gujarat,Anand,Borsad,105.7,63.6,61.4,6.77,79.2,Nahar/Canal,Kharif/Monsoon,Goradu (Loamy),Rice
+Gujarat,Morbi,Wankaner,22.2,26.1,26.0,7.23,44.1,Well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Tapi,Songadh,93.8,40.6,55.2,6.04,83.7,Lake,Kharif/Monsoon,Red Loam,Rice
+Gujarat,Patan,Patan,144.7,56.2,49.6,6.22,64.0,Nahar/Canal,Rabi/Winter,Sandy,Maize
+Gujarat,Navsari,Jalalpore,118.2,40.3,37.2,7.45,77.6,Rainwater,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Jamnagar,Kalavad,33.4,54.5,39.0,6.48,67.2,Rainwater,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Kutch,Mandvi,25.4,35.8,22.8,8.19,48.2,Tube-well,Rabi/Winter,Saline Coastal,Cumin
+Gujarat,Junagadh,Junagadh City,47.4,31.4,22.5,7.07,59.7,Well,Kharif/Monsoon,Coastal Alluvial,Pearl Millet (Bajra)
+Gujarat,Kutch,Mundra,31.3,26.9,30.9,8.15,35.1,Well,Rabi/Winter,Saline Coastal,Cumin
+Gujarat,Banaskantha,Deesa,19.2,23.7,22.2,7.93,36.8,Well,Rabi/Winter,Sandy Loam,Cumin
+Gujarat,Dahod,Limkheda,124.0,67.7,46.2,7.29,39.9,Nahar/Canal,Rabi/Winter,Hilly Loam,Wheat
+Gujarat,Banaskantha,Deesa,107.3,45.0,57.7,6.77,64.3,Nahar/Canal,Kharif/Monsoon,Sandy,Maize
+Gujarat,Sabarkantha,Himatnagar,32.3,23.4,31.6,7.78,46.9,Well,Rabi/Winter,Medium Black,Cumin
+Gujarat,Amreli,Savarkundla,47.9,21.4,22.6,6.7,45.4,Well,Kharif/Monsoon,Black (Deep),Pearl Millet (Bajra)
+Gujarat,Porbandar,Porbandar,79.0,40.4,21.0,7.52,55.1,Tube-well,Kharif/Monsoon,Black (Medium),Castor
+Gujarat,Vadodara,Dabhoi,86.0,38.1,29.3,6.56,55.6,Well,Kharif/Monsoon,Medium Black,Castor
+Gujarat,Dahod,Garbada,23.3,29.5,19.7,7.4,57.1,Tube-well,Kharif/Monsoon,Hilly Loam,Sesame
+Gujarat,Arvalli,Bayad,111.4,45.6,41.3,6.81,75.1,Nahar/Canal,Kharif/Monsoon,Sandy Loam,Cotton
+Gujarat,Arvalli,Modasa,113.1,66.1,44.1,7.53,54.8,Nahar/Canal,Rabi/Winter,Sandy Loam,Wheat
+Gujarat,Patan,Radhanpur,118.5,56.6,37.6,6.46,62.9,Tube-well,Rabi/Winter,Sandy,Maize
+Gujarat,Patan,Patan,17.0,30.2,30.7,8.04,44.2,Tube-well,Rabi/Winter,Sandy,Cumin
+Gujarat,Surat,Kamrej,141.2,54.2,48.0,6.13,61.1,Tube-well,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Morbi,Morbi,48.4,30.4,29.2,7.4,68.6,Well,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Amreli,Lathi,135.8,45.5,35.8,7.68,67.8,Nahar/Canal,Kharif/Monsoon,Black (Deep),Cotton
+Gujarat,Dahod,Dahod,44.4,21.7,20.5,6.76,66.7,Rainwater,Kharif/Monsoon,Red-Yellow,Sesame
+Gujarat,Patan,Harij,113.0,51.8,46.8,7.37,63.7,Rainwater,Kharif/Monsoon,Sandy,Cotton
+Gujarat,Tapi,Songadh,90.2,45.3,55.2,6.67,82.5,Lake,Kharif/Monsoon,Red Loam,Rice
+Gujarat,Botad,Barwala,77.7,34.4,32.1,6.82,51.8,Well,Rabi/Winter,Black (Medium),Castor
+Gujarat,Narmada,Rajpipla,93.4,59.0,69.8,6.81,78.4,Tube-well,Kharif/Monsoon,Hilly Loam,Rice
+Gujarat,Gir Somnath,Talala,93.3,31.2,22.3,7.38,61.4,Well,Kharif/Monsoon,Coastal Sandy,Castor
+Gujarat,Kutch,Mundra,56.8,25.4,33.9,7.52,67.7,Rainwater,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Gandhinagar,Kalol,166.0,93.4,121.8,6.53,85.6,Nahar/Canal,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Vadodara,Dabhoi,102.3,39.5,56.9,7.82,69.4,Tube-well,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Tapi,Songadh,111.1,57.3,31.6,7.2,66.0,Rainwater,Rabi/Winter,Medium Black,Maize
+Gujarat,Junagadh,Visavadar,44.4,34.0,24.2,7.16,50.3,Tube-well,Kharif/Monsoon,Coastal Alluvial,Sesame
+Gujarat,Panchmahal,Ghoghamba,130.6,57.8,43.7,7.08,44.4,Nahar/Canal,Rabi/Winter,Medium Black,Wheat
+Gujarat,Botad,Gadhada,23.4,35.0,22.3,7.52,41.8,Tube-well,Rabi/Winter,Black (Deep),Cumin
+Gujarat,Banaskantha,Palanpur,77.3,34.5,23.6,7.75,48.0,Well,Kharif/Monsoon,Sandy,Castor
+Gujarat,Rajkot,Lodhika,30.7,26.0,26.2,7.74,41.0,Well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Jamnagar,Dhrol,41.0,21.9,29.9,6.56,59.0,Tube-well,Zaid/Summer,Black (Medium),Sesame
+Gujarat,Dang,Ahwa,133.4,68.9,46.0,6.69,84.7,Tube-well,Kharif/Monsoon,Red Loam,Rice
+Gujarat,Amreli,Rajula,144.5,61.4,37.2,7.56,37.9,Nahar/Canal,Rabi/Winter,Black (Deep),Wheat
+Gujarat,Jamnagar,Kalavad,32.4,26.9,21.3,7.48,62.8,Rainwater,Kharif/Monsoon,Coastal Sandy,Pearl Millet (Bajra)
+Gujarat,Patan,Radhanpur,35.0,37.1,17.5,6.85,51.3,Well,Kharif/Monsoon,Sandy Loam,Pearl Millet (Bajra)
+Gujarat,Bhavnagar,Mahuva,16.3,37.6,26.0,7.03,41.0,Tube-well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Bhavnagar,Palitana,86.2,47.1,27.7,6.82,50.7,Tube-well,Kharif/Monsoon,Black (Medium),Castor
+Gujarat,Banaskantha,Tharad,133.2,75.8,38.1,7.37,54.5,Tube-well,Rabi/Winter,Sandy,Wheat
+Gujarat,Tapi,Songadh,129.9,58.9,49.1,6.85,67.0,Nahar/Canal,Kharif/Monsoon,Medium Black,Maize
+Gujarat,Valsad,Umargam,122.1,51.0,37.8,6.46,55.0,Tube-well,Kharif/Monsoon,Coastal Sandy,Maize
+Gujarat,Banaskantha,Dhanera,43.7,29.5,15.2,6.8,57.3,Tube-well,Kharif/Monsoon,Sandy Loam,Sesame
+Gujarat,Dahod,Devgadh Baria,42.1,28.7,20.0,7.2,66.1,Tube-well,Kharif/Monsoon,Red-Yellow,Sesame
+Gujarat,Surendranagar,Limbdi,94.4,52.9,57.3,7.71,72.1,Nahar/Canal,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Navsari,Jalalpore,159.6,64.4,102.8,6.68,84.0,Nahar/Canal,Zaid/Summer,Coastal Sandy,Sugarcane
+Gujarat,Gandhinagar,Mansa,138.2,30.7,59.2,6.92,58.1,Rainwater,Kharif/Monsoon,Alluvial,Cotton
+Gujarat,Chhota Udaipur,Jetpur Pavi,124.7,60.3,37.8,7.76,55.0,Tube-well,Rabi/Winter,Red-Yellow,Wheat
+Gujarat,Narmada,Tilakwada,168.7,75.7,107.2,6.27,87.9,Nahar/Canal,Zaid/Summer,Medium Black,Sugarcane
+Gujarat,Dang,Ahwa,204.0,77.7,116.9,6.05,79.2,Tube-well,Zaid/Summer,Red Loam,Sugarcane
+Gujarat,Mehsana,Vijapur,56.3,48.2,38.6,7.21,37.4,Well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Ahmedabad,Sanand,44.3,24.7,23.7,6.22,69.9,Rainwater,Kharif/Monsoon,Medium Black,Sesame
+Gujarat,Vadodara,Karjan,127.0,44.3,47.9,7.06,57.2,Nahar/Canal,Kharif/Monsoon,Alluvial,Cotton
+Gujarat,Jamnagar,Jamnagar,31.8,32.9,29.0,7.69,48.1,Rainwater,Kharif/Monsoon,Coastal Sandy,Pearl Millet (Bajra)
+Gujarat,Dahod,Devgadh Baria,20.5,27.6,29.5,6.55,51.0,Rainwater,Zaid/Summer,Hilly Loam,Sesame
+Gujarat,Chhota Udaipur,Naswadi,172.7,78.7,123.4,6.9,87.2,Tube-well,Zaid/Summer,Hilly Loam,Sugarcane
+Gujarat,Jamnagar,Lalpur,35.5,56.2,41.4,7.21,67.6,Tube-well,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Amreli,Dhari,28.0,21.3,34.3,7.35,54.7,Rainwater,Zaid/Summer,Black (Medium),Sesame
+Gujarat,Gandhinagar,Mansa,22.8,30.5,16.3,7.37,53.2,Tube-well,Zaid/Summer,Alluvial,Sesame
+Gujarat,Junagadh,Junagadh City,15.6,32.8,22.8,7.64,44.4,Tube-well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Dang,Waghai,215.1,68.3,104.6,7.33,71.6,Nahar/Canal,Zaid/Summer,Forest Loam,Sugarcane
+Gujarat,Surat,Mahuva,139.7,41.7,48.5,6.79,71.9,Rainwater,Rabi/Winter,Deep Black,Maize
+Gujarat,Valsad,Pardi,136.3,55.9,35.7,6.79,60.7,Tube-well,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Amreli,Amreli,37.6,28.5,17.1,7.31,63.7,Tube-well,Zaid/Summer,Black (Deep),Sesame
+Gujarat,Porbandar,Kutiyana,37.6,56.5,54.9,7.3,65.3,Tube-well,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Mahisagar,Santrampur,175.2,78.1,128.0,6.0,70.7,Tube-well,Kharif/Monsoon,Medium Black,Sugarcane
+Gujarat,Navsari,Gandevi,139.2,46.4,49.4,6.93,89.2,Tube-well,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Tapi,Vyara,160.9,70.6,124.5,6.37,75.1,Tube-well,Kharif/Monsoon,Red Loam,Sugarcane
+Gujarat,Valsad,Dharampur,93.9,49.7,54.5,6.59,88.5,Lake,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Mehsana,Mehsana,86.9,38.4,42.0,7.06,53.6,Tube-well,Rabi/Winter,Alluvial,Mustard
+Gujarat,Vadodara,Waghodia,98.3,31.2,46.2,6.72,67.6,Rainwater,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Dahod,Dahod,118.8,42.7,53.0,6.94,77.2,Lake,Kharif/Monsoon,Red-Yellow,Rice
+Gujarat,Botad,Ranpur,76.0,27.1,32.5,7.51,47.6,Well,Kharif/Monsoon,Black (Medium),Castor
+Gujarat,Banaskantha,Tharad,28.0,23.9,27.3,7.96,38.7,Well,Rabi/Winter,Sandy Loam,Cumin
+Gujarat,Kutch,Mundra,50.2,28.5,22.0,6.98,59.8,Rainwater,Kharif/Monsoon,Saline Coastal,Pearl Millet (Bajra)
+Gujarat,Sabarkantha,Idar,43.2,38.5,19.7,7.53,48.9,Rainwater,Kharif/Monsoon,Medium Black,Pearl Millet (Bajra)
+Gujarat,Bhavnagar,Bhavnagar,15.3,60.8,32.8,6.79,55.6,Tube-well,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Panchmahal,Halol,77.8,46.7,29.4,7.68,45.5,Tube-well,Rabi/Winter,Red-Yellow,Mustard
+Gujarat,Dang,Ahwa,120.9,41.6,59.6,6.01,80.8,Lake,Kharif/Monsoon,Forest Loam,Rice
+Gujarat,Tapi,Vyara,166.2,75.2,128.8,6.15,76.3,Tube-well,Kharif/Monsoon,Medium Black,Sugarcane
+Gujarat,Bhavnagar,Mahuva,97.1,25.5,26.2,7.19,51.7,Well,Rabi/Winter,Black (Medium),Castor
+Gujarat,Patan,Patan,48.8,24.7,34.6,7.25,65.3,Well,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Dang,Ahwa,107.6,66.9,49.7,6.13,63.8,Tube-well,Rabi/Winter,Red Loam,Maize
+Gujarat,Dahod,Jhalod,96.4,33.2,33.6,6.77,47.8,Rainwater,Rabi/Winter,Hilly Loam,Castor
+Gujarat,Kheda,Matar,86.2,39.1,24.0,6.59,55.7,Tube-well,Rabi/Winter,Goradu (Loamy),Castor
+Gujarat,Vadodara,Savli,95.2,35.4,30.3,7.08,63.7,Rainwater,Kharif/Monsoon,Medium Black,Castor
+Gujarat,Tapi,Songadh,151.8,99.4,110.8,6.91,82.2,Nahar/Canal,Zaid/Summer,Red Loam,Sugarcane
+Gujarat,Dahod,Dahod,23.4,36.9,24.4,7.11,54.6,Tube-well,Kharif/Monsoon,Red-Yellow,Sesame
+Gujarat,Surendranagar,Chotila,20.7,52.3,54.2,7.4,78.8,Rainwater,Kharif/Monsoon,Saline,Groundnut
+Gujarat,Dahod,Jhalod,143.4,64.7,38.1,7.35,39.9,Nahar/Canal,Rabi/Winter,Red-Yellow,Wheat
+Gujarat,Patan,Harij,74.5,48.6,34.8,7.18,52.5,Well,Rabi/Winter,Sandy,Mustard
+Gujarat,Junagadh,Visavadar,25.4,27.9,29.7,7.73,42.7,Tube-well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Surat,Olpad,128.7,48.6,45.0,6.35,88.8,Tube-well,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Anand,Khambhat,138.9,78.1,47.4,6.96,43.3,Tube-well,Rabi/Winter,Goradu (Loamy),Wheat
+Gujarat,Chhota Udaipur,Jetpur Pavi,104.5,49.7,49.5,7.07,58.8,Rainwater,Kharif/Monsoon,Red-Yellow,Maize
+Gujarat,Vadodara,Padra,126.2,51.5,53.7,6.77,76.8,Tube-well,Rabi/Winter,Medium Black,Maize
+Gujarat,Surendranagar,Surendranagar,34.1,33.2,18.0,7.42,54.5,Tube-well,Kharif/Monsoon,Saline,Sesame
+Gujarat,Surat,Olpad,121.3,43.5,43.9,6.24,84.3,Tube-well,Kharif/Monsoon,Deep Black,Rice
+Gujarat,Dang,Waghai,130.4,58.2,54.8,6.26,84.9,Lake,Kharif/Monsoon,Forest Loam,Rice
+Gujarat,Narmada,Nandod,211.8,71.1,111.4,7.23,74.2,Nahar/Canal,Zaid/Summer,Hilly Loam,Sugarcane
+Gujarat,Amreli,Amreli,34.4,20.6,26.6,7.4,53.3,Rainwater,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Bhavnagar,Bhavnagar,28.4,32.2,28.8,7.77,46.8,Tube-well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Amreli,Dhari,138.4,59.7,52.4,7.78,50.2,Tube-well,Rabi/Winter,Black (Deep),Wheat
+Gujarat,Kutch,Mundra,21.6,28.3,19.2,7.27,35.9,Well,Rabi/Winter,Saline Coastal,Cumin
+Gujarat,Bhavnagar,Talaja,35.2,26.3,25.5,7.59,58.8,Tube-well,Zaid/Summer,Coastal Saline,Sesame
+Gujarat,Banaskantha,Tharad,42.1,24.7,20.8,6.47,53.0,Rainwater,Zaid/Summer,Sandy Loam,Sesame
+Gujarat,Narmada,Dediapada,102.3,50.5,54.2,6.32,69.7,Rainwater,Rabi/Winter,Medium Black,Maize
+Gujarat,Navsari,Navsari,117.5,63.0,43.4,6.4,80.9,Lake,Kharif/Monsoon,Coastal Sandy,Rice
+Gujarat,Sabarkantha,Idar,57.5,35.9,27.9,7.22,60.7,Well,Kharif/Monsoon,Sandy Loam,Pearl Millet (Bajra)
+Gujarat,Botad,Ranpur,46.9,33.6,26.1,6.53,59.4,Well,Kharif/Monsoon,Black (Deep),Pearl Millet (Bajra)
+Gujarat,Botad,Botad,23.5,51.3,43.4,6.42,70.1,Rainwater,Kharif/Monsoon,Black (Deep),Groundnut
+Gujarat,Amreli,Rajula,38.1,21.7,32.5,7.06,65.7,Rainwater,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Valsad,Dharampur,108.7,41.1,46.1,6.11,82.6,Nahar/Canal,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Ahmedabad,Sanand,39.4,22.9,32.4,7.35,73.5,Tube-well,Zaid/Summer,Alluvial,Sesame
+Gujarat,Banaskantha,Palanpur,20.1,38.6,28.7,7.03,52.2,Rainwater,Zaid/Summer,Sandy,Sesame
+Gujarat,Narmada,Rajpipla,128.9,49.4,56.8,6.48,59.4,Tube-well,Rabi/Winter,Medium Black,Maize
+Gujarat,Tapi,Uchchhal,107.5,48.2,30.5,6.93,66.8,Rainwater,Kharif/Monsoon,Medium Black,Maize
+Gujarat,Panchmahal,Ghoghamba,43.6,36.1,26.5,6.44,57.8,Rainwater,Zaid/Summer,Medium Black,Sesame
+Gujarat,Botad,Botad,37.6,41.5,39.6,6.31,64.8,Tube-well,Kharif/Monsoon,Black (Deep),Groundnut
+Gujarat,Chhota Udaipur,Kawant,44.3,35.1,24.3,6.38,70.3,Rainwater,Kharif/Monsoon,Hilly Loam,Sesame
+Gujarat,Narmada,Nandod,101.6,46.7,65.8,6.74,88.7,Tube-well,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Patan,Chanasma,30.9,29.5,22.0,7.19,49.3,Well,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Devbhumi Dwarka,Khambhalia,26.1,21.4,21.0,7.6,43.9,Well,Rabi/Winter,Coastal Sandy,Cumin
+Gujarat,Bharuch,Hansot,154.6,68.3,114.7,6.65,89.6,Tube-well,Kharif/Monsoon,Deep Black,Sugarcane
+Gujarat,Botad,Gadhada,33.4,31.9,21.5,6.65,56.1,Well,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Valsad,Valsad,140.7,63.1,41.4,6.74,70.2,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Maize
+Gujarat,Bhavnagar,Mahuva,86.4,36.3,27.3,7.3,53.9,Tube-well,Kharif/Monsoon,Black (Medium),Castor
+Gujarat,Panchmahal,Kalol,89.6,44.6,35.3,7.16,52.0,Well,Rabi/Winter,Medium Black,Mustard
+Gujarat,Navsari,Chikhli,135.2,64.6,40.8,7.29,74.9,Tube-well,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Bharuch,Hansot,109.1,51.4,56.4,6.79,82.1,Lake,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Kheda,Matar,139.9,60.1,44.0,6.09,75.2,Tube-well,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Gandhinagar,Kalol,143.0,76.8,47.4,7.92,47.5,Nahar/Canal,Rabi/Winter,Sandy Loam,Wheat
+Gujarat,Narmada,Nandod,99.3,58.1,57.3,7.02,78.6,Nahar/Canal,Kharif/Monsoon,Hilly Loam,Rice
+Gujarat,Porbandar,Ranavav,99.1,39.2,37.6,6.65,54.6,Tube-well,Rabi/Winter,Black (Medium),Castor
+Gujarat,Bhavnagar,Talaja,32.9,30.5,27.2,6.54,65.8,Tube-well,Zaid/Summer,Black (Medium),Sesame
+Gujarat,Kutch,Nakhatrana,24.4,30.3,24.4,7.95,41.3,Tube-well,Rabi/Winter,Saline Coastal,Cumin
+Gujarat,Navsari,Gandevi,154.3,78.9,88.5,6.08,89.8,Tube-well,Kharif/Monsoon,Coastal Sandy,Sugarcane
+Gujarat,Sabarkantha,Prantij,36.3,48.3,33.3,6.57,76.4,Rainwater,Kharif/Monsoon,Medium Black,Groundnut
+Gujarat,Rajkot,Paddhari,24.2,45.3,49.6,6.51,59.5,Tube-well,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Junagadh,Junagadh City,33.8,52.4,39.6,7.06,73.1,Tube-well,Kharif/Monsoon,Coastal Alluvial,Groundnut
+Gujarat,Jamnagar,Lalpur,49.3,35.1,17.3,6.75,55.0,Rainwater,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Valsad,Dharampur,183.2,65.8,123.5,6.02,88.5,Tube-well,Kharif/Monsoon,Coastal Sandy,Sugarcane
+Gujarat,Chhota Udaipur,Kawant,118.2,58.7,43.0,7.88,76.5,Nahar/Canal,Kharif/Monsoon,Hilly Loam,Cotton
+Gujarat,Botad,Barwala,36.4,27.8,30.5,7.25,68.4,Tube-well,Kharif/Monsoon,Black (Deep),Sesame
+Gujarat,Kheda,Mahemdabad,40.8,20.2,17.0,6.35,61.1,Rainwater,Kharif/Monsoon,Alluvial,Sesame
+Gujarat,Dahod,Limkheda,193.4,62.3,109.7,7.34,74.3,Nahar/Canal,Zaid/Summer,Hilly Loam,Sugarcane
+Gujarat,Vadodara,Padra,90.6,41.2,40.1,6.74,47.2,Well,Rabi/Winter,Medium Black,Castor
+Gujarat,Amreli,Rajula,33.5,25.5,23.5,8.17,46.5,Well,Rabi/Winter,Black (Deep),Cumin
+Gujarat,Gir Somnath,Kodinar,39.4,27.7,21.7,6.28,73.9,Tube-well,Kharif/Monsoon,Coastal Sandy,Sesame
+Gujarat,Dang,Waghai,192.7,67.1,104.6,6.22,85.4,Nahar/Canal,Kharif/Monsoon,Forest Loam,Sugarcane
+Gujarat,Panchmahal,Shehera,52.9,44.3,26.3,7.08,52.9,Tube-well,Rabi/Winter,Red-Yellow,Mustard
+Gujarat,Anand,Anand,125.0,67.1,57.2,6.62,89.1,Nahar/Canal,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Gandhinagar,Dehgam,101.3,51.5,60.7,6.94,76.8,Lake,Kharif/Monsoon,Sandy Loam,Rice
+Gujarat,Devbhumi Dwarka,Bhanvad,22.3,37.1,21.8,8.09,46.4,Tube-well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Navsari,Gandevi,133.0,49.0,41.7,6.16,70.8,Rainwater,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Gandhinagar,Dehgam,163.5,88.8,109.6,6.73,71.3,Nahar/Canal,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Valsad,Dharampur,107.0,50.1,61.6,6.49,78.2,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Rice
+Gujarat,Narmada,Dediapada,184.2,60.8,125.4,6.93,74.9,Nahar/Canal,Zaid/Summer,Medium Black,Sugarcane
+Gujarat,Banaskantha,Deesa,107.4,35.1,47.7,7.73,57.7,Rainwater,Kharif/Monsoon,Sandy,Cotton
+Gujarat,Gandhinagar,Gandhinagar,206.8,99.3,113.9,6.49,89.5,Tube-well,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Banaskantha,Deesa,83.8,38.2,52.7,6.75,64.2,Tube-well,Kharif/Monsoon,Sandy Loam,Cotton
+Gujarat,Jamnagar,Dhrol,64.0,46.2,35.3,7.51,45.3,Tube-well,Kharif/Monsoon,Coastal Sandy,Castor
+Gujarat,Gandhinagar,Gandhinagar,122.4,47.8,38.5,7.54,74.8,Rainwater,Kharif/Monsoon,Alluvial,Cotton
+Gujarat,Ahmedabad,Sanand,78.0,31.0,24.4,7.4,56.9,Well,Rabi/Winter,Alluvial,Castor
+Gujarat,Gandhinagar,Mansa,33.9,23.8,34.7,7.57,65.5,Rainwater,Zaid/Summer,Alluvial,Sesame
+Gujarat,Porbandar,Ranavav,21.3,22.3,18.0,7.38,72.8,Tube-well,Kharif/Monsoon,Coastal Sandy,Sesame
+Gujarat,Gandhinagar,Kalol,101.9,36.3,37.5,7.43,77.3,Nahar/Canal,Kharif/Monsoon,Alluvial,Cotton
+Gujarat,Narmada,Rajpipla,108.8,63.6,44.6,6.17,75.6,Nahar/Canal,Kharif/Monsoon,Medium Black,Maize
+Gujarat,Chhota Udaipur,Naswadi,204.5,73.0,84.9,7.11,87.4,Nahar/Canal,Kharif/Monsoon,Hilly Loam,Sugarcane
+Gujarat,Surendranagar,Surendranagar,32.8,22.9,33.6,7.59,40.8,Tube-well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Banaskantha,Deesa,40.1,20.6,26.4,6.92,47.8,Rainwater,Kharif/Monsoon,Sandy Loam,Pearl Millet (Bajra)
+Gujarat,Narmada,Nandod,212.0,84.1,119.5,6.96,82.2,Nahar/Canal,Kharif/Monsoon,Hilly Loam,Sugarcane
+Gujarat,Jamnagar,Jamnagar,26.8,36.7,20.6,7.95,46.0,Tube-well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Bharuch,Jambusar,137.3,67.4,66.9,6.5,75.7,Lake,Kharif/Monsoon,Deep Black,Rice
+Gujarat,Ahmedabad,Dholka,131.1,53.6,47.2,6.67,75.2,Lake,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Arvalli,Bayad,49.4,21.8,24.6,6.96,62.6,Rainwater,Kharif/Monsoon,Medium Black,Pearl Millet (Bajra)
+Gujarat,Sabarkantha,Prantij,139.5,61.1,41.6,7.56,52.2,Tube-well,Rabi/Winter,Medium Black,Wheat
+Gujarat,Kutch,Rapar,42.8,25.4,33.9,7.31,64.9,Well,Kharif/Monsoon,Saline Coastal,Pearl Millet (Bajra)
+Gujarat,Bhavnagar,Bhavnagar,64.4,34.1,35.5,6.98,48.5,Tube-well,Rabi/Winter,Coastal Saline,Castor
+Gujarat,Kutch,Anjar,49.5,34.7,30.0,7.81,62.6,Rainwater,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Dahod,Limkheda,52.2,39.3,31.3,7.15,51.6,Well,Rabi/Winter,Hilly Loam,Mustard
+Gujarat,Ahmedabad,Dholka,42.3,29.2,16.6,7.46,57.2,Rainwater,Kharif/Monsoon,Medium Black,Sesame
+Gujarat,Kutch,Anjar,44.9,37.5,25.4,7.44,52.3,Rainwater,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Banaskantha,Dhanera,61.7,31.6,41.8,6.8,53.9,Tube-well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Botad,Barwala,47.8,33.9,31.8,7.17,52.6,Well,Kharif/Monsoon,Black (Deep),Pearl Millet (Bajra)
+Gujarat,Banaskantha,Deesa,74.9,32.2,41.1,6.69,50.7,Rainwater,Kharif/Monsoon,Sandy Loam,Castor
+Gujarat,Jamnagar,Lalpur,142.0,70.8,46.7,6.98,39.8,Tube-well,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Junagadh,Mendarda,24.2,46.2,47.7,7.07,79.5,Tube-well,Kharif/Monsoon,Coastal Alluvial,Groundnut
+Gujarat,Anand,Khambhat,96.8,35.1,32.5,6.69,54.2,Tube-well,Rabi/Winter,Goradu (Loamy),Castor
+Gujarat,Gir Somnath,Veraval,44.2,25.8,33.9,7.97,59.3,Well,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Anand,Borsad,107.0,66.5,37.7,7.28,51.8,Tube-well,Rabi/Winter,Goradu (Loamy),Wheat
+Gujarat,Chhota Udaipur,Chhota Udaipur,34.6,24.4,33.7,6.59,50.6,Rainwater,Kharif/Monsoon,Hilly Loam,Sesame
+Gujarat,Chhota Udaipur,Naswadi,192.2,80.5,82.8,7.0,78.0,Tube-well,Kharif/Monsoon,Red-Yellow,Sugarcane
+Gujarat,Mahisagar,Khanpur,28.6,26.2,23.9,6.99,55.4,Tube-well,Kharif/Monsoon,Medium Black,Sesame
+Gujarat,Chhota Udaipur,Naswadi,79.1,40.4,40.9,7.28,37.9,Well,Rabi/Winter,Hilly Loam,Mustard
+Gujarat,Valsad,Dharampur,127.8,42.7,52.3,7.1,81.2,Lake,Kharif/Monsoon,Coastal Sandy,Rice
+Gujarat,Narmada,Dediapada,188.8,61.7,121.3,7.25,76.1,Tube-well,Kharif/Monsoon,Medium Black,Sugarcane
+Gujarat,Narmada,Rajpipla,171.0,85.6,111.8,6.19,83.3,Tube-well,Zaid/Summer,Medium Black,Sugarcane
+Gujarat,Navsari,Gandevi,96.0,48.3,69.8,6.08,86.2,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Rice
+Gujarat,Ahmedabad,Viramgam,125.6,57.3,55.4,6.24,56.3,Rainwater,Kharif/Monsoon,Medium Black,Maize
+Gujarat,Gir Somnath,Kodinar,113.6,62.6,52.8,7.23,40.8,Tube-well,Rabi/Winter,Coastal Sandy,Wheat
+Gujarat,Kutch,Rapar,25.9,37.4,31.5,7.89,39.5,Tube-well,Rabi/Winter,Sandy,Cumin
+Gujarat,Morbi,Wankaner,23.4,25.6,30.6,6.78,73.0,Rainwater,Kharif/Monsoon,Black (Medium),Sesame
+Gujarat,Jamnagar,Dhrol,34.9,56.8,47.2,7.44,76.2,Rainwater,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Vadodara,Dabhoi,146.2,64.4,37.8,7.24,51.3,Tube-well,Rabi/Winter,Alluvial,Wheat
+Gujarat,Botad,Barwala,87.7,50.8,50.6,6.96,60.2,Rainwater,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Bhavnagar,Bhavnagar,125.4,31.3,33.2,7.69,67.8,Tube-well,Kharif/Monsoon,Coastal Saline,Cotton
+Gujarat,Surat,Bardoli,105.1,40.3,42.9,6.15,84.0,Nahar/Canal,Kharif/Monsoon,Deep Black,Rice
+Gujarat,Kheda,Matar,130.8,58.3,58.5,7.02,59.0,Rainwater,Kharif/Monsoon,Goradu (Loamy),Cotton
+Gujarat,Porbandar,Kutiyana,92.8,44.1,33.2,7.43,64.3,Tube-well,Kharif/Monsoon,Coastal Sandy,Castor
+Gujarat,Jamnagar,Jamnagar,32.5,45.6,46.8,6.34,75.9,Tube-well,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Surendranagar,Wadhwan,64.5,49.6,23.1,6.64,47.7,Rainwater,Kharif/Monsoon,Saline,Castor
+Gujarat,Morbi,Morbi,86.9,38.5,48.0,6.97,79.4,Tube-well,Kharif/Monsoon,Sandy Loam,Cotton
+Gujarat,Chhota Udaipur,Naswadi,84.3,52.4,40.1,7.72,42.3,Tube-well,Rabi/Winter,Red-Yellow,Mustard
+Gujarat,Rajkot,Jetpur,111.4,50.3,33.6,7.09,72.4,Tube-well,Kharif/Monsoon,Black (Deep),Cotton
+Gujarat,Mehsana,Mehsana,36.0,36.9,23.1,6.85,55.6,Well,Kharif/Monsoon,Sandy Loam,Pearl Millet (Bajra)
+Gujarat,Gandhinagar,Mansa,123.3,68.5,69.6,6.61,77.2,Tube-well,Kharif/Monsoon,Sandy Loam,Rice
+Gujarat,Narmada,Rajpipla,101.5,68.3,40.9,6.89,87.5,Tube-well,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Gandhinagar,Kalol,105.1,58.7,62.8,6.79,82.8,Nahar/Canal,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Gandhinagar,Kalol,70.2,43.6,40.2,7.2,35.4,Well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Junagadh,Junagadh City,32.1,28.9,15.7,7.23,44.9,Well,Rabi/Winter,Coastal Alluvial,Cumin
+Gujarat,Valsad,Umargam,125.8,54.6,43.3,6.81,84.9,Tube-well,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Ahmedabad,Bavla,70.5,39.8,29.4,7.38,60.3,Rainwater,Kharif/Monsoon,Medium Black,Castor
+Gujarat,Navsari,Navsari,208.6,74.0,117.1,6.04,87.8,Nahar/Canal,Zaid/Summer,Coastal Sandy,Sugarcane
+Gujarat,Botad,Botad,23.2,21.1,19.9,7.31,39.7,Well,Rabi/Winter,Black (Deep),Cumin
+Gujarat,Bhavnagar,Palitana,81.2,39.8,43.8,7.8,69.2,Rainwater,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Arvalli,Modasa,29.4,27.8,26.5,7.33,52.5,Tube-well,Kharif/Monsoon,Sandy Loam,Sesame
+Gujarat,Panchmahal,Shehera,29.1,28.7,24.9,7.39,69.7,Tube-well,Kharif/Monsoon,Medium Black,Sesame
+Gujarat,Panchmahal,Kalol,104.1,36.8,52.3,6.64,76.1,Nahar/Canal,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Mehsana,Kadi,20.2,63.9,46.3,6.59,75.1,Tube-well,Kharif/Monsoon,Alluvial,Groundnut
+Gujarat,Mahisagar,Santrampur,121.2,53.6,62.9,6.22,75.3,Tube-well,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Amreli,Savarkundla,58.1,30.7,27.3,7.65,55.8,Well,Kharif/Monsoon,Black (Deep),Pearl Millet (Bajra)
+Gujarat,Surat,Olpad,97.5,60.6,49.0,6.52,79.8,Nahar/Canal,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Kutch,Mundra,37.7,32.0,23.1,6.67,49.8,Rainwater,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Bharuch,Vagra,122.3,41.1,44.8,6.16,78.9,Tube-well,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Tapi,Vyara,102.8,66.9,39.4,6.45,56.5,Tube-well,Rabi/Winter,Red Loam,Maize
+Gujarat,Arvalli,Modasa,54.5,48.4,43.3,7.18,51.6,Tube-well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Dang,Ahwa,173.1,83.4,99.5,7.12,74.7,Tube-well,Zaid/Summer,Red Loam,Sugarcane
+Gujarat,Mahisagar,Santrampur,148.5,63.2,36.4,7.51,44.8,Tube-well,Rabi/Winter,Red-Yellow,Wheat
+Gujarat,Morbi,Wankaner,87.3,49.1,42.0,7.72,52.3,Rainwater,Rabi/Winter,Black (Medium),Castor
+Gujarat,Morbi,Morbi,50.7,35.8,19.8,7.33,52.7,Rainwater,Kharif/Monsoon,Sandy Loam,Pearl Millet (Bajra)
+Gujarat,Morbi,Tankara,20.2,39.2,33.6,7.49,57.5,Tube-well,Zaid/Summer,Black (Medium),Sesame
+Gujarat,Bharuch,Ankleshwar,211.6,90.7,100.3,6.05,87.3,Tube-well,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Gandhinagar,Dehgam,40.6,34.0,25.1,6.69,65.1,Rainwater,Zaid/Summer,Sandy Loam,Sesame
+Gujarat,Gir Somnath,Veraval,35.8,35.8,17.7,6.76,65.7,Rainwater,Kharif/Monsoon,Coastal Sandy,Sesame
+Gujarat,Gir Somnath,Veraval,36.2,60.6,49.8,6.62,67.0,Rainwater,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Banaskantha,Deesa,32.5,27.4,22.9,7.07,65.9,Rainwater,Kharif/Monsoon,Sandy Loam,Pearl Millet (Bajra)
+Gujarat,Dahod,Dahod,163.9,88.1,88.4,6.6,78.6,Tube-well,Zaid/Summer,Red-Yellow,Sugarcane
+Gujarat,Dang,Ahwa,95.9,61.6,53.1,7.1,81.8,Lake,Kharif/Monsoon,Forest Loam,Rice
+Gujarat,Gandhinagar,Kalol,170.2,79.8,86.5,7.28,82.0,Tube-well,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Navsari,Jalalpore,152.0,99.0,91.8,6.68,75.0,Nahar/Canal,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Narmada,Rajpipla,138.7,51.9,46.4,6.46,81.3,Tube-well,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Dang,Ahwa,116.6,47.0,57.2,7.5,76.6,Tube-well,Kharif/Monsoon,Forest Loam,Maize
+Gujarat,Junagadh,Mangrol,99.1,41.8,23.3,7.66,45.8,Rainwater,Rabi/Winter,Black (Medium),Castor
+Gujarat,Amreli,Savarkundla,95.1,28.3,27.9,7.19,47.8,Rainwater,Rabi/Winter,Black (Deep),Castor
+Gujarat,Vadodara,Padra,89.9,48.2,27.1,7.64,57.3,Rainwater,Rabi/Winter,Alluvial,Castor
+Gujarat,Dang,Waghai,203.5,66.1,122.7,6.99,86.0,Tube-well,Kharif/Monsoon,Red Loam,Sugarcane
+Gujarat,Surat,Mandvi,152.5,70.4,115.3,6.65,89.9,Nahar/Canal,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Gandhinagar,Dehgam,32.3,36.9,32.3,6.37,52.3,Tube-well,Zaid/Summer,Alluvial,Sesame
+Gujarat,Navsari,Gandevi,144.5,57.6,47.5,7.46,67.1,Nahar/Canal,Rabi/Winter,Alluvial,Maize
+Gujarat,Amreli,Amreli,37.2,40.8,47.0,7.08,64.9,Rainwater,Kharif/Monsoon,Black (Deep),Groundnut
+Gujarat,Mehsana,Visnagar,129.8,49.8,43.6,7.93,69.9,Tube-well,Kharif/Monsoon,Alluvial,Cotton
+Gujarat,Rajkot,Gondal,58.4,40.0,33.1,7.7,48.2,Well,Kharif/Monsoon,Black (Deep),Pearl Millet (Bajra)
+Gujarat,Surat,Olpad,156.5,70.2,92.0,7.16,78.0,Tube-well,Zaid/Summer,Deep Black,Sugarcane
+Gujarat,Sabarkantha,Idar,75.9,53.9,23.9,6.89,51.0,Well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Valsad,Vapi,125.6,54.7,56.6,6.71,68.0,Rainwater,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Mahisagar,Khanpur,35.8,21.9,25.3,7.56,66.9,Tube-well,Kharif/Monsoon,Red-Yellow,Sesame
+Gujarat,Anand,Sojitra,121.9,77.2,41.9,6.98,37.6,Nahar/Canal,Rabi/Winter,Goradu (Loamy),Wheat
+Gujarat,Valsad,Dharampur,92.4,42.3,41.4,6.13,81.4,Lake,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Mehsana,Unjha,83.4,44.2,20.4,7.46,54.3,Rainwater,Rabi/Winter,Alluvial,Castor
+Gujarat,Amreli,Amreli,97.9,47.6,43.6,7.51,70.6,Nahar/Canal,Kharif/Monsoon,Black (Deep),Cotton
+Gujarat,Dang,Ahwa,202.3,84.2,123.6,6.16,80.7,Nahar/Canal,Zaid/Summer,Red Loam,Sugarcane
+Gujarat,Rajkot,Gondal,108.6,50.8,56.1,7.95,70.0,Nahar/Canal,Kharif/Monsoon,Black (Deep),Cotton
+Gujarat,Gandhinagar,Mansa,96.3,40.4,43.4,6.02,89.6,Nahar/Canal,Kharif/Monsoon,Sandy Loam,Rice
+Gujarat,Sabarkantha,Prantij,142.1,75.7,43.5,6.9,50.4,Nahar/Canal,Rabi/Winter,Sandy Loam,Wheat
+Gujarat,Anand,Khambhat,134.1,52.2,43.4,7.23,55.5,Rainwater,Kharif/Monsoon,Goradu (Loamy),Cotton
+Gujarat,Chhota Udaipur,Jetpur Pavi,63.4,32.6,41.2,7.06,43.3,Tube-well,Rabi/Winter,Red-Yellow,Mustard
+Gujarat,Gandhinagar,Gandhinagar,125.7,61.7,58.1,7.36,75.0,Rainwater,Rabi/Winter,Sandy Loam,Maize
+Gujarat,Dahod,Devgadh Baria,99.0,31.9,56.8,7.13,66.8,Nahar/Canal,Kharif/Monsoon,Red-Yellow,Cotton
+Gujarat,Gandhinagar,Dehgam,104.4,45.8,50.3,6.28,78.3,Nahar/Canal,Kharif/Monsoon,Sandy Loam,Rice
+Gujarat,Botad,Gadhada,141.7,70.2,48.4,7.76,51.0,Nahar/Canal,Rabi/Winter,Black (Deep),Wheat
+Gujarat,Jamnagar,Jodiya,33.9,24.0,27.1,6.65,55.4,Well,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Gandhinagar,Kalol,175.1,70.4,113.8,6.26,87.2,Nahar/Canal,Zaid/Summer,Sandy Loam,Sugarcane
+Gujarat,Porbandar,Porbandar,130.9,53.6,35.6,7.11,41.8,Tube-well,Rabi/Winter,Coastal Sandy,Wheat
+Gujarat,Devbhumi Dwarka,Bhanvad,38.2,53.1,41.4,7.29,57.8,Rainwater,Kharif/Monsoon,Coastal Sandy,Groundnut
+Gujarat,Mehsana,Unjha,117.8,56.1,57.3,6.74,62.3,Rainwater,Kharif/Monsoon,Sandy Loam,Cotton
+Gujarat,Chhota Udaipur,Chhota Udaipur,92.8,28.1,25.0,7.76,60.4,Rainwater,Rabi/Winter,Hilly Loam,Castor
+Gujarat,Rajkot,Lodhika,104.3,61.2,48.9,7.23,48.3,Tube-well,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Anand,Petlad,96.7,47.5,43.8,7.17,58.6,Rainwater,Rabi/Winter,Goradu (Loamy),Castor
+Gujarat,Sabarkantha,Idar,100.3,42.0,53.2,7.15,64.8,Rainwater,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Junagadh,Mendarda,104.1,50.4,46.6,6.96,73.6,Tube-well,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Devbhumi Dwarka,Bhanvad,76.2,41.1,42.2,7.31,57.4,Well,Kharif/Monsoon,Coastal Sandy,Castor
+Gujarat,Chhota Udaipur,Naswadi,152.6,73.4,116.3,7.11,72.5,Nahar/Canal,Kharif/Monsoon,Hilly Loam,Sugarcane
+Gujarat,Navsari,Navsari,117.0,59.1,30.7,7.34,67.4,Nahar/Canal,Rabi/Winter,Alluvial,Maize
+Gujarat,Dang,Waghai,105.5,41.8,41.2,6.94,63.2,Nahar/Canal,Rabi/Winter,Forest Loam,Maize
+Gujarat,Surat,Kamrej,106.9,47.1,62.4,6.7,85.7,Tube-well,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Dahod,Limkheda,70.8,36.2,28.2,7.26,51.5,Well,Rabi/Winter,Hilly Loam,Mustard
+Gujarat,Morbi,Morbi,17.0,41.9,52.2,6.82,66.2,Tube-well,Kharif/Monsoon,Sandy Loam,Groundnut
+Gujarat,Morbi,Halvad,35.9,39.9,28.8,7.53,68.3,Tube-well,Zaid/Summer,Sandy Loam,Sesame
+Gujarat,Arvalli,Bayad,135.6,43.9,51.1,7.29,57.7,Rainwater,Kharif/Monsoon,Medium Black,Maize
+Gujarat,Panchmahal,Shehera,102.2,58.6,48.0,7.11,58.0,Nahar/Canal,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Navsari,Gandevi,219.4,72.1,104.3,7.19,72.8,Tube-well,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Arvalli,Malpur,92.8,37.2,23.1,6.95,62.4,Tube-well,Kharif/Monsoon,Medium Black,Castor
+Gujarat,Arvalli,Malpur,31.9,34.4,27.1,7.27,62.6,Tube-well,Zaid/Summer,Sandy Loam,Sesame
+Gujarat,Narmada,Nandod,206.0,86.6,100.5,6.35,77.9,Nahar/Canal,Kharif/Monsoon,Hilly Loam,Sugarcane
+Gujarat,Junagadh,Mangrol,51.2,31.4,30.9,7.56,59.0,Rainwater,Kharif/Monsoon,Coastal Alluvial,Pearl Millet (Bajra)
+Gujarat,Vadodara,Karjan,110.2,30.6,49.7,7.3,79.1,Tube-well,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Tapi,Songadh,140.3,58.2,42.1,6.07,74.8,Tube-well,Rabi/Winter,Red Loam,Maize
+Gujarat,Sabarkantha,Prantij,143.0,59.5,36.4,6.94,37.0,Tube-well,Rabi/Winter,Medium Black,Wheat
+Gujarat,Jamnagar,Dhrol,18.9,68.6,47.0,6.28,79.0,Rainwater,Kharif/Monsoon,Coastal Sandy,Groundnut
+Gujarat,Amreli,Amreli,116.0,62.4,38.1,7.25,51.6,Tube-well,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Vadodara,Karjan,185.6,80.2,127.5,6.4,76.4,Tube-well,Zaid/Summer,Medium Black,Sugarcane
+Gujarat,Arvalli,Meghraj,94.0,56.6,38.1,7.95,71.9,Nahar/Canal,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Bharuch,Jambusar,104.2,59.1,36.1,7.45,63.6,Rainwater,Rabi/Winter,Deep Black,Maize
+Gujarat,Jamnagar,Lalpur,15.0,29.3,31.6,7.38,49.6,Tube-well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Rajkot,Lodhika,150.0,75.3,35.3,7.81,40.6,Nahar/Canal,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Jamnagar,Jodiya,87.4,34.2,46.7,6.92,65.8,Nahar/Canal,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Porbandar,Kutiyana,113.7,69.9,38.0,7.05,54.2,Nahar/Canal,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Botad,Gadhada,30.1,20.2,18.5,7.33,62.4,Well,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Gandhinagar,Gandhinagar,133.6,60.6,50.3,7.79,42.2,Nahar/Canal,Rabi/Winter,Sandy Loam,Wheat
+Gujarat,Amreli,Amreli,23.9,24.4,15.4,7.37,48.8,Tube-well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Devbhumi Dwarka,Khambhalia,25.9,29.9,22.3,6.59,72.6,Rainwater,Zaid/Summer,Coastal Sandy,Sesame
+Gujarat,Panchmahal,Halol,118.5,54.8,56.6,6.79,83.5,Tube-well,Kharif/Monsoon,Red-Yellow,Rice
+Gujarat,Amreli,Dhari,21.5,57.1,35.7,6.88,74.6,Rainwater,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Kheda,Thasra,87.5,46.0,43.6,6.57,53.8,Tube-well,Rabi/Winter,Goradu (Loamy),Mustard
+Gujarat,Mahisagar,Balasinor,118.1,72.8,52.1,7.07,40.6,Nahar/Canal,Rabi/Winter,Medium Black,Wheat
+Gujarat,Arvalli,Malpur,100.1,56.4,54.2,7.99,60.6,Rainwater,Kharif/Monsoon,Sandy Loam,Cotton
+Gujarat,Mahisagar,Santrampur,171.8,85.0,84.8,6.72,86.2,Tube-well,Zaid/Summer,Red-Yellow,Sugarcane
+Gujarat,Botad,Gadhada,137.5,55.0,54.6,7.28,60.9,Rainwater,Kharif/Monsoon,Black (Deep),Cotton
+Gujarat,Kutch,Bhuj,59.2,38.3,22.5,7.84,62.3,Rainwater,Kharif/Monsoon,Saline Coastal,Pearl Millet (Bajra)
+Gujarat,Banaskantha,Vadgam,117.6,32.0,50.3,7.34,62.4,Nahar/Canal,Kharif/Monsoon,Sandy,Cotton
+Gujarat,Surendranagar,Surendranagar,94.6,44.7,35.6,7.09,54.3,Tube-well,Rabi/Winter,Saline,Castor
+Gujarat,Mahisagar,Balasinor,99.7,35.8,33.1,7.39,56.7,Nahar/Canal,Kharif/Monsoon,Red-Yellow,Cotton
+Gujarat,Kheda,Thasra,69.3,45.5,24.6,6.68,35.9,Well,Rabi/Winter,Goradu (Loamy),Mustard
+Gujarat,Banaskantha,Tharad,73.3,43.5,23.6,7.11,47.1,Well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Navsari,Navsari,111.9,64.6,46.8,6.08,62.9,Tube-well,Kharif/Monsoon,Coastal Sandy,Maize
+Gujarat,Kheda,Nadiad,37.4,39.6,27.0,6.66,64.5,Tube-well,Kharif/Monsoon,Goradu (Loamy),Sesame
+Gujarat,Botad,Ranpur,122.7,73.7,31.1,7.06,35.1,Tube-well,Rabi/Winter,Black (Deep),Wheat
+Gujarat,Dahod,Garbada,201.4,98.1,96.6,7.11,74.1,Tube-well,Zaid/Summer,Red-Yellow,Sugarcane
+Gujarat,Amreli,Rajula,81.8,33.5,38.7,6.79,69.6,Tube-well,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Morbi,Morbi,19.4,66.6,48.0,6.64,68.9,Tube-well,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Amreli,Amreli,15.5,60.3,39.5,7.22,57.8,Rainwater,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Panchmahal,Shehera,196.3,97.6,128.9,7.5,87.6,Tube-well,Kharif/Monsoon,Medium Black,Sugarcane
+Gujarat,Kutch,Anjar,25.7,33.9,21.4,7.56,44.5,Tube-well,Rabi/Winter,Sandy,Cumin
+Gujarat,Junagadh,Mendarda,112.4,68.9,37.0,6.95,45.2,Nahar/Canal,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Gandhinagar,Gandhinagar,125.4,62.5,49.4,6.76,66.5,Tube-well,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Narmada,Tilakwada,134.7,61.5,44.8,6.4,64.2,Nahar/Canal,Rabi/Winter,Medium Black,Maize
+Gujarat,Junagadh,Keshod,24.9,49.2,52.2,6.94,78.4,Rainwater,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Morbi,Morbi,26.1,50.5,44.6,6.8,70.5,Tube-well,Kharif/Monsoon,Sandy Loam,Groundnut
+Gujarat,Mahisagar,Khanpur,130.2,49.5,51.5,6.22,78.5,Tube-well,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Kutch,Bhuj,57.8,22.0,16.4,6.56,50.0,Well,Kharif/Monsoon,Saline Coastal,Pearl Millet (Bajra)
+Gujarat,Kheda,Matar,78.2,54.9,45.0,7.48,49.8,Tube-well,Rabi/Winter,Alluvial,Mustard
+Gujarat,Dang,Waghai,137.3,64.7,62.7,6.01,84.8,Tube-well,Kharif/Monsoon,Forest Loam,Rice
+Gujarat,Anand,Petlad,166.4,83.5,107.6,6.7,86.3,Tube-well,Zaid/Summer,Goradu (Loamy),Sugarcane
+Gujarat,Botad,Barwala,39.3,34.0,19.2,6.83,64.0,Tube-well,Kharif/Monsoon,Black (Medium),Sesame
+Gujarat,Morbi,Tankara,140.5,75.0,38.5,7.3,48.7,Nahar/Canal,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Patan,Chanasma,89.2,58.6,39.9,7.44,70.1,Rainwater,Kharif/Monsoon,Sandy Loam,Cotton
+Gujarat,Patan,Siddhpur,57.5,32.7,34.2,7.09,52.9,Well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Bhavnagar,Bhavnagar,54.8,32.1,15.5,6.8,67.8,Rainwater,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Surendranagar,Wadhwan,26.4,51.1,30.3,6.62,77.7,Rainwater,Kharif/Monsoon,Saline,Groundnut
+Gujarat,Patan,Patan,137.2,61.7,52.6,7.05,52.4,Nahar/Canal,Rabi/Winter,Sandy,Wheat
+Gujarat,Valsad,Umargam,185.2,87.4,93.8,6.01,72.9,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Sugarcane
+Gujarat,Kutch,Nakhatrana,24.2,31.5,29.7,7.37,48.2,Well,Rabi/Winter,Saline Coastal,Cumin
+Gujarat,Narmada,Tilakwada,102.5,67.0,62.0,6.55,88.7,Tube-well,Kharif/Monsoon,Hilly Loam,Rice
+Gujarat,Amreli,Lathi,56.6,23.2,32.7,7.31,61.7,Rainwater,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Kutch,Mundra,32.3,22.1,30.3,6.99,56.3,Well,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Dang,Subir,155.1,87.8,117.5,6.57,84.9,Nahar/Canal,Kharif/Monsoon,Forest Loam,Sugarcane
+Gujarat,Kheda,Nadiad,122.5,34.1,50.1,7.2,66.5,Rainwater,Kharif/Monsoon,Alluvial,Cotton
+Gujarat,Bhavnagar,Sihor,36.0,45.1,30.5,6.33,62.4,Tube-well,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Patan,Patan,106.4,35.3,51.4,7.84,68.3,Rainwater,Kharif/Monsoon,Sandy,Cotton
+Gujarat,Chhota Udaipur,Chhota Udaipur,92.6,40.1,63.2,6.92,88.9,Tube-well,Kharif/Monsoon,Red-Yellow,Rice
+Gujarat,Morbi,Tankara,81.7,30.4,54.6,7.52,56.6,Tube-well,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Mehsana,Visnagar,86.5,39.8,46.9,6.78,60.2,Nahar/Canal,Kharif/Monsoon,Sandy Loam,Cotton
+Gujarat,Patan,Patan,22.1,23.5,23.0,7.41,40.8,Tube-well,Rabi/Winter,Sandy Loam,Cumin
+Gujarat,Narmada,Rajpipla,131.2,41.3,56.6,6.62,72.7,Nahar/Canal,Rabi/Winter,Medium Black,Maize
+Gujarat,Gandhinagar,Kalol,89.3,47.4,36.9,7.76,48.9,Well,Rabi/Winter,Alluvial,Mustard
+Gujarat,Botad,Barwala,28.4,32.2,26.7,6.74,66.0,Rainwater,Zaid/Summer,Black (Medium),Sesame
+Gujarat,Dahod,Jhalod,94.2,42.9,37.3,6.62,58.4,Tube-well,Kharif/Monsoon,Red-Yellow,Cotton
+Gujarat,Gandhinagar,Kalol,85.7,31.0,38.1,7.79,53.9,Tube-well,Rabi/Winter,Sandy Loam,Castor
+Gujarat,Botad,Barwala,132.4,58.7,30.6,7.82,41.6,Nahar/Canal,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Bharuch,Hansot,192.6,75.3,96.1,6.66,70.1,Nahar/Canal,Zaid/Summer,Deep Black,Sugarcane
+Gujarat,Gandhinagar,Kalol,87.5,35.2,46.5,7.69,60.1,Rainwater,Kharif/Monsoon,Alluvial,Cotton
+Gujarat,Porbandar,Ranavav,34.9,24.0,23.5,7.41,52.6,Well,Kharif/Monsoon,Coastal Sandy,Pearl Millet (Bajra)
+Gujarat,Chhota Udaipur,Kawant,119.9,45.0,43.2,6.76,71.9,Rainwater,Kharif/Monsoon,Red-Yellow,Maize
+Gujarat,Anand,Anand,127.9,67.6,57.9,6.18,85.9,Nahar/Canal,Kharif/Monsoon,Goradu (Loamy),Rice
+Gujarat,Dang,Waghai,108.8,58.2,42.2,6.16,82.0,Tube-well,Kharif/Monsoon,Red Loam,Rice
+Gujarat,Anand,Anand,104.3,42.5,41.8,7.61,64.6,Tube-well,Kharif/Monsoon,Alluvial,Cotton
+Gujarat,Valsad,Umargam,215.2,66.5,118.1,7.44,85.4,Tube-well,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Devbhumi Dwarka,Bhanvad,57.8,34.7,19.8,6.55,65.3,Well,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Sabarkantha,Talod,26.2,31.6,28.3,6.43,52.9,Tube-well,Kharif/Monsoon,Sandy Loam,Sesame
+Gujarat,Bhavnagar,Sihor,56.3,23.3,23.5,7.54,57.5,Rainwater,Kharif/Monsoon,Coastal Saline,Pearl Millet (Bajra)
+Gujarat,Surendranagar,Chotila,35.9,35.5,21.9,6.4,68.7,Rainwater,Kharif/Monsoon,Saline,Sesame
+Gujarat,Patan,Patan,104.8,73.2,40.4,7.3,40.8,Tube-well,Rabi/Winter,Sandy Loam,Wheat
+Gujarat,Mahisagar,Santrampur,25.0,23.6,34.0,6.83,70.4,Rainwater,Kharif/Monsoon,Red-Yellow,Sesame
+Gujarat,Amreli,Amreli,37.8,38.0,23.2,7.44,60.6,Rainwater,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Jamnagar,Jodiya,96.6,40.3,47.6,7.22,71.8,Rainwater,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Mehsana,Mehsana,83.3,49.7,22.4,7.18,45.1,Well,Kharif/Monsoon,Sandy Loam,Castor
+Gujarat,Tapi,Uchchhal,108.5,66.7,70.0,6.98,89.1,Tube-well,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Patan,Harij,128.4,30.1,56.1,7.1,75.9,Tube-well,Kharif/Monsoon,Sandy Loam,Cotton
+Gujarat,Banaskantha,Tharad,24.2,58.6,46.5,6.82,65.3,Rainwater,Kharif/Monsoon,Sandy,Groundnut
+Gujarat,Kheda,Matar,138.2,52.1,50.3,6.85,67.1,Rainwater,Kharif/Monsoon,Goradu (Loamy),Cotton
+Gujarat,Bhavnagar,Sihor,20.9,23.9,17.9,7.68,43.6,Well,Rabi/Winter,Coastal Saline,Cumin
+Gujarat,Porbandar,Porbandar,31.6,39.9,34.7,7.61,48.4,Well,Rabi/Winter,Coastal Sandy,Cumin
+Gujarat,Vadodara,Waghodia,161.9,97.8,115.0,6.16,89.9,Nahar/Canal,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Sabarkantha,Talod,78.8,46.6,43.8,7.37,48.3,Tube-well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Gandhinagar,Mansa,176.4,88.7,116.8,6.57,82.8,Tube-well,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Mahisagar,Santrampur,53.5,32.2,38.5,7.72,49.9,Well,Rabi/Winter,Red-Yellow,Mustard
+Gujarat,Vadodara,Karjan,27.8,31.8,18.8,6.74,60.6,Rainwater,Zaid/Summer,Alluvial,Sesame
+Gujarat,Morbi,Tankara,112.3,43.8,34.3,7.91,75.9,Rainwater,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Gandhinagar,Kalol,74.0,37.7,44.8,6.66,54.9,Tube-well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Ahmedabad,Dholka,89.2,38.3,40.7,6.77,49.7,Tube-well,Rabi/Winter,Alluvial,Mustard
+Gujarat,Dahod,Jhalod,149.2,59.8,55.5,7.49,67.6,Rainwater,Rabi/Winter,Red-Yellow,Maize
+Gujarat,Botad,Ranpur,103.6,71.8,37.1,7.91,49.0,Nahar/Canal,Rabi/Winter,Black (Deep),Wheat
+Gujarat,Patan,Siddhpur,43.7,23.3,17.8,7.54,52.3,Well,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Anand,Petlad,200.8,83.0,113.9,7.48,73.0,Tube-well,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Mahisagar,Lunawada,109.0,51.6,54.5,7.58,46.9,Nahar/Canal,Rabi/Winter,Red-Yellow,Wheat
+Gujarat,Anand,Petlad,103.8,39.1,47.9,6.76,73.6,Rainwater,Kharif/Monsoon,Goradu (Loamy),Cotton
+Gujarat,Bhavnagar,Sihor,100.6,53.5,33.1,7.57,53.2,Nahar/Canal,Rabi/Winter,Coastal Saline,Wheat
+Gujarat,Dahod,Devgadh Baria,137.3,63.8,35.4,6.73,69.8,Nahar/Canal,Rabi/Winter,Red-Yellow,Maize
+Gujarat,Mahisagar,Santrampur,135.7,75.9,43.4,7.29,49.0,Tube-well,Rabi/Winter,Medium Black,Wheat
+Gujarat,Patan,Patan,148.3,66.9,35.4,6.9,59.1,Tube-well,Kharif/Monsoon,Sandy Loam,Maize
+Gujarat,Chhota Udaipur,Chhota Udaipur,92.4,34.8,46.9,7.78,55.9,Nahar/Canal,Kharif/Monsoon,Hilly Loam,Cotton
+Gujarat,Vadodara,Savli,60.0,32.5,43.7,7.18,60.7,Well,Rabi/Winter,Alluvial,Castor
+Gujarat,Chhota Udaipur,Naswadi,37.2,33.3,15.9,6.25,53.5,Rainwater,Zaid/Summer,Red-Yellow,Sesame
+Gujarat,Panchmahal,Ghoghamba,159.0,84.9,83.7,6.38,77.6,Tube-well,Kharif/Monsoon,Red-Yellow,Sugarcane
+Gujarat,Jamnagar,Kalavad,105.5,50.8,46.1,6.61,73.3,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Cotton
+Gujarat,Kheda,Thasra,72.7,44.7,29.5,7.75,49.9,Tube-well,Rabi/Winter,Alluvial,Castor
+Gujarat,Tapi,Vyara,116.5,42.7,57.3,7.17,58.4,Tube-well,Rabi/Winter,Red Loam,Maize
+Gujarat,Dahod,Dahod,118.9,53.2,53.1,7.01,49.6,Tube-well,Rabi/Winter,Hilly Loam,Wheat
+Gujarat,Valsad,Valsad,128.6,48.5,38.1,6.15,56.1,Nahar/Canal,Rabi/Winter,Coastal Sandy,Maize
+Gujarat,Gir Somnath,Kodinar,129.6,57.8,47.2,7.66,48.2,Nahar/Canal,Rabi/Winter,Coastal Sandy,Wheat
+Gujarat,Anand,Sojitra,78.3,36.2,35.2,7.42,38.7,Well,Rabi/Winter,Goradu (Loamy),Mustard
+Gujarat,Devbhumi Dwarka,Bhanvad,115.3,75.7,53.7,7.29,41.3,Tube-well,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Bhavnagar,Bhavnagar,35.0,21.1,29.9,7.33,57.3,Rainwater,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Rajkot,Jetpur,79.9,42.1,36.9,7.19,47.5,Rainwater,Kharif/Monsoon,Black (Deep),Castor
+Gujarat,Rajkot,Jetpur,112.1,40.4,59.8,7.49,78.0,Nahar/Canal,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Junagadh,Keshod,32.3,36.8,25.3,7.93,55.6,Rainwater,Kharif/Monsoon,Coastal Alluvial,Pearl Millet (Bajra)
+Gujarat,Surendranagar,Limbdi,95.0,46.2,53.0,6.68,62.5,Nahar/Canal,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Navsari,Gandevi,214.6,97.2,128.0,6.77,87.9,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Sugarcane
+Gujarat,Narmada,Rajpipla,113.0,49.0,43.2,6.42,85.8,Lake,Kharif/Monsoon,Hilly Loam,Rice
+Gujarat,Patan,Patan,19.9,55.9,52.5,6.73,77.8,Tube-well,Kharif/Monsoon,Sandy Loam,Groundnut
+Gujarat,Rajkot,Jetpur,119.8,59.0,40.7,7.02,51.2,Nahar/Canal,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Mehsana,Vijapur,137.4,50.2,52.1,7.65,37.2,Nahar/Canal,Rabi/Winter,Alluvial,Wheat
+Gujarat,Navsari,Gandevi,106.6,40.9,60.0,7.14,89.4,Lake,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Tapi,Uchchhal,125.7,49.7,62.9,7.06,82.5,Lake,Kharif/Monsoon,Red Loam,Rice
+Gujarat,Surendranagar,Surendranagar,89.3,45.0,53.0,6.85,72.0,Rainwater,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Botad,Botad,20.6,21.7,23.6,7.8,45.9,Well,Rabi/Winter,Black (Deep),Cumin
+Gujarat,Amreli,Rajula,44.9,24.9,31.4,6.48,67.7,Tube-well,Kharif/Monsoon,Black (Medium),Sesame
+Gujarat,Mehsana,Visnagar,106.6,51.2,54.8,7.91,43.5,Tube-well,Rabi/Winter,Sandy Loam,Wheat
+Gujarat,Kheda,Nadiad,105.3,59.0,46.9,6.4,82.2,Lake,Kharif/Monsoon,Goradu (Loamy),Rice
+Gujarat,Porbandar,Kutiyana,96.2,38.4,40.5,7.13,63.0,Rainwater,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Surat,Bardoli,164.8,78.9,125.4,6.15,73.7,Tube-well,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Gandhinagar,Mansa,76.8,47.1,39.3,6.67,42.2,Tube-well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Morbi,Tankara,47.5,21.7,17.1,7.44,60.0,Rainwater,Kharif/Monsoon,Sandy Loam,Pearl Millet (Bajra)
+Gujarat,Junagadh,Keshod,32.2,30.9,21.9,7.59,69.7,Rainwater,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Kheda,Nadiad,82.0,31.3,41.9,7.61,63.1,Rainwater,Kharif/Monsoon,Goradu (Loamy),Castor
+Gujarat,Devbhumi Dwarka,Kalyanpur,32.0,28.4,33.6,7.26,45.5,Well,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Tapi,Nizar,201.9,75.9,114.2,7.31,89.4,Nahar/Canal,Zaid/Summer,Red Loam,Sugarcane
+Gujarat,Jamnagar,Lalpur,27.1,24.1,15.1,7.74,43.9,Well,Rabi/Winter,Coastal Sandy,Cumin
+Gujarat,Rajkot,Paddhari,55.6,25.9,20.4,6.68,50.6,Well,Kharif/Monsoon,Black (Deep),Pearl Millet (Bajra)
+Gujarat,Bharuch,Bharuch,146.4,48.1,53.7,6.96,60.7,Rainwater,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Panchmahal,Godhra,22.1,34.1,26.0,7.21,60.2,Tube-well,Zaid/Summer,Red-Yellow,Sesame
+Gujarat,Navsari,Navsari,111.0,69.0,35.3,7.46,67.4,Rainwater,Kharif/Monsoon,Coastal Sandy,Maize
+Gujarat,Mehsana,Kadi,111.0,48.1,47.4,7.21,72.3,Rainwater,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Anand,Petlad,135.1,42.8,45.4,6.22,87.9,Nahar/Canal,Kharif/Monsoon,Goradu (Loamy),Rice
+Gujarat,Kheda,Mahemdabad,56.5,34.4,29.9,7.29,36.4,Well,Rabi/Winter,Alluvial,Mustard
+Gujarat,Kutch,Anjar,51.7,22.7,30.0,6.52,47.5,Rainwater,Kharif/Monsoon,Saline Coastal,Pearl Millet (Bajra)
+Gujarat,Surendranagar,Surendranagar,23.3,35.4,20.4,7.51,65.0,Rainwater,Kharif/Monsoon,Black (Medium),Sesame
+Gujarat,Rajkot,Paddhari,36.1,29.6,26.3,7.17,49.1,Rainwater,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Botad,Gadhada,30.7,43.7,50.6,6.33,62.4,Tube-well,Kharif/Monsoon,Black (Deep),Groundnut
+Gujarat,Porbandar,Porbandar,93.6,41.6,40.6,6.93,78.0,Rainwater,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Surendranagar,Chotila,17.5,68.7,38.9,7.0,58.0,Rainwater,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Bhavnagar,Talaja,28.3,58.0,47.0,6.4,71.7,Tube-well,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Valsad,Vapi,196.3,97.3,120.5,7.07,71.5,Tube-well,Kharif/Monsoon,Coastal Sandy,Sugarcane
+Gujarat,Rajkot,Jetpur,24.8,61.6,49.6,6.82,56.7,Rainwater,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Mahisagar,Santrampur,109.1,61.6,38.0,7.31,48.9,Tube-well,Rabi/Winter,Medium Black,Wheat
+Gujarat,Arvalli,Bayad,26.0,30.8,24.9,7.7,38.5,Well,Rabi/Winter,Sandy Loam,Cumin
+Gujarat,Bhavnagar,Talaja,63.5,34.0,25.1,7.61,52.2,Well,Kharif/Monsoon,Coastal Saline,Castor
+Gujarat,Ahmedabad,Daskroi,130.9,56.0,54.6,6.94,58.6,Tube-well,Kharif/Monsoon,Alluvial,Cotton
+Gujarat,Arvalli,Bayad,17.3,33.9,17.9,7.95,45.4,Tube-well,Rabi/Winter,Medium Black,Cumin
+Gujarat,Mahisagar,Lunawada,141.9,76.1,30.8,7.24,36.6,Nahar/Canal,Rabi/Winter,Medium Black,Wheat
+Gujarat,Kutch,Nakhatrana,44.1,22.8,25.5,7.92,56.8,Rainwater,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Botad,Botad,103.0,69.3,45.1,7.01,38.2,Tube-well,Rabi/Winter,Black (Deep),Wheat
+Gujarat,Patan,Radhanpur,125.1,61.3,42.7,6.24,77.4,Nahar/Canal,Rabi/Winter,Sandy Loam,Maize
+Gujarat,Surendranagar,Wadhwan,22.8,36.5,34.5,7.79,36.2,Tube-well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Narmada,Tilakwada,108.2,64.1,49.4,6.29,57.5,Rainwater,Rabi/Winter,Hilly Loam,Maize
+Gujarat,Kutch,Nakhatrana,38.5,30.8,16.3,7.4,63.9,Rainwater,Kharif/Monsoon,Saline Coastal,Pearl Millet (Bajra)
+Gujarat,Valsad,Dharampur,168.8,99.1,108.2,6.85,85.8,Nahar/Canal,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Junagadh,Mangrol,138.8,52.6,58.8,7.25,62.9,Rainwater,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Patan,Siddhpur,37.4,55.1,42.6,7.21,55.6,Tube-well,Kharif/Monsoon,Sandy Loam,Groundnut
+Gujarat,Surendranagar,Dhrangadhra,24.0,33.6,16.6,7.08,73.8,Tube-well,Kharif/Monsoon,Saline,Sesame
+Gujarat,Dahod,Jhalod,91.4,33.5,29.0,7.61,53.6,Rainwater,Rabi/Winter,Red-Yellow,Castor
+Gujarat,Surendranagar,Wadhwan,82.7,49.9,22.4,6.52,60.3,Tube-well,Kharif/Monsoon,Black (Medium),Castor
+Gujarat,Valsad,Umargam,161.9,71.8,83.4,6.86,77.1,Tube-well,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Kutch,Rapar,59.4,35.3,23.8,7.89,68.5,Well,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Gandhinagar,Mansa,84.3,52.9,23.2,6.98,51.9,Well,Rabi/Winter,Alluvial,Mustard
+Gujarat,Gir Somnath,Veraval,37.9,37.5,28.7,7.43,61.1,Well,Kharif/Monsoon,Coastal Sandy,Pearl Millet (Bajra)
+Gujarat,Bharuch,Ankleshwar,161.1,76.0,83.6,6.58,79.2,Tube-well,Kharif/Monsoon,Deep Black,Sugarcane
+Gujarat,Bhavnagar,Sihor,16.7,34.6,33.3,8.2,46.5,Tube-well,Rabi/Winter,Coastal Saline,Cumin
+Gujarat,Kheda,Matar,149.8,64.6,47.6,7.37,40.6,Nahar/Canal,Rabi/Winter,Alluvial,Wheat
+Gujarat,Junagadh,Visavadar,29.2,69.6,49.4,6.28,75.2,Tube-well,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Mahisagar,Santrampur,137.2,50.5,38.1,7.45,57.1,Rainwater,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Kutch,Mundra,32.4,30.5,28.4,7.34,47.5,Well,Rabi/Winter,Saline Coastal,Cumin
+Gujarat,Bhavnagar,Palitana,25.0,38.8,24.6,6.95,69.6,Rainwater,Zaid/Summer,Coastal Saline,Sesame
+Gujarat,Mahisagar,Khanpur,123.4,47.4,34.3,7.5,75.6,Rainwater,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Gir Somnath,Kodinar,32.3,22.3,34.4,7.53,42.8,Well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Rajkot,Jasdan,31.1,34.9,18.8,7.54,64.4,Rainwater,Kharif/Monsoon,Black (Deep),Pearl Millet (Bajra)
+Gujarat,Surendranagar,Limbdi,24.3,50.9,37.5,6.6,75.5,Rainwater,Kharif/Monsoon,Black (Medium),Groundnut
+Gujarat,Vadodara,Dabhoi,107.6,56.3,55.7,6.92,76.7,Tube-well,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Amreli,Lathi,127.1,61.4,51.1,7.63,43.7,Tube-well,Rabi/Winter,Black (Deep),Wheat
+Gujarat,Navsari,Navsari,193.1,76.5,104.8,7.13,88.5,Nahar/Canal,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Mehsana,Unjha,92.7,53.3,46.5,6.67,76.4,Tube-well,Kharif/Monsoon,Alluvial,Cotton
+Gujarat,Vadodara,Dabhoi,137.0,63.5,55.2,6.32,84.9,Nahar/Canal,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Valsad,Pardi,151.1,66.1,98.7,7.23,86.4,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Sugarcane
+Gujarat,Gir Somnath,Kodinar,82.2,34.8,35.4,7.01,46.0,Tube-well,Rabi/Winter,Coastal Sandy,Castor
+Gujarat,Mahisagar,Khanpur,80.7,35.9,22.5,7.54,55.1,Rainwater,Rabi/Winter,Red-Yellow,Castor
+Gujarat,Patan,Harij,104.7,50.8,30.3,7.72,38.1,Tube-well,Rabi/Winter,Sandy Loam,Wheat
+Gujarat,Bhavnagar,Bhavnagar,49.0,35.6,18.7,7.48,50.5,Well,Kharif/Monsoon,Coastal Saline,Pearl Millet (Bajra)
+Gujarat,Kheda,Kapadvanj,53.3,33.6,20.6,7.78,52.3,Well,Rabi/Winter,Goradu (Loamy),Mustard
+Gujarat,Vadodara,Waghodia,114.1,76.8,32.3,7.39,42.2,Tube-well,Rabi/Winter,Alluvial,Wheat
+Gujarat,Panchmahal,Godhra,103.7,68.8,32.3,7.03,63.6,Rainwater,Kharif/Monsoon,Medium Black,Maize
+Gujarat,Gir Somnath,Kodinar,37.6,59.8,45.8,7.31,57.9,Rainwater,Kharif/Monsoon,Coastal Sandy,Groundnut
+Gujarat,Botad,Ranpur,80.9,31.4,23.0,7.29,55.7,Tube-well,Kharif/Monsoon,Black (Deep),Castor
+Gujarat,Porbandar,Porbandar,42.5,20.6,17.8,6.32,67.3,Rainwater,Zaid/Summer,Coastal Sandy,Sesame
+Gujarat,Banaskantha,Dhanera,28.7,31.0,20.9,7.24,62.4,Rainwater,Kharif/Monsoon,Sandy Loam,Sesame
+Gujarat,Porbandar,Porbandar,134.4,76.6,37.0,7.27,46.7,Tube-well,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Valsad,Pardi,144.1,52.7,52.4,7.22,69.3,Rainwater,Rabi/Winter,Alluvial,Maize
+Gujarat,Surendranagar,Wadhwan,95.9,45.5,31.2,7.66,64.2,Rainwater,Rabi/Winter,Saline,Castor
+Gujarat,Dang,Waghai,101.5,45.4,39.7,7.19,63.2,Rainwater,Rabi/Winter,Red Loam,Maize
+Gujarat,Kutch,Rapar,53.4,22.4,21.4,6.52,53.2,Rainwater,Kharif/Monsoon,Sandy,Pearl Millet (Bajra)
+Gujarat,Narmada,Dediapada,114.2,46.4,36.5,6.84,71.5,Rainwater,Kharif/Monsoon,Hilly Loam,Maize
+Gujarat,Kutch,Rapar,35.9,21.0,24.9,6.57,51.9,Well,Kharif/Monsoon,Saline Coastal,Pearl Millet (Bajra)
+Gujarat,Vadodara,Dabhoi,75.3,39.4,27.1,7.34,62.1,Well,Rabi/Winter,Medium Black,Castor
+Gujarat,Rajkot,Dhoraji,37.4,67.5,31.0,7.04,56.7,Rainwater,Kharif/Monsoon,Black (Deep),Groundnut
+Gujarat,Mehsana,Kadi,76.0,38.9,27.8,7.3,52.9,Rainwater,Rabi/Winter,Alluvial,Castor
+Gujarat,Narmada,Rajpipla,101.2,64.8,44.2,7.19,87.9,Nahar/Canal,Kharif/Monsoon,Hilly Loam,Rice
+Gujarat,Mahisagar,Santrampur,140.8,66.1,30.1,7.63,36.0,Nahar/Canal,Rabi/Winter,Red-Yellow,Wheat
+Gujarat,Junagadh,Junagadh City,116.5,68.4,50.3,7.12,38.4,Nahar/Canal,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Banaskantha,Palanpur,137.7,76.6,54.1,7.3,43.9,Tube-well,Rabi/Winter,Sandy Loam,Wheat
+Gujarat,Vadodara,Waghodia,116.1,61.9,36.8,6.4,61.8,Rainwater,Rabi/Winter,Medium Black,Maize
+Gujarat,Bhavnagar,Talaja,37.4,21.5,24.9,6.5,66.8,Rainwater,Kharif/Monsoon,Coastal Saline,Sesame
+Gujarat,Narmada,Dediapada,100.4,57.7,55.8,7.03,86.4,Tube-well,Kharif/Monsoon,Hilly Loam,Rice
+Gujarat,Valsad,Pardi,110.9,50.9,59.3,7.3,66.8,Tube-well,Kharif/Monsoon,Coastal Sandy,Maize
+Gujarat,Patan,Patan,87.5,48.8,34.4,6.63,54.2,Tube-well,Rabi/Winter,Sandy,Castor
+Gujarat,Mehsana,Visnagar,96.0,44.3,45.9,7.03,58.0,Rainwater,Kharif/Monsoon,Sandy Loam,Cotton
+Gujarat,Bhavnagar,Sihor,27.6,55.2,31.3,6.55,57.4,Tube-well,Kharif/Monsoon,Coastal Saline,Groundnut
+Gujarat,Surendranagar,Wadhwan,108.8,58.3,45.2,7.42,37.2,Nahar/Canal,Rabi/Winter,Saline,Wheat
+Gujarat,Surat,Bardoli,212.7,83.0,91.9,6.8,75.5,Nahar/Canal,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Patan,Radhanpur,27.4,45.1,35.1,7.03,72.6,Tube-well,Kharif/Monsoon,Sandy Loam,Groundnut
+Gujarat,Navsari,Navsari,209.7,87.5,88.5,7.02,73.3,Tube-well,Kharif/Monsoon,Alluvial,Sugarcane
+Gujarat,Botad,Gadhada,100.0,35.3,37.9,6.62,72.0,Tube-well,Kharif/Monsoon,Black (Deep),Cotton
+Gujarat,Rajkot,Lodhika,94.9,36.8,21.1,6.52,58.6,Rainwater,Kharif/Monsoon,Black (Deep),Castor
+Gujarat,Navsari,Gandevi,171.3,89.4,102.6,7.1,89.8,Nahar/Canal,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Dang,Waghai,131.4,49.0,50.0,6.62,85.0,Nahar/Canal,Kharif/Monsoon,Red Loam,Rice
+Gujarat,Ahmedabad,Viramgam,131.4,49.8,34.2,7.25,61.1,Tube-well,Kharif/Monsoon,Alluvial,Cotton
+Gujarat,Mahisagar,Santrampur,131.9,79.0,51.9,7.61,53.0,Nahar/Canal,Rabi/Winter,Medium Black,Wheat
+Gujarat,Chhota Udaipur,Kawant,34.7,38.9,20.5,6.47,64.5,Tube-well,Zaid/Summer,Red-Yellow,Sesame
+Gujarat,Botad,Ranpur,27.2,39.4,25.0,7.16,61.7,Tube-well,Zaid/Summer,Black (Medium),Sesame
+Gujarat,Anand,Sojitra,71.5,45.0,20.4,6.55,50.7,Rainwater,Rabi/Winter,Goradu (Loamy),Castor
+Gujarat,Vadodara,Dabhoi,64.1,50.9,21.2,6.68,52.6,Well,Rabi/Winter,Medium Black,Mustard
+Gujarat,Porbandar,Porbandar,59.9,23.9,26.7,6.62,50.5,Rainwater,Kharif/Monsoon,Coastal Sandy,Pearl Millet (Bajra)
+Gujarat,Ahmedabad,Sanand,138.3,42.9,47.8,6.36,79.7,Tube-well,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Mahisagar,Santrampur,179.1,68.0,95.2,6.45,88.5,Nahar/Canal,Kharif/Monsoon,Medium Black,Sugarcane
+Gujarat,Narmada,Nandod,116.3,60.8,55.1,6.82,80.4,Nahar/Canal,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Devbhumi Dwarka,Kalyanpur,15.6,31.2,34.1,7.55,46.3,Well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Valsad,Dharampur,131.0,67.0,56.3,6.08,74.4,Tube-well,Rabi/Winter,Alluvial,Maize
+Gujarat,Banaskantha,Palanpur,22.1,25.4,34.7,6.35,64.9,Rainwater,Zaid/Summer,Sandy Loam,Sesame
+Gujarat,Navsari,Chikhli,199.1,80.7,108.1,7.45,72.7,Nahar/Canal,Zaid/Summer,Coastal Sandy,Sugarcane
+Gujarat,Anand,Borsad,121.3,33.4,30.0,7.41,58.0,Nahar/Canal,Kharif/Monsoon,Goradu (Loamy),Cotton
+Gujarat,Mehsana,Visnagar,35.8,53.3,31.4,6.36,65.1,Rainwater,Kharif/Monsoon,Sandy Loam,Groundnut
+Gujarat,Amreli,Dhari,121.6,69.1,34.6,7.78,48.1,Tube-well,Rabi/Winter,Black (Medium),Wheat
+Gujarat,Jamnagar,Kalavad,28.4,39.2,24.9,7.87,40.9,Well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Mehsana,Vijapur,61.3,33.0,29.7,7.25,35.7,Tube-well,Rabi/Winter,Alluvial,Mustard
+Gujarat,Chhota Udaipur,Kawant,78.3,25.2,24.0,7.15,62.2,Well,Rabi/Winter,Red-Yellow,Castor
+Gujarat,Panchmahal,Ghoghamba,122.8,50.6,61.6,6.41,85.7,Nahar/Canal,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Banaskantha,Dhanera,65.1,41.8,36.5,7.25,53.5,Well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Dang,Subir,120.9,52.1,41.3,7.02,77.4,Lake,Kharif/Monsoon,Forest Loam,Rice
+Gujarat,Mehsana,Vijapur,44.5,36.2,29.7,6.53,72.5,Rainwater,Zaid/Summer,Sandy Loam,Sesame
+Gujarat,Amreli,Lathi,95.0,31.1,52.5,7.16,64.4,Nahar/Canal,Kharif/Monsoon,Black (Deep),Cotton
+Gujarat,Sabarkantha,Talod,18.3,59.1,43.9,6.45,67.3,Tube-well,Kharif/Monsoon,Sandy Loam,Groundnut
+Gujarat,Navsari,Gandevi,140.7,64.3,35.8,6.87,69.5,Rainwater,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Mehsana,Mehsana,138.7,67.0,51.6,7.21,48.6,Nahar/Canal,Rabi/Winter,Sandy Loam,Wheat
+Gujarat,Gandhinagar,Kalol,130.9,56.8,34.1,6.1,64.8,Rainwater,Rabi/Winter,Alluvial,Maize
+Gujarat,Surendranagar,Dhrangadhra,97.9,33.5,36.9,7.4,63.3,Nahar/Canal,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Dahod,Limkheda,133.6,44.7,48.6,6.64,78.6,Nahar/Canal,Kharif/Monsoon,Hilly Loam,Rice
+Gujarat,Porbandar,Ranavav,87.9,27.8,31.8,7.69,50.3,Well,Kharif/Monsoon,Black (Medium),Castor
+Gujarat,Sabarkantha,Talod,63.4,49.1,23.5,7.21,49.7,Tube-well,Rabi/Winter,Sandy Loam,Mustard
+Gujarat,Surat,Kamrej,218.7,98.0,109.9,6.92,71.6,Tube-well,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Ahmedabad,Viramgam,109.8,36.8,40.5,7.22,74.5,Rainwater,Kharif/Monsoon,Alluvial,Cotton
+Gujarat,Dahod,Dahod,116.5,41.4,50.5,6.53,67.1,Nahar/Canal,Kharif/Monsoon,Red-Yellow,Cotton
+Gujarat,Surendranagar,Wadhwan,17.3,22.4,27.3,8.17,40.3,Tube-well,Rabi/Winter,Saline,Cumin
+Gujarat,Botad,Botad,29.7,46.8,48.7,7.35,74.8,Rainwater,Kharif/Monsoon,Black (Deep),Groundnut
+Gujarat,Junagadh,Keshod,21.4,28.8,20.7,6.64,65.1,Rainwater,Kharif/Monsoon,Black (Medium),Sesame
+Gujarat,Bharuch,Ankleshwar,132.9,59.7,32.3,7.41,59.7,Rainwater,Rabi/Winter,Alluvial,Maize
+Gujarat,Devbhumi Dwarka,Kalyanpur,53.4,25.9,28.1,7.29,51.7,Well,Kharif/Monsoon,Coastal Sandy,Pearl Millet (Bajra)
+Gujarat,Porbandar,Porbandar,114.0,56.1,33.4,7.97,39.6,Nahar/Canal,Rabi/Winter,Coastal Sandy,Wheat
+Gujarat,Panchmahal,Kalol,87.9,41.2,31.3,6.65,55.0,Tube-well,Kharif/Monsoon,Red-Yellow,Castor
+Gujarat,Junagadh,Mangrol,93.1,27.1,27.0,7.29,54.9,Rainwater,Rabi/Winter,Coastal Alluvial,Castor
+Gujarat,Surendranagar,Chotila,102.8,49.8,46.0,7.49,55.8,Rainwater,Kharif/Monsoon,Saline,Cotton
+Gujarat,Devbhumi Dwarka,Bhanvad,38.9,26.8,31.6,6.81,60.7,Rainwater,Zaid/Summer,Coastal Sandy,Sesame
+Gujarat,Surat,Mahuva,113.2,57.2,57.0,6.62,77.4,Lake,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Surendranagar,Wadhwan,35.0,68.5,32.1,6.52,68.6,Tube-well,Kharif/Monsoon,Saline,Groundnut
+Gujarat,Botad,Botad,70.7,31.3,36.3,7.5,45.2,Rainwater,Rabi/Winter,Black (Deep),Castor
+Gujarat,Valsad,Vapi,151.2,60.4,81.9,6.54,82.8,Tube-well,Kharif/Monsoon,Coastal Sandy,Sugarcane
+Gujarat,Panchmahal,Godhra,147.7,63.2,36.5,7.74,40.2,Nahar/Canal,Rabi/Winter,Medium Black,Wheat
+Gujarat,Gandhinagar,Kalol,86.2,30.8,36.4,6.74,55.1,Well,Kharif/Monsoon,Alluvial,Castor
+Gujarat,Chhota Udaipur,Chhota Udaipur,218.3,60.6,122.2,7.27,80.8,Tube-well,Zaid/Summer,Hilly Loam,Sugarcane
+Gujarat,Junagadh,Mangrol,106.6,45.3,37.1,6.99,64.3,Nahar/Canal,Kharif/Monsoon,Black (Medium),Cotton
+Gujarat,Arvalli,Meghraj,73.1,44.7,28.4,7.03,58.0,Tube-well,Kharif/Monsoon,Medium Black,Castor
+Gujarat,Ahmedabad,Bavla,82.7,57.9,57.4,6.54,70.2,Tube-well,Kharif/Monsoon,Medium Black,Cotton
+Gujarat,Gir Somnath,Kodinar,22.6,40.0,16.6,7.1,49.0,Tube-well,Rabi/Winter,Coastal Sandy,Cumin
+Gujarat,Dahod,Devgadh Baria,133.0,65.6,37.9,7.03,46.5,Nahar/Canal,Rabi/Winter,Hilly Loam,Wheat
+Gujarat,Bharuch,Ankleshwar,105.7,69.2,60.8,6.53,89.4,Tube-well,Kharif/Monsoon,Alluvial,Rice
+Gujarat,Arvalli,Modasa,49.6,32.1,24.0,7.13,59.2,Well,Kharif/Monsoon,Sandy Loam,Pearl Millet (Bajra)
+Gujarat,Banaskantha,Vadgam,117.1,53.5,40.2,7.41,38.0,Nahar/Canal,Rabi/Winter,Sandy,Wheat
+Gujarat,Gandhinagar,Kalol,106.0,47.9,46.6,7.4,72.1,Tube-well,Kharif/Monsoon,Alluvial,Maize
+Gujarat,Banaskantha,Vadgam,87.9,56.0,57.6,7.86,63.9,Rainwater,Kharif/Monsoon,Sandy,Cotton
+Gujarat,Patan,Chanasma,29.8,58.5,54.9,6.26,73.5,Tube-well,Kharif/Monsoon,Sandy,Groundnut
+Gujarat,Devbhumi Dwarka,Kalyanpur,38.7,29.5,17.7,6.78,64.1,Well,Kharif/Monsoon,Black (Medium),Pearl Millet (Bajra)
+Gujarat,Porbandar,Porbandar,119.0,41.4,43.2,7.26,69.7,Nahar/Canal,Kharif/Monsoon,Coastal Sandy,Cotton
+Gujarat,Mehsana,Kadi,34.1,37.9,26.6,7.38,60.7,Rainwater,Zaid/Summer,Sandy Loam,Sesame
+Gujarat,Gir Somnath,Talala,21.0,38.9,32.6,7.22,60.8,Rainwater,Kharif/Monsoon,Coastal Sandy,Sesame
+Gujarat,Tapi,Vyara,95.9,48.2,53.2,7.06,79.3,Nahar/Canal,Kharif/Monsoon,Medium Black,Rice
+Gujarat,Dang,Ahwa,104.8,56.6,45.3,6.25,68.8,Tube-well,Rabi/Winter,Forest Loam,Maize
+Gujarat,Junagadh,Junagadh City,19.1,38.8,26.4,7.95,42.8,Well,Rabi/Winter,Black (Medium),Cumin
+Gujarat,Narmada,Rajpipla,144.4,54.8,32.6,6.21,61.4,Rainwater,Kharif/Monsoon,Hilly Loam,Maize
+Gujarat,Vadodara,Padra,161.0,73.4,102.7,7.1,83.4,Tube-well,Zaid/Summer,Alluvial,Sugarcane
+Gujarat,Kutch,Bhuj,35.7,31.2,31.8,7.44,68.7,Well,Kharif/Monsoon,Saline Coastal,Pearl Millet (Bajra)
+Gujarat,Rajkot,Jasdan,86.9,31.6,23.8,7.56,59.7,Tube-well,Rabi/Winter,Black (Medium),Castor

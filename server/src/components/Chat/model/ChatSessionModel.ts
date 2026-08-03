@@ -33,12 +33,12 @@ ChatSession.init(
     title: {
       type: DataTypes.STRING,
       allowNull: false,
-      defaultValue: 'Chat with Sahayak',
+      defaultValue: 'Chat with AI Assistant',
     },
     language: {
       type: DataTypes.STRING,
       allowNull: false,
-      defaultValue: 'hi',
+      defaultValue: 'en',
     },
   },
   {

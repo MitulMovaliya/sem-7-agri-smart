@@ -229,14 +229,6 @@ export default function FarmerDashboard() {
                   <h4 style={{ fontSize: '13px', marginTop: '8px' }}>Crop Advice</h4>
                 </div>
                 <div className="card" style={{ cursor: 'pointer', textAlign: 'center', padding: '24px' }} onClick={() => navigate('/farmer/predict')}>
-                  <span className="material-symbols-outlined" style={{ fontSize: '36px', color: 'var(--primary)' }}>science</span>
-                  <h4 style={{ fontSize: '13px', marginTop: '8px' }}>Fertilizers</h4>
-                </div>
-                <div className="card" style={{ cursor: 'pointer', textAlign: 'center', padding: '24px' }} onClick={() => navigate('/farmer/predict')}>
-                  <span className="material-symbols-outlined" style={{ fontSize: '36px', color: 'var(--primary)' }}>show_chart</span>
-                  <h4 style={{ fontSize: '13px', marginTop: '8px' }}>Yield Forecast</h4>
-                </div>
-                <div className="card" style={{ cursor: 'pointer', textAlign: 'center', padding: '24px' }} onClick={() => navigate('/farmer/predict')}>
                   <span className="material-symbols-outlined" style={{ fontSize: '36px', color: 'var(--primary)' }}>thunderstorm</span>
                   <h4 style={{ fontSize: '13px', marginTop: '8px' }}>Rainfall Index</h4>
                 </div>

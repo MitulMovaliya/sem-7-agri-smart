@@ -37,7 +37,12 @@ const format = winston.format.combine(
       if (meta.stack) {
         logStr += `\n${meta.stack}`;
       } else if (Object.keys(meta).length > 0) {
-        logStr += ` ${JSON.stringify(meta)}`;
+        logStr += ` ${JSON.stringify(meta, (_key, value) => {
+          if (value instanceof Error) {
+            return { message: value.message, name: value.name, stack: value.stack };
+          }
+          return value;
+        })}`;
       }
       
       return logStr;

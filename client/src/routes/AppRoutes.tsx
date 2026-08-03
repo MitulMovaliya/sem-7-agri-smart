@@ -12,7 +12,7 @@ import ApproveListingsPage from '../features/admin/ApproveListingsPage';
 import AdminOrdersPage from '../features/admin/AdminOrdersPage';
 import FarmsPage from '../features/farms/FarmsPage';
 import CreateFarmPage from '../features/farms/CreateFarmPage';
-
+import LandingPage from '../features/landing/LandingPage';
 
 interface ProtectedRouteProps {
   children: React.ReactElement;
@@ -46,7 +46,9 @@ export default function AppRoutes() {
 
   return (
     <Routes>
-      {/* Public Auth Routes */}
+      {/* Public Routes */}
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/landing" element={<LandingPage />} />
       <Route path="/login" element={session ? <Navigate to={profile?.role === 'admin' ? '/admin' : '/farmer'} replace /> : <Login />} />
       <Route path="/register" element={session ? <Navigate to={profile?.role === 'admin' ? '/admin' : '/farmer'} replace /> : <Register />} />
 
@@ -135,10 +137,10 @@ export default function AppRoutes() {
       />
 
 
-      {/* Root redirection */}
+      {/* Fallback redirection to Landing Page */}
       <Route
         path="*"
-        element={<Navigate to={session ? (profile?.role === 'admin' ? '/admin' : '/farmer') : '/login'} replace />}
+        element={<Navigate to="/" replace />}
       />
     </Routes>
   );

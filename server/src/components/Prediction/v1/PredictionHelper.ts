@@ -4,7 +4,7 @@ import logger from '../../../utils/logger.js';
 const ML_SERVICE_URL = process.env.ML_SERVICE_URL || 'http://localhost:8000';
 
 export async function fetchPredictionAndLog(
-  modelType: 'crop' | 'fertilizer' | 'yield' | 'rainfall', 
+  modelType: 'crop' | 'rainfall', 
   endpoint: string, 
   payload: any, 
   userId: string,
@@ -33,7 +33,7 @@ export async function fetchPredictionAndLog(
         modelType,
         inputData: payload,
         predictionResult: result,
-        confidence: result.confidence ? result.confidence / 100 : null
+        confidence: result.confidence ? Number((Number(result.confidence) / 100).toFixed(4)) : null
       });
     } catch (dbError) {
       logger.error("Failed to write prediction log to database:", { error: dbError });

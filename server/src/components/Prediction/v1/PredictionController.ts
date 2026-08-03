@@ -19,15 +19,33 @@ function getHaversineDistance(lat1: number, lon1: number, lat2: number, lon2: nu
 }
 
 export const getCropPrediction = async (req: Request, res: Response) => {
-  const { N, P, K, temperature, humidity, ph, rainfall, farmId } = req.body;
+  const { N, P, K, temperature, humidity, ph, rainfall, OC, EC, soil_type, district, taluka, water_source, state, season, farmId } = req.body;
   const user = req.user as User;
 
-  if ([N, P, K, temperature, humidity, ph, rainfall].some(val => val === undefined || val === null)) {
-    return res.status(400).json({ error: "Missing soil or weather parameters." });
+  if ([N, P, K, ph].some(val => val === undefined || val === null)) {
+    return res.status(400).json({ error: "Missing required soil parameters (N, P, K, pH)." });
   }
 
   try {
-    const payload = { N: Number(N), P: Number(P), K: Number(K), temperature: Number(temperature), humidity: Number(humidity), ph: Number(ph), rainfall: Number(rainfall) };
+    const payload: any = {
+      N: Number(N),
+      P: Number(P),
+      K: Number(K),
+      ph: Number(ph),
+      temperature: temperature !== undefined && temperature !== null ? Number(temperature) : 28.0,
+      humidity: humidity !== undefined && humidity !== null ? Number(humidity) : 60.0,
+      rainfall: rainfall !== undefined && rainfall !== null && Number(rainfall) >= 100 ? Number(rainfall) : 700.0,
+    };
+
+    if (OC !== undefined && OC !== null) payload.OC = Number(OC);
+    if (EC !== undefined && EC !== null) payload.EC = Number(EC);
+    if (soil_type) payload.soil_type = soil_type;
+    if (district) payload.district = district;
+    if (taluka) payload.taluka = taluka;
+    if (water_source) payload.water_source = water_source;
+    if (state) payload.state = state;
+    if (season) payload.season = season;
+
     const result = await Helper.fetchPredictionAndLog('crop', '/predict/crop', payload, user.id, farmId);
     return res.json(result);
   } catch (error) {
@@ -35,56 +53,8 @@ export const getCropPrediction = async (req: Request, res: Response) => {
   }
 };
 
-export const getFertilizerPrediction = async (req: Request, res: Response) => {
-  const { Temperature, Humidity, Moisture, Soil_Type, Crop_Type, N, P, K, farmId } = req.body;
-  const user = req.user as User;
-
-  if ([Temperature, Humidity, Moisture, Soil_Type, Crop_Type, N, P, K].some(val => val === undefined || val === null)) {
-    return res.status(400).json({ error: "Missing fertilizer recommendation parameters." });
-  }
-
-  try {
-    const payload = {
-      Temperature: Number(Temperature),
-      Humidity: Number(Humidity),
-      Moisture: Number(Moisture),
-      "Soil Type": Soil_Type,
-      "Crop Type": Crop_Type,
-      N: Number(N),
-      P: Number(P),
-      K: Number(K)
-    };
-    const result = await Helper.fetchPredictionAndLog('fertilizer', '/predict/fertilizer', payload, user.id, farmId);
-    return res.json(result);
-  } catch (error) {
-    return res.status(500).json({ error: "Failed to run Fertilizer Prediction model." });
-  }
-};
-
-export const getYieldPrediction = async (req: Request, res: Response) => {
-  const { State, District, Season, Crop, Area, Temperature, Rainfall, farmId } = req.body;
-  const user = req.user as User;
-
-  if ([State, District, Season, Crop, Area, Temperature, Rainfall].some(val => val === undefined || val === null)) {
-    return res.status(400).json({ error: "Missing yield estimation parameters." });
-  }
-
-  const numArea = Number(Area);
-  if (isNaN(numArea) || numArea <= 0) {
-    return res.status(400).json({ error: "Farm area must be a positive number greater than 0 hectares." });
-  }
-
-  try {
-    const payload = { State, District, Season, Crop, Area: numArea, Temperature: Number(Temperature), Rainfall: Number(Rainfall) };
-    const result = await Helper.fetchPredictionAndLog('yield', '/predict/yield', payload, user.id, farmId);
-    return res.json(result);
-  } catch (error) {
-    return res.status(500).json({ error: "Failed to run Yield Prediction model." });
-  }
-};
-
 export const getRainfallPrediction = async (req: Request, res: Response) => {
-  const { year, month, farmId } = req.body;
+  const { year, month, farmId, lag1, lag2, lag12 } = req.body;
   const user = req.user as User;
 
   if (!year || !month) {
@@ -92,11 +62,16 @@ export const getRainfallPrediction = async (req: Request, res: Response) => {
   }
 
   try {
-    const url = `${ML_SERVICE_URL}/predict/rainfall?year=${year}&month=${month}`;
+    let url = `${ML_SERVICE_URL}/predict/rainfall?year=${year}&month=${month}`;
+    if (lag1 !== undefined && lag1 !== null) url += `&lag1=${lag1}`;
+    if (lag2 !== undefined && lag2 !== null) url += `&lag2=${lag2}`;
+    if (lag12 !== undefined && lag12 !== null) url += `&lag12=${lag12}`;
+
     const response = await fetch(url, { method: 'POST' });
 
     if (!response.ok) {
-      throw new Error("ML Service failed to return rainfall forecast.");
+      const errDetail = await response.text().catch(() => '');
+      throw new Error(`ML Service error (${response.status}): ${errDetail || 'Failed to return rainfall forecast.'}`);
     }
 
     const result = await response.json();
@@ -115,9 +90,9 @@ export const getRainfallPrediction = async (req: Request, res: Response) => {
     }
 
     return res.json(result);
-  } catch (error) {
+  } catch (error: any) {
     logger.error("Rainfall proxy error:", { error });
-    return res.status(500).json({ error: "Failed to run Rainfall Forecast model." });
+    return res.status(500).json({ error: error?.message || "Failed to run Rainfall Forecast model." });
   }
 };
 
@@ -134,7 +109,7 @@ export const getPredictionHistory = async (req: Request, res: Response) => {
       include: [{
         model: Farm,
         as: 'farm',
-        attributes: ['name']
+        attributes: ['name', 'district', 'state']
       }],
       order: [['createdAt', 'DESC']]
     });
@@ -240,11 +215,25 @@ export const getWeather = async (req: Request, res: Response) => {
   }
 };
 
+export const getCropLocationData = async (req: Request, res: Response) => {
+  try {
+    const url = `${ML_SERVICE_URL}/get-location-data`;
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error("ML Service failed to return location data.");
+    }
+    const result = await response.json();
+    return res.json(result);
+  } catch (error: any) {
+    logger.error("Crop location data proxy error:", { error: error.message || error });
+    return res.status(500).json({ error: "Failed to fetch crop location metadata." });
+  }
+};
+
 export default { 
   getCropPrediction, 
-  getFertilizerPrediction, 
-  getYieldPrediction, 
   getRainfallPrediction, 
   getPredictionHistory,
-  getWeather
+  getWeather,
+  getCropLocationData
 };

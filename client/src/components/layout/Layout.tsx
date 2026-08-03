@@ -12,7 +12,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const [reapplyError, setReapplyError] = React.useState('');
   const [reapplyLoading, setReapplyLoading] = React.useState(false);
 
-  if (!profile) return <>{children}</>;
+  const currentPath = location.pathname;
+  const isPublicRoute = currentPath === '/' || currentPath === '/landing' || currentPath === '/login' || currentPath === '/register';
+
+  // Render public pages directly without sidebar or verification blocks
+  if (isPublicRoute || !profile) return <>{children}</>;
 
   if (profile && profile.role !== 'admin' && profile.verification_status !== 'approved') {
     const handleReapplyDocChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -168,8 +172,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     );
   }
 
-  const currentPath = location.pathname;
-
   // 1. Admin Layout (Desktop-First Sidebar)
   if (profile.role === 'admin') {
     return (
@@ -196,6 +198,23 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </div>
 
           <nav style={{ display: 'flex', flexDirection: 'column', gap: '8px', flex: 1 }}>
+            <Link
+              to="/"
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '12px',
+                padding: '8px 12px',
+                color: currentPath === '/' ? 'var(--primary)' : 'var(--text-secondary)',
+                backgroundColor: currentPath === '/' ? 'var(--secondary-container)' : 'transparent',
+                fontWeight: currentPath === '/' ? 'bold' : 'normal',
+                textDecoration: 'none',
+                borderRadius: 'var(--radius)'
+              }}
+            >
+              <span className="material-symbols-outlined">language</span>
+              <span>Landing Page</span>
+            </Link>
             <Link
               to="/admin"
               style={{
@@ -315,10 +334,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* Left Sidebar - Visible on Desktop only */}
       <aside className="farmer-sidebar">
         <div style={{ marginBottom: '32px' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px' }}>
             <span className="material-symbols-outlined" style={{ color: 'var(--primary)', fontVariationSettings: "'FILL' 1" }}>eco</span>
             <span style={{ fontWeight: 'bold', color: 'var(--primary)', fontSize: '18px' }}>AgriSmart</span>
-          </div>
+          </Link>
           <p style={{ fontSize: '10px', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--text-secondary)', marginTop: '4px' }}>
             {profile.role === 'farmer' ? 'Farmer Portal' : 'Buyer Terminal'}
           </p>
@@ -341,7 +360,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             }}
           >
             <span className="material-symbols-outlined" style={{ fontVariationSettings: currentPath === '/farmer' ? "'FILL' 1" : '' }}>home</span>
-            <span style={{ fontSize: '14px' }}>Home</span>
+            <span style={{ fontSize: '14px' }}>Dashboard</span>
           </Link>
           {profile.role === 'farmer' && (
             <Link

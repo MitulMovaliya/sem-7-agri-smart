@@ -277,21 +277,11 @@ export default function AdminConsole({ activeModule = 'users' }: { activeModule?
           {/* Performance heatmap simulation */}
           <div className="card">
             <h3 style={{ fontSize: '14px', fontWeight: 'bold' }}>Model Performance (Test Accuracy)</h3>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '16px', marginTop: '12px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginTop: '12px' }}>
               <div style={{ border: '1px solid var(--border)', padding: '16px', textAlign: 'center', borderRadius: 'var(--radius)' }}>
                 <strong>Crop Rec</strong>
                 <p style={{ color: 'var(--positive)', fontSize: '18px', fontWeight: 'bold', marginTop: '4px' }}>98.2%</p>
                 <span style={{ fontSize: '10px', color: 'var(--text-secondary)' }}>Random Forest</span>
-              </div>
-              <div style={{ border: '1px solid var(--border)', padding: '16px', textAlign: 'center', borderRadius: 'var(--radius)' }}>
-                <strong>Fertilizer</strong>
-                <p style={{ color: 'var(--positive)', fontSize: '18px', fontWeight: 'bold', marginTop: '4px' }}>94.1%</p>
-                <span style={{ fontSize: '10px', color: 'var(--text-secondary)' }}>XGBoost</span>
-              </div>
-              <div style={{ border: '1px solid var(--border)', padding: '16px', textAlign: 'center', borderRadius: 'var(--radius)' }}>
-                <strong>Yield Pred</strong>
-                <p style={{ color: 'var(--positive)', fontSize: '18px', fontWeight: 'bold', marginTop: '4px' }}>R² 0.88</p>
-                <span style={{ fontSize: '10px', color: 'var(--text-secondary)' }}>XGBoost Regressor</span>
               </div>
               <div style={{ border: '1px solid var(--border)', padding: '16px', textAlign: 'center', borderRadius: 'var(--radius)' }}>
                 <strong>Rainfall</strong>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
 
-type Tab = 'crop' | 'fertilizer' | 'yield' | 'rainfall';
+type Tab = 'crop' | 'rainfall';
 
 interface SoilReport {
   id: string;
@@ -40,6 +40,8 @@ interface PredictionLog {
   farmId: string | null;
   farm?: {
     name: string;
+    district?: string;
+    state?: string;
   };
 }
 
@@ -66,28 +68,50 @@ export default function Predictor() {
   const [weatherLoaded, setWeatherLoaded] = useState(false);
 
   // Form states - Crop
-  const [cropN, setCropN] = useState('45');
-  const [cropP, setCropP] = useState('20');
-  const [cropK, setCropK] = useState('15');
-  const [cropPH, setCropPH] = useState('6.5');
+  const [cropN, setCropN] = useState('200');
+  const [cropP, setCropP] = useState('45');
+  const [cropK, setCropK] = useState('300');
+  const [cropPH, setCropPH] = useState('7.2');
+  const [cropOC, setCropOC] = useState('0.55');
+  const [cropEC, setCropEC] = useState('0.40');
   const [cropTemp, setCropTemp] = useState('28');
   const [cropHum, setCropHum] = useState('60');
-  const [cropRain, setCropRain] = useState('200');
+  const [cropRain, setCropRain] = useState('700');
+  const [cropState, setCropState] = useState('Gujarat');
+  const [cropDistrict, setCropDistrict] = useState('Ahmedabad');
+  const [cropTaluka, setCropTaluka] = useState('Viramgam');
+  const [cropSeason, setCropSeason] = useState('Kharif');
+  const [cropSoil, setCropSoil] = useState('Medium Black');
+  const [cropWaterSource, setCropWaterSource] = useState('Canal');
+  const [districtTalukaMap, setDistrictTalukaMap] = useState<Record<string, string[]>>({});
 
-  // Form states - Fertilizer
-  const [fertSoil, setFertSoil] = useState('Black');
-  const [fertCrop, setFertCrop] = useState('Rice');
-  const [fertMoist, setFertMoist] = useState('45');
-  const [fertN, setFertN] = useState('30');
-  const [fertP, setFertP] = useState('30');
-  const [fertK, setFertK] = useState('30');
+  const DEFAULT_DISTRICTS = [
+    'Ahmedabad', 'Amreli', 'Anand', 'Arvalli', 'Banaskantha', 'Bharuch', 'Bhavnagar', 'Botad',
+    'Chhota Udaipur', 'Dahod', 'Dang', 'Devbhumi Dwarka', 'Gandhinagar', 'Gir Somnath', 'Jamnagar',
+    'Junagadh', 'Kheda', 'Kutch', 'Mahisagar', 'Mehsana', 'Morbi', 'Narmada', 'Navsari', 'Panchmahal',
+    'Patan', 'Porbandar', 'Rajkot', 'Sabarkantha', 'Surat', 'Surendranagar', 'Tapi', 'Vadodara', 'Valsad'
+  ];
 
-  // Form states - Yield
-  const [yieldState, setYieldState] = useState('Maharashtra');
-  const [yieldDist, setYieldDist] = useState('Pune');
-  const [yieldSeason, setYieldSeason] = useState('Kharif');
-  const [yieldCrop, setYieldCrop] = useState('Rice');
-  const [yieldArea, setYieldArea] = useState('1.01'); // In Hectares
+  useEffect(() => {
+    fetchFarms();
+    fetchHistory();
+    fetchWeatherForContext();
+    fetchLocations();
+  }, []);
+
+  const fetchLocations = async () => {
+    try {
+      const response = await fetch('/api/predictions/locations');
+      if (response.ok) {
+        const data = await response.json();
+        if (data.districts) {
+          setDistrictTalukaMap(data.districts);
+        }
+      }
+    } catch (err) {
+      console.error("Failed to load location metadata", err);
+    }
+  };
 
   // Form states - Rainfall
   const [rainfallTrend, setRainfallTrend] = useState<any[]>([]);
@@ -96,7 +120,7 @@ export default function Predictor() {
   // History state & filter
   const [history, setHistory] = useState<PredictionLog[]>([]);
   const [historyLoading, setHistoryLoading] = useState(true);
-  const [historyFilter, setHistoryFilter] = useState<'all' | 'crop' | 'fertilizer' | 'yield' | 'rainfall'>('all');
+  const [historyFilter, setHistoryFilter] = useState<'all' | 'crop' | 'rainfall'>('all');
   const [expandedHistoryId, setExpandedHistoryId] = useState<string | null>(null);
 
   // Soil details inline modal states
@@ -108,16 +132,6 @@ export default function Predictor() {
   const [modalOC, setModalOC] = useState('');
   const [modalEc, setModalEc] = useState('');
   const [soilSubmitting, setSoilSubmitting] = useState(false);
-
-  // Supported model crops
-  const FERTILIZER_CROPS = ['Rice', 'Maize', 'Chickpea', 'Cotton', 'Wheat', 'Tobacco', 'Barley', 'Sugarcane', 'Oil seeds', 'Pulses', 'Groundnuts'];
-  const YIELD_CROPS = ['Rice', 'Maize', 'Wheat', 'Chana', 'Soybean', 'Cotton', 'Mustard'];
-
-  useEffect(() => {
-    fetchFarms();
-    fetchHistory();
-    fetchWeatherForContext();
-  }, []);
 
   const getHeaders = async () => {
     const token = localStorage.getItem('token');
@@ -171,8 +185,10 @@ export default function Predictor() {
         if (res.success && res.data) {
           setCropTemp(String(res.data.temperature));
           setCropHum(String(res.data.humidity));
-          setCropRain(String(res.data.rainfall));
-          setFertMoist(String(Math.min(100, Math.max(0, Math.round(res.data.humidity * 0.6)))));
+          // Do not overwrite annual seasonal rainfall (mm) with live hourly rainfall (0 mm)
+          if (res.data.rainfall && Number(res.data.rainfall) >= 100) {
+            setCropRain(String(res.data.rainfall));
+          }
           setWeatherLoaded(true);
         }
       }
@@ -203,45 +219,51 @@ export default function Predictor() {
     if (latestReport) {
       if (latestReport.nitrogen !== null) {
         setCropN(String(latestReport.nitrogen));
-        setFertN(String(latestReport.nitrogen));
       }
       if (latestReport.phosphorus !== null) {
         setCropP(String(latestReport.phosphorus));
-        setFertP(String(latestReport.phosphorus));
       }
       if (latestReport.potassium !== null) {
         setCropK(String(latestReport.potassium));
-        setFertK(String(latestReport.potassium));
       }
       if (latestReport.ph !== null) {
         setCropPH(String(latestReport.ph));
       }
-    }
-
-    if (farm.crop_type) {
-      const formattedCrop = farm.crop_type.charAt(0).toUpperCase() + farm.crop_type.slice(1).toLowerCase();
-      if (FERTILIZER_CROPS.includes(formattedCrop)) {
-        setFertCrop(formattedCrop);
-      } else {
-        setFertCrop(FERTILIZER_CROPS[0]);
+      if (latestReport.organic_carbon !== null) {
+        setCropOC(String(latestReport.organic_carbon));
       }
-
-      if (YIELD_CROPS.includes(formattedCrop)) {
-        setYieldCrop(formattedCrop);
-      } else {
-        setYieldCrop(YIELD_CROPS[0]);
+      if (latestReport.ec !== null) {
+        setCropEC(String(latestReport.ec));
       }
     }
 
-    if (farm.state) setYieldState(farm.state);
-    if (farm.district) setYieldDist(farm.district);
-    
-    if (farm.area_acres) {
-      const hectares = (farm.area_acres * 0.404686).toFixed(2);
-      setYieldArea(hectares);
+    if (farm.state) {
+      setCropState(farm.state);
+    }
+    if (farm.district) {
+      setCropDistrict(farm.district);
+      const validTals = districtTalukaMap[farm.district];
+      if (validTals && validTals.length > 0) {
+        if (farm.address) {
+          const match = validTals.find(t => farm.address?.toLowerCase().includes(t.toLowerCase()));
+          setCropTaluka(match || validTals[0]);
+        } else {
+          setCropTaluka(validTals[0]);
+        }
+      }
     }
 
     fetchWeatherForContext(farm.id);
+  };
+
+  const handleDistrictChange = (newDistrict: string) => {
+    setCropDistrict(newDistrict);
+    const validTals = districtTalukaMap[newDistrict];
+    if (validTals && validTals.length > 0) {
+      setCropTaluka(validTals[0]);
+    } else {
+      setCropTaluka('');
+    }
   };
 
   const handleSoilCardUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -281,17 +303,16 @@ export default function Predictor() {
           } else {
             if (nutrients.nitrogen) {
               setCropN(String(nutrients.nitrogen));
-              setFertN(String(nutrients.nitrogen));
             }
             if (nutrients.phosphorus) {
               setCropP(String(nutrients.phosphorus));
-              setFertP(String(nutrients.phosphorus));
             }
             if (nutrients.potassium) {
               setCropK(String(nutrients.potassium));
-              setFertK(String(nutrients.potassium));
             }
             if (nutrients.ph) setCropPH(String(nutrients.ph));
+            if (nutrients.organic_carbon) setCropOC(String(nutrients.organic_carbon));
+            if (nutrients.ec) setCropEC(String(nutrients.ec));
             setOcrSuccess(true);
           }
         } else {
@@ -318,12 +339,16 @@ export default function Predictor() {
       let finalP = Number(cropP);
       let finalK = Number(cropK);
       let finalPH = Number(cropPH);
+      let finalOC = Number(cropOC);
+      let finalEC = Number(cropEC);
 
       if (selectedFarmId && activeLatestSoilReport) {
         finalN = Number(activeLatestSoilReport.nitrogen ?? cropN);
         finalP = Number(activeLatestSoilReport.phosphorus ?? cropP);
         finalK = Number(activeLatestSoilReport.potassium ?? cropK);
         finalPH = Number(activeLatestSoilReport.ph ?? cropPH);
+        if (activeLatestSoilReport.organic_carbon !== null) finalOC = Number(activeLatestSoilReport.organic_carbon);
+        if (activeLatestSoilReport.ec !== null) finalEC = Number(activeLatestSoilReport.ec);
       }
 
       if (activeTab === 'crop') {
@@ -333,35 +358,18 @@ export default function Predictor() {
           N: finalN,
           P: finalP,
           K: finalK,
+          ph: finalPH,
+          OC: finalOC,
+          EC: finalEC,
           temperature: Number(cropTemp),
           humidity: Number(cropHum),
-          ph: finalPH,
-          rainfall: Number(cropRain)
-        };
-      } else if (activeTab === 'fertilizer') {
-        endpoint = '/api/predictions/fertilizer';
-        body = {
-          ...body,
-          Temperature: Number(cropTemp),
-          Humidity: Number(cropHum),
-          Moisture: Number(fertMoist),
-          Soil_Type: fertSoil,
-          Crop_Type: fertCrop,
-          N: finalN,
-          P: finalP,
-          K: finalK
-        };
-      } else if (activeTab === 'yield') {
-        endpoint = '/api/predictions/yield';
-        body = {
-          ...body,
-          State: yieldState,
-          District: yieldDist,
-          Season: yieldSeason,
-          Crop: yieldCrop,
-          Area: Number(yieldArea),
-          Temperature: Number(cropTemp),
-          Rainfall: Number(cropRain)
+          rainfall: Number(cropRain),
+          district: activeFarm?.district || cropDistrict || 'Ahmedabad',
+          taluka: cropTaluka || undefined,
+          state: activeFarm?.state || cropState || 'Gujarat',
+          season: cropSeason || 'Kharif',
+          soil_type: cropSoil || 'Medium Black',
+          water_source: cropWaterSource || 'Canal'
         };
       }
 
@@ -402,30 +410,41 @@ export default function Predictor() {
         monthsToFetch.push({ year: y, month: m });
       }
 
-      const promises = monthsToFetch.map(async (item) => {
+      const forecasts: any[] = [];
+      let prevLag1: number | null = null;
+      let prevLag2: number | null = null;
+
+      for (const item of monthsToFetch) {
+        const payload: any = {
+          year: item.year,
+          month: item.month,
+          farmId: selectedFarmId || null
+        };
+        if (prevLag1 !== null) payload.lag1 = prevLag1;
+        if (prevLag2 !== null) payload.lag2 = prevLag2;
+
         const response = await fetch('/api/predictions/rainfall', {
           method: 'POST',
           headers,
-          body: JSON.stringify({
-            year: item.year,
-            month: item.month,
-            farmId: selectedFarmId || null
-          })
+          body: JSON.stringify(payload)
         });
         if (!response.ok) {
           throw new Error(`Failed to fetch forecast for month ${item.month}`);
         }
         const data = await response.json();
         const monthName = new Date(item.year, item.month - 1).toLocaleString('default', { month: 'long' });
-        return {
+        
+        forecasts.push({
           month: `${monthName} ${item.year}`,
           rainfall: data.forecasted_rainfall,
           category: data.category,
           advisory: data.advisory
-        };
-      });
+        });
 
-      const forecasts = await Promise.all(promises);
+        prevLag2 = prevLag1;
+        prevLag1 = data.forecasted_rainfall;
+      }
+
       setRainfallTrend(forecasts);
       fetchHistory();
     } catch (err: any) {
@@ -578,7 +597,7 @@ export default function Predictor() {
       <div className="mandi-header-banner">
         <div>
           <h1 className="mandi-header-title">🌱 Precision Crop & Disease AI Predictor</h1>
-          <p className="mandi-header-subtitle">Machine learning models for yield estimation, disease diagnosis & crop advice</p>
+          <p className="mandi-header-subtitle">Machine learning models for crop advice & weather forecasting</p>
         </div>
         {weatherLoaded && (
           <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '12px', fontWeight: 600, color: '#ffffff', backgroundColor: 'rgba(255,255,255,0.15)', border: '1px solid rgba(255,255,255,0.3)', padding: '6px 12px', borderRadius: '20px', whiteSpace: 'nowrap' }}>
@@ -637,11 +656,9 @@ export default function Predictor() {
 
       {/* Primary Green Navigation Tabs */}
       <div style={{ display: 'flex', borderBottom: `1px solid ${zStyle.border}`, background: zStyle.cardBg }}>
-        {(['crop', 'fertilizer', 'yield', 'rainfall'] as Tab[]).map((tab) => {
+        {(['crop', 'rainfall'] as Tab[]).map((tab) => {
           const labels: Record<Tab, string> = {
             crop: 'Crop Recommendation',
-            fertilizer: 'Fertilizer Advisory',
-            yield: 'Yield Estimation',
             rainfall: 'Rainfall Forecast'
           };
           const isActive = activeTab === tab;
@@ -676,7 +693,7 @@ export default function Predictor() {
         <div style={{ flex: 1, background: zStyle.cardBg, border: `1px solid ${zStyle.border}`, borderRadius: '4px', padding: '20px', display: 'flex', flexDirection: 'column', gap: '18px' }}>
           
           {/* Active Farm Soil Stats Panel */}
-          {isFarmSelected && (activeTab === 'crop' || activeTab === 'fertilizer') && (
+          {isFarmSelected && activeTab === 'crop' && (
             <div style={{ border: `1px solid ${zStyle.border}`, borderRadius: '3px', padding: '14px', backgroundColor: zStyle.readOnlyBg }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
                 <span style={{ fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', color: zStyle.textMuted }}>
@@ -743,18 +760,18 @@ export default function Predictor() {
                   {ocrLoading && <div style={{ fontSize: '12px', color: zStyle.textMuted, marginBottom: '8px' }}>Scanning soil card...</div>}
                   {ocrSuccess && <div style={{ fontSize: '12px', color: zStyle.primaryGreen, fontWeight: 600, marginBottom: '8px' }}>Nutrients extracted into fields</div>}
 
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '10px' }}>
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))', gap: '10px' }}>
                     <div>
                       <label className="form-label">Nitrogen (N)</label>
-                      <input type="number" className="input-field" value={cropN} onChange={(e) => { setCropN(e.target.value); setFertN(e.target.value); }} />
+                      <input type="number" className="input-field" value={cropN} onChange={(e) => setCropN(e.target.value)} />
                     </div>
                     <div>
                       <label className="form-label">Phosphorus (P)</label>
-                      <input type="number" className="input-field" value={cropP} onChange={(e) => { setCropP(e.target.value); setFertP(e.target.value); }} />
+                      <input type="number" className="input-field" value={cropP} onChange={(e) => setCropP(e.target.value)} />
                     </div>
                     <div>
                       <label className="form-label">Potassium (K)</label>
-                      <input type="number" className="input-field" value={cropK} onChange={(e) => { setCropK(e.target.value); setFertK(e.target.value); }} />
+                      <input type="number" className="input-field" value={cropK} onChange={(e) => setCropK(e.target.value)} />
                     </div>
                     <div>
                       <label className="form-label">Soil pH</label>
@@ -764,231 +781,89 @@ export default function Predictor() {
                 </div>
               )}
 
-              {/* Climate Averages - Auto Fetched Read Only */}
+              {/* Regional & Seasonal Context */}
+              <div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
+                  <span style={{ fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', color: zStyle.textMuted }}>
+                    Regional & Seasonal Parameters
+                  </span>
+                </div>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '10px' }}>
+                  <div>
+                    <label className="form-label">District</label>
+                    <select className="input-field" value={cropDistrict} onChange={(e) => handleDistrictChange(e.target.value)}>
+                      {(Object.keys(districtTalukaMap).length > 0 ? Object.keys(districtTalukaMap) : DEFAULT_DISTRICTS).map(d => (
+                        <option key={d} value={d}>{d}</option>
+                      ))}
+                    </select>
+                  </div>
+                  <div>
+                    <label className="form-label">Taluka</label>
+                    {districtTalukaMap[cropDistrict] && districtTalukaMap[cropDistrict].length > 0 ? (
+                      <select className="input-field" value={cropTaluka} onChange={(e) => setCropTaluka(e.target.value)}>
+                        {districtTalukaMap[cropDistrict].map(t => (
+                          <option key={t} value={t}>{t}</option>
+                        ))}
+                      </select>
+                    ) : (
+                      <input type="text" className="input-field" value={cropTaluka} onChange={(e) => setCropTaluka(e.target.value)} placeholder="e.g. Viramgam" />
+                    )}
+                  </div>
+                  <div>
+                    <label className="form-label">Season</label>
+                    <select className="input-field" value={cropSeason} onChange={(e) => setCropSeason(e.target.value)}>
+                      <option value="Kharif">Kharif (Monsoon)</option>
+                      <option value="Rabi">Rabi (Winter)</option>
+                      <option value="Summer">Summer (Zaid)</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label className="form-label">Soil Type</label>
+                    <select className="input-field" value={cropSoil} onChange={(e) => setCropSoil(e.target.value)}>
+                      <option value="Medium Black">Medium Black</option>
+                      <option value="Deep Black">Deep Black</option>
+                      <option value="Alluvial">Alluvial</option>
+                      <option value="Sandy Loam">Sandy Loam</option>
+                      <option value="Red Soil">Red Soil</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label className="form-label">Water Source</label>
+                    <select className="input-field" value={cropWaterSource} onChange={(e) => setCropWaterSource(e.target.value)}>
+                      <option value="Canal">Canal</option>
+                      <option value="Borewell">Borewell</option>
+                      <option value="Rainfed">Rainfed</option>
+                      <option value="Drip">Drip</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              {/* Climate Averages */}
               <div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
                   <span style={{ fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', color: zStyle.textMuted }}>
                     Climate Averages
                   </span>
                   <span style={{ fontSize: '10px', color: zStyle.textMuted }}>
-                    Auto-detected for your region
+                    Auto-synced for location
                   </span>
                 </div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '10px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '10px' }}>
                   <div>
                     <label className="form-label">Temperature (°C)</label>
-                    <input type="number" className="input-field" value={cropTemp} readOnly style={{ backgroundColor: zStyle.readOnlyBg, color: zStyle.textMuted, cursor: 'not-allowed', border: `1px solid ${zStyle.readOnlyBorder}`, fontWeight: 600 }} />
+                    <input type="number" className="input-field" value={cropTemp} readOnly style={{ backgroundColor: zStyle.readOnlyBg, cursor: 'not-allowed' }} title="Synced from API weather data" />
                   </div>
                   <div>
                     <label className="form-label">Humidity (%)</label>
-                    <input type="number" className="input-field" value={cropHum} readOnly style={{ backgroundColor: zStyle.readOnlyBg, color: zStyle.textMuted, cursor: 'not-allowed', border: `1px solid ${zStyle.readOnlyBorder}`, fontWeight: 600 }} />
-                  </div>
-                  <div>
-                    <label className="form-label">Rainfall (mm)</label>
-                    <input type="number" className="input-field" value={cropRain} readOnly style={{ backgroundColor: zStyle.readOnlyBg, color: zStyle.textMuted, cursor: 'not-allowed', border: `1px solid ${zStyle.readOnlyBorder}`, fontWeight: 600 }} />
+                    <input type="number" className="input-field" value={cropHum} readOnly style={{ backgroundColor: zStyle.readOnlyBg, cursor: 'not-allowed' }} title="Synced from API weather data" />
                   </div>
                 </div>
               </div>
             </>
           )}
 
-          {/* Tab 2: Fertilizer */}
-          {activeTab === 'fertilizer' && (
-            <>
-              {!isFarmSelected ? (
-                <div>
-                  <span style={{ fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', color: zStyle.textMuted, display: 'block', marginBottom: '8px' }}>
-                    Soil Nutrients & Moisture
-                  </span>
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '10px' }}>
-                    <div>
-                      <label className="form-label">Moisture (%)</label>
-                      <input type="number" className="input-field" value={fertMoist} onChange={(e) => setFertMoist(e.target.value)} />
-                    </div>
-                    <div>
-                      <label className="form-label">N</label>
-                      <input type="number" className="input-field" value={fertN} onChange={(e) => { setFertN(e.target.value); setCropN(e.target.value); }} />
-                    </div>
-                    <div>
-                      <label className="form-label">P</label>
-                      <input type="number" className="input-field" value={fertP} onChange={(e) => { setFertP(e.target.value); setCropP(e.target.value); }} />
-                    </div>
-                    <div>
-                      <label className="form-label">K</label>
-                      <input type="number" className="input-field" value={fertK} onChange={(e) => { setFertK(e.target.value); setCropK(e.target.value); }} />
-                    </div>
-                  </div>
-                </div>
-              ) : (
-                <div>
-                  <span style={{ fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', color: zStyle.textMuted, display: 'block', marginBottom: '8px' }}>
-                    Soil Moisture
-                  </span>
-                  <div style={{ width: '50%' }}>
-                    <label className="form-label">Moisture (%)</label>
-                    <input type="number" className="input-field" value={fertMoist} readOnly style={{ backgroundColor: zStyle.readOnlyBg, color: zStyle.textMuted, cursor: 'not-allowed', border: `1px solid ${zStyle.readOnlyBorder}`, fontWeight: 600 }} />
-                  </div>
-                </div>
-              )}
-
-              <div>
-                <span style={{ fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', color: zStyle.textMuted, display: 'block', marginBottom: '8px' }}>
-                  Crop & Soil Type
-                </span>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
-                  <div>
-                    <label className="form-label">Soil Type</label>
-                    <select 
-                      className="input-field" 
-                      value={fertSoil} 
-                      onChange={(e) => setFertSoil(e.target.value)}
-                      disabled={isFarmSelected}
-                      style={isFarmSelected ? { backgroundColor: zStyle.readOnlyBg, cursor: 'not-allowed' } : {}}
-                    >
-                      {['Sandy', 'Loamy', 'Black', 'Red', 'Clayey'].map(s => <option key={s} value={s}>{s}</option>)}
-                    </select>
-                  </div>
-                  <div>
-                    <label className="form-label">Crop Type</label>
-                    <select 
-                      className="input-field" 
-                      value={fertCrop} 
-                      onChange={(e) => setFertCrop(e.target.value)}
-                      disabled={isFarmSelected}
-                      style={isFarmSelected ? { backgroundColor: zStyle.readOnlyBg, cursor: 'not-allowed' } : {}}
-                    >
-                      {FERTILIZER_CROPS.map(c => <option key={c} value={c}>{c}</option>)}
-                    </select>
-                  </div>
-                </div>
-              </div>
-
-              {/* Climate Reference - Auto Fetched Read Only */}
-              <div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-                  <span style={{ fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', color: zStyle.textMuted }}>
-                    Climate Reference
-                  </span>
-                  <span style={{ fontSize: '10px', color: zStyle.textMuted }}>
-                    Auto-detected for your region
-                  </span>
-                </div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
-                  <div>
-                    <label className="form-label">Temperature (°C)</label>
-                    <input type="number" className="input-field" value={cropTemp} readOnly style={{ backgroundColor: zStyle.readOnlyBg, color: zStyle.textMuted, cursor: 'not-allowed', border: `1px solid ${zStyle.readOnlyBorder}`, fontWeight: 600 }} />
-                  </div>
-                  <div>
-                    <label className="form-label">Humidity (%)</label>
-                    <input type="number" className="input-field" value={cropHum} readOnly style={{ backgroundColor: zStyle.readOnlyBg, color: zStyle.textMuted, cursor: 'not-allowed', border: `1px solid ${zStyle.readOnlyBorder}`, fontWeight: 600 }} />
-                  </div>
-                </div>
-              </div>
-            </>
-          )}
-
-          {/* Tab 3: Yield Estimation */}
-          {activeTab === 'yield' && (
-            <>
-              <div>
-                <span style={{ fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', color: zStyle.textMuted, display: 'block', marginBottom: '8px' }}>
-                  Yield Parameters & Region
-                </span>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '10px' }}>
-                  <div>
-                    <label className="form-label">State</label>
-                    <select 
-                      className="input-field" 
-                      value={yieldState} 
-                      onChange={(e) => setYieldState(e.target.value)}
-                      disabled={isFarmSelected}
-                      style={isFarmSelected ? { backgroundColor: zStyle.readOnlyBg, cursor: 'not-allowed' } : {}}
-                    >
-                      {['Maharashtra', 'Madhya Pradesh', 'Rajasthan', 'Haryana', 'Punjab'].map(s => <option key={s} value={s}>{s}</option>)}
-                    </select>
-                  </div>
-                  <div>
-                    <label className="form-label">District</label>
-                    <input 
-                      type="text" 
-                      className="input-field" 
-                      value={yieldDist} 
-                      onChange={(e) => setYieldDist(e.target.value)}
-                      readOnly={isFarmSelected}
-                      style={isFarmSelected ? { backgroundColor: zStyle.readOnlyBg, cursor: 'not-allowed', border: `1px solid ${zStyle.readOnlyBorder}` } : {}}
-                    />
-                  </div>
-                </div>
-
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '10px' }}>
-                  <div>
-                    <label className="form-label">Season</label>
-                    <select 
-                      className="input-field" 
-                      value={yieldSeason} 
-                      onChange={(e) => setYieldSeason(e.target.value)}
-                    >
-                      {['Kharif', 'Rabi', 'Whole Year'].map(s => <option key={s} value={s}>{s}</option>)}
-                    </select>
-                  </div>
-                  <div>
-                    <label className="form-label">Crop</label>
-                    <select 
-                      className="input-field" 
-                      value={yieldCrop} 
-                      onChange={(e) => setYieldCrop(e.target.value)}
-                      disabled={isFarmSelected}
-                      style={isFarmSelected ? { backgroundColor: zStyle.readOnlyBg, cursor: 'not-allowed' } : {}}
-                    >
-                      {YIELD_CROPS.map(c => <option key={c} value={c}>{c}</option>)}
-                    </select>
-                  </div>
-                  <div>
-                    <label className="form-label">Area (ha)</label>
-                    <input 
-                      type="number" 
-                      step="0.01" 
-                      className="input-field" 
-                      value={yieldArea} 
-                      onChange={(e) => setYieldArea(e.target.value)}
-                      readOnly={isFarmSelected}
-                      style={isFarmSelected ? { backgroundColor: zStyle.readOnlyBg, cursor: 'not-allowed', border: `1px solid ${zStyle.readOnlyBorder}` } : {}}
-                    />
-                  </div>
-                </div>
-
-                {isFarmSelected && activeFarm?.area_acres && (
-                  <span style={{ fontSize: '11px', color: zStyle.textMuted, display: 'block', marginTop: '6px' }}>
-                    Area: {activeFarm.area_acres} Acres ({yieldArea} Hectares)
-                  </span>
-                )}
-              </div>
-
-              {/* Climate Reference - Auto Fetched Read Only */}
-              <div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-                  <span style={{ fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', color: zStyle.textMuted }}>
-                    Climate Reference
-                  </span>
-                  <span style={{ fontSize: '10px', color: zStyle.textMuted }}>
-                    Auto-detected for your region
-                  </span>
-                </div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
-                  <div>
-                    <label className="form-label">Temperature (°C)</label>
-                    <input type="number" className="input-field" value={cropTemp} readOnly style={{ backgroundColor: zStyle.readOnlyBg, color: zStyle.textMuted, cursor: 'not-allowed', border: `1px solid ${zStyle.readOnlyBorder}`, fontWeight: 600 }} />
-                  </div>
-                  <div>
-                    <label className="form-label">Rainfall (mm)</label>
-                    <input type="number" className="input-field" value={cropRain} readOnly style={{ backgroundColor: zStyle.readOnlyBg, color: zStyle.textMuted, cursor: 'not-allowed', border: `1px solid ${zStyle.readOnlyBorder}`, fontWeight: 600 }} />
-                  </div>
-                </div>
-              </div>
-            </>
-          )}
-
-          {/* Tab 4: Rainfall Forecast */}
+          {/* Tab 2: Rainfall Forecast */}
           {activeTab === 'rainfall' && (
             <div style={{ textAlign: 'center', padding: '20px 0' }}>
               <span className="material-symbols-outlined" style={{ fontSize: '36px', color: zStyle.primaryGreen, marginBottom: '8px' }}>water_drop</span>
@@ -1012,7 +887,7 @@ export default function Predictor() {
             <button 
               onClick={runPrediction} 
               style={{ width: '100%', height: '40px', backgroundColor: zStyle.primaryGreen, color: '#ffffff', border: 'none', borderRadius: '3px', fontWeight: 600, fontSize: '13px', cursor: loading ? 'not-allowed' : 'pointer', textTransform: 'uppercase', letterSpacing: '0.5px', opacity: loading ? 0.7 : 1 }} 
-              disabled={loading || (isFarmSelected && !activeLatestSoilReport && (activeTab === 'crop' || activeTab === 'fertilizer'))}
+              disabled={loading || (isFarmSelected && !activeLatestSoilReport && activeTab === 'crop')}
             >
               {loading ? 'Running Prediction...' : 'Run Prediction'}
             </button>
@@ -1045,68 +920,15 @@ export default function Predictor() {
                     <span style={{ fontSize: '10px', color: zStyle.textMuted, fontWeight: 700, textTransform: 'uppercase' }}>Top Sowing Alternatives</span>
                     {result.top_recommendations.map((item: any, idx: number) => (
                       <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <span style={{ width: '80px', fontSize: '12px', fontWeight: 600, textTransform: 'capitalize' }}>{item.crop}</span>
+                        <span style={{ width: '85px', fontSize: '12px', fontWeight: 600, textTransform: 'capitalize', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{item.crop}</span>
                         <div style={{ flex: 1, height: '6px', backgroundColor: '#f1f5f9', borderRadius: '3px', overflow: 'hidden' }}>
-                          <div style={{ width: `${item.confidence}%`, height: '100%', backgroundColor: idx === 0 ? zStyle.primaryGreen : '#10b981' }} />
+                          <div style={{ width: `${item.confidence}%`, height: '100%', backgroundColor: idx === 0 ? zStyle.primaryGreen : '#10b981', transition: 'width 0.3s ease' }} />
                         </div>
-                        <span style={{ fontSize: '11px', fontWeight: 600, width: '35px', textAlign: 'right' }}>{item.confidence}%</span>
+                        <span style={{ fontSize: '11px', fontWeight: 600, minWidth: '45px', textAlign: 'right' }}>{item.confidence}%</span>
                       </div>
                     ))}
                   </div>
                 )}
-              </div>
-            )}
-
-            {activeTab === 'fertilizer' && result && (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                <div>
-                  <span style={{ fontSize: '11px', color: zStyle.textMuted, display: 'block', textTransform: 'uppercase', fontWeight: 600 }}>Recommended Fertilizer Formula</span>
-                  <strong style={{ fontSize: '20px', color: zStyle.primaryGreen, fontWeight: 700 }}>
-                    {result.prediction}
-                  </strong>
-                </div>
-
-                <div style={{ background: zStyle.readOnlyBg, border: `1px solid ${zStyle.border}`, padding: '12px', borderRadius: '3px' }}>
-                  <span style={{ fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', color: zStyle.textMuted, display: 'block', marginBottom: '6px' }}>Nutrient Deficit Summary</span>
-                  <div style={{ fontSize: '12px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                      <span>Nitrogen (N):</span>
-                      <strong style={{ color: result.deficits?.N > 0 ? zStyle.orange : zStyle.primaryGreen }}>
-                        {result.deficits?.N > 0 ? `${result.deficits.N} kg deficient` : 'Sufficient'}
-                      </strong>
-                    </div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                      <span>Phosphorus (P):</span>
-                      <strong style={{ color: result.deficits?.P > 0 ? zStyle.orange : zStyle.primaryGreen }}>
-                        {result.deficits?.P > 0 ? `${result.deficits.P} kg deficient` : 'Sufficient'}
-                      </strong>
-                    </div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                      <span>Potassium (K):</span>
-                      <strong style={{ color: result.deficits?.K > 0 ? zStyle.orange : zStyle.primaryGreen }}>
-                        {result.deficits?.K > 0 ? `${result.deficits.K} kg deficient` : 'Sufficient'}
-                      </strong>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
-
-            {activeTab === 'yield' && result && (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                <div>
-                  <span style={{ fontSize: '11px', color: zStyle.textMuted, display: 'block', textTransform: 'uppercase', fontWeight: 600 }}>Yield Rate</span>
-                  <strong style={{ fontSize: '20px', color: zStyle.primaryGreen, fontWeight: 700 }}>
-                    {result.yield_per_hectare} tonnes/ha
-                  </strong>
-                </div>
-                <div style={{ background: zStyle.readOnlyBg, border: `1px solid ${zStyle.border}`, padding: '12px', borderRadius: '3px' }}>
-                  <span style={{ fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', color: zStyle.textMuted, display: 'block' }}>ESTIMATED TOTAL PRODUCTION</span>
-                  <strong style={{ fontSize: '22px', color: zStyle.primaryGreen, display: 'block', marginTop: '2px', fontWeight: 700 }}>
-                    {result.estimated_production} Tonnes
-                  </strong>
-                  <span style={{ fontSize: '11px', color: zStyle.textMuted, display: 'block', marginTop: '2px' }}>Calculated for {yieldArea} hectares</span>
-                </div>
               </div>
             )}
 
@@ -1158,8 +980,6 @@ export default function Predictor() {
             {([
               { key: 'all', label: 'All' },
               { key: 'crop', label: 'Crops' },
-              { key: 'fertilizer', label: 'Fertilizer' },
-              { key: 'yield', label: 'Yield' },
               { key: 'rainfall', label: 'Rainfall' }
             ] as const).map((filter) => {
               const isSel = historyFilter === filter.key;
@@ -1229,17 +1049,7 @@ export default function Predictor() {
                   let inputSummary = '';
                   let outputVal = '';
 
-                  if (h.modelType === 'fertilizer') {
-                    modelTagColor = zStyle.orange;
-                    modelLabel = 'Fertilizer';
-                    inputSummary = `Crop: ${h.inputData?.Crop_Type || 'N/A'}, Soil: ${h.inputData?.Soil_Type || 'N/A'}`;
-                    outputVal = h.predictionResult?.prediction || 'N/A';
-                  } else if (h.modelType === 'yield') {
-                    modelTagColor = zStyle.purple;
-                    modelLabel = 'Yield';
-                    inputSummary = `Crop: ${h.inputData?.Crop || 'N/A'}, Area: ${h.inputData?.Area || 'N/A'} ha`;
-                    outputVal = `${h.predictionResult?.yield_per_hectare || 0} tonnes/ha (${h.predictionResult?.estimated_production || 0} T total)`;
-                  } else if (h.modelType === 'rainfall') {
+                  if (h.modelType === 'rainfall') {
                     modelTagColor = zStyle.blue;
                     if (h.isGroupedRainfall) {
                       modelLabel = 'Rainfall (6-Mo)';
@@ -1254,7 +1064,15 @@ export default function Predictor() {
                     modelTagColor = zStyle.primaryGreen;
                     modelLabel = 'Crop';
                     inputSummary = `N:${h.inputData?.N ?? '-'} P:${h.inputData?.P ?? '-'} K:${h.inputData?.K ?? '-'} | pH:${h.inputData?.ph ?? '-'}`;
-                    outputVal = `${h.predictionResult?.prediction || 'N/A'} (${h.confidence ?? h.predictionResult?.confidence ?? 0}%)`;
+                    
+                    const rawConf = h.confidence ?? h.predictionResult?.confidence;
+                    let confDisplay = '';
+                    if (rawConf !== null && rawConf !== undefined && !isNaN(Number(rawConf))) {
+                      const numConf = Number(rawConf);
+                      const percentConf = (numConf <= 1.0 && numConf > 0) ? numConf * 100 : numConf;
+                      confDisplay = ` (${percentConf.toFixed(2)}%)`;
+                    }
+                    outputVal = `${h.predictionResult?.prediction || 'N/A'}${confDisplay}`;
                   }
 
                   const isExpanded = expandedHistoryId === h.id;
@@ -1359,12 +1177,6 @@ export default function Predictor() {
                                       <span style={{ color: zStyle.textMuted }}>Primary Result: </span>
                                       <strong style={{ color: modelTagColor }}>{outputVal}</strong>
                                     </div>
-                                    {h.modelType === 'fertilizer' && h.predictionResult?.deficits && (
-                                      <div style={{ marginTop: '4px', paddingTop: '4px', borderTop: `1px solid ${zStyle.border}` }}>
-                                        <span style={{ color: zStyle.textMuted, display: 'block', fontSize: '10px', fontWeight: 700 }}>NUTRIENT DEFICITS:</span>
-                                        <span>N: {h.predictionResult.deficits.N} kg | P: {h.predictionResult.deficits.P} kg | K: {h.predictionResult.deficits.K} kg</span>
-                                      </div>
-                                    )}
                                     {h.modelType === 'rainfall' && h.predictionResult?.advisory && (
                                       <div style={{ marginTop: '4px', paddingTop: '4px', borderTop: `1px solid ${zStyle.border}` }}>
                                         <span style={{ color: zStyle.textMuted, display: 'block', fontSize: '10px', fontWeight: 700 }}>AGRICULTURAL ADVISORY:</span>
