@@ -44,10 +44,13 @@ app.get("/health", (req, res) => {
   });
 });
 
+import seedAdmin from "./utils/seedAdmin.js";
+
 // Sync database models (alter: true automatically applies new columns)
 sequelize.sync({ alter: true })
-  .then(() => {
+  .then(async () => {
     logger.info('PostgreSQL database synced successfully via Sequelize.');
+    await seedAdmin();
     app.listen(PORT, () => {
       logger.info(`AgriSmart Backend Server listening on port ${PORT}`);
     });
