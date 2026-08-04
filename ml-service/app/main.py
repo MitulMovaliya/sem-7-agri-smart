@@ -130,14 +130,6 @@ class CropInput(BaseModel):
     Water_Source: Optional[str] = Field("Canal", alias="water_source", description="Water Source")
     Season: Optional[str] = Field("Kharif", alias="season", description="Cropping Season")
 
-class CropSoilInput(BaseModel):
-    ph: float = Field(..., description="Soil pH value")
-    N: float = Field(..., description="Nitrogen content (kg/ha)")
-    P: float = Field(..., description="Phosphorus content (kg/ha)")
-    K: float = Field(..., description="Potassium content (kg/ha)")
-    OC: float = Field(..., description="Organic Carbon %")
-    EC: float = Field(..., description="Electrical Conductivity dS/m")
-
 class EmbeddingsRequest(BaseModel):
     text: str
 
@@ -232,7 +224,6 @@ def resolve_location(requested_district: Optional[str], requested_taluka: Option
     return resolved_district, resolved_taluka
 
 @app.get("/get-location-data")
-@app.get("/predict/crop-location-data")
 def get_location_data():
     if district_taluka_map is None:
         raise HTTPException(status_code=404, detail="Location data metadata not loaded.")
@@ -374,19 +365,6 @@ def predict_crop(inputs: CropInput):
             raise HTTPException(status_code=400, detail=f"Prediction error: {str(e)}")
 
     raise HTTPException(status_code=500, detail="Crop recommendation model not loaded.")
-
-# 1b. Dedicated Crop Soil Endpoint
-@app.post("/predict/crop-soil")
-def predict_crop_soil(inputs: CropSoilInput):
-    crop_input = CropInput(
-        ph=inputs.ph,
-        N=inputs.N,
-        P=inputs.P,
-        K=inputs.K,
-        OC=inputs.OC,
-        EC=inputs.EC
-    )
-    return predict_crop(crop_input)
 
 # 2. Rainfall Forecasting Endpoint
 @app.post("/predict/rainfall")
