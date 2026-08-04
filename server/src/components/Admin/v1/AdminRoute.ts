@@ -20,5 +20,8 @@ router.get('/products', requireAuth, requireAdmin, Controller.getAdminProducts);
 router.get('/orders', requireAuth, requireAdmin, Controller.getAdminOrders);
 router.patch('/orders/:id', requireAuth, requireAdmin, Controller.updateAdminOrderStatus);
 
+router.get('/ml/stats', requireAuth, requireAdmin, Controller.getMlStats);
+router.get('/ml/logs', requireAuth, requireAdmin, Controller.getMlLogs);
+
 export default router;
 
