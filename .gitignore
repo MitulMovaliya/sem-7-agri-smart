@@ -8,3 +8,10 @@
 .DS_Store
 .vscode/
 .idea/
+
+# Uploaded files
+server/public/uploads/*
+!server/public/uploads/.gitkeep
+**/uploads/*
+!**/uploads/.gitkeep
+
