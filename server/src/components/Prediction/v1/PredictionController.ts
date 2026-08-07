@@ -215,6 +215,44 @@ export const getWeather = async (req: Request, res: Response) => {
   }
 };
 
+const FALLBACK_LOCATION_DATA = {
+  districts: {
+    "Ahmedabad": ["Viramgam", "Dholka", "Bavla", "Sanand", "Daskroi"],
+    "Amreli": ["Dhari", "Savarkundla", "Rajula", "Lathi", "Amreli"],
+    "Anand": ["Borsad", "Anand", "Sojitra", "Khambhat", "Petlad"],
+    "Arvalli": ["Malpur", "Meghraj", "Bayad", "Modasa"],
+    "Banaskantha": ["Palanpur", "Tharad", "Deesa", "Vadgam", "Dhanera"],
+    "Bharuch": ["Vagra", "Hansot", "Ankleshwar", "Jambusar", "Bharuch"],
+    "Bhavnagar": ["Sihor", "Bhavnagar", "Mahuva", "Talaja", "Palitana"],
+    "Botad": ["Barwala", "Ranpur", "Botad", "Gadhada"],
+    "Chhota Udaipur": ["Kawant", "Chhota Udaipur", "Jetpur Pavi", "Naswadi"],
+    "Dahod": ["Jhalod", "Limkheda", "Devgadh Baria", "Dahod", "Garbada"],
+    "Dang": ["Waghai", "Subir", "Ahwa"],
+    "Devbhumi Dwarka": ["Khambhalia", "Dwarka", "Bhanvad", "Kalyanpur"],
+    "Gandhinagar": ["Kalol", "Dehgam", "Mansa", "Gandhinagar"],
+    "Gir Somnath": ["Veraval", "Talala", "Kodinar", "Una"],
+    "Jamnagar": ["Jamnagar", "Kalavad", "Jodiya", "Lalpur", "Dhrol"],
+    "Junagadh": ["Visavadar", "Junagadh City", "Keshod", "Mangrol", "Mendarda"],
+    "Kheda": ["Matar", "Kapadvanj", "Mahemdabad", "Nadiad", "Thasra"],
+    "Kutch": ["Nakhatrana", "Mandvi", "Rapar", "Anjar", "Bhuj", "Mundra"],
+    "Mahisagar": ["Balasinor", "Lunawada", "Khanpur", "Santrampur"],
+    "Mehsana": ["Vijapur", "Mehsana", "Kadi", "Unjha", "Visnagar"],
+    "Morbi": ["Morbi", "Wankaner", "Halvad", "Tankara"],
+    "Narmada": ["Tilakwada", "Rajpipla", "Nandod", "Dediapada"],
+    "Navsari": ["Chikhli", "Navsari", "Gandevi", "Jalalpore"],
+    "Panchmahal": ["Godhra", "Halol", "Kalol", "Shehera", "Ghoghamba"],
+    "Patan": ["Patan", "Siddhpur", "Harij", "Radhanpur", "Chanasma"],
+    "Porbandar": ["Porbandar", "Ranavav", "Kutiyana"],
+    "Rajkot": ["Jetpur", "Jasdan", "Dhoraji", "Gondal", "Lodhika", "Paddhari"],
+    "Sabarkantha": ["Idar", "Prantij", "Himatnagar", "Talod"],
+    "Surat": ["Bardoli", "Mandvi", "Mahuva", "Kamrej", "Palsana", "Olpad"],
+    "Surendranagar": ["Wadhwan", "Surendranagar", "Limbdi", "Chotila", "Dhrangadhra"],
+    "Tapi": ["Songadh", "Vyara", "Nizar", "Uchchhal"],
+    "Vadodara": ["Savli", "Karjan", "Dabhoi", "Padra", "Waghodia"],
+    "Valsad": ["Valsad", "Vapi", "Pardi", "Dharampur", "Umargam"]
+  }
+};
+
 export const getCropLocationData = async (req: Request, res: Response) => {
   try {
     const url = `${ML_SERVICE_URL}/get-location-data`;
@@ -225,8 +263,8 @@ export const getCropLocationData = async (req: Request, res: Response) => {
     const result = await response.json();
     return res.json(result);
   } catch (error: any) {
-    logger.error("Crop location data proxy error:", { error: error.message || error });
-    return res.status(500).json({ error: "Failed to fetch crop location metadata." });
+    logger.warn("Crop location data proxy fallback activated:", { error: error.message || error });
+    return res.json(FALLBACK_LOCATION_DATA);
   }
 };
 

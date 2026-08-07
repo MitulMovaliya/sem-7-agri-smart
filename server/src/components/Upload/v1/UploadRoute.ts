@@ -7,7 +7,7 @@ import { requireAuth } from '../../../middlewares/auth.js';
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    const dir = 'public/uploads/';
+    const dir = path.join(process.cwd(), 'public', 'uploads');
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
     }
@@ -22,7 +22,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 const router = express.Router();
 
-router.post('/', requireAuth, upload.single('image'), Controller.handleUploadResponse);
+router.post('/', requireAuth, upload.any(), Controller.handleUploadResponse);
 router.post('/register', upload.single('image'), Controller.handleUploadResponse);
 
 export default router;

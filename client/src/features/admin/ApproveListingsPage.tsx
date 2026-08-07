@@ -441,15 +441,37 @@ export default function ApproveListingsPage() {
                     justifyContent: 'center',
                     flexShrink: 0,
                     cursor: 'pointer',
-                    border: '1px solid var(--border)'
+                    border: '1px solid var(--border)',
+                    position: 'relative'
                   }}
+                  title="Click to inspect crop details and photos"
                 >
                   {hasImage ? (
-                    <img
-                      src={product.images![0]}
-                      alt={product.crop_name}
-                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    />
+                    <>
+                      <img
+                        src={product.images![0]}
+                        alt={product.crop_name}
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                      />
+                      {product.images!.length > 1 && (
+                        <span style={{
+                          position: 'absolute',
+                          bottom: '4px',
+                          right: '4px',
+                          backgroundColor: 'rgba(0,0,0,0.75)',
+                          color: '#fff',
+                          fontSize: '10px',
+                          padding: '1px 5px',
+                          borderRadius: '8px',
+                          fontWeight: 'bold',
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '2px'
+                        }}>
+                          📷 {product.images!.length}
+                        </span>
+                      )}
+                    </>
                   ) : (
                     <span className="material-symbols-outlined" style={{ fontSize: '32px', color: 'var(--primary)' }}>
                       eco
@@ -671,34 +693,64 @@ export default function ApproveListingsPage() {
             </div>
 
             {/* Images Gallery */}
-            {selectedProduct.images && selectedProduct.images.length > 0 ? (
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))', gap: '8px', marginBottom: '16px' }}>
-                {selectedProduct.images.map((img, idx) => (
-                  <img
-                    key={idx}
-                    src={img}
-                    alt={`Crop photo ${idx + 1}`}
-                    style={{ width: '100%', height: '140px', objectFit: 'cover', borderRadius: '8px', border: '1px solid var(--border)' }}
-                  />
-                ))}
+            <div style={{ marginBottom: '16px' }}>
+              <div style={{ fontSize: '12px', fontWeight: 'bold', color: 'var(--text-secondary)', marginBottom: '8px', textTransform: 'uppercase', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                <span>Harvest Photos {selectedProduct.images && selectedProduct.images.length > 0 ? `(${selectedProduct.images.length})` : ''}</span>
+                {selectedProduct.images && selectedProduct.images.length > 0 && (
+                  <span style={{ fontSize: '11px', color: 'var(--primary)', textTransform: 'none', fontWeight: 'normal' }}>
+                    Click photo to open full-resolution view ↗
+                  </span>
+                )}
               </div>
-            ) : (
-              <div
-                style={{
-                  height: '100px',
-                  backgroundColor: 'var(--surface-tonal)',
-                  borderRadius: '8px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  marginBottom: '16px',
-                  color: 'var(--text-secondary)',
-                  fontSize: '12px'
-                }}
-              >
-                No photo uploaded for this listing.
-              </div>
-            )}
+
+              {selectedProduct.images && selectedProduct.images.length > 0 ? (
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(110px, 1fr))', gap: '8px' }}>
+                  {selectedProduct.images.map((img, idx) => (
+                    <a
+                      key={idx}
+                      href={img}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="Click to view full-size photo in new tab"
+                      style={{ position: 'relative', display: 'block', borderRadius: '8px', overflow: 'hidden', border: '1px solid var(--border)' }}
+                    >
+                      <img
+                        src={img}
+                        alt={`Crop photo ${idx + 1}`}
+                        style={{ width: '100%', height: '120px', objectFit: 'cover', display: 'block' }}
+                      />
+                      <span style={{
+                        position: 'absolute',
+                        bottom: '4px',
+                        left: '4px',
+                        backgroundColor: 'rgba(0,0,0,0.7)',
+                        color: '#fff',
+                        fontSize: '9px',
+                        padding: '1px 5px',
+                        borderRadius: '4px'
+                      }}>
+                        Photo #{idx + 1}
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              ) : (
+                <div
+                  style={{
+                    height: '80px',
+                    backgroundColor: 'var(--surface-tonal)',
+                    borderRadius: '8px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    color: 'var(--text-secondary)',
+                    fontSize: '12px'
+                  }}
+                >
+                  No photo uploaded for this listing.
+                </div>
+              )}
+            </div>
 
             {/* Metadata Fields */}
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', fontSize: '13px', marginBottom: '16px' }}>

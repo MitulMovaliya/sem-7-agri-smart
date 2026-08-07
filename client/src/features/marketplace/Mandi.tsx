@@ -39,10 +39,12 @@ export default function Mandi() {
   const [grade, setGrade] = useState('A');
   const [price, setPrice] = useState('2200');
   const [desc, setDesc] = useState('');
-  const [imageFile, setImageFile] = useState<File | null>(null);
-  const [imagePreviewUrl, setImagePreviewUrl] = useState<string | null>(null);
+  const [imageFiles, setImageFiles] = useState<File[]>([]);
+  const [imagePreviewUrls, setImagePreviewUrls] = useState<string[]>([]);
   const [isDragging, setIsDragging] = useState(false);
   const [sellLoading, setSellLoading] = useState(false);
+  const [selectedGalleryProduct, setSelectedGalleryProduct] = useState<Product | null>(null);
+  const [activeGalleryImageIdx, setActiveGalleryImageIdx] = useState(0);
 
   // Sub-tabs & My Listings states
   const [activeTab, setActiveTab] = useState<'buy' | 'my-listings' | 'orders'>('buy');
@@ -59,29 +61,47 @@ export default function Mandi() {
 
   // Image preview memory management
   useEffect(() => {
-    if (!imageFile) {
-      setImagePreviewUrl(null);
+    if (imageFiles.length === 0) {
+      setImagePreviewUrls([]);
       return;
     }
-    const objectUrl = URL.createObjectURL(imageFile);
-    setImagePreviewUrl(objectUrl);
+    const urls = imageFiles.map(file => URL.createObjectURL(file));
+    setImagePreviewUrls(urls);
 
     return () => {
-      URL.revokeObjectURL(objectUrl);
+      urls.forEach(url => URL.revokeObjectURL(url));
     };
-  }, [imageFile]);
+  }, [imageFiles]);
 
-  const handleImageSelect = (file: File | null) => {
-    if (!file) return;
-    if (!file.type.startsWith('image/')) {
-      alert("Please select a valid image file (PNG, JPG, WEBP, etc.).");
-      return;
+  const handleImageSelect = (files: FileList | File[] | null) => {
+    if (!files || files.length === 0) return;
+    const fileArray = Array.from(files);
+    const validFiles: File[] = [];
+
+    for (const file of fileArray) {
+      if (!file.type.startsWith('image/')) {
+        alert(`"${file.name}" is not a valid image file (PNG, JPG, WEBP, etc.).`);
+        continue;
+      }
+      if (file.size > 10 * 1024 * 1024) {
+        alert(`"${file.name}" size exceeds 10MB limit.`);
+        continue;
+      }
+      validFiles.push(file);
     }
-    if (file.size > 10 * 1024 * 1024) {
-      alert("File size exceeds 10MB limit.");
-      return;
-    }
-    setImageFile(file);
+
+    setImageFiles(prev => {
+      const combined = [...prev, ...validFiles];
+      if (combined.length > 5) {
+        alert("Maximum 5 photos allowed per harvest listing.");
+        return combined.slice(0, 5);
+      }
+      return combined;
+    });
+  };
+
+  const handleRemoveImage = (index: number) => {
+    setImageFiles(prev => prev.filter((_, i) => i !== index));
   };
 
   const CROP_CATEGORIES = [
@@ -222,12 +242,14 @@ export default function Mandi() {
       const token = localStorage.getItem('token');
       if (!token) throw new Error("Authentication token not found.");
 
-      let imageUrl = 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&auto=format&fit=crop&q=80';
+      let imageUrls: string[] = ['https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&auto=format&fit=crop&q=80'];
 
       // 1. Optional Image upload to local server
-      if (imageFile) {
+      if (imageFiles.length > 0) {
         const formData = new FormData();
-        formData.append('image', imageFile);
+        imageFiles.forEach(file => {
+          formData.append('images', file);
+        });
 
         const uploadResponse = await fetch('/api/upload', {
           method: 'POST',
@@ -239,9 +261,14 @@ export default function Mandi() {
 
         if (uploadResponse.ok) {
           const uploadData = await uploadResponse.json();
-          imageUrl = uploadData.url;
+          if (uploadData.urls && uploadData.urls.length > 0) {
+            imageUrls = uploadData.urls;
+          } else if (uploadData.url) {
+            imageUrls = [uploadData.url];
+          }
         } else {
-          console.warn("Failed to upload image, falling back to placeholder.");
+          const errData = await uploadResponse.json().catch(() => ({}));
+          throw new Error(errData.error || "Failed to upload harvest photo(s). Please try again.");
         }
       }
 
@@ -260,7 +287,7 @@ export default function Mandi() {
           price_per_unit: Number(price),
           quality_grade: grade,
           description: desc,
-          images: [imageUrl]
+          images: imageUrls
         })
       });
 
@@ -271,7 +298,7 @@ export default function Mandi() {
         alert("Listing submitted successfully! (Awaiting admin approval)");
         setShowSellModal(false);
         setSellStep(1);
-        setImageFile(null);
+        setImageFiles([]);
         setCustomCropName('');
         fetchProducts();
         fetchMyListings();
@@ -480,11 +507,38 @@ export default function Mandi() {
               {myListings.map((p) => (
                 <div key={p.id} className="card" style={{ padding: '16px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
                   <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-                    <img
-                      src={p.images?.[0] || 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&auto=format&fit=crop&q=80'}
-                      alt={p.crop_name}
-                      style={{ width: '70px', height: '70px', objectFit: 'cover', borderRadius: 'var(--radius)' }}
-                    />
+                    <div
+                      style={{ position: 'relative', cursor: 'pointer' }}
+                      title="Click to view full photo gallery"
+                      onClick={() => {
+                        setSelectedGalleryProduct(p);
+                        setActiveGalleryImageIdx(0);
+                      }}
+                    >
+                      <img
+                        src={p.images?.[0] || 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&auto=format&fit=crop&q=80'}
+                        alt={p.crop_name}
+                        style={{ width: '70px', height: '70px', objectFit: 'cover', borderRadius: 'var(--radius)' }}
+                      />
+                      {p.images && p.images.length > 1 && (
+                        <span style={{
+                          position: 'absolute',
+                          bottom: '4px',
+                          right: '4px',
+                          backgroundColor: 'rgba(0,0,0,0.75)',
+                          color: '#fff',
+                          fontSize: '10px',
+                          padding: '1px 5px',
+                          borderRadius: '8px',
+                          fontWeight: 'bold',
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '2px'
+                        }}>
+                          📷 {p.images.length}
+                        </span>
+                      )}
+                    </div>
                     <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '4px' }}>
                       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
                         <strong style={{ fontSize: '16px' }}>{p.crop_name}</strong>
@@ -642,11 +696,38 @@ export default function Mandi() {
             <div className="mandi-grid">
               {filteredProducts.map((p) => (
                 <div key={p.id} className="card" style={{ padding: '16px', display: 'flex', flexDirection: 'row', gap: '16px', alignItems: 'center' }}>
-                  <img
-                    src={p.images?.[0] || 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&auto=format&fit=crop&q=80'}
-                    alt={p.crop_name}
-                    style={{ width: '70px', height: '70px', objectFit: 'cover', borderRadius: 'var(--radius)' }}
-                  />
+                  <div
+                    style={{ position: 'relative', cursor: 'pointer' }}
+                    title="Click to view full photo gallery"
+                    onClick={() => {
+                      setSelectedGalleryProduct(p);
+                      setActiveGalleryImageIdx(0);
+                    }}
+                  >
+                    <img
+                      src={p.images?.[0] || 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&auto=format&fit=crop&q=80'}
+                      alt={p.crop_name}
+                      style={{ width: '70px', height: '70px', objectFit: 'cover', borderRadius: 'var(--radius)' }}
+                    />
+                    {p.images && p.images.length > 1 && (
+                      <span style={{
+                        position: 'absolute',
+                        bottom: '4px',
+                        right: '4px',
+                        backgroundColor: 'rgba(0,0,0,0.75)',
+                        color: '#fff',
+                        fontSize: '10px',
+                        padding: '1px 5px',
+                        borderRadius: '8px',
+                        fontWeight: 'bold',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '2px'
+                      }}>
+                        📷 {p.images.length}
+                      </span>
+                    )}
+                  </div>
                   <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '4px' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
                       <strong style={{ fontSize: '15px' }}>{p.crop_name}</strong>
@@ -965,81 +1046,87 @@ export default function Mandi() {
                     )}
                   </div>
 
-                  {/* Upload Harvest Photo Drag-and-Drop Dropzone with Preview */}
+                  {/* Upload Harvest Photos Drag-and-Drop Dropzone with Multi-Image Previews */}
                   <div className="form-group">
-                    <label className="form-label">Upload Harvest Photo</label>
-                    {imagePreviewUrl ? (
-                      <div style={{
-                        position: 'relative',
-                        border: '1px solid var(--border)',
-                        borderRadius: 'var(--radius)',
-                        padding: '12px',
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '12px',
-                        backgroundColor: 'var(--surface-tonal)'
-                      }}>
-                        <img
-                          src={imagePreviewUrl}
-                          alt="Harvest Preview"
-                          style={{
-                            width: '72px',
-                            height: '72px',
-                            objectFit: 'cover',
-                            borderRadius: 'var(--radius)',
-                            border: '1px solid var(--border)'
-                          }}
-                        />
-                        <div style={{ flex: 1, overflow: 'hidden' }}>
-                          <div style={{ fontWeight: '600', fontSize: '13px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                            {imageFile?.name}
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px' }}>
+                      <label className="form-label" style={{ marginBottom: 0 }}>Upload Harvest Photos (Optional)</label>
+                      <span style={{ fontSize: '11px', color: 'var(--text-secondary)', fontWeight: 'bold' }}>
+                        {imageFiles.length} / 5 Photos
+                      </span>
+                    </div>
+
+                    {imageFiles.length > 0 && (
+                      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(85px, 1fr))', gap: '10px', marginBottom: '10px' }}>
+                        {imagePreviewUrls.map((url, idx) => (
+                          <div
+                            key={idx}
+                            style={{
+                              position: 'relative',
+                              border: '1px solid var(--border)',
+                              borderRadius: 'var(--radius)',
+                              overflow: 'hidden',
+                              backgroundColor: 'var(--surface-tonal)',
+                              aspectRatio: '1'
+                            }}
+                          >
+                            <img
+                              src={url}
+                              alt={`Harvest ${idx + 1}`}
+                              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                            />
+                            <button
+                              type="button"
+                              onClick={() => handleRemoveImage(idx)}
+                              style={{
+                                position: 'absolute',
+                                top: '4px',
+                                right: '4px',
+                                border: 'none',
+                                background: 'rgba(0,0,0,0.7)',
+                                color: '#fff',
+                                borderRadius: '50%',
+                                width: '20px',
+                                height: '20px',
+                                cursor: 'pointer',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                fontSize: '11px',
+                                fontWeight: 'bold'
+                              }}
+                              title="Remove photo"
+                            >
+                              ✕
+                            </button>
+                            <div style={{
+                              position: 'absolute',
+                              bottom: '0',
+                              left: '0',
+                              right: '0',
+                              background: 'rgba(0,0,0,0.65)',
+                              color: '#fff',
+                              fontSize: '9px',
+                              padding: '2px 4px',
+                              whiteSpace: 'nowrap',
+                              overflow: 'hidden',
+                              textOverflow: 'ellipsis'
+                            }}>
+                              {imageFiles[idx]?.name}
+                            </div>
                           </div>
-                          <div style={{ fontSize: '11px', color: 'var(--text-secondary)', marginTop: '2px' }}>
-                            {imageFile ? (imageFile.size / (1024 * 1024)).toFixed(2) + ' MB' : ''}
-                          </div>
-                          <div style={{ marginTop: '6px' }}>
-                            <label style={{ fontSize: '11px', color: 'var(--primary)', cursor: 'pointer', fontWeight: 'bold', textDecoration: 'underline' }}>
-                              Change Photo
-                              <input
-                                type="file"
-                                accept="image/*"
-                                style={{ display: 'none' }}
-                                onChange={(e) => handleImageSelect(e.target.files?.[0] || null)}
-                              />
-                            </label>
-                          </div>
-                        </div>
-                        <button
-                          type="button"
-                          onClick={() => setImageFile(null)}
-                          style={{
-                            border: 'none',
-                            background: 'var(--negative-bg)',
-                            color: 'var(--negative)',
-                            borderRadius: '50%',
-                            width: '28px',
-                            height: '28px',
-                            cursor: 'pointer',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            fontSize: '14px',
-                            fontWeight: 'bold'
-                          }}
-                          title="Remove photo"
-                        >
-                          ✕
-                        </button>
+                        ))}
                       </div>
-                    ) : (
+                    )}
+
+                    {imageFiles.length < 5 && (
                       <div
                         onDragOver={(e) => { e.preventDefault(); setIsDragging(true); }}
                         onDragLeave={(e) => { e.preventDefault(); setIsDragging(false); }}
                         onDrop={(e) => {
                           e.preventDefault();
                           setIsDragging(false);
-                          if (e.dataTransfer.files?.[0]) {
-                            handleImageSelect(e.dataTransfer.files[0]);
+                          if (e.dataTransfer.files) {
+                            handleImageSelect(e.dataTransfer.files);
                           }
                         }}
                         onClick={() => {
@@ -1049,31 +1136,32 @@ export default function Mandi() {
                           border: `2px dashed ${isDragging ? 'var(--primary)' : 'var(--border)'}`,
                           backgroundColor: isDragging ? 'var(--positive-bg)' : 'var(--surface-tonal)',
                           borderRadius: 'var(--radius)',
-                          padding: '20px 16px',
+                          padding: imageFiles.length > 0 ? '12px 10px' : '20px 16px',
                           textAlign: 'center',
                           cursor: 'pointer',
                           transition: 'all 0.2s ease',
                           display: 'flex',
                           flexDirection: 'column',
                           alignItems: 'center',
-                          gap: '6px'
+                          gap: '4px'
                         }}
                       >
-                        <span className="material-symbols-outlined" style={{ fontSize: '32px', color: 'var(--primary)' }}>
+                        <span className="material-symbols-outlined" style={{ fontSize: imageFiles.length > 0 ? '24px' : '32px', color: 'var(--primary)' }}>
                           cloud_upload
                         </span>
                         <div style={{ fontSize: '13px', fontWeight: '600', color: 'var(--text-primary)' }}>
-                          Click or drag & drop harvest photo
+                          {imageFiles.length > 0 ? '+ Add More Harvest Photos' : 'Click or drag & drop harvest photos'}
                         </div>
                         <div style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>
-                          Supports JPG, PNG, WEBP (Max 10MB)
+                          Supports JPG, PNG, WEBP (Select up to 5 photos, Max 10MB each)
                         </div>
                         <input
                           id="harvest-photo-input"
                           type="file"
                           accept="image/*"
+                          multiple
                           style={{ display: 'none' }}
-                          onChange={(e) => handleImageSelect(e.target.files?.[0] || null)}
+                          onChange={(e) => handleImageSelect(e.target.files)}
                         />
                       </div>
                     )}
@@ -1165,6 +1253,84 @@ export default function Mandi() {
                 </>
               )}
             </form>
+          </div>
+        </div>
+      )}
+
+      {/* Harvest Photos & Details Gallery Modal */}
+      {selectedGalleryProduct && (
+        <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0,0,0,0.65)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 220, padding: '16px' }}>
+          <div className="card" style={{ width: '100%', maxWidth: '520px', backgroundColor: 'var(--surface)', padding: '20px', borderRadius: '12px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+              <div>
+                <strong style={{ fontSize: '18px' }}>{selectedGalleryProduct.crop_name}</strong>
+                <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
+                  Listed by {selectedGalleryProduct.profiles?.full_name || 'Verified Farmer'} | Grade {selectedGalleryProduct.quality_grade}
+                </div>
+              </div>
+              <button onClick={() => setSelectedGalleryProduct(null)} style={{ border: 'none', background: 'none', cursor: 'pointer', fontSize: '20px', color: 'var(--text-secondary)' }}>✕</button>
+            </div>
+
+            {/* Main Image View */}
+            <div style={{ position: 'relative', width: '100%', height: '260px', borderRadius: '8px', overflow: 'hidden', backgroundColor: '#000', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <img
+                src={selectedGalleryProduct.images?.[activeGalleryImageIdx] || selectedGalleryProduct.images?.[0] || 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&auto=format&fit=crop&q=80'}
+                alt={selectedGalleryProduct.crop_name}
+                style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
+              />
+              {selectedGalleryProduct.images && selectedGalleryProduct.images.length > 1 && (
+                <div style={{ position: 'absolute', bottom: '8px', right: '12px', backgroundColor: 'rgba(0,0,0,0.75)', color: '#fff', fontSize: '11px', padding: '2px 8px', borderRadius: '12px', fontWeight: 'bold' }}>
+                  {activeGalleryImageIdx + 1} / {selectedGalleryProduct.images.length}
+                </div>
+              )}
+            </div>
+
+            {/* Thumbnails Row */}
+            {selectedGalleryProduct.images && selectedGalleryProduct.images.length > 1 && (
+              <div style={{ display: 'flex', gap: '8px', overflowX: 'auto', paddingBottom: '4px' }}>
+                {selectedGalleryProduct.images.map((imgUrl, idx) => (
+                  <img
+                    key={idx}
+                    src={imgUrl}
+                    alt={`Thumbnail ${idx + 1}`}
+                    onClick={() => setActiveGalleryImageIdx(idx)}
+                    style={{
+                      width: '60px',
+                      height: '60px',
+                      objectFit: 'cover',
+                      borderRadius: '6px',
+                      cursor: 'pointer',
+                      border: activeGalleryImageIdx === idx ? '2px solid var(--primary)' : '1px solid var(--border)',
+                      opacity: activeGalleryImageIdx === idx ? 1 : 0.65
+                    }}
+                  />
+                ))}
+              </div>
+            )}
+
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid var(--border)', paddingTop: '12px' }}>
+              <div>
+                <div style={{ fontSize: '16px', color: 'var(--primary)', fontWeight: 'bold' }}>
+                  ₹{selectedGalleryProduct.price_per_unit} / {selectedGalleryProduct.quantity_unit}
+                </div>
+                <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
+                  Total Available: {selectedGalleryProduct.quantity} {selectedGalleryProduct.quantity_unit}
+                </div>
+              </div>
+              {profile?.role === 'buyer' && selectedGalleryProduct.farmer_id !== profile.id && (
+                <button
+                  onClick={() => {
+                    const prod = selectedGalleryProduct;
+                    setSelectedGalleryProduct(null);
+                    handleBuyNow(prod);
+                  }}
+                  className="btn btn-primary"
+                  style={{ height: '36px', padding: '0 16px', fontSize: '13px' }}
+                >
+                  Buy Now
+                </button>
+              )}
+            </div>
           </div>
         </div>
       )}
