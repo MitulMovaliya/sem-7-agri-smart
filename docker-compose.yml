@@ -26,13 +26,13 @@ services:
     environment:
       - PORT=5000
       - NODE_ENV=production
-      # Connecting to pre-existing Database (host machine or external IP)
-      - DB_HOST=${DB_HOST:-host.docker.internal}
-      - DB_PORT=${DB_PORT:-5432}
-      - DB_USER=${DB_USER:-postgres}
-      - DB_PASSWORD=${DB_PASSWORD:-admin}
-      - DB_NAME=${DB_NAME:-agrismart}
-      - JWT_SECRET=${JWT_SECRET:-supersecretjwtkeyforagrismartauth}
+      # Connecting to pre-existing Database (configured in .env file)
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_NAME=${DB_NAME}
+      - JWT_SECRET=${JWT_SECRET}
       - GROQ_API_KEY=${GROQ_API_KEY}
       - GEMINI_API_KEY=${GEMINI_API_KEY}
       - ML_SERVICE_URL=http://ml-service:8000

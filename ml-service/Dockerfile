@@ -13,7 +13,7 @@ ENV PATH="/opt/venv/bin:$PATH"
 
 # Copy requirements and install CPU-only PyTorch + dependencies
 COPY requirements.txt ./
-RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu && \
+RUN pip install --no-cache-dir torch --extra-index-url https://download.pytorch.org/whl/cpu && \
     pip install --no-cache-dir -r requirements.txt
 
 # Pre-download HuggingFace embeddings model into cache
