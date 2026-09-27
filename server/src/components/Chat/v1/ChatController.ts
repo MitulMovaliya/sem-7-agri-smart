@@ -10,6 +10,7 @@ if (!groqApiKey) {
 }
 const groq = new Groq({ apiKey: groqApiKey || '' });
 const ML_SERVICE_URL = process.env.ML_SERVICE_URL || 'http://localhost:8000';
+const GROQ_MODEL = process.env.GROQ_MODEL || 'llama-3.3-70b-versatile';
 
 export const getAllSessions = async (req: Request, res: Response, next: NextFunction) => {
   const user = req.user as User;
@@ -180,7 +181,7 @@ ${context ? `VERIFIED AGRICULTURAL KNOWLEDGE BASE CONTEXT:\n${context}` : ''}`;
 
     const stream = await groq.chat.completions.create({
       messages: groqMessages,
-      model: 'llama-3.1-8b-instant',
+      model: GROQ_MODEL,
       stream: true,
     });
 

@@ -13,6 +13,8 @@ import AdminOrdersPage from '../features/admin/AdminOrdersPage';
 import FarmsPage from '../features/farms/FarmsPage';
 import CreateFarmPage from '../features/farms/CreateFarmPage';
 import LandingPage from '../features/landing/LandingPage';
+import FertilizerPredictor from '../features/predictions/FertilizerPredictor';
+import SoilCNNPredictor from '../features/predictions/SoilCNNPredictor';
 
 interface ProtectedRouteProps {
   children: React.ReactElement;
@@ -66,6 +68,22 @@ export default function AppRoutes() {
         element={
           <ProtectedRoute allowedRoles={['farmer']}>
             <Predictor />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/farmer/fertilizer-predict"
+        element={
+          <ProtectedRoute allowedRoles={['farmer']}>
+            <FertilizerPredictor />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/farmer/soil-analysis"
+        element={
+          <ProtectedRoute allowedRoles={['farmer']}>
+            <SoilCNNPredictor />
           </ProtectedRoute>
         }
       />

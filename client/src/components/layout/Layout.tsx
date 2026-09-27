@@ -694,6 +694,76 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <span style={{ fontSize: "14px" }}>Predict</span>
             </Link>
           )}
+          {profile.role === "farmer" && (
+            <Link
+              to="/farmer/fertilizer-predict"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "12px",
+                padding: "10px 14px",
+                color:
+                  currentPath === "/farmer/fertilizer-predict"
+                    ? "#ffffff"
+                    : "var(--text-secondary)",
+                backgroundColor:
+                  currentPath === "/farmer/fertilizer-predict"
+                    ? "var(--primary)"
+                    : "transparent",
+                fontWeight:
+                  currentPath === "/farmer/fertilizer-predict" ? "bold" : "normal",
+                textDecoration: "none",
+                borderRadius: "var(--radius)",
+                transition: "all 0.15s ease",
+              }}
+            >
+              <span
+                className="material-symbols-outlined"
+                style={{
+                  fontVariationSettings:
+                    currentPath === "/farmer/fertilizer-predict" ? "'FILL' 1" : "",
+                }}
+              >
+                science
+              </span>
+              <span style={{ fontSize: "14px" }}>Fertilizer AI</span>
+            </Link>
+          )}
+          {profile.role === "farmer" && (
+            <Link
+              to="/farmer/soil-analysis"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "12px",
+                padding: "10px 14px",
+                color:
+                  currentPath === "/farmer/soil-analysis"
+                    ? "#ffffff"
+                    : "var(--text-secondary)",
+                backgroundColor:
+                  currentPath === "/farmer/soil-analysis"
+                    ? "var(--primary)"
+                    : "transparent",
+                fontWeight:
+                  currentPath === "/farmer/soil-analysis" ? "bold" : "normal",
+                textDecoration: "none",
+                borderRadius: "var(--radius)",
+                transition: "all 0.15s ease",
+              }}
+            >
+              <span
+                className="material-symbols-outlined"
+                style={{
+                  fontVariationSettings:
+                    currentPath === "/farmer/soil-analysis" ? "'FILL' 1" : "",
+                }}
+              >
+                center_focus_strong
+              </span>
+              <span style={{ fontSize: "14px" }}>Soil Vision CNN</span>
+            </Link>
+          )}
           <Link
             to="/farmer/mandi"
             style={{
@@ -961,6 +1031,56 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               analytics
             </span>
             <span style={{ fontSize: "10px", marginTop: "2px" }}>Predict</span>
+          </Link>
+
+          <Link
+            to="/farmer/fertilizer-predict"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              textDecoration: "none",
+              color:
+                currentPath === "/farmer/fertilizer-predict"
+                  ? "var(--primary)"
+                  : "var(--text-secondary)",
+            }}
+          >
+            <span
+              className="material-symbols-outlined"
+              style={{
+                fontVariationSettings:
+                  currentPath === "/farmer/fertilizer-predict" ? "'FILL' 1" : "",
+              }}
+            >
+              science
+            </span>
+            <span style={{ fontSize: "10px", marginTop: "2px" }}>Fertilizer</span>
+          </Link>
+
+          <Link
+            to="/farmer/soil-analysis"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              textDecoration: "none",
+              color:
+                currentPath === "/farmer/soil-analysis"
+                  ? "var(--primary)"
+                  : "var(--text-secondary)",
+            }}
+          >
+            <span
+              className="material-symbols-outlined"
+              style={{
+                fontVariationSettings:
+                  currentPath === "/farmer/soil-analysis" ? "'FILL' 1" : "",
+              }}
+            >
+              center_focus_strong
+            </span>
+            <span style={{ fontSize: "10px", marginTop: "2px" }}>Soil Vision</span>
           </Link>
 
           <Link

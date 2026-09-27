@@ -1,5 +1,5 @@
 # Multi-stage Dockerfile for Python ML Service (Optimized for size)
-FROM python:3.10-slim AS builder
+FROM python:3.11-slim AS builder
 
 WORKDIR /app
 
@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir torch --extra-index-url https://download.pytorch.
 RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
 
 # Final minimal runtime stage
-FROM python:3.10-slim AS runner
+FROM python:3.11-slim AS runner
 
 WORKDIR /app
 

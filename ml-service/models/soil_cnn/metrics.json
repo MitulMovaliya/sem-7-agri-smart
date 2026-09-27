@@ -1,0 +1,59 @@
+{
+  "test_accuracy": 0.7727272727272727,
+  "macro_f1": 0.7704184704184703,
+  "classification_report": {
+    "Alluvial soil": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2.0
+    },
+    "Clayey soils": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "Laterite soil": {
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1-score": 0.5714285714285714,
+      "support": 5.0
+    },
+    "Loamy soil": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "Sandy loam": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "Sandy soil": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1-score": 0.7272727272727273,
+      "support": 5.0
+    },
+    "accuracy": 0.7727272727272727,
+    "macro avg": {
+      "precision": 0.8055555555555555,
+      "recall": 0.8250000000000001,
+      "f1-score": 0.7704184704184703,
+      "support": 22.0
+    },
+    "weighted avg": {
+      "precision": 0.8484848484848484,
+      "recall": 0.7727272727272727,
+      "f1-score": 0.766155057064148,
+      "support": 22.0
+    }
+  },
+  "num_images": 144,
+  "train_images": 100,
+  "validation_images": 22,
+  "test_images": 22
+}

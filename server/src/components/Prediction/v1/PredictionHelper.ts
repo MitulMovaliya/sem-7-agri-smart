@@ -4,7 +4,7 @@ import logger from '../../../utils/logger.js';
 const ML_SERVICE_URL = process.env.ML_SERVICE_URL || 'http://localhost:8000';
 
 export async function fetchPredictionAndLog(
-  modelType: 'crop' | 'rainfall', 
+  modelType: 'crop' | 'fertilizer' | 'yield' | 'rainfall' | 'soil_image', 
   endpoint: string, 
   payload: any, 
   userId: string,

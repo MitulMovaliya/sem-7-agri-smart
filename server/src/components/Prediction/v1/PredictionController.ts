@@ -268,10 +268,121 @@ export const getCropLocationData = async (req: Request, res: Response) => {
   }
 };
 
+export const getFertilizerPrediction = async (req: Request, res: Response) => {
+  const {
+    Soil_Type, Crop_Type, Crop_Growth_Stage, Season, Irrigation_Type, Previous_Crop,
+    Soil_pH, Soil_Moisture, Organic_Carbon, Electrical_Conductivity,
+    Nitrogen_Level, Phosphorus_Level, Potassium_Level,
+    Temperature, Humidity, Rainfall, Fertilizer_Used_Last_Season,
+    farmId
+  } = req.body;
+  const user = req.user as User;
+
+  if (!Soil_Type || !Crop_Type || !Crop_Growth_Stage || !Season || !Irrigation_Type || !Previous_Crop) {
+    return res.status(400).json({ error: "Missing required categorical fertilizer parameters." });
+  }
+
+  if ([Soil_pH, Soil_Moisture, Nitrogen_Level, Phosphorus_Level, Potassium_Level].some(v => v === undefined || v === null)) {
+    return res.status(400).json({ error: "Missing required soil nutrient parameters (Soil pH, Moisture, N, P, K)." });
+  }
+
+  try {
+    const payload = {
+      Soil_Type: String(Soil_Type),
+      Crop_Type: String(Crop_Type),
+      Crop_Growth_Stage: String(Crop_Growth_Stage),
+      Season: String(Season),
+      Irrigation_Type: String(Irrigation_Type),
+      Previous_Crop: String(Previous_Crop),
+      Soil_pH: Number(Soil_pH),
+      Soil_Moisture: Number(Soil_Moisture),
+      Organic_Carbon: Number(Organic_Carbon ?? 0.65),
+      Electrical_Conductivity: Number(Electrical_Conductivity ?? 0.4),
+      Nitrogen_Level: Number(Nitrogen_Level),
+      Phosphorus_Level: Number(Phosphorus_Level),
+      Potassium_Level: Number(Potassium_Level),
+      Temperature: Number(Temperature ?? 28.0),
+      Humidity: Number(Humidity ?? 65.0),
+      Rainfall: Number(Rainfall ?? 750.0),
+      Fertilizer_Used_Last_Season: Number(Fertilizer_Used_Last_Season ?? 50.0)
+    };
+
+    const result = await Helper.fetchPredictionAndLog('fertilizer', '/predict/fertilizer', payload, user.id, farmId);
+    return res.json(result);
+  } catch (error: any) {
+    logger.error("Fertilizer prediction proxy error:", { error: error.message || error });
+    return res.status(500).json({ error: error.message || "Failed to run Fertilizer Prediction model." });
+  }
+};
+
+export const getFertilizerOptions = async (req: Request, res: Response) => {
+  try {
+    const response = await fetch(`${ML_SERVICE_URL}/predict/fertilizer-options`);
+    if (!response.ok) {
+      throw new Error("ML Service failed to return fertilizer options.");
+    }
+    const result = await response.json();
+    return res.json(result);
+  } catch (error: any) {
+    logger.error("Fertilizer options proxy error:", { error: error.message || error });
+    return res.status(500).json({ error: "Failed to fetch fertilizer dropdown options." });
+  }
+};
+
+export const getSoilImagePrediction = async (req: Request, res: Response) => {
+  const user = req.user as User;
+  const farmId = req.body?.farmId;
+  const uploadedFile = req.file || (Array.isArray(req.files) ? req.files[0] : undefined);
+
+  if (!uploadedFile) {
+    return res.status(400).json({ error: "No soil image uploaded." });
+  }
+
+  try {
+    const formData = new FormData();
+    const blob = new Blob([uploadedFile.buffer as unknown as BlobPart], { type: uploadedFile.mimetype || 'image/jpeg' });
+    formData.append('file', blob, uploadedFile.originalname || 'soil.jpg');
+
+    const response = await fetch(`${ML_SERVICE_URL}/predict/soil-image`, {
+      method: 'POST',
+      body: formData
+    });
+
+    if (!response.ok) {
+      const errDetail = await response.text().catch(() => '');
+      throw new Error(`ML Service error (${response.status}): ${errDetail || 'Failed to classify soil image.'}`);
+    }
+
+    const result = await response.json();
+
+    try {
+      await PredictionLog.create({
+        userId: user.id,
+        farmId: farmId || null,
+        modelType: 'soil_image',
+        inputData: { filename: uploadedFile.originalname, size: uploadedFile.size, mimetype: uploadedFile.mimetype },
+        predictionResult: result,
+        confidence: result.confidence ? Number((Number(result.confidence) / 100).toFixed(4)) : null
+      });
+    } catch (dbError) {
+      logger.error("Failed to write soil image prediction log to database:", { error: dbError });
+    }
+
+    return res.json(result);
+  } catch (error: any) {
+    logger.error("Soil image prediction proxy error:", { error: error.message || error });
+    return res.status(500).json({ error: error.message || "Failed to classify soil image." });
+  }
+};
+
 export default { 
   getCropPrediction, 
   getRainfallPrediction, 
   getPredictionHistory,
   getWeather,
-  getCropLocationData
+  getCropLocationData,
+  getFertilizerPrediction,
+  getFertilizerOptions,
+  getSoilImagePrediction
 };
+

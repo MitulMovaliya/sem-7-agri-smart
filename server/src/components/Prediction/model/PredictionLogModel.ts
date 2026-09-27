@@ -5,7 +5,7 @@ export class PredictionLog extends Model {
   declare id: string;
   declare userId: string;
   declare farmId: string | null;
-  declare modelType: 'crop' | 'fertilizer' | 'yield' | 'rainfall';
+  declare modelType: 'crop' | 'fertilizer' | 'yield' | 'rainfall' | 'soil_image';
   declare inputData: any;
   declare predictionResult: any;
   declare confidence: number | null;
@@ -38,7 +38,7 @@ PredictionLog.init(
       onDelete: 'SET NULL',
     },
     modelType: {
-      type: DataTypes.ENUM('crop', 'fertilizer', 'yield', 'rainfall'),
+      type: DataTypes.ENUM('crop', 'fertilizer', 'yield', 'rainfall', 'soil_image'),
       allowNull: false,
     },
     inputData: {
